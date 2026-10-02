@@ -5,15 +5,12 @@
 fyersApi.log
 fyersRequests.log
 
-# copyrighted book and downloaded documents (large; re-downloadable with canslim.docs)
-*.pdf
+# copyrighted book (keep a local copy only)
+How to Make Money in Stocks*.pdf
 
-# rebuildable caches and raw downloads
+# rebuildable caches: several files exceed GitHub's 100 MB per-file limit
 __pycache__/
 data/cache/
-data/bhavcopy/
-data/indices/raw/
-data/indices/old/
 data/prices/*.bf
 
 # logs
