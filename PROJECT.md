@@ -137,3 +137,15 @@ Not part of this system: `app.py`, `scanner.py`, `morestrictscanner.py` (older, 
 - **2026-10-02**: SQLite database (`data/canslim.db`), holdings tracker with traffic light and decision journal, Streamlit app (`run_app.bat`), this file. Hold-winners and re-entry tests (all rejected; current sell rule kept).
 - **2026-10-01**: Earnings monitor, emerging list, buy-point badge, big-winner study; fundamentals for 384 more companies.
 - **2026-09-30**: Daily scan, scheduled task, tuned rules (ROE 20).
+
+## Market data (standalone, not used by the scanner)
+`python indexdata.py` downloads only what is missing, then rebuilds everything under `data/indices/`:
+- **Every NSE index (204)**: OHLC from Jan 2005. Volume, turnover (Rs cr), P/E, P/B and dividend yield from Jul 2012 (NSE's daily archive). 2005–Jul 2012 and the Apr–Jun 2015 archive gap are OHLC from niftyindices.com, which needs the debug Chrome; no free source publishes index volume before Jul 2012. Index values from before an index's launch date are NSE back-calculations, not real trading.
+- Old names are joined into one series: CNX → Nifty (2015), "Free Float Midcap/Smallcap 100" (2016–18). Bad prints in NSE's files are blanked and flagged in `bad_print`: a one-day move of 8% or more that fully reverses the next day, mostly 4 Oct and 4 Nov 2023.
+- **`_market_volume.parquet`**: whole-NSE equity volume, turnover, number of trades and advances/declines/unchanged, daily from Jan 2005. Built from NSE stock bhavcopies, which are kept in `data/bhavcopy/` and are not in git. They cover every stock including delisted ones, so they are survivorship-free.
+- Files: one `<INDEX>.parquet` per index, `_all.parquet` (long format) and `_summary.csv`.
+
+`python -m canslim.shp --pool|--all|--syms` downloads BSE shareholding history from Dec 2015: holders and % for institutions, mutual funds and FPIs, with filing dates. Stored in `data/shp/`.
+
+## Backup
+Git repo (private GitHub). Not committed: `.env`, the Fyers token, `.browser_profile/`, PDFs, `data/cache/`, `data/bhavcopy/`, raw index files and logs. All of these except the secrets can be rebuilt by script.
