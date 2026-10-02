@@ -1,0 +1,751 @@
+
+
+--- page 1 ---
+ 
+ 
+ 
+MULTI COMMODITY EXCHANGE OF INDIA LTD. 
+EXCHANGE SQUARE, SUREN ROAD, ANDHERI (EAST), MUMBAI 400 093, INDIA. TEL: +91 -22-6731 8888, FAX: +91-22-66494151, www.mcxindia.com 
+CIN: L51909MH2002PLC135594, info@mcxindia.com 
+Public 
+ 
+MCX/SEC/2685                  May 18, 2026 
+Listing Department 
+BSE Limited, 
+P.J. Towers, Dalal Street, 
+Mumbai - 400001. 
+Ref: Scrip code: 534091 Scrip ID: MCX 
+Subject:  Transcript of the “Earnings Conference Call ” with investor(s)/analyst(s) on Q4 
+FY-2026 results. 
+Dear Sir, 
+Please find enclosed herewith transcript of the “Earnings Conference Call”  with 
+investor(s)/analyst(s) held on Monday, May 11, 2026, at 16.00 p.m. (IST) on Q4 FY-2026 
+results. 
+The said transcript is also uploaded o n the website of the Company at  
+https://www.mcxindia.com/investor-relations/ir-meetings 
+ 
+Further, we hereby confirm that no unpublished price sensitive information was shared/discussed 
+during the said earnings call. 
+ 
+Kindly take the same on record and acknowledge receipt. 
+ 
+Thanking you, 
+Yours faithfully, 
+For Multi Commodity Exchange of India Limited 
+ 
+Manisha Thakur 
+Company Secretary 
+ 
+Encl.: As above 
+ 
+ 
+ 
+
+--- page 2 ---
+ 
+Page 1 of 18 
+ Public 
+ 
+ 
+ 
+ 
+ 
+“Multi Commodity Exchange of India Limited 
+Q4 FY26 Earnings Conference Call” 
+May 11, 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer: This transcript is provided without express or implied warranties of any kind and should be read in conjunction w ith the 
+accompanying materials published by the company. The information contained in the transcript is a textual representation of  the company’s 
+event and while efforts are made to provide an accurate transcription, there may be material errors, omissions, or inaccuracies in the reporting 
+of the substance of the event. The transcript has been edited wherever required for clarity, cor rectness of data or transcription error. This 
+document may contain “forward-looking statements” – that is, statements related to future, not past, events. In this context, forward looking 
+statements often address our expected future business and financial performance, often contain words such as “expects”, “anticipates, 
+“intends”, “plans”, “believes”, “seeks”, “should” or “will”. Forward -looking statements by their nature address matters that are, to different 
+degrees, uncertain. These uncertainties may cau se our actual results to be materially different that those expressed in our forward -looking 
+statements. We do not undertake to update our forward-looking statements. 
+ 
+ 
+
+
+--- page 3 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 2 of 18 
+ 
+Public 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                
+ 
+MANAGEMENT:  
+MS. PRAVEENA RAI – MANAGING DIRECTOR AND CHIEF EXECUTIVE OFFICER, MCX 
+MR. RISHI NATHANY – MANAGING DIRECTOR AND CHIEF EXECUTIVE OFFICER, MCX CCL 
+MR. MANOJ JAIN – CHIEF COMPLIANCE OFFICER, MCX 
+MR. CHANDRESH SHAH – CHIEF FINANCIAL OFFICER – MCX 
+ 
+  
+
+
+--- page 4 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 3 of 18 
+ 
+Public 
+ 
+Moderator: Ladies and gentlemen, good day and welcome to the Multi Commodity Exchange of India 
+Limited Q4 FY 26 Earnings Conference Call. Joining us on the call are Ms. Praveena Rai, 
+Managing Director and Chief Executive Officer, MCX; Mr. Rishi Nathany, Managing Director 
+and Chief Executive Officer, Multi  Commodity Exchange Clearing Corporation Limited; Mr. 
+Chandresh Shah, Chief Financial Officer, MCX; and Mr. Manoj Jain, Chief Compliance Officer, 
+MCX.  
+As a reminder, all participant lines will be in the listen -only mode and there will be an 
+opportunity for you to ask questions after the presentation concludes. Should you need 
+assistance during this conference call, please signal an operator by pressing star then zero on 
+your touchtone phone. Please note that this conference is being recorded. I now hand the 
+conference over to Ms. Praveena Rai, MD and CEO, MCX. Thank you, and over to you, ma'am. 
+Praveena Rai: Thank you, very much and good evening , everybody. It's wonderful to be here. Warm 
+welcome to all the participants joining us for the call. It's been a good year with good results, 
+and I'm very pleased to report this, very exceptional year, building strong momentum that we 
+have seen in earlier quarters, and we've had a robust close with the last quarter as well. 
+ This performance reflects strength across our volumes, the product innovation as well as 
+market participation. And it reinforces the relevance of commodity derivatives in India's 
+financial ecosystem. Now for this quarter, we have delivered a strong perfor mance. There is 
+growth across all key financial parameters. There is improvement in trading activity as well as 
+participation across all our segments. 
+ During the year, we navigated periods of high volatility and challenging market conditions 
+across multiple commodities, including potential delivery risks, which were all very strongly, 
+rigorously and effectively managed with minimum disruption to market functioning. In fact, I 
+would say, I call it one of our highlights of last year that the market integrity was maintained 
+at the highest level despite a lot of broader economic risks that came our way.  
+For the full year FY '26, the consolidated revenue from operations more than doubled to 
+INR2,302 crores, and this was supported by nearly 2.5 times  increase in the average daily 
+turnover across both futures and options. The profit after tax crossed INR1,300 crores and 
+EBITDA at INR1,774 crores, reflected both the scale benefits and the continued cost discipline.  
+
+--- page 5 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 4 of 18 
+ 
+Public 
+To strengthen the commodity derivatives ecosystem, we've initiated a focused drive ‘Price in 
+India : Hedge in India’. This promotes and deepens hedging participation within India for SME 
+as well as corporate hedgers. Institutional and retail investors have also increasingly embraced 
+the commodity asset class, leading to broader and deeper market participation.  
+Our product development efforts focused on contract innovation and enhanced expiry 
+frameworks contributed to deeper liquidity as well as wider market access. Importantly, the 
+growth we are witnessing is structural, along with taking advantage of cyclical tailwinds.  
+Increasing participation from a dive rse set of market participants , i mproving awareness, 
+acceptance of commodity derivatives, introducing more participants to both the hedging 
+instrument as well as the asset class , positions us well for sustained expansion.  Looking 
+forward, we are confident in our strategy, positioned to capitalize on the next phase of growth 
+in India's commodity derivative market.  
+As we scale, we are focused on the highest standards of governance, risk management and 
+market integrity, strengthening infrastructure, continuing to invest in our technology and 
+delivering a seamless trading experience will be top priorities. Our emphasis  will be on 
+innovation, liquidity enhancement and long-term value creation for all our stakeholders.  
+We thank our regulators, member brokers, participants, our partners and all stakeholders, 
+including our shareholders, for their continued trust and support in MCX. I now conclude my 
+opening remarks and happy to take questions. We have our management team here with us 
+as well. 
+Moderator: Our first question comes from the line of Shrenik Mehta from IndoAlps Wealth. 
+Shrenik Mehta: I just wanted to check regarding the statement that you made about a large part of this growth 
+being structural. And what are the factors that you're seeing, which is helping you to say that… 
+We see clearly bullions really driving most of the volumes and the bullion volatility is also 
+driving a lot of this picture. If you could throw some light, it will be fantastic. 
+Praveena Rai: Yes. So, our two big drivers of volume are energy and bullion. We've seen growth across both 
+of these. While of course, bullion has had a much higher growth, and we are very happy about 
+that. It has grown more than 4 times, the energy growth has also been good and strong over 
+a very high base. So, this really makes both of them strong constituents for MCX.  
+
+--- page 6 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 5 of 18 
+ 
+Public 
+Now globally and in India, we see there are certain points in time when the requirement 
+around bullion will be stronger, and there will be times when the requirements around energy 
+will be stronger and perhaps times when both are equally important. So, we do see that they 
+both create that sort of balancing with and alongside each other.  
+And this, along with the kind of opportunity in the Indian space, the kind of commodity 
+markets needed to support the growth in the country, the sort of early growth stage in which 
+the overall market is, of which MCX is a large participant, all create that structural foundation. 
+There's still a lot more opportunity when it comes to what can be done regulatory-wise, policy-
+wise, etcetera. And we believe over the years, that will also play out. So yes, there is a cyclical 
+component, but there is a deep structural component also. 
+Shrenik Mehta: Okay. So, you believe really the momentum is continuing the way you see the trend in the last 
+few months? 
+Praveena Rai: So, we believe the coming year will be a strong year. Exactly how each quarter will play out, 
+of course, we'll wait and see how the numbers are. But we believe the year will be a strong 
+year. 
+Moderator: Our next question comes from the line of Devesh Agarwal from IIFL Capital. 
+Devesh Agarwal: Firstly, congratulations to the entire team for a great set of numbers. Ma'am, my first question 
+would be there was a consultation paper, which talked about allowing FPIs into gold and silver 
+contracts. So one, if there is any update you can give us? And secondly, what is the 
+contribution that we have from FPIs in the energy products, that is, crude oil and natural gas? 
+Praveena Rai: Thank you very much for the wishes. So having FPIs to participate broadly in the commodity 
+space going beyond the cash-settled segment is certainly critical on the agenda. It's something 
+that there has been a fair amount of debate and consultation. As you know, there's also the 
+consultation paper that is out there. We are also contributing strongly in it.  So, we will, of 
+course, wait for the results of this paper to come out. And then we will take it forward from 
+there.  
+Now the FPI contribution, as you know, is primarily in the energy segment because it's the 
+cash-settled segment. Our onboarding of FPIs has been strong. The pipeline is also strong. The 
+contribution currently stands at about 2% to 3% of ADT. And within the Energy segment, they 
+are a significant contributor.  
+
+--- page 7 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 6 of 18 
+ 
+Public 
+I would say that they are in the double-digit contribution of energy, while at the broader MCX 
+level, they will be at about 2% to 3%. And we see this number growing. 
+Devesh Agarwal: All right, ma'am. And secondly, ma'am, if hypothetically, if we were to say that regulator 
+allows colocation in commodities, in what time we'll be able to roll out these services to the 
+traders? What is the preparedness that we have to introduce colocation services? 
+Praveena Rai: If this were to get permitted by the regulator, we'll be able to take this to market fairly soon 
+within the kind of market requirements required. So, we don't think we will have -- we will 
+not be on the back foot there. 
+Devesh Agarwal: Understood. The only reason to ask this was because the competition already offers 
+colocation services in equities. So, they are already at it. And do we also have prepared to kind 
+of introduce within a month or so? 
+Praveena Rai: Yes, Devesh. We do have our plans in place, and we'll be able to activate them at short notice. 
+Moderator: Your next question comes from the line of Amit Chandra from HDFC Securities. 
+Amit Chandra: My first question is on the increase in the UCC that we have seen. So, for the full year, it's up 
+by 64% and very heartening to see this. But obviously, it is because of onboarding of some of 
+the discount brokers, non -discount brokers. So, is it fair to assume that the increase in the 
+UCC is in the base o r we can see furthermore participation in term s of more retail clients 
+coming and trading on to the commodities because in terms of number of people trading, we 
+are at 35% of what it is there in equities.  So… and what is driving such a steep expansion in 
+terms of the people who are trading on the commodities? Is it only the volatility or you see 
+some active participation across -- or it is more like broad-based? 
+Praveena Rai: So, Amit, we would want to see a sort of democratic increase in participation without being 
+overly aggressive in any one space. I think I'm quite happy with where we stand on the retail 
+side. We don't believe that everyone who is an equity investor will end u p becoming a 
+commodity investor.  
+So, we are seeing the numbers ramp up steadily and evenly and we will continue to retain our 
+efforts in that growth. A lot of actions that have been taken that we have worked with the 
+market as well, as you said, with digital members, digital brokers, looking at things like the 
+consolidated ledger, looking at user experience of MCX trading vis-a-vis the equity markets. 
+
+--- page 8 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 7 of 18 
+ 
+Public 
+ I think a lot of work went into that last year, and we are seeing the benefits of that. We think 
+there is more user experience opportunity to streamline, and we continue to see interest in 
+the retail segment. Having said that, as we look at the numbers fro m the AMCs, the mutual 
+funds and many other segments like wealth and so on , so, we do believe that retail will also 
+find these channels to start participating in the commodity market. So not all of this will be 
+very straight. And there has been regulatory action where there is a lot more flexibility and 
+opportunity that mutual funds will see in the coming months, when it comes to increasing the 
+kind of commodity exposure in their portfolios. So, we think retail will participate in all these 
+ways. And overall, we'd like to see that broader multi-segment participation to grow. 
+Amit Chandra: Okay. And ma'am, my second question is in terms of the product pipeline. Obviously, you have 
+mentioned last time also that we are -- we will be launching some of the metal contracts. So, 
+where we are in terms of the launch of some new products, which can further diversify our 
+volume contribution?  
+Plus, in terms of the index options scaling up, is it only the FPIs not being allowed into non -
+cash settled commodities-- is the only bottleneck there or is there some other things which is 
+stopping the index options to scale up? And secondly, there was an article in the newspapers, 
+which talked about some weekly contracts also being considered in the index side. Like , 
+wanted your views on that? 
+Praveena Rai: Yes. So, I think I'll first comment on this newspaper article, and we've, in fact, put out our own 
+response on X , that misleading media information is really getting published. So, I will not 
+really comment on that. But the question that you asked on -- what was the core question? … 
+Yes. On product pipeline, we do have a strong pipeline. We had a certain number of products 
+that we wanted to look at last year, and we launched according to what we thought the 
+market would be appropriate in takin g. We are prepared with our next lot of products. And 
+we -- again, we will look at the suitable requirements in energy, in metals , as well as other 
+segments. 
+ Now amongst the indices, interestingly, while we did talk a lot about the BULLDEX options, we 
+found that this created a lot of interest in the future segment. And we are taking the feedback 
+from the market in focusing our attention on futures on indices a s well along with options. 
+We will also be looking at moving further on METALDEX this year. So, there will be more work 
+on the indices side as we both deepen and expand that portfolio. 
+
+--- page 9 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 8 of 18 
+ 
+Public 
+Moderator: Your next question comes from the line of Mitesh from Axis Capital. 
+Mitesh: Most of the questions have been answered. Just on the participation side, how have been the 
+trends in the participation in the month of April and May so far? 
+Praveena Rai: Mitesh, I don't think we are commenting on this quarter. I think we'll have to take your 
+question in the next call. But there's no dramatic cause for concern. 
+Moderator: Your next question comes from Akhilesh Bhatter from Ampersand. 
+Akhilesh Bhatter: Congratulations on a good set of results. I had 2 questions. So first one was regarding your 
+competitor launching multiple bullion products and energy products in the last quarter and -- 
+maybe from last year onwards. So, what are we doing to sort of protect market share here? 
+Praveena Rai: So Akhilesh, yes, we are watching the space very closely. It is a large competitor. And yes, they 
+have made their intention felt in the market with a lot of focus that they are placing on 
+commodity segment. From whatever we see, our bullion numbers remain untouched when it 
+comes to market share over the last 2 years.  
+Some recent activity on changing expiry dates and so on, in the energy segment is leading to 
+some kind of shallow, 1-day-in-a-month activity. So, I think it's also quite misaligned with the 
+sort of global structuring on which our contracts are based and that is required for the 
+integrity of the contract.  
+So, at this stage, I think we don't want to be reacting and making any moves, which are not 
+cognizant with the way commodity products should operate. Being highly focused on the 
+space, we understand the structuring of these products and what the market needs.  So, we 
+will stay focused on  continuing to drive participation in the existing portfolio and looking at 
+what the market needs by way of new products. So, creating that awareness, bringing in new 
+participants, creating more hedgers, all of those core act ions are in play.  And I think they're 
+keeping us in good stead. 
+Akhilesh Bhatter: One more question regarding RBI launching new lending norms for prop traders. So, I just 
+wanted to understand if you have done any sort of analysis on the sort of volumes that will 
+be hit or maybe what sort of volumes are coming in from small prop traders versus big prop 
+traders, if we have any numbers around that? 
+
+--- page 10 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 9 of 18 
+ 
+Public 
+Praveena Rai: So, the RBI lending norms, the way we see it could have a potential impact. RBI, of course, has 
+given further extension allowing the market to plan their mitigating factors, and we are also 
+in touch and working with our members on the same. So, there will be a certain segment of 
+members, across all segments of the trading markets who will have some of their credit lines 
+impacted from this. 
+Moderator: Your next question comes from the line of Makarand Bhosekar from Proinvest Nirmiti. 
+Makarand Bhosekar: Am I audible? 
+Praveena Rai: Yes. 
+Makarand Bhosekar: Congratulations on good set of numbers. As we see a very good sequential growth in numbers 
+of top line, I was expecting a kind of better expansion in margins, but somehow the product 
+license fees and other expenses line items grew faster than the revenue. So, we could not see 
+the expected margin expansion. So, can you tell me if there is any one-off in these line items 
+or we can expect these as a normal base? 
+Praveena Rai: Makarand, we are in growth phase, and we are looking at actions to keep the market very, 
+very relevant and to look at how we really develop the commodity markets to meet the 
+requirements of the industry as well as the country , as we have to mature and have more 
+sophisticated offerings available across the board.  
+And we have to keep our technology expense, our expense on our investments on people. All 
+of these elements have to be built out, continue to be built out , to be ready to execute the 
+plans that we have. So, if you are asking whether our focus is going to be on margins in the 
+coming months, our focus will be on efficiency. Our focus will be on ensuring that whatever 
+we do, is done in a manner that is most efficient on cost and smart. But the focus is not going 
+to be on spending less. We have to continue to s pend smart and do the right thing to be 
+prepared for the future. 
+Makarand Bhosekar: Okay. So, there was no one-off item, right? 
+Praveena Rai: No. 
+Makarand Bhosekar: Okay, thank you. My next question is, as you said in the first -- answering the first question, 
+that you are expecting the momentum to be continued. But when we look at the April 
+
+--- page 11 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 10 of 18 
+ 
+Public 
+numbers, the volume seems to have dipped down quite a bit. So, do you think that we will be 
+able to continue the sequential momentum? 
+Praveena Rai: So, we do believe that we will have a strong year. Now will every year -- every quarter be a 
+big jump over the previous quarter, perhaps not. And we do see cyclicity in our business. We 
+have seen that year -on-year where there are some quarters that are better  than other 
+quarters. So, there will be macro factors that will play out.  There will be cyclicity that plays 
+out. And I think in the broader context, we are in a strong and good place. 
+Moderator: Your next question comes from Lavanya from UBS. 
+Lavanya: Congratulations on good set of numbers. Most of my questions are answered. Just wanted to 
+check on some of the cost line items. Software support charges, I mean, it has been quite 
+stable compared to the jump which we have seen last year in Q4. And second is on the SGF 
+spend. So, this time, we have taken a much higher contribution to SGF. So , how should one 
+see this trend going ahead? 
+Chandresh Shah: Lavanya, this is Chandresh. So, the SGF spend is more to keep our reserve fund in a healthy 
+position. So that it helps us in taking some decisions and mitigate risk. So, we always maintain 
+the SGF at a healthy level, and we'll continue to do that. And it is in line with what we see the 
+business going up and how it is growing.  And also, SGF is a requirement of SEBI, and it is 
+computed based on the formula and calculation methodology given by SEBI. And I think the 
+other question you already answered that it is very much in line, software support. 
+Lavanya: Okay. Software support charges should be stable and incremental from here and most likely, 
+we should see no jump in Q4. Is that something one should build in? 
+Chandresh Shah: So yes, like ma'am explained in the previous caller's response, so we are into growth phase, 
+and we will keep investing in the business as and when what is required. The only thing is that 
+it will be done very efficiently. So, when the business requirement is there, expenses will be 
+incurred. 
+Moderator: Your next question comes from Vedant Agarwal from IIFL. 
+Vedant Agarwal: First of all, congrats on a great set of numbers. So, I wanted to understand 2 book -keeping 
+numbers. So, what has been the interest income on margin money for 4Q FY '26 and for the 
+whole year FY '26? And I also wanted to again touch upon other expenses like we have seen 
+
+--- page 12 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 11 of 18 
+ 
+Public 
+a sharp jump in 4Q. So, what has been the key driver behind this?  So, these are the two 
+questions? 
+Chandresh Shah: Yes. So, this quarter, we have seen some increase in the margin money in terms of cash with 
+the subsidiary, and that has helped in some increase in the income from that  - INR59 crores 
+in this quarter as against INR22 crores of previous year. 
+Vedant Agarwal: Okay. INR59 crores in this quarter versus INR22 crores of last year? 
+Chandresh Shah: Yes, quarter 4. 
+Vedant Agarwal: Quarter 4, okay. And also, if you could justify the increase in other expenses for this quarter? 
+Chandresh Shah: I think ma'am already answered in one of the previous response s that the expenses are 
+incurred to meet our market development activities and business -related professional 
+charges. 
+Moderator: Your next question comes from the line of Bharat Shah from BCS Capital Ideas Limited. 
+Bharat Shah: Hearty congratulations for very distinguished and defining results. I had 2 questions. The first 
+one, in this very -- what prima facie appears to be a win -all kind of scenario where volumes 
+are rising rapidly. We have increased number of market intermediaries. We have increased 
+number of clients through those intermediaries? 
+ And our product engine is working well. And all of this is resulting into dramatic growth rates 
+across our product lines and the businesses. In such a very positive scenario, what can go 
+wrong if something has to go wrong? And what can actually unravel or disturb the kind of 
+great velocity that the engine has acquired? 
+Praveena Rai: So, I think it's a fantastic question. And we, of course, track all risks at every stage. Certainly, 
+operating risk is number 1. And I think we've spoken in the past at length that , while the 
+market offers opportunities, the ability to operate and deliver to that opportunity is really not 
+something one takes for granted. So, whether it is the platform, whether it is our surveillance, 
+whether it is our risk management, the operations of CCL when it comes to margins and 
+collateral, each and ever y element of this gets challenged when there is a high degree of 
+uncertainty in the market.  So, this is a risk we are very cognizant of. I would say we spend 
+most of our time on, in addition to all the other levers that you spoke about. I would think this 
+is a hidden lever to add to that list.  
+
+--- page 13 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 12 of 18 
+ 
+Public 
+The second is certainly the competition risk. I think this question was asked.  So, we are 
+cognizant that we have not had a strong competition really and have been a majority market 
+share player, how to continue to be agile on our toes, continue to innovate, sort of challenge 
+ourselves and really be our own competitor is the best way to state that off. So certainly, that 
+risk again holds a lot of our attention.  
+And of course, I can go with a long list, the regulatory risk, et  cetera, being in MII, our entire 
+focus on working within the compliance framework, again, something that takes a lot of our 
+attention with a strong compliance team, our investor services and relations, et cetera, et 
+cetera. So, I think this will -- if you ask me, probably cover the top ones. 
+Bharat Shah: Praveena Ji, I did not mean routine or regular threats, whether management competence will 
+be there to match the competition. Obviously, that remains an ongoing issue of vigil, both 
+within MCX as well as by the outside investors. Whether there can be regu latory oversight, 
+which can curtail the remit of the business, obviously, some -- such issues will always be there 
+in the horizon. I did not really mean things of this kind.  I mean, operational routine risk, 
+competitive risk, these are given. I mean they have to be there for any good management to 
+deal with and to fight on.  
+What I meant was, for example, if you look at IEX, the en ergy Exchange, out of the blue, the 
+market coupling issue has come. And that is very clearly derailed the situation because market 
+price discovery is the key function of an Exchange. And when that gets taken away, then the 
+role of liquidity and management in order to facilitate that efficient discovery becomes 
+commoditized. 
+ And therefore, Exchange becomes commoditized. And we are seeing how IEX is struggling 
+with that issue. If you look at, for example, in the equity market, 3 years back, in the options, 
+the share of BSE was next to nothing. I mean it was just a shade above 0. And today, in about 
+3, 3.5 years, it has climbed to, on an incremental basis, to almost about 37%, 38%.  I mean, 
+that kind of a change is truly a dramatic one. So, issues which are not in the realm of 
+recognition because when things are good and healthy,  risks don't look very real, and they  
+appear distant in the horizon, but that’s actually where the…. 
+Praveena Rai: Yes, Bharat ji, sorry. In the interest of time, if I may come in. I think I get what you're saying. I 
+think I sort of touched upon those. And I think the examples that you gave are in the realm of 
+
+--- page 14 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 13 of 18 
+ 
+Public 
+uncontrollables. So, I think we will be unable to really comment or really react to that 
+question. 
+Bharat Shah: Okay. There is nothing that you are... 
+Moderator: Sorry, to interrupt. 
+Bharat Shah: No, I'm just finishing my first question. Please allow me to complete. Is there anything in the 
+realm of recognition that you are concerned about or worried about? 
+Chandresh Shah: No, we are not worried about anything specific. 
+Bharat Shah: Okay. My second and last question is. 
+Moderator: Sorry to interrupt. Mr. Shah, may we request you to keep the questions brief. As I believe 
+there are questions -- this is not the first question. 
+Bharat Shah: This was the first question in the context of which I raised the question. If you can allow me 
+to complete it, it will be faster. 
+Moderator: Sir, may we request you to join the queue for any follow up questions. Your next question 
+comes from the line of Bhavya Sanghvi from Alchemy Capital. 
+Bhavya Sanghvi: Congratulations on a great set of numbers. Most of my questions have been answered. Just 
+one book-keeping question. Can you give me the transaction charges for the quarter and split 
+it up between options and futures? 
+Chandresh Shah: So Bhavya, futures revenue for Q4 is INR242 crores and options revenue is INR569 crores. 
+Moderator: Your next question comes from the line of Subramania, an Individual Investor. 
+Subramania: Congrats on a great set of numbers. My questions have been previously answered. 
+Moderator: Your next question comes from the line of Dharmil Shah from Dalmus Capital Management. 
+Dharmil Shah: Firstly, congratulations on the great results. My first question would be on the similar lines 
+like previous participants have inquired about , on the competition. So, like Bharat sir 
+mentioned that equity Exchanges are getting into , not just the largest one, but I mean the 
+other one has also shown some interest, in getting into the commodity side. So, just wanted 
+to check, I mean, what are the key factors or drivers that would change retailer mindset to 
+
+--- page 15 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 14 of 18 
+ 
+Public 
+shift from -- retailers or I mean rather any trader shift from MCX to other Exchange? I mean, 
+what incremental do these Exchanges have to offer so that they gain some market share? 
+Praveena Rai: As I said, of course, competition is critical to watch out for, and we should not take the 
+competitive stance lightly. So as equity Exchanges enter into the commodity space, there 
+could be some natural sort of synergies they have there. However, the biggest moat really is 
+the liquidity we have in our contracts. So, while it may be a tad easier, not much.  
+As I said, we've done a lot of work on user journeys and so on and so forth, and we continue 
+to do so. So, while there could be -- it could be a tad easier, the real benefit for any participant 
+arises from the fact that they are there in a liquid Exchange, they can enter and exit as they 
+require, and they benefit from the overall investing or trading activity.  
+So, I think these are critical for us. And we think these are the biggest moats that we have. But 
+we'll continue to work in the space without ignoring the fact that we should overcompensate 
+for any experiential simplicity that may be available to users otherwise. 
+Dharmil Shah: Understood. And -- last question would be, again, there is one article in the newspaper today 
+about some regulations being relaxed for agri commodities. So, do you think that could scale 
+up in coming years? And what could be the size as -- I mean could it be as big as energy or 
+bullion or -- just a rough sense there? 
+Praveena Rai: Sorry, I don't think there is this article, but I'm not able to comment on the backdrop to it. Of 
+course, we are in discussions and working groups with the industry and the regulator to look 
+at various kind of policies that the industry and market require. And agriculture is one of them. 
+So, we are participating. And I think whatever opens up in that space will be beneficial.  And 
+we will also be looking at how we play a stronger role there. I wouldn't be in a position to 
+share more than this at this point, please. 
+Dharmil Shah: Just jumping back to the first question, you mentioned that liquidity is the core thing that MCX 
+has for commodity derivatives. But like in case of equities as well, I mean, BSE had gained 
+within 2 years from -- I mean they had also 0 liquidity in that se nse. So, what -- I mean what 
+could go wrong in MCX as well? I mean just wanted to understand that liquidity -- I mean, 
+there are -- if these Exchanges are coming up with more innovative products, which might 
+seem more attractive to the investors and could the liquidity over time, I mean, build up for 
+them as well? 
+
+--- page 16 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 15 of 18 
+ 
+Public 
+Praveena Rai: I think we gave our comments earlier that these are uncontrollables that we will not really be 
+commenting on. At this stage, the commodity market is at a fairly nascent to high -growth 
+stage. Certain actions might take place in mature markets with different objectives. So -- but 
+having said that, this is not a space that we can really comment on. It's not an actionable in 
+our control. 
+Moderator: Our next question comes from the line of Madhukar from JPMorgan. 
+Madhukar: I have just one question. On SGF, how comfortable are we with the SGF position right now? 
+And what is our sort of continuing policy in terms of what percentage of transaction charges 
+are we contributing? Have we put out that number definitively sort of ?  Yes. That's my 
+question? 
+Rishi Nathany: Yes. So, on SGF right now, we are in a comfortable position. We have a very good cushion on 
+SGF. 
+Chandresh Shah: And Madhukar, we have not put out any percentage or anything of transaction charges for 
+SGF. 
+Madhukar: Got it. So, is there sort of a number in terms of what volume option premium or futures that 
+we would be comfortable with and beyond which we would require? I know some simpl istic 
+measure to just know that? 
+Rishi Nathany: So, Madhukar, it's just not a function of numbers. It's also a function of volatility and the 
+margin levels. So, it's a combination of everything. So as volatility would increase or volumes 
+would increase simultaneously and OI would increase, then only with the SGF requirement 
+increase. So, it's very difficult to predict all the moving parts altogether. Having said that, we 
+are in a very comfortable position regarding SGF. And as and when we have the requirement, 
+we'll plan for it. 
+Moderator: May we request you to return to the queue for any follow -up questions, please. The next 
+question comes from the line of Madhu Gupta from Quantum AMC. 
+Madhu Gupta: Congratulations for a good set of numbers. I just have 2 questions. First is, what is the revenue 
+that you've earned from the electricity derivative contract and the transaction charge, which 
+started in FY '26, the trading of electricity derivatives. That 's the first question. The second 
+question is you recently won the license to set up a Coal Exchange. What is the road map 
+
+--- page 17 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 16 of 18 
+ 
+Public 
+there? What is the addressable market size? And how do you plan to set up the Exchange? 
+And -- yes, if you could share some plans regarding that? Those are my two questions? 
+Praveena Rai: So, electricity contracts are still in early stage at this stage, rather than tracking revenue, we 
+look at the membership, onboarding, trading, throughput, so on and so forth. So, we are 
+happy. We've got about 50 participants from the commercial participant side and a large 
+number of members who contribute and trade, the UCC numbers also are going up month -
+on-month.  
+When it comes to coal, the coal Exchange is an independent entity. It will not be part of MCX 
+as a company. It will operate as a subsidiary. Since we are an MII under the regulatory ambit 
+of SEBI, we required the SEBI approval to go forward in this line of business.  
+The line of business we see is closely associated with what we do as a commodity derivatives 
+Exchange, establishing a spot market in coal where there is a mechanism that exists. However, 
+there is a lot of opportunity for structuring, consolidation, common platform pan-India and so 
+on.  
+So, I think that's the opportunity we are looking at, and we are in the early stage of establishing 
+that entity and taking it forward.  At the right time, of course, the suitable regulator in that 
+space will then form the rules, we'll have to apply and et cetera, et cetera. So, there is -- there 
+are steps left before the actual entity starts getting operational. 
+Moderator: The next question comes from the line of Deepak Ajmera from IGE India. 
+Deepak Ajmera: Congratulations on a good set of numbers and excellent leadership. My question is on 
+electricity derivative. Ideally, the potential for this market is significant. And what sort of 
+initiative, whether it is Ministry, Exchange regulator or anything to develop this market that -
+- on that you are working, if you can highlight, that will be helpful? 
+Praveena Rai: Yes. Thank you, Deepak. I think we are very excited about the electricity contract, right, from 
+launch to date, it has been growing month-on-month in its participation and presence in the 
+market. We do work with the regulators, both the SEBI and CERC, but more importantly, a lot 
+of work with the state regulators because a lot of policy really comes from the state. 
+Converting a few DISCOMs is a very important part of the plan. It takes more time, but I think 
+we are at a point where some of that is going to come in as well.  
+
+--- page 18 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 17 of 18 
+ 
+Public 
+Looking at large traders who operate on the spot market has been important, and those were 
+some of the early steps that have been taken, and we are starting to see some of the members 
+and participants in the power space starting to participate regularly there. So, staying engaged 
+with both the production side, be it solar or other producers, the consumer side, large 
+industrial as well as the distribution side, are all actions that we are in the midst of. 
+Moderator: The next question comes from the line of Amit Chandra from HDFC Securities. 
+Amit Chandra: I have like 2 follow -up questions. The first is on the competition. You have answered about 
+that in detail. But , just to understand better, is it the interoperability of the clearing 
+corporations, which is not there between equities and commodities? Is that the main reason 
+why we are not seeing the shift of the liquidity from one Exchange to another? And what's 
+your view on the regulator allowing interoperability maybe at a later stage?  
+And secondly, on the impact of the RBI regulation. So, the -- if you see the clearing corporation 
+funding from FDs and the bank guarantees, the total margin money that the clearing 
+corporation have, MCX has the highest in terms of 55% to 60% of the total funding of the 
+clearing corporation is through BGs versus 35% for the industry. So, is it a higher risk for us in 
+terms of the impact that we see from RBI? 
+Rishi Nathany: So, to answer your question on BGs and FDs, frankly, for FDs it wouldn't impact as it is fully 
+funded. In terms of BGs, I think your numbers are wrong. BGs contribute a much lower 
+percentage than FDs. So, while there may be an impact, but the numbers may not impact as 
+much as you are saying. 
+Amit Chandra: So, I'm talking about FDs and BGs combined. We don't have the quantification. 
+Rishi Nathany: Yes. So, you see the large portion -- the largest portion of that is FDs. So, I don't think that 
+would get affected to that extent. Secondly, on your interoperability question. Liquidity does 
+not just go away due to interoperability and what it is. Matter of liquidity we get liquidity. We 
+have sticky liquidity. We have the industry partici pating. We have  everyone, all the 
+ingredients, which helped and also, you have to understand secondly that, interoperability is 
+only possible when there is a 100% similar product. For example, in equity, the ISI Number 
+security is the same, that is why interoperability can be possible. In commodities may be 
+different. 
+Amit Chandra: Okay. So, the interoperability will not happen between equities and commodity, right? 
+
+--- page 19 ---
+  
+Multi Commodity Exchange of India Limited  
+Q4 FY26 Earnings Conference Call 
+May 11, 2026 
+ 
+ 
+Page 18 of 18 
+ 
+Public 
+Rishi Nathany: We're not saying that. We're just saying that at the end of the day, it's up to the regulator, but 
+it's tougher to have. 
+Moderator: We will take the last question from the line of Devesh Agarwal from IIFL Capital. 
+Devesh Agarwal: Just one question. We see that this has been a very strong year for us in terms of profit 
+accretion and cash accretion. But despite that, we have seen that the payouts have kind of 
+gone down. So , just wanted to know your thoughts as to this cash that we are kind of 
+conserving, what are exactly the plans for this? And what is the spend that we are expecting 
+for the next year? 
+Praveena Rai: Yes, good question, Devesh. I think it's important for us to have the sort of funding chest that 
+is required as we look at our growth. And this is not just from more of the same standpoint, 
+there would be both organic, inorganic opportunities that we will conti nue to be looking at, 
+new product segments, ancillary spaces. So, there are certain strategies that are at very early 
+stage, but we do have strong plans for the capital on hand. 
+Moderator: Thank you. Ladies and gentlemen, I would now like to hand the conference over to Ms. 
+Praveena Rai, MD and CEO, MCX, for her closing comments. 
+Praveena Rai: Yes. Thank you. Thank you to all. It is a phenomenal set of questions. As always, we answer 
+some, and you also leave us with a lot of food for thought to take back as we look at execution 
+of our plans for this year and the coming quarter. I really enjoyed the discussion. All of us did. 
+Have a good day and look forward to connecting next time. 
+Moderator: Thank you. On behalf of Multi Commodity Exchange of India Limited, that concludes this 
+conference. Thank you, everyone, for joining us, and you may now disconnect your lines. 

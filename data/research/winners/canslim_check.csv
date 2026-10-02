@@ -1,0 +1,5 @@
+period,group,stock-weeks,hit %,median 12m %,fell 30%+ %
+discover,all stocks,195849,15.1,6.1,33.8
+discover,passes CAN SLIM filters,2016,21.2,-0.4,40.0
+check,all stocks,184614,14.2,4.2,26.8
+check,passes CAN SLIM filters,1901,21.5,20.5,26.0

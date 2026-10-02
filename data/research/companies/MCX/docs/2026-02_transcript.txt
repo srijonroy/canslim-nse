@@ -1,0 +1,856 @@
+
+
+--- page 1 ---
+MULTI COMMODITY EXCHANGE OF INDIA LTD. 
+EXCHANGE SQUARE, SUREN ROAD, ANDHERI (EAST), MUMBAI 400 093, INDIA. TEL: +91-22-6731 8888, FAX: +91-22-66494151, www.mcxindia.c om 
+CIN: L51909MH2002PLC135594, info@mcxindia.com
+ 
+MCX/SEC/2633  February 03, 2026 
+BSE Limited 
+Department of Corporate Services 
+PJ Towers, Dalal Street, 
+Mumbai - 400 001. 
+Ref: Scrip code: 534091 Scrip ID: MCX 
+Subject:  Transcript of the “Earnings Conference Call” with investor (s)/analyst(s) on Q3 
+FY-2026 results. 
+Dear Sir, 
+Please find enclosed herewith transcript  of the “Earnings Conference Call” with 
+investor(s)/analyst(s) held on Tuesday, January 27, 2026, at 16.00 p.m. (IST) on Q3 FY-2026 
+results. 
+The said transcript is also uploaded on the website of the Company at 
+https://www.mcxindia.com/investor-relations/ir-meetings 
+Further, we hereby 
+confirm that no unpublished price sensitive information was shared/discussed 
+during the said earnings call. 
+Kindly take the same on record and acknowledge receipt. 
+Thanking you, 
+Yours faithfully, 
+For Multi Commodity Exchange of India Limited 
+Manisha Thakur 
+C
+ompany Secretary 
+Encl.: As above 
+
+--- page 2 ---
+ 
+Page 1 of 23 
+ Public 
+ 
+ 
+ 
+ 
+“Multi Commodity Exchange of India Limited 
+Q3 FY '26 Earnings Conference Call” 
+January 27, 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer: This transcript is provided without express or implied warranties of any kind and should be read in conjunction 
+with the accompanying materials published by the company. The information contained in the transcript is a textual 
+representation of  the company’s event and while efforts are made to provide an accurate transcription, there may be 
+material errors, omissions, or inaccuracies in the reporting of the substance of the event. The transcript has been edited 
+wherever required for clarity, cor rectness of data or transcription error. This document may contain “forward -looking 
+statements” – that is, statements related to future, not past, events. In this context, forward looking statements often 
+address our expected future business and financial performance, often contain words such as “expects”, “anticipates, 
+“intends”, “plans”, “believes”, “seeks”, “should” or “will”. Forward-looking statements by their nature address matters that 
+are, to different degrees, uncertain. These uncertainties may cau se our actual results to be materially different that those 
+expressed in our forward-looking statements. We do not undertake to update our forward-looking statements. 
+
+
+--- page 3 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 2 of 23 
+ 
+Public 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                
+ 
+MANAGEMENT:     
+MS. PRAVEENA RAI – MANAGING DIRECTOR AND CHIEF EXECUTIVE OFFICER  
+MR. CHANDRESH SHAH – CHIEF FINANCIAL OFFICER  
+MR. RISHI NATHANY – CHIEF BUSINESS OFFICER  
+MR. MANOJ JAIN – CHIEF COMPLIANCE OFFICER  
+MR. PRAVEEN DG – CHIEF RISK OFFICER  
+
+
+--- page 4 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 3 of 23 
+ 
+Public 
+ 
+Moderator: Ladies and gentlemen, good day, and welcome to the Multi Commodity 
+Exchange of India Limited Q3 FY '26 Earnings Conference  Call. Joining us on 
+this call are Ms. Praveena Rai, Managing Director and Chief Executive Officer; 
+Mr. Rishi Nathany, Chief Business Officer; Mr. Chandresh Shah, Chief Financial 
+Officer; Mr. Manoj Jain, Chief Compliance Officer; and Mr. Praveen DG, Chief 
+Risk Officer. 
+ As a reminder, all participant lines will remain in the listen -only mode, and 
+there will be an opportunity for you to ask questions after the presentation 
+concludes. Should you need assistance during the conference call, please 
+signal the operator by pressing star, then zero on your touchtone telephone. 
+Please note that this conference is being recorded. 
+ I will now hand the conference over to Ms. Praveena Rai, MD and CEO, MCX, 
+for opening remarks. Thank you, and over to you, ma'am. 
+Praveena Rai: Thank you very much. Good day everyone, and a warm welcome for joining 
+us today for the quarterly earnings call. We are delighted to share that the 
+third quarter of FY '26 has been a strong and defining quarter for MCX, reflects 
+the momentum we have built for our business, products an d market 
+participation in the context of broader macroeconomic environment. 
+ Our performance during the quarter underscores the resilience of our 
+platform, the strength of our operating model , and the importan ce and 
+growing relevance of commodity derivatives in India' s evolving financial 
+ecosystem. 
+ For the quarter ended December 31, 2025, our consolidated revenue from 
+operations grew by 121% year-on-year to INR 666 crores, while EBITDA grew 
+by 144% to INR 527 crores. Profit after tax grew by 151% to INR 401 crores. 
+ This robust performance was supported by an increase in macroeconomic 
+activity, both at the global and country level, along with supported efforts 
+around products, participation and delivery to scale both in the operating and 
+risk management level. 
+
+--- page 5 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 4 of 23 
+ 
+Public 
+ Our average daily turnover in futures and options rose to INR 7.5 lakh crores. 
+You'd recollect that in the first half of the year, we clocked INR 4 lakh crores, 
+while we closed the previous year at about INR 2 lakh crores. So, this is a year-
+on-year growth of about 220%. 
+ On a 9 -month basis, we see healthy growth trends too, with revenue from 
+operations up by 72% to INR 1,413 crores and PAT increasing by 89% to INR 
+802 crores. Operationally, the quarter was marked by deepening participation 
+across segments, particularly in bullion, but well supported by other 
+commodities. 
+ And with bullion now contributing 69% of the average daily turnover, and 
+including in its portfolio, many successful product launches for Gold Mini, 
+Gold Ten Futures, silver monthly options expiry and smaller denomination 
+contracts, and monthly options on the MCX iCOMDEX Bullion Index. 
+ These initiatives reflect our continued focus on expanding product breadth 
+while enhancing liquidity and risk management efficiency for all participants. 
+New participants by way of new members, FPI’s as well as domestic financial 
+institutions also contributed to the healthy uptick in our volumes. 
+ Throughout this phase, we remain firmly guided by higher standards of 
+governance, compliance and market integrity. Our priority continues to be 
+delivering a robust, transparent and resilient marketplace that creates long -
+term value for hedgers, investors, members and all our stakeholders. 
+ As we look ahead, we are confident in our strategic direction and operational 
+readiness to support this excellent phase of growth in India's commodity 
+derivatives market. We  are committed to innovation, prudent risk 
+management and sustainable value creation. We extend our sincere gratitude 
+to all stakeholders, regulators, member brokers, vendors and partners and 
+associates for their continued and unwavering support towards MCX. 
+ With this, I conclude the opening remarks and look forward to an interesting 
+discussion in the following Q&A session. 
+
+--- page 6 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 5 of 23 
+ 
+Public 
+Moderator: Thank you. Ladies and gentlemen, we will now begin the question-and-
+answer session. We take the first question from the line of Devesh Agarwal 
+from IIFL Capital. 
+Devesh Agarwal: Firstly, heartiest congratulations to the entire team for a great set of results 
+and numbers, very good numbers, ma'am. My first question, ma'am, is 
+basically on this -- we see that the number of traded UCCs have seen a 
+significant jump in this quarter on a sequential basis. Could you help us 
+understand what is driving this growth? And do you expect these numbers to 
+grow even in the upcoming quarters? 
+Praveena Rai: Thank you, Devesh, for the appreciation, we'll certainly pass it on to the entire 
+MCX team. We have at the heart of this growth in UCCs, 2 contributing 
+factors. One is really an exercise in exploring and aligning the user experience 
+across members for commodity derivatives trading. 
+ So we did identify early on that experiences like a common ledger, front 
+screen experience for a retail member, a retail participant, their important 
+criteria and in reality viewing experiences end-to-end, there is a fair amount 
+of activity that our teams have taken, but more importantly, members have 
+looked at the opportunity that they seek for commodity derivatives market, 
+what their users are looking for and aligned the e xperience to be a common 
+experience, be it equity investing or commodity derivatives investing. 
+ So, we believe that's one of the drivers of the uptick. Alongside that is also 
+the fact of new members who have come into our fold that has contributed 
+to new UCCs coming in along with those members. 
+ So, both of these are driving factors. I think at least for rest of the year, we do 
+expect to see a certain momentum continuing. And when I say rest of the 
+year, let's say, for some time now, we expect this momentum to continue 
+because there is headroom from where we stand today to what is the 
+potential. 
+Devesh Agarwal: Ma'am, in the new members that you mentioned, when you speak about the 
+headroom, are you talking about more headroom within the new members 
+
+--- page 7 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 6 of 23 
+ 
+Public 
+who have joined, which can grow further? Or there are also other members 
+who may be big or active on equity and haven't started offering commodities, 
+even on that account, we have potential? 
+Praveena Rai: Yes. I think headroom is both. Headroom comes from both at a larger business 
+level. But certainly, when it comes to UCCs and you see participation at India 
+level, we see headroom there. 
+Devesh Agarwal: Sure, sure. My next question would be, ma'am, we've seen that this quarter, 
+particularly, the gold and silver delivery has increased on our platform. So, 
+one, I wanted to understand, does these additional deliveries lead to some 
+additional cost for the company? And other is basically in an event, if there's 
+a short delivery that happens, what will be the liability on the exchange? 
+Praveena Rai: So -- no, there is no additional cost to the company because these are 
+managed as part of warehouse negotiations and what participants pay for the 
+services. And we are quite happy to see this sort of healthy delivery happen 
+despite global conditions at a point in time. It was a very active management 
+from the exchange as well. 
+ The second question on what could be a potential impact of short delivery, 
+there are guidelines and rules that manage that circumstance, by way of 
+penalties and so on and so forth. So, these are well-established processes, 
+and they have happened in the past, and they happen on an as-and-when 
+basis depending on market conditions, and we are well equipped to handle 
+that. 
+Devesh Agarwal: Ma'am, so far, are there any instances in the last 3, 4 months where there has 
+been short deliveries? 
+Praveena Rai: No, nothing abnormal. 
+Devesh Agarwal: Right. And with this increased activity, both in futures and options turnover, 
+what kind of technological enhancement would you be required to do? And 
+what is the capex that you intend to spend to build up more capacity? 
+
+--- page 8 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 7 of 23 
+ 
+Public 
+Praveena Rai: Yes. So Devesh, I think this is an ongoing exercise. This is a question, I think, 
+probably in the last 2 quarters also, we've discussed. So, with growth and 
+more importantly, with the expectation of growth is the continuous need to 
+keep our technology up to date, ready for high resilience, high availability, 
+high scalability, fully functional to manage all the volatility as well as growth 
+that the environment offers. So, we will continue to be in investment mode 
+as we have been in the past. And we see that as necessary, but also a positive 
+part of where we stand in the business. 
+Devesh Agarwal: Any particular metric that it's tracked ma'am , in terms of the order that the 
+system can handle? And what has been the build-out that has happened over 
+the last, say, 12 months or probably the peak orders that we have seen this 
+quarter versus that, what is the capacity that we have at this point in time? 
+Praveena Rai: Yes, we've seen significant increase in our order volumes this quarter. I don't 
+have the numbers handy right in front of me, but we have seen them 
+significant, and we have held strong, thanks to investments of the past, and 
+we continue to have very strong oversight over w hat is required for the 
+future. 
+ And these are very BAU activities, let me put it that way. So, we are not in a 
+phase where we are looking at growth as a one-time measure. It's every 
+quarter activity. So, it will continue to persist. Yes, continue to persist in an 
+efficient manner. 
+Moderator: We take the next question from the line of Amit Chandra from HDFC 
+Securities. 
+Amit Chandra: Very strong numbers, ma'am and congratulations to the whole team for this. 
+My first question is on the volume uptick that we have seen. So obviously, 
+every month, we are seeing a new high. And obviously, in terms of the mix 
+also, it has been fairly distributed wherein both the energy contracts, and the 
+bullion contracts are contributing. 
+ But from here on, we also mentioned that we're also focusing on the metals 
+contract as well because as we see some decline in the volatility, we want the 
+
+--- page 9 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 8 of 23 
+ 
+Public 
+portfolio to be more diversified. Obviously, it has been, but the strategy in 
+terms of increasing volumes on the metals contract. So, what's the update 
+there? 
+ And also, in terms of the indices and the index options, we have launched, but 
+we are seeing very, very minimal traction there. Obviously, we had some 
+challenges there in terms of participation. But any update there where we are 
+in terms of the index option side? 
+Praveena Rai: Thanks Amit. Rishi will just take your questions on this. 
+Rishi Nathany: Yes, Amit. To answer your first question on base metals, it's not just base 
+metals, we have 4 segments, as you know, agri, metals, bullion and energy, 
+and we are trying to focus on all of them. In base metals, we've already seen 
+traction in the copper futures and options. We are seeing a lot of traction on 
+the zinc options and futures as well. 
+ Nickel, which we launched this year only, now we are seeing good volumes 
+and a healthy buildup of OI. So, in terms of base metals also, I'm sure we are 
+getting there as we speak. On the index, while we did launch index options, 
+we haven't seen the kind of traction we were expecting, however, on index 
+futures, we have seen good traction building up, and we hope that once the 
+futures get good momentum, options will follow. 
+Amit Chandra: Okay. And ma'am, on the question of the participation in terms of the credit 
+UCCs that we have seen a very sharp increase. Obviously, this is because of 
+onboarding of new members. But in this quarter, we have seen the full 3 -
+month impact of the new member, which has been added. And also, in terms 
+of the overall TAM because if you see on the other exchanges, equity 
+exchanges, this number is almost 5x higher in terms of the people who are 
+trading on options. So how do we see this? 
+ And also, in terms of the newer people who are coming and trading on MCX, 
+these are mostly retail HNIs. Any like profiling if you can share? Because in 
+terms of the mix, we are not seeing the FPI or the institutional participation 
+increasing, only the client and th e others. So, the mix has been fairly stable. 
+
+--- page 10 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 9 of 23 
+ 
+Public 
+So, is it only because of the volatility these people have come in and traded? 
+And how do you see the stickiness of these people in the longer term? 
+Praveena Rai: Yes, Amit. So, Amit, I think the UCC number, of course, is a number that 
+subsumes many of the other FPI’s and sort of other participants because this 
+number is in lakhs and those numbers are in double digits. So over here, I will 
+say that there is headroom to the extent that there are more investors in the 
+market and there is interest in the investors. 
+ At the same time, we don't believe commodities is something that's going to 
+be for one and all, and the entire market that today trades is an addressable 
+audience. So, to that extent, at some point, once we have reached a certain 
+level of maturity with UCCs, this will start flattening out. but we still see 
+headroom for growth there. With reference to other members, I think you 
+can't look at UCC numbers to gauge that impact. We do see impact from other 
+categories as well coming in. 
+Amit Chandra: And just a follow-up on this, ma'am. Is it also because obviously, the volatility 
+is so high in the market in terms of the bullion and the other contracts as well. 
+Plus, there is an advantage in terms of , that the cost of trading for 
+commodities have become lower versus equities in terms of the taxation, STT 
+is like 2x of CTT. 
+ And also, in terms of the size of the contracts for the commodities, especially 
+the mini contracts are much lower than what it is there in equity. So, this is 
+also structurally helping us in getting and attracting more retail customers. 
+So, any views on this? 
+Praveena Rai: No, what you said is just factual statements and has been there for a while. 
+So, we really don't have a view on what this is doing specifically now. 
+Moderator: We take the next question from the line of Prayesh Jain from Motilal Oswal 
+Financial Services Limited. 
+Prayesh Jain: Firstly, congratulations on a great set of numbers. Ma'am, the first question 
+is an extension to the previous one. Base metals, we've seen a jump, and we 
+
+--- page 11 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 10 of 23 
+ 
+Public 
+earlier had alluded to the challenge in base metals with respect to the 
+multiple numbers of delivery centers. Have we, in any form modified that and 
+consolidated the number of delivery centers? What has really caused the 
+sudden increase in base metal volumes? Yes, that will be my first question. 
+Praveena Rai: Yes. So, we have seen increase in base metals volumes. There is a quarter-on-
+quarter growth of 156% with a year-on-year of 77%. This upswing, of course, 
+in the context of volatility, there are a couple of actions that we took explicitly. 
+Number one was consolidati ng warehouses. We've done that for copper. 
+Copper has moved to a single warehouse. 
+ This was based on the study of numbers of deliveries that happened across 
+warehouses and also the market feedback that we had from the members 
+that they were looking for this kind of modus operandi to simplify the contract 
+transparency for them. So that has helped. 
+ We've also had a lot of market engagement with reference to GST sort of 
+queries, if I may call it that. So, some lack of awareness amongst participants 
+on how to handle GST as part of deliveries and so on and so forth was also 
+another important initiative that we have been taking and sp ecifically in the 
+last quarter. 
+ In addition to this, of course, this is the broader outreach engagement, 
+number of members have set up commodity desks, they are very active. So, I 
+think we are also in the midst of a bit of capacity building around 
+commodities, the broader ecosystem. So, all these 3 put together, along with 
+the environment around volatility of metals and of course, the demand for 
+base metals in the industrial space have all contributed to this. 
+Prayesh Jain: And do you plan to extend this -- the change that you've done for copper to 
+other base metals as well about the single delivery center? 
+Praveena Rai: So, we are reviewing and we are consolidating. Nickel, for example, is 
+operating in one center only as a relaunched new contract, which also had 
+that other element of differential trading unit and delivery unit that was also 
+an action taken specific to Nickel. That started to give us good results on 
+
+--- page 12 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 11 of 23 
+ 
+Public 
+Nickel. On some of the other contracts also, we have started consolidating 
+the primary warehouse and reviewing the other warehouses and some that 
+are not very effective are also being rationalized. 
+Prayesh Jain: Got that. Ma'am, and... 
+Moderator: Prayesh, I would request you to please rejoin the question queue. We take 
+the next question from the line of Chintan Sheth from Girik Capital. 
+Chintan Sheth: Congrats to the team for the great set of numbers, even the January numbers 
+looks really -- the momentum continues to be pretty strong. So, in that 
+context, ma'am, if you could elaborate on product launches you alluded to in 
+the past, if you can further give us an update, which are the contracts which 
+-- or new launches, which one can expect from here on? That's one. 
+ And second, on the SGF, given the volumes rising, we have seen this 
+consistency as a percentage of revenue that is what one should expect going 
+forward? That's another -- that's the second one. And lastly, the bookkeeping 
+one. If you can split the revenue  between the futures opti ons would be 
+helpful? Yes, those are the 3, and I will join the queue. 
+Praveena Rai: Yes. So Chintan, the question you had on futures and options, Chandresh, 
+could you just provide those numbers? 
+Chandresh Shah: Yes. Chintan, the revenue from futures was INR 227 crores for this quarter 
+and options INR 380 crores. 
+Praveena Rai: And with reference to expense numbers, Chintan, we do believe that our 
+expenses are lagging our growth in terms of what we really need, both from 
+a technology and operating standpoint as we work towards the business 
+opportunity -- sustained business opportunity as well as what the economic 
+environment requires, what our market requires. 
+ So, we will be looking to normalize this over time, not necessarily from the 
+standpoint of exactly where we stand. And I can tell you that operating  
+
+--- page 13 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 12 of 23 
+ 
+Public 
+expenses on a quarter basis is very difficult to comment on. So, I think we'll 
+wait for the year-end to play out there. 
+ But we are in the midst of planning for our next year, looking at sustaining the 
+momentum of growth. And what will we need to do, what is the demands and 
+requirements of the market for us to really use this opportunity to shape the 
+market from an Indian commodity derivatives situation. This is an opportunity 
+for us to take a lot o f proactive steps, and we will be doing that in a manner 
+that is efficient and contributing to our bottom line. 
+Chintan Sheth: And lastly, on the launches, if you can update us on... 
+Praveena Rai: Launches to come is a little difficult to comment on, Chintan. We are focused 
+on stabilizing the launches that we have made, and we do have a healthy 
+pipeline, but we will look to time it on the back of our internal process as well 
+as our gauge of the right timing for the particular product and market. 
+Moderator: We take the next question from the line of Ansuman Deb from ICICI Securities. 
+Ansuman Deb: Congrats on great set of numbers. I have 2 questions. One is on the -- again, 
+on the SGF side. So, any quantification of the kind of SGF we would require 
+because the volumes have increased significantly or any policy towards that? 
+That is one. 
+ And second is in terms of the ability to handle these volumes, you said that 
+expenses is BAU as usual and you keep on investing. But on the current state 
+of affairs, can we -- is it -- can we have any numbers in the sense, for example,  
+if the options goes to INR 1.5 trillion or INR 2 trillion plus futures -- sorry, 
+futures goes to INR 1.5 trillion or INR 2 trillion per day or the future -- the 
+premium goes to maybe INR 15,000 crores ADT or INR 20,000 crores. So, any 
+volume levels till which we are comfortably placed? So, these are the 2 
+questions. 
+Chandresh Shah: So Ansuman, on the SGF, so -- see, SGF is a requirement prescribed by SEBI. 
+So, for SGF contribution, we keep looking at the requirements and we keep 
+
+--- page 14 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 13 of 23 
+ 
+Public 
+strengthening it as it helps in providing safety net to ensure that the 
+transactions are complete and there are no participant defaults. Even if the 
+participant defaults, we can conclude the transaction. So, in a different way, 
+strong SGF also gives us some flexibility to manage margin requirements from 
+members. 
+Ansuman Deb: But any quantification on the requirement, or no? 
+Chandresh Shah: No, no. 
+Ansuman Deb: And on the volume levels at which we can think like it's comfortably placed as 
+of now? 
+Praveena Rai: Yes. So, we are well placed for a certain multiple of the volume that we have 
+faced right now. And I'm saying faced because it's been a big multiple over 
+the previous quarter and that quarter over the previous quarter and so on. So 
+if you look at this kind of a mo mentum, we are well placed for at least 3 x to 
+4x kind of a volume. 
+ But our intention and objective is to really be ready for more. In fact, market 
+is telling us to be ready for a 10x volume. We've spoken about it also. So that's 
+the kind of readiness that over time in an efficient manner that we will build 
+up. 
+Moderator: We take the next question from the line of Akhilesh Bhatter from Ampersand 
+Capital. 
+Akhilesh Bhatter: I had a question regarding the margin requirement. So, given the increase in 
+volatility in gold prices, silver prices, precious metals, so do you anticipate any 
+increase in margin requirement required by the regulator? I just want to 
+understand how does that function? 
+Praveen DG: The margins are actually dependent on -- I think you know that one of the 
+primary factor is volatility. That is what decides your initial margin. And apart 
+from that one, we also have additional margins and ELM. So, there is -- fixed 
+formula is there, it is more driven and it is -- that means we look at what is 
+
+--- page 15 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 14 of 23 
+ 
+Public 
+the price movement in each of the commodity and the basis that on VAR 
+based margins are going to be levied. 
+Praveena Rai: It's part of standard process. Every day, there is a margin calculation that 
+happens based on current volatility price and so on and so forth. And 
+immediately, that is then applied to market. So, it's not a one -off activity, 
+though if we see the need and the requirement, there is an additional margin 
+over and above that also -- that gets levied. It's an ongoing activity. 
+Akhilesh Bhatter: Got it. So essentially, the risk that you are exposed to in terms of a participant 
+honoring their transaction is very low because of the margin requirement  
+systems that you have in place? 
+Praveen DG: Yes. And we also do that M2M anyway, like because it happens on a daily 
+basis. That why it is like the risk is limited to only not more than a day -- single 
+day, and that is well covered using the initial margin, which is the basis of our 
+margins. 
+Praveena Rai: The regulatory framework, which defines the margin calculation and India is 
+a conservative market in that sense. So our margins are the highest in the 
+world and tend to go up quite steeply as volatility steps in. While this does 
+lead to some sort of a cons traint in the industry with members having to 
+cough up larger sums for margin, it keeps us well managed from a risk 
+standpoint. And of course, in addition to that is the SGF framework. So, both 
+working hand-in-hand keeps us both MCX and MCXCCL very well protected as 
+an exchange and clearing house. 
+Moderator: We take the next question from the line of Ankur M. from Old Rice 
+Investment. 
+Ankur M.: Yes. So, when we are launching derivative on aluminum, Nickel, if you can 
+guide there? And second, electricity derivative market share is low for MCX 
+compared to NSE. So, are we planning to launch options there in order to gain 
+some market share? Thank you. 
+Rishi Nathany: Ankur, what was your first question? 
+
+--- page 16 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 15 of 23 
+ 
+Public 
+Praveena Rai: When will we launch in aluminum, etc.? 
+Rishi Nathany: Options, okay. Okay. So, Ankur, for all products, there is a threshold of non -
+agri for INR 1,000 crores ADT in a complete 1-year cycle, post which only we 
+can apply. So, whether it's aluminum or electricity, whichever contracts will 
+we cross that INR 1,000 crores ADT threshold on futures, then only we can 
+apply for options. So, we are ceased of that matter. And as and when we cross 
+that threshold and we see that there is appetite in the market, we will 
+definitely work towards that. 
+Praveena Rai: The electricity... 
+Rishi Nathany: Yes. And in terms of electricity, while the volumes, whatever they are showing 
+are participation from clients is very high as compared to our other contracts 
+available in the market. And we do look forward to adding more and more 
+value chain participants to our contract. So, we are sure that we will definitely 
+see more traction in terms of growth. 
+Moderator: We take the next question from the line of Sanketh Godha from Avendus 
+Spark. 
+Sanketh Godha: Sir, my first question is more on product license fees. See, we saw a significant 
+growth in the revenue on a quarter-on-quarter basis, but our product license 
+fees hardly grew. And if I do it as a percentage of the transaction income, it 
+comes around 4.1% for the quarter and while it has been in the range of 6 to 
+7 percentage for previous 5, 6 quarters. 
+So, I just wanted to understand how this exactly works, whether the license 
+fees, what we pay grows in line with the revenue or it has a fixed slab and 
+then incremental percentage what you pay for the licenses grows at a 
+meaningful very low rate. Just if you can give a color on how it works, it will 
+be useful. That's my first question. 
+ And second question is out of this INR 665 crores, I think INR 601 crores is 
+transaction income. How much is coming from core float income, investment 
+
+--- page 17 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 16 of 23 
+ 
+Public 
+-- float income that is from the margin money, not the other income? So, if 
+you can answer these 2 questions, it will be useful. 
+Praveena Rai: Yes. So, in terms of product license fee is -- you can read it off from the 
+numbers on energy because we settle off international prices working with 
+CME. So that's the part that contributes to product license fees, r ight? So, 
+when bullion grows, et c., that doesn't lead to any direct cost to us because 
+we settle on our own prices. Float income, Chandresh... 
+Chandresh Shah: It is around INR 45 crores. 
+Sanketh Godha: Okay. It's around INR 45 crores. Fine. And lastly, ma'am, if I can squeeze one. 
+From September to December and to January, I know that silver has seen a 
+margin increase in the month of -- in third quarter. But any other product 
+which has seen margin requirement going other than  silver in third quarter 
+and even January till date? 
+Praveena Rai: Yes, yes, number of products. In fact, wherever volatility has been higher, it's 
+gone up in gold, it's gone up in copper... 
+Rishi Nathany: Copper and even other metals gain -- natural gas. 
+Praveena Rai: In natural gas, sorry, I don't have a list in front of us, but it's gone up in a 
+number of commodities. 
+Sanketh Godha: And it has been increased by a percentage or so on a broader basis? I just 
+wanted to check that. 
+Praveena Rai: It's a percentage or more... 
+Sanketh Godha: 7% initial margin has gone to 8%, 9%, delta change, I mean to ask how much 
+it can... 
+Praveen DG: Silver if you take it is around 25%, then you have an additional margin. So gold 
+is around I think around 10%, it is. So, it purely depends upon the volatility in 
+that commodity. 
+
+--- page 18 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 17 of 23 
+ 
+Public 
+Sanketh Godha: And, reversal of it, for example, if tomorrow volatility cools off, is it easy to 
+reverse this or it stays for a longer time? 
+Praveen DG: Yes. No, no, it is actually volatile based margin that basis that one 
+automatically calculates what is the volatility in that margin because we use 
+EWMA model. So, basis that one, it will estimate what could be the probable 
+volatility and accordingly, the margins will be levied. So, the moment if there 
+is a downtrend in the volatility, automatically, the margins would come down. 
+Moderator: We take the next question from the line of Parikshit Gupta from Fair Value 
+Capital. 
+Parikshit Gupta: Congratulations on a great set of results. Most of my questions have been 
+answered. But just one on the risk to our monopolistic position, especially in 
+bullion. We all know what is happening with IEX, although we are governed 
+by a different regulatory bod y. But do you anticipate any similar risks of 
+maybe sharing the price discovery for MCX, if that -- if you could please 
+articulate on that, please? 
+Praveena Rai: Parikshit, competition risk does exist because other exchanges are also vying 
+for share in this space. So we are cognizant of it, and we respect the 
+environment in which we are operating. We do believe as long as we stay 
+focused on our growth and innovative in our approach to products that meet 
+the needs of the market, continue to grow participation, deliver to both 
+technology, operational and risk management needs, we are well positioned 
+to act as the commodity derivative exchange for India. 
+Parikshit Gupta: I understand. Just a quick follow -up on this, please. Has there been any 
+activity from SEBI or any intimation which I shared with you about splitting 
+the overall pie of the market as you may put it? 
+Praveena Rai: We don't have any information like that, Parikshit. 
+Moderator: We take the next question from the line of Anand Dhaskaran from Ksema 
+Wealth. 
+
+--- page 19 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 18 of 23 
+ 
+Public 
+Anand Dhaskaran: Good evening, can you hear me? 
+Chandresh Shah: Yes, we can hear you. 
+Anand Dhaskaran: Yes, congrats on the good set of numbers. I have 2 questions. One is a follow-
+up to the previous one. Can you just repeat the breakup for the futures and 
+options revenue please just once again for Q3 FY '26? 
+Chandresh Shah: So Q3 futures revenue is INR 227 crores and options revenue is INR 380 
+crores. 
+Anand Dhaskaran: INR 380 crores? 
+Chandresh Shah: Yes. 
+Anand Dhaskaran: Okay. That was one thing. And second is regarding the new index options have 
+been launched in this quarter, the AD TV has come for this quarter. What do 
+you see the ADTV can be, let's say, in the next 3, 4 years or so on an average 
+basis? 
+Rishi Nathany: Anand, we won't be able to comment on the estimated ADT. But what we 
+have seen in this quarter is, yes, there is a good performance in terms of 
+futures turnover in case of a BULLDEX. 
+Anand Dhaskaran: So, you're saying the future delivery -- like say in -- for options, the ADTV will 
+be kind of mirroring for the futures? 
+Rishi Nathany: So, Anand, the options, frankly, hasn't taken off to that extent as yet. It takes 
+time for contracts to build and develop. For example, when we launched 
+Nickel, it took time. Now we are seeing the results after many months. 
+Similarly, we have to give everything time. But what is heartening to see is 
+that the futures have seen traction. And hopefully, we will see traction in 
+options as well as we go forward. 
+Moderator: We take the next question from the line of Prayesh Jain from Motilal Oswal 
+Financial Services Limited. 
+
+--- page 20 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 19 of 23 
+ 
+Public 
+Prayesh Jain: The first question here is on the regulators talking about more participation 
+of banks and other financial institutions on the commodities front. Any 
+conversations that you've been having with the regulators to kind of what are 
+the things needed for new participants to kind of come into this bandwagon 
+and whether is MCX equipped to kind of give that? Yes, that would be my first 
+question. 
+Praveena Rai: Yes, Prayesh, these are ongoing conversations we have had and are having, 
+but they are, of course, under regulatory consideration. We won't have 
+anything more to share on this. 
+Prayesh Jain: Got that. And secondly, again, I think I've been asking this question on almost 
+every call. Anything on the co-location facilities, which currently are not being 
+allowed for us. Is there any conversation with the regulator on this and 
+whether this can be extended to us? 
+Praveena Rai: Same question, same answer, yes. It is under regulatory purview, yes. So 
+there's really not much for us. 
+Prayesh Jain: Presentations made about allowing that. And I think that is one of the key 
+elements for you to grow the FPI as a segment. Is that the understanding? 
+Praveena Rai: So FPI ’s are onboarding  and FPI ’s volume is also growing. We are seeing 
+renewed interest in FPI, maybe after the Jane Street situation when a little bit 
+of a lull was there, we are seeing that renewed interest coming. So again, 
+conversation per se is an ongoing one. We wouldn't be able to comment on 
+that. 
+Moderator: We take the next question from the line of Vedant Sarda from Nirmal Bang 
+Securities Private Limited. 
+Vedant Sarda: Congratulations on a great set of numbers. My question is based on the 
+previous participant's query only. Though we are well positioned in the overall 
+ecosystem. And we have not received any kind of intimation from any 
+regulatory authority on different mar ket participants entering into the 
+segment. But how do we see this risk? 
+
+--- page 21 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 20 of 23 
+ 
+Public 
+Praveena Rai: No, the risk is real. I think we appreciate it and we respect it. We need to be 
+prepared for it. And we are doing that by sort of enhanced activity, both on 
+our product and the participation end. We have also increased a lot of market 
+outreach with awarene ss programs, knowledge sharing programs with our 
+members, continued innovation on the technology road map. So, I think the 
+way to really hold forth is to be very positive and forward -looking in our 
+approach and actions, and make sure we are executing to our plans. 
+Moderator: We take the next question from the line of Aditi Parmar from iWealth Fund. 
+Aditi Parmar: Ma'am, congratulations on a good set of numbers. Just wanted to verify that 
+the revenue for our futures and options was INR 227 crores and INR 380 
+crores, respectively. So, if you take the balancing figure, that comes to nearly 
+about INR 58 crores. And historically, like if you see a quarterly trend that has 
+always been INR 30 crores, INR 37 crores. So, what is the reason for the 
+increase for the same? 
+Praveena Rai: Thanks, Aditi. Chandresh? 
+Chandresh Shah: Yes. So, Aditi, that includes the float income and some other income, 
+warehousing income from our subsidiary. 
+Aditi Parmar: And sir, like if -- for the other cost, if I remove the software and technical 
+expenses, product licenses and the contribution to SGF, then the other cost, 
+which comes down to is near about INR 23 crores. So, could you explain the 
+reason for the increase in this other cost? 
+Chandresh Shah: So, Aditi, other expenses largely relate to administrative and office costs, CSR 
+spend, legal professional fees, travel, business promotion activities. So, the 
+increase is towards those activities only to increase the volume of business. 
+Moderator: We take the next question from the line of Aditya Yadav from Transient 
+Capital. 
+Aditya Yadav: Congratulations to the management team. It's been a great execution in the 
+past few quarters and plus the market conditions have also been providing a 
+
+--- page 22 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 21 of 23 
+ 
+Public 
+sort of tailwind. So yes, great quarter. My question was mainly on the 
+dividend front. Any, I mean, plans or discussions to probably increase the 
+dividend payout ratio as a percentage of net profits because I suppose now 
+as the volumes have taken off and everything. 
+ So, we have a lot of free cash flow generation and probably taking in the 
+technology investments also, which we've spoken about will be required. But 
+again, beyond that also, we have a lot of free cash. So, I mean, what are the 
+thoughts around that? 
+Praveena Rai: Yes. So, Aditya, I think it's -- this is a decision we'll take after the end of the 
+year. We are in growth mode. We will take various requirements for capital 
+into account as we look at what's the right thing to do from a dividend 
+standpoint. So please hold until that point. 
+Aditya Yadav: And my second question is on the margin front. Do we see further operating 
+leverage in the business as our volumes, they continue to scale up. And as 
+you've mentioned, that at least in the near term, you see the momentum on 
+the volumes and the client codes going up to continue? Do we see more 
+operating leverage? 
+Praveena Rai: So, we see good business momentum. We will also be looking to make sure 
+that our spends do catch up with the growth, be it in the operating side as 
+well as the technology side. It's very important for us to do this to be -- to 
+deliver to the kind of volumes that come in. So, there will be efficiency, and I 
+think a lot of efficiency is already there on the table. But we will have expenses 
+and spends commensurate with revenues as well as more importantly, with 
+what are -- what is needed for the execution of our plans. 
+Moderator: We take the next question from the line of Shrenik Mehta from IndoAlps 
+Wealth. 
+Shrenik Mehta: Just wanted to check a little bit of an understanding of how this will work 
+when the prices for, especially the gold and silver, may possibly come down. 
+Do you see a co-relationship between the past growth of gold and silver prices 
+with this increased activity in your company? 
+
+--- page 23 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 22 of 23 
+ 
+Public 
+Praveena Rai: So, the global factors around price volatility will play a role in addition to other 
+contributing factors of participation, products and so on. So, whether it is 
+price up or price down, volatility will bring in factors where the derivative 
+exchange has a role to play. Having said that, if the extent of volatility were 
+to sort of completely normalize, we will see the momentum of growth steady, 
+though we do believe we will have new baseline over which the growth will 
+be happening. 
+ Now having said that, I think this is where we draw comfort from the various 
+segments in which we are operating. So, there have been periods of time 
+where energy has been volatile, and the exchange has played a role there. In 
+recent times, we have seen bullion being far mo re volatile and exchange 
+there. 
+ So, I think these macro factors will play a role. The macro factors also have a 
+perspective of sort of various segments playing out in the global and domestic 
+markets and the sort of level up baseline that we believe that we will have. 
+So, all of these will play a role. 
+Shrenik Mehta: So, I mean just hypothetically thinking of a situation where, say, for next few 
+quarters, the price for bullion, both gold and silver doesn't increase, remains 
+flat or comes down. In that scenario also, do you see that what you have in 
+terms of volumes curren tly are the baseline and you would only grow from 
+here? Or do you see a possibility for a decline in the volumes as well, more 
+specifically? 
+Praveena Rai: See, we can't give any forward-looking forecast on either price or the sort of 
+scenario you're drawing out. It's a difficult one to say. As I said, volatility is the 
+broader environment in which the exchange plays a role. Will volatility 
+become 0 globally is not a prediction that we can make, and it hasn't 
+happened so far. 
+Moderator: Ladies and gentlemen, we take the last question from the line of Abhishek 
+Jain from Shikherjee Advisors. 
+
+--- page 24 ---
+ Multi Commodity Exchange of India Limited 
+  January 27, 2026 
+ 
+Page 23 of 23 
+ 
+Public 
+Abhishek Jain: So very good numbers from your side. No, I have -- most of the questions are 
+just answered. So, no questions from my side. 
+Praveena Rai: Thank you, Abhishek. 
+Moderator: Thank you. Ladies and gentlemen, with that, we conclude the question -and-
+answer session. I now hand the conference over to Ms. Praveena Rai for her 
+closing comments. 
+Praveena Rai: Thank you very much to everybody for participating. These interactions are 
+very valuable. I think it also helps us to reflect with your questions as much as 
+we have to offer in the kind of commentary you ask of us. I hope the 
+interactions have been useful in helping you understand both our business as 
+well as the various drivers that are implied and impacting the results that you 
+have seen. So, look forward to staying connected until next time. 
+Moderator: Thank you. On behalf of Multi Commodity Exchange of India Limited, that 
+concludes this conference call. Thank you for joining us, and you may now 
+disconnect your lines. 

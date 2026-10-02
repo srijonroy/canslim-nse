@@ -1,0 +1,7 @@
+system,CAGR %,vol %,Sharpe,maxDD %,Calmar,trades/yr,win %,avg win %,avg loss %,invested %
+plain book (n=10),24.9,22.1,0.85,-29.9,0.83,54.0,41.0,21.6,-8.9,67.0
+plain book (n=20),28.8,18.1,1.26,-19.1,1.51,105.0,40.0,21.5,-6.9,62.0
+TUNED,38.5,20.6,1.58,-16.3,2.36,51.0,39.0,25.9,-6.7,63.0
+random picks from tuned pool (median of 10),35.55,19.8,1.49,-14.9,2.34,56.0,41.0,21.85,-6.4,63.0
+Nifty 500 (price),10.0,13.5,0.3,-18.8,0.53,,,,,
+Equal-weight liquid universe,19.6,18.4,0.74,-24.6,0.79,,,,,

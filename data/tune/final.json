@@ -1,0 +1,30 @@
+{
+ "rules": {
+  "trend": true,
+  "prox": 0.85,
+  "np_pos": false,
+  "np_yoy": 25,
+  "sales": 20,
+  "cagr3": 15,
+  "roe": 20,
+  "rs": 80,
+  "npm_up": true
+ },
+ "cfg": {
+  "n": 10,
+  "keep_rank": 30,
+  "stop": null,
+  "market": "no_new",
+  "cost": 0.003,
+  "cash_yield": 0.06,
+  "max_per_group": 3,
+  "exit_ma50": false,
+  "profit_take": 0.0,
+  "hold8": false,
+  "vol_stop": 0.0,
+  "market_exit": "none"
+ },
+ "entry": "none",
+ "trials": 41,
+ "booktest": "2026-10-02: R6 net margin improving adopted (data/tune/booktest)"
+}

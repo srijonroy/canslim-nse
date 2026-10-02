@@ -1,0 +1,20 @@
+# secrets / credentials -- never commit
+.env
+.fyers_token.json
+.browser_profile/
+fyersApi.log
+fyersRequests.log
+
+# copyrighted book and downloaded documents (large; re-downloadable with canslim.docs)
+*.pdf
+
+# rebuildable caches and raw downloads
+__pycache__/
+data/cache/
+data/bhavcopy/
+data/indices/raw/
+data/indices/old/
+data/prices/*.bf
+
+# logs
+*.log
