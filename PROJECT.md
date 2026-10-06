@@ -128,6 +128,7 @@ Not part of this system: `app.py`, `scanner.py`, `morestrictscanner.py` (older, 
 - [ ] "Clean winner" test: stocks that doubled before falling 30%
 
 ## Change log
+- **2026-10-06**: Liquidity filter lowered from Rs 5 Cr to **Rs 3 Cr median daily traded value** (user choice, untested: the backtest results above were on Rs 5 Cr). Universe 942 -> 1,092 stocks; first new pick KAPSTON (Rs 3.5 Cr/day). `factors.MIN_TURNOVER`, `backtest.MIN_TURNOVER`.
 - **2026-10-02**: `canslim/shp.py` (BSE shareholding history, holders per category, filing dates) and `canslim/insttest.py`; rule 14 tested, not adopted.
 - **2026-10-02**: Book audit; rule 6 (net margin improving) added to the daily rules, `tune.book_score` and `final.json` (old config kept as `final_2026-10-02_before_R6.json`).
 - **2026-10-02**: Automation: Fyers TOTP login (`fyers_auth.login_via_totp`, browser fallback), unattended briefs (`canslim/autobrief.py`, step 2 of `run_daily.bat`), `canslim.docs --search/--read`, brief column on the app's Today page. Tested: headless permissions (allowed command runs, others blocked) and a full unattended brief (MOREPENLAB, 90 s, 2/5).

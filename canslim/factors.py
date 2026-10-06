@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 MIN_PRICE = 20
-MIN_TURNOVER = 5e7        # Rs 5 Cr median daily value
+MIN_TURNOVER = 3e7        # Rs 3 Cr median daily value (was 5 Cr until 2026-10-06; user choice)
 
 
 def price_factors(P: dict) -> dict:

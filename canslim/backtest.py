@@ -28,7 +28,7 @@ PRICES = ROOT / "data" / "prices"
 OUT = ROOT / "data" / "backtest"
 
 MIN_PRICE = 20
-MIN_TURNOVER = 5e7          # Rs 5 Cr average daily value
+MIN_TURNOVER = 3e7          # Rs 3 Cr average daily value (was 5 Cr until 2026-10-06)
 LAG_Q, LAG_Q4, LAG_FY = 45, 60, 60
 
 
