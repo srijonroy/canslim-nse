@@ -1,6 +1,6 @@
 # LUMAXTECH — facts we already hold
 
-_Generated 2026-10-02 15:26 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-02 18:50 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Automobile and Auto Components > Auto Components > Auto Components & Equipments  
 **Basis:** consolidated, fetched 2026-09-30T21:22:31  

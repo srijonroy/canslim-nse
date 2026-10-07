@@ -1,6 +1,6 @@
 # TDPOWERSYS — facts we already hold
 
-_Generated 2026-10-02 15:26 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-06 21:43 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Industrials > Capital Goods > Electrical Equipment > Heavy Electrical Equipment  
 **Basis:** consolidated, fetched 2026-09-30T20:27:13  
@@ -60,6 +60,6 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-01: close 792.15, RS 96, system rank 4, industry group rank 32.0. Passes every rule.
+As of 2026-10-06: close 816.00, RS 96, system rank 5, industry group rank 34.0. Passes every rule.
 
-- On the canslim list 2 day(s), 2026-09-30 to 2026-10-01
+- On the canslim list 3 day(s), 2026-09-30 to 2026-10-06

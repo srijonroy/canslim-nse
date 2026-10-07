@@ -1,6 +1,6 @@
 # SKYGOLD — sources
 
-_Fetched 2026-10-02 15:25. Cite these by file name in the brief._
+_Fetched 2026-10-06 21:43. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
@@ -12,7 +12,7 @@ _Fetched 2026-10-02 15:25. Cite these by file name in the brief._
 | docs/2026-02_ppt.txt | Feb 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5db66ca3-58ba-4aa3-9321-4f1f5be1e932.pdf |
 | docs/2025-11_transcript.txt | Nov 2025 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce61c976-a8b3-4c73-a2a0-3362bff8aabb.pdf |
 | docs/2025-11_ppt.txt | Nov 2025 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130eb9c8-4e06-4aae-a43f-791f331029e5.pdf |
-| docs/annual_report_2026.txt | Annual report 2026 | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e43e048a-0063-4590-80aa-ce563b19259a.pdf |
+| docs/annual_report_2026.txt | Annual report 2026 | cached | https://www.bseindia.com/xml-data/corpfiling/AttachHis/e43e048a-0063-4590-80aa-ce563b19259a.pdf |
 
 ## Credit rating notes (links only)
 - Rating update 16 Feb from fitch: https://www.indiaratings.co.in/pressrelease/81484
