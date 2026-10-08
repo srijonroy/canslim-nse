@@ -128,7 +128,7 @@ def login_via_totp() -> str:
             j = r.json()
         except ValueError:
             raise RuntimeError(f"Fyers TOTP login: non-JSON reply from {url} ({r.status_code})")
-        if r.status_code != 200 or j.get("s") == "error":
+        if r.status_code not in (200, 308) or j.get("s") == "error":     # token step answers 308 + Url
             raise RuntimeError(f"Fyers TOTP login failed at {url.rsplit('/', 1)[-1]}: {j.get('message', j)}")
         return j
 

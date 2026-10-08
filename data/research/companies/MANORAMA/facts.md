@@ -1,6 +1,6 @@
 # MANORAMA — facts we already hold
 
-_Generated 2026-10-06 21:45 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Fast Moving Consumer Goods > Food Products > Other Food Products  
 **Basis:** consolidated, fetched 2026-09-30T21:27:15  
@@ -60,6 +60,6 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-06: close 1,985.60, RS 81, system rank 8, industry group rank None. Passes every rule.
+As of 2026-10-07: close 1,996.00, RS 83, system rank 9, industry group rank None. Passes every rule.
 
-- On the canslim list 1 day(s), 2026-10-06 to 2026-10-06
+- On the canslim list 2 day(s), 2026-10-06 to 2026-10-07

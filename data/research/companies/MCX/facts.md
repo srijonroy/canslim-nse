@@ -1,6 +1,6 @@
 # MCX — facts we already hold
 
-_Generated 2026-10-06 21:43 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Financial Services > Capital Markets > Exchange and Data Platform  
 **Basis:** consolidated, fetched 2026-09-30T20:41:16  
@@ -54,8 +54,8 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-06: close 3,310.00, RS 90, system rank 7, industry group rank 31.0. Passes every rule.
+As of 2026-10-07: close 3,362.60, RS 90, system rank 8, industry group rank 29.0. Passes every rule.
 
-- On the canslim list 3 day(s), 2026-09-30 to 2026-10-06
+- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
 
-- On the earnings list 3 day(s), 2026-09-30 to 2026-10-06
+- On the earnings list 4 day(s), 2026-09-30 to 2026-10-07

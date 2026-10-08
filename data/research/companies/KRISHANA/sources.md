@@ -1,6 +1,6 @@
 # KRISHANA — sources
 
-_Fetched 2026-10-06 21:43. Cite these by file name in the brief._
+_Fetched 2026-10-08 11:08. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
@@ -13,7 +13,7 @@ _Fetched 2026-10-06 21:43. Cite these by file name in the brief._
 | docs/annual_report_2026.txt | Annual report 2026 | cached | https://archives.nseindia.com/annual_reports/AR_29291_KRISHANA_2025_2026_A_6958335_29052026171638.pdf |
 
 ## Credit rating notes (links only)
+- Rating update 2d from crisil: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/KrishanaPhoschemLimited_October 06_ 2026_RR_407037.html
 - Rating update 8 Jul from crisil: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/KrishanaPhoschemLimited_July 08_ 2026_RR_399640.html
 - Rating update 9 Apr from crisil: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/KrishanaPhoschemLimited_April 09_ 2026_RR_392817.html
 - Rating update 31 Mar from icra: https://www.icra.in/Rationale/ShowRationaleReport/?Id=142145
-- Rating update 17 Feb from crisil: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/KrishanaPhoschemLimited_February 17_ 2026_RR_387183.html
