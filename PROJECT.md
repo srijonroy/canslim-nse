@@ -130,6 +130,7 @@ Not part of this system: `app.py`, `scanner.py`, `morestrictscanner.py` (older, 
 - [ ] "Clean winner" test: stocks that doubled before falling 30%
 
 ## Change log
+- **2026-10-08**: Paper portfolio: idle cash now earns 0% (was 6% a year). Backtests (`portfolio.Config.cash_yield`) still assume 6%.
 - **2026-10-08**: Fyers TOTP login fixed: the token step answers HTTP 308 with the auth code, which `fyers_auth` treated as an error. Scheduled task now runs on battery and catches up missed runs (3, 5 and 7 Oct had been skipped). Scan of 7 Oct: 9 picks, new CHENNPETRO (brief: suggested 2/5).
 - **2026-10-06**: Liquidity filter lowered from Rs 5 Cr to **Rs 3 Cr median daily traded value** (user choice, untested: the backtest results above were on Rs 5 Cr). Universe 942 -> 1,092 stocks; first new pick KAPSTON (Rs 3.5 Cr/day). `factors.MIN_TURNOVER`, `backtest.MIN_TURNOVER`.
 - **2026-10-02**: `canslim/shp.py` (BSE shareholding history, holders per category, filing dates) and `canslim/insttest.py`; rule 14 tested, not adopted.

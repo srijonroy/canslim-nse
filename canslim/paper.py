@@ -23,7 +23,7 @@ import pandas as pd
 from canslim import db
 from canslim.holdings import PRICES
 
-CAPITAL, N, KEEP_RANK, MAX_PER_GROUP, COST, CASH_YIELD = 1_000_000.0, 10, 30, 3, 0.003, 0.06
+CAPITAL, N, KEEP_RANK, MAX_PER_GROUP, COST, CASH_YIELD = 1_000_000.0, 10, 30, 3, 0.003, 0.0     # idle cash earns nothing (user choice 2026-10-08)
 BUY_STATES = ("CONFIRMED_UPTREND", "UPTREND_UNDER_PRESSURE")
 
 SCHEMA = """
