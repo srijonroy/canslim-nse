@@ -1,0 +1,127 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0
+// US500 Intraday Momentum ("noise area"), 5-minute chart.
+// Based on Zarattini, Aziz & Barbon (2024). Tested on 16 years of US500 5m data (2011-2026):
+// 1 contract, after 0.4 pt spread: ~237 trades/yr, 38% win, avg win +22 / avg loss -12 pts, PF 1.13,
+// profitable in both 2011-18 and 2019-26. Checking every 5-min bar or exiting at 00:00 IST loses the edge.
+//
+// Rules (US cash session, New York time):
+//   Bands  = how far price normally is from today's open at this time of day (average of last 14 days),
+//            placed around the higher/lower of today's open and yesterday's 16:00 close.
+//   Every 30 min from 10:00 to 15:30 (bar close): above upper band -> LONG, below lower band -> SHORT.
+//   Exit at a check if a long closes below max(upper band, session average price) / a short above min(lower band, avg).
+//   Close everything at 16:00 NY (01:30 IST in US summer, 02:30 IST in US winter). Never hold overnight.
+//
+//@version=6
+strategy("US500 Intraday Momentum 5m", shorttitle="NOISE 5m", overlay=true,
+     initial_capital=10000, default_qty_type=strategy.fixed, default_qty_value=1,
+     commission_type=strategy.commission.cash_per_contract, commission_value=0.2,
+     pyramiding=0, max_labels_count=500)
+
+lookback  = input.int(14, "Lookback days for the bands", minval=5, maxval=60)
+showBands = input.bool(true, "Show bands and session average")
+showDots  = input.bool(true, "Mark the 30-minute check bars")
+
+TZ = "America/New_York"
+mins   = hour(time, TZ) * 60 + minute(time, TZ)          // bar START time, New York
+inSess = mins >= 570 and mins < 960                       // 09:30 .. 15:55 bars
+slot   = math.floor((mins - 570) / 5)                     // 0 .. 77
+dkey   = year(time, TZ) * 10000 + month(time, TZ) * 100 + dayofmonth(time, TZ)
+
+var matrix<float> mv = matrix.new<float>(lookback + 1, 78, na)   // |close/open - 1| per day x time slot
+var int   row      = -1
+var int   daysDone = 0
+var int   lastKey  = 0
+var float dayOpen  = na
+var float prevC    = na
+var float lastSessClose = na
+var float cumC = 0.0
+var int   nC   = 0
+
+newSess = inSess and dkey != lastKey
+if newSess
+    lastKey  := dkey
+    daysDone += row >= 0 ? 1 : 0
+    row      := (row + 1) % (lookback + 1)
+    for i = 0 to 77
+        mv.set(row, i, na)
+    prevC   := lastSessClose
+    dayOpen := open
+    cumC    := 0.0
+    nC      := 0
+
+float sigma = na
+float up    = na
+float dn    = na
+float avgP  = na
+if inSess and not na(dayOpen)
+    mv.set(row, slot, math.abs(close / dayOpen - 1))
+    cumC += close
+    nC   += 1
+    avgP := cumC / nC
+    lastSessClose := close
+    if daysDone >= lookback
+        float s = 0.0
+        int   k = 0
+        for r = 0 to lookback
+            if r != row
+                v = mv.get(r, slot)
+                if not na(v)
+                    s += v
+                    k += 1
+        if k >= math.round(lookback * 0.8)
+            sigma := s / k
+    if not na(sigma) and not na(prevC)
+        up := math.max(dayOpen, prevC) * (1 + sigma)
+        dn := math.min(dayOpen, prevC) * (1 - sigma)
+
+isCheck = inSess and slot >= 5 and slot <= 71 and (slot - 5) % 6 == 0    // bars closing 10:00, 10:30 ... 15:30
+
+var int pos = 0
+if isCheck and not na(up)
+    if pos == 1 and close < math.max(up, avgP)
+        strategy.close("Long", comment="Exit L")
+        alert("NOISE 5m: EXIT LONG at " + str.tostring(close), alert.freq_once_per_bar_close)
+        pos := 0
+    else if pos == -1 and close > math.min(dn, avgP)
+        strategy.close("Short", comment="Exit S")
+        alert("NOISE 5m: EXIT SHORT at " + str.tostring(close), alert.freq_once_per_bar_close)
+        pos := 0
+    if pos == 0
+        if close > up
+            strategy.entry("Long", strategy.long)
+            alert("NOISE 5m: LONG at " + str.tostring(close), alert.freq_once_per_bar_close)
+            pos := 1
+        else if close < dn
+            strategy.entry("Short", strategy.short)
+            alert("NOISE 5m: SHORT at " + str.tostring(close), alert.freq_once_per_bar_close)
+            pos := -1
+
+// flat at the US close (16:00 NY), or if a session ends early / data is missing
+if pos != 0 and (not inSess or slot == 77)
+    strategy.close_all(comment="16:00 close", immediately=true)
+    alert("NOISE 5m: US CLOSE - flatten now", alert.freq_once_per_bar_close)
+    pos := 0
+
+// ---------- visuals ----------
+plot(showBands ? up   : na, "Upper band",       color=color.new(color.green, 0),  style=plot.style_linebr, linewidth=2)
+plot(showBands ? dn   : na, "Lower band",       color=color.new(color.red, 0),    style=plot.style_linebr, linewidth=2)
+plot(showBands ? avgP : na, "Session avg price", color=color.new(color.orange, 0), style=plot.style_linebr, linewidth=1)
+plotshape(showDots and isCheck and not na(up), "30-min check", shape.circle, location.bottom, color.new(color.blue, 30), size=size.tiny)
+bgcolor(pos == 1 ? color.new(color.green, 92) : pos == -1 ? color.new(color.red, 92) : na, title="In position")
+
+var table tb = table.new(position.top_right, 2, 5, border_width=1, border_color=color.new(color.gray, 50))
+if barstate.islast
+    nextSlot = not inSess or slot < 5 ? 5 : 5 + (math.floor((slot - 5) / 6) + 1) * 6
+    nextTxt  = inSess and nextSlot <= 71 ? str.format_time(time + (nextSlot - slot + 1) * 300000, "HH:mm", "Asia/Kolkata") + " IST" : "next US session"
+    stTxt    = timeframe.period != "5" ? "USE 5m CHART" : pos == 1 ? "LONG" : pos == -1 ? "SHORT" : na(up) ? (inSess ? "WARMING UP" : "US CLOSED") : "FLAT"
+    stCol    = pos == 1 ? color.green : pos == -1 ? color.red : color.gray
+    table.cell(tb, 0, 0, "NOISE 5m",   text_color=color.white, bgcolor=color.new(color.black, 20))
+    table.cell(tb, 1, 0, stTxt,        text_color=color.white, bgcolor=stCol)
+    table.cell(tb, 0, 1, "Next check", text_color=color.white, bgcolor=color.new(color.black, 20))
+    table.cell(tb, 1, 1, nextTxt,      text_color=color.white, bgcolor=color.new(color.black, 40))
+    table.cell(tb, 0, 2, "Open P&L",   text_color=color.white, bgcolor=color.new(color.black, 20))
+    table.cell(tb, 1, 2, str.tostring(strategy.openprofit, "#.#"), text_color=color.white, bgcolor=color.new(color.black, 40))
+    table.cell(tb, 0, 3, "Upper / lower", text_color=color.white, bgcolor=color.new(color.black, 20))
+    table.cell(tb, 1, 3, na(up) ? "-" : str.tostring(up, "#.0") + " / " + str.tostring(dn, "#.0"), text_color=color.white, bgcolor=color.new(color.black, 40))
+    table.cell(tb, 0, 4, "Hold until", text_color=color.white, bgcolor=color.new(color.black, 20))
+    table.cell(tb, 1, 4, "16:00 NY = " + str.format_time(timestamp(TZ, year(time, TZ), month(time, TZ), dayofmonth(time, TZ), 16, 0), "HH:mm", "Asia/Kolkata") + " IST", text_color=color.white, bgcolor=color.new(color.black, 40))
