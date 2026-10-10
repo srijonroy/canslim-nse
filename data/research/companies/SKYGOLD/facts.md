@@ -1,10 +1,10 @@
 # SKYGOLD — facts we already hold
 
-_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:06 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Consumer Durables > Gems, Jewellery And Watches  
-**Basis:** consolidated, fetched 2026-09-30T21:09:38  
-**Snapshot:** Market Cap 12496.0, Current Price 811.0, High / Low 869.0, Stock P/E 37.3, Book Value 77.4, Dividend Yield 0.0, ROCE 27.0, ROE 29.2, Face Value 10.0
+**Basis:** consolidated, fetched 2026-10-10T15:46:49  
+**Snapshot:** Market Cap 14264.0, Current Price 921.0, High / Low 936.0, Stock P/E 42.6, Book Value 77.0, Dividend Yield 0.0, ROCE 26.9, ROE 28.9, Face Value 10.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -22,8 +22,8 @@ _High = earnings not from operations (Q4)._
 ## Annual
 | | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 | TTM |
 |---|---|---|---|---|---|---|
-| Sales | 786 | 1,154 | 1,745 | 3,548 | 6,295 | 7,176 |
-| Operating Profit | 20 | 37 | 78 | 197 | 434 | 520 |
+| Sales | 786 | 1,154 | 1,745 | 3,548 | 6,292 | 7,176 |
+| Operating Profit | 20 | 37 | 78 | 197 | 436 | 520 |
 | OPM % | 2.6 | 3.2 | 4.5 | 6 | 7 | 7 |
 | Net Profit | 17 | 19 | 40 | 133 | 282 | 343 |
 | Dividend Payout % | 0 | 12 | 3 | 0 | 0 |  |
@@ -32,7 +32,7 @@ _High = earnings not from operations (Q4)._
 | | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 |
 |---|---|---|---|---|---|
 | Equity Capital | 5 | 11 | 13 | 147 | 155 |
-| Reserves | 71 | 87 | 231 | 537 | 1,044 |
+| Reserves | 71 | 87 | 231 | 537 | 1,037 |
 | Borrowings | 92 | 146 | 330 | 630 | 869 |
 | CWIP | 0 | 0 | 1 | 1 | 0 |
 | Fixed Assets | 8 | 9 | 35 | 106 | 376 |
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-07: close 876.95, RS 97, system rank 3, industry group rank 10.0. Passes every rule.
+As of 2026-10-09: close 921.00, RS 98, system rank 2, industry group rank 8.0. Passes every rule.
 
-- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the earnings list 4 day(s), 2026-09-30 to 2026-10-07
+- On the earnings list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the emerging list 4 day(s), 2026-09-30 to 2026-10-07
+- On the emerging list 5 day(s), 2026-09-30 to 2026-10-09

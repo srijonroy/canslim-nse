@@ -1,10 +1,10 @@
 # MANORAMA — facts we already hold
 
-_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:07 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Fast Moving Consumer Goods > Food Products > Other Food Products  
-**Basis:** consolidated, fetched 2026-09-30T21:27:15  
-**Snapshot:** Market Cap 11654.0, Current Price 1853.0, High / Low 2150.0, Stock P/E 45.1, Book Value 114.0, Dividend Yield 0.04, ROCE 34.9, ROE 39.3, Face Value 2.0
+**Basis:** consolidated, fetched 2026-10-10T15:23:48  
+**Snapshot:** Market Cap 12898.0, Current Price 2043.0, High / Low 2150.0, Stock P/E 49.9, Book Value 114.0, Dividend Yield 0.04, ROCE 34.9, ROE 39.3, Face Value 2.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -60,6 +60,6 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-07: close 1,996.00, RS 83, system rank 9, industry group rank None. Passes every rule.
+As of 2026-10-09: close 2,043.40, RS 85, system rank 9, industry group rank None. Passes every rule.
 
-- On the canslim list 2 day(s), 2026-10-06 to 2026-10-07
+- On the canslim list 3 day(s), 2026-10-06 to 2026-10-09

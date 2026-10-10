@@ -1,10 +1,10 @@
 # RPEL — facts we already hold
 
-_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:06 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Industrials > Capital Goods > Industrial Products > Electrodes & Refractories  
-**Basis:** consolidated, fetched 2026-09-30T21:23:24  
-**Snapshot:** Market Cap 8305.0, Current Price 1809.0, High / Low 1944.0, Stock P/E 132.0, Book Value 53.3, Dividend Yield 0.06, ROCE 30.3, ROE 24.3, Face Value 10.0
+**Basis:** consolidated, fetched 2026-10-10T15:40:55  
+**Snapshot:** Market Cap 7963.0, Current Price 1734.0, High / Low 1944.0, Stock P/E 127.0, Book Value 53.3, Dividend Yield 0.06, ROCE 30.3, ROE 24.3, Face Value 10.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -49,17 +49,17 @@ _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dil
 _Debtor/inventory days rising faster than sales = growth may not be converting to cash (Q5)._
 
 ## Shareholding % (last 8 quarters)
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
 | Promoters | 62.9 | 62.9 | 62.9 | 62.9 | 62.9 | 62.9 | 62.9 | 62.9 |
-| FIIs | 0 | 0.1 | 0.2 | 0.1 | 0.1 | 0.1 | 0.4 | 0.8 |
+| FIIs | 0.1 | 0.2 | 0.1 | 0.1 | 0.1 | 0.4 | 0.8 | 0.6 |
 | DIIs | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Public | 37.1 | 37 | 36.9 | 37 | 36.9 | 37 | 36.7 | 36.3 |
-| No. of Shareholders | 9,868 | 14,675 | 14,977 | 14,151 | 14,315 | 13,312 | 12,868 | 14,899 |
+| Public | 37 | 36.9 | 37 | 36.9 | 37 | 36.7 | 36.3 | 36.5 |
+| No. of Shareholders | 14,675 | 14,977 | 14,151 | 14,315 | 13,312 | 12,868 | 14,899 | 18,007 |
 _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional sponsorship (Q11)._
 
 ## System status
 
-As of 2026-10-07: close 1,820.90, RS 98, system rank 2, industry group rank 5.0. Passes every rule.
+As of 2026-10-09: close 1,734.10, RS 97, system rank 3, industry group rank 17.0. Passes every rule.
 
-- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 5 day(s), 2026-09-30 to 2026-10-09

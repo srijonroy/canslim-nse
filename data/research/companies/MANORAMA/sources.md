@@ -1,6 +1,6 @@
 # MANORAMA — sources
 
-_Fetched 2026-10-08 11:08. Cite these by file name in the brief._
+_Fetched 2026-10-10 16:07. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|

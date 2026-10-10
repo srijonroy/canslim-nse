@@ -1,10 +1,10 @@
 # SBC — facts we already hold
 
-_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:06 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Textiles > Textiles & Apparels > Garments & Apparels  
-**Basis:** consolidated, fetched 2026-09-30T20:50:10  
-**Snapshot:** Market Cap 2775.0, Current Price 58.3, High / Low 59.5, Stock P/E 72.6, Book Value 1.68, Dividend Yield 0.0, ROCE 18.2, ROE 37.2, Face Value 1.0
+**Basis:** consolidated, fetched 2026-10-10T15:43:10  
+**Snapshot:** Market Cap 2973.0, Current Price 62.4, High / Low 64.4, Stock P/E 77.7, Book Value 1.68, Dividend Yield 0.0, ROCE 18.4, ROE 37.2, Face Value 1.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -22,11 +22,11 @@ _High = earnings not from operations (Q4)._
 ## Annual
 | | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 | TTM |
 |---|---|---|---|---|---|---|
-| Sales | 206 | 222 | 212 | 299 | 403 | 452 |
-| Operating Profit | 8 | 11 | 17 | 19 | 33 | 41 |
+| Sales | 206 | 222 | 212 | 299 | 402 | 452 |
+| Operating Profit | 8 | 11 | 17 | 19 | 34 | 41 |
 | OPM % | 3.8 | 4.8 | 8 | 6 | 8 | 9 |
 | Net Profit | 3 | 7 | 9 | 13 | 25 | 38 |
-| Dividend Payout % | -0 | 15 | 17 | -0 | -0 |  |
+| Dividend Payout % | 0 | 15 | 17 | 0 | 0 |  |
 
 ## Balance sheet
 | | Mar 2021 | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 |
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-07: close 61.77, RS 96, system rank 5, industry group rank 23.0. Passes every rule.
+As of 2026-10-09: close 62.43, RS 97, system rank 4, industry group rank 20.0. Passes every rule.
 
-- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the earnings list 4 day(s), 2026-09-30 to 2026-10-07
+- On the earnings list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the emerging list 1 day(s), 2026-10-07 to 2026-10-07
+- On the emerging list 2 day(s), 2026-10-07 to 2026-10-09

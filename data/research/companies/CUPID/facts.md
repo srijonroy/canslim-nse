@@ -1,10 +1,10 @@
 # CUPID — facts we already hold
 
-_Generated 2026-10-08 11:07 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:06 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Fast Moving Consumer Goods > Personal Products > Personal Care  
-**Basis:** consolidated, fetched 2026-09-30T20:39:31  
-**Snapshot:** Market Cap 41979.0, Current Price 312.0, High / Low 312.0, Stock P/E 306.0, Book Value 3.35, Dividend Yield 0.0, ROCE 33.9, ROE 27.6, Face Value 1.0
+**Basis:** consolidated, fetched 2026-10-10T14:52:46  
+**Snapshot:** Market Cap 49228.0, Current Price 366.0, High / Low 368.0, Stock P/E 358.0, Book Value 3.35, Dividend Yield 0.0, ROCE 33.9, ROE 27.6, Face Value 1.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-07: close 343.95, RS 99, system rank 1, industry group rank 75.0. Passes every rule.
+As of 2026-10-09: close 366.10, RS 99, system rank 1, industry group rank 66.0. Passes every rule.
 
-- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the earnings list 4 day(s), 2026-09-30 to 2026-10-07
+- On the earnings list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the emerging list 4 day(s), 2026-09-30 to 2026-10-07
+- On the emerging list 5 day(s), 2026-09-30 to 2026-10-09

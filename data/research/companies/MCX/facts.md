@@ -1,10 +1,10 @@
 # MCX — facts we already hold
 
-_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:07 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Financial Services > Capital Markets > Exchange and Data Platform  
-**Basis:** consolidated, fetched 2026-09-30T20:41:16  
-**Snapshot:** Market Cap 83898.0, Current Price 3300.0, High / Low 3481.0, Stock P/E 54.4, Book Value 112.0, Dividend Yield 0.24, ROCE 71.4, ROE 56.3, Face Value 2.0
+**Basis:** consolidated, fetched 2026-10-10T15:25:13  
+**Snapshot:** Market Cap 84611.0, Current Price 3318.0, High / Low 3481.0, Stock P/E 54.9, Book Value 112.0, Dividend Yield 0.24, ROCE 71.4, ROE 56.3, Face Value 2.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -54,8 +54,8 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-07: close 3,362.60, RS 90, system rank 8, industry group rank 29.0. Passes every rule.
+As of 2026-10-09: close 3,318.20, RS 91, system rank 7, industry group rank 24.0. Passes every rule.
 
-- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 5 day(s), 2026-09-30 to 2026-10-09
 
-- On the earnings list 4 day(s), 2026-09-30 to 2026-10-07
+- On the earnings list 5 day(s), 2026-09-30 to 2026-10-09

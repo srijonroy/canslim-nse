@@ -1,10 +1,10 @@
 # TDPOWERSYS — facts we already hold
 
-_Generated 2026-10-08 11:08 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:06 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Industrials > Capital Goods > Electrical Equipment > Heavy Electrical Equipment  
-**Basis:** consolidated, fetched 2026-09-30T20:27:13  
-**Snapshot:** Market Cap 24577.0, Current Price 786.0, High / Low 819.0, Stock P/E 89.4, Book Value 34.3, Dividend Yield 0.13, ROCE 34.0, ROE 24.7, Face Value 1.0
+**Basis:** consolidated, fetched 2026-10-10T15:52:31  
+**Snapshot:** Market Cap 24900.0, Current Price 794.0, High / Low 856.0, Stock P/E 90.6, Book Value 34.3, Dividend Yield 0.13, ROCE 34.0, ROE 24.7, Face Value 1.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -49,17 +49,17 @@ _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dil
 _Debtor/inventory days rising faster than sales = growth may not be converting to cash (Q5)._
 
 ## Shareholding % (last 8 quarters)
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
-| Promoters | 34.3 | 34.3 | 33.2 | 26.9 | 26.9 | 26.9 | 26.9 | 26.9 |
-| FIIs | 16.2 | 17.8 | 19.1 | 23.7 | 23.6 | 24.4 | 26.7 | 26.2 |
-| DIIs | 29.6 | 26.9 | 24.9 | 25.3 | 25.4 | 23.2 | 22.2 | 23.9 |
-| Public | 19.9 | 21 | 22.7 | 24.1 | 24.2 | 25.6 | 24.2 | 23.1 |
-| No. of Shareholders | 91,359 | 100,585 | 100,741 | 107,425 | 108,667 | 117,170 | 115,089 | 134,081 |
+| Promoters | 34.3 | 33.2 | 26.9 | 26.9 | 26.9 | 26.9 | 26.9 | 27.1 |
+| FIIs | 17.8 | 19.1 | 23.7 | 23.6 | 24.4 | 26.7 | 26.2 | 22.9 |
+| DIIs | 26.9 | 24.9 | 25.3 | 25.4 | 23.2 | 22.2 | 23.9 | 27.9 |
+| Public | 21 | 22.7 | 24.1 | 24.2 | 25.6 | 24.2 | 23.1 | 22.1 |
+| No. of Shareholders | 100,585 | 100,741 | 107,425 | 108,667 | 117,170 | 115,089 | 134,081 | 149,005 |
 _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional sponsorship (Q11)._
 
 ## System status
 
-As of 2026-10-07: close 821.10, RS 96, system rank 4, industry group rank 36.0. Passes every rule.
+As of 2026-10-09: close 793.75, RS 95, system rank 5, industry group rank 33.0. Passes every rule.
 
-- On the canslim list 4 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 5 day(s), 2026-09-30 to 2026-10-09

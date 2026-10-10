@@ -1,10 +1,10 @@
 # CHENNPETRO — facts we already hold
 
-_Generated 2026-10-08 11:09 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-10 16:07 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Energy > Oil, Gas & Consumable Fuels > Petroleum Products > Refineries & Marketing  
-**Basis:** consolidated, fetched 2026-09-30T20:48:47  
-**Snapshot:** Market Cap 21382.0, Current Price 1436.0, High / Low 1678.0, Stock P/E 5.12, Book Value 746.0, Dividend Yield 4.32, ROCE 34.9, ROE 31.8, Face Value 10.0
+**Basis:** consolidated, fetched 2026-10-10T14:50:27  
+**Snapshot:** Market Cap 22154.0, Current Price 1488.0, High / Low 1678.0, Stock P/E 5.31, Book Value 746.0, Dividend Yield 4.17, ROCE 34.9, ROE 31.8, Face Value 10.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -49,19 +49,19 @@ _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dil
 _Debtor/inventory days rising faster than sales = growth may not be converting to cash (Q5)._
 
 ## Shareholding % (last 8 quarters)
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
 | Promoters | 67.3 | 67.3 | 67.3 | 67.3 | 67.3 | 67.3 | 67.3 | 67.3 |
-| FIIs | 16.2 | 11.1 | 10.6 | 8.8 | 8.8 | 12.9 | 12.6 | 15 |
-| DIIs | 0.3 | 1.8 | 2.2 | 2.5 | 2.6 | 1 | 2.1 | 1 |
-| Public | 16.2 | 19.8 | 19.9 | 21.4 | 21.3 | 18.8 | 18 | 16.7 |
-| No. of Shareholders | 142,073 | 185,505 | 206,734 | 201,668 | 177,682 | 164,969 | 154,303 | 149,620 |
+| FIIs | 11.1 | 10.6 | 8.8 | 8.8 | 12.9 | 12.6 | 15 | 15.8 |
+| DIIs | 1.8 | 2.2 | 2.5 | 2.6 | 1 | 2.1 | 1 | 1.2 |
+| Public | 19.8 | 19.9 | 21.4 | 21.3 | 18.8 | 18 | 16.7 | 15.8 |
+| No. of Shareholders | 185,505 | 206,734 | 201,668 | 177,682 | 164,969 | 154,303 | 149,620 | 157,141 |
 _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional sponsorship (Q11)._
 
 ## System status
 
-As of 2026-10-07: close 1,612.30, RS 93, system rank 7, industry group rank 46.0. Passes every rule.
+As of 2026-10-09: close 1,487.70, RS 91, system rank 8, industry group rank 51.0. Passes every rule.
 
-- On the canslim list 2 day(s), 2026-09-30 to 2026-10-07
+- On the canslim list 3 day(s), 2026-09-30 to 2026-10-09
 
 - On the earnings list 1 day(s), 2026-09-30 to 2026-09-30
