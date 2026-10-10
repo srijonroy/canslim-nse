@@ -1,0 +1,221 @@
+type,symbol,pub,verdict,reason
+buyback,L&TFINANCE,2018-01-05 10:29:00,WRONG,"debenture buyback, not a company share buyback"
+buyback,MARATHON,2017-03-17 19:14:00,CORRECT,board approved buy-back of equity shares
+buyback,RSYSTEMS,2019-03-05 19:19:00,FOLLOW-UP,letter of offer submission for tender buyback
+buyback,AJANTPHARM,2020-11-03 16:31:01,UNCLEAR,"text only says buyback, no detail"
+buyback,TATAINVEST,2018-11-26 08:42:00,FOLLOW-UP,letter confirming earlier board approval of buyback
+buyback,SAMMAANCAP,2017-11-07 19:03:00,WRONG,"pre-mature redemption of debentures, not share buyback"
+buyback,BAJAJCON,2022-12-13 13:42:28,CORRECT,public announcement of share buyback
+buyback,UPL,2022-04-07 19:54:50,FOLLOW-UP,daily buyback progress report
+buyback,SHANTIGEAR,2019-03-05 16:14:00,FOLLOW-UP,letter of offer for buyback
+buyback,DELPHIFX,2018-06-04 19:47:00,CORRECT,board approved proposal to buy back equity shares
+buyback,GESHIP,2022-06-22 16:15:22,FOLLOW-UP,daily buyback progress report
+buyback,UPL,2012-06-27 09:08:00,FOLLOW-UP,merchant banker public notice of already proposed buyback
+buyback,TTKPRESTIG,2017-06-16 10:33:00,FOLLOW-UP,corrigendum to buyback public announcement
+buyback,NATCOPHARM,2018-12-21 16:16:00,FOLLOW-UP,fortnightly buyback report
+buyback,NAVA,2021-03-05 15:58:02,FOLLOW-UP,daily buyback report
+buyback,TANLA,2022-10-12 20:05:45,FOLLOW-UP,record date for already proposed buyback
+buyback,ONMOBILE,2012-05-18 11:00:00,FOLLOW-UP,merchant banker public notice of buyback
+buyback,ALLCARGO,2012-07-27 11:07:00,FOLLOW-UP,merchant banker public notice of buyback
+buyback,BHARATRAS,2021-01-12 15:35:53,CORRECT,board meeting approved buyback proposal
+buyback,AARTIDRUGS,2024-09-09 20:19:25,FOLLOW-UP,letter of offer for buyback
+bonus issue,SMCGLOBAL,2025-09-24 17:19:07,CORRECT,board approved bonus at 1:1
+bonus issue,BLS,2022-11-07 20:41:57,CORRECT,board meeting agenda includes bonus consideration
+bonus issue,SIYSIL,2026-07-22 17:08:50,FOLLOW-UP,NCLT scheme approval; preference shares by bonus
+bonus issue,SHILPAMED,2025-08-13 16:34:03,FOLLOW-UP,record date for bonus issue
+bonus issue,APOLLOPIPE,2021-10-22 14:41:01,CORRECT,board approved bonus at 2:1
+bonus issue,GICRE,2018-05-25 20:37:00,WRONG,"record date visibly for dividend, bonus not shown"
+bonus issue,LINC,2024-10-29 19:35:51,CORRECT,board approved bonus at 1:1
+bonus issue,RUCHIRA,2022-10-14 12:39:54,FOLLOW-UP,allotment of bonus shares
+bonus issue,MOTHERSON,2025-07-21 19:27:03,FOLLOW-UP,allotment of bonus shares
+bonus issue,LIBAS,2021-08-13 17:33:57,CORRECT,board approved bonus at 1:5
+bonus issue,SHILPAMED,2025-09-29 15:18:25,FOLLOW-UP,exchange in-principle approval after board decision
+bonus issue,SUMIT,2019-05-23 19:18:00,CORRECT,board approved bonus at 1:1
+bonus issue,BALKRISIND,2017-11-16 11:57:00,FOLLOW-UP,refers to earlier board recommendation of bonus
+bonus issue,MAANALU,2017-05-26 15:31:00,CORRECT,board approved bonus at 1:1 subject to shareholders
+bonus issue,AJOONI,2021-03-13 16:21:43,FOLLOW-UP,allotment pursuant to bonus
+bonus issue,RATNAMANI,2022-05-18 19:33:47,UNCLEAR,headline only says bonus
+bonus issue,HERCULES,2012-05-31 12:57:00,CORRECT,board recommended bonus 1:1 for AGM approval
+bonus issue,DUCON,2022-04-06 19:05:17,FOLLOW-UP,record date for bonus
+bonus issue,SYMPHONY,2016-09-02 08:43:00,FOLLOW-UP,record date for bonus
+bonus issue,LIBAS,2021-04-08 13:19:30,FOLLOW-UP,allotment of bonus shares
+stock split,JETFREIGHT,2022-02-14 15:15:13,UNCLEAR,headline only says stock split
+stock split,VINATIORGA,2020-01-15 11:01:00,FOLLOW-UP,press notice of record date for subdivision
+stock split,KAPSTON,2024-05-29 17:38:04,CORRECT,announces sub-division of equity shares
+stock split,MEDICO,2023-02-02 16:09:59,UNCLEAR,headline only says stock split
+stock split,SHALPAINTS,2012-10-26 20:23:00,FOLLOW-UP,record date for already decided sub-division
+stock split,SONAMLTD,2024-02-14 14:24:14,CORRECT,board approved subdivision Rs10 to Rs5
+stock split,INDOTHAI,2025-05-30 21:05:29,CORRECT,board approved subdivision Rs10 to Re1
+stock split,RSYSTEMS,2013-12-02 10:16:00,UNCLEAR,"board outcome heading, split not stated"
+stock split,SDBL,2024-05-08 16:43:46,FOLLOW-UP,record date for split
+stock split,LEMERITE,2026-04-08 16:44:40,CORRECT,board approved subdivision Rs10 to Rs2
+stock split,COCHINSHIP,2023-11-07 13:52:43,CORRECT,board approved subdivision Rs10 to Rs5
+stock split,DOLPHIN,2024-01-12 16:04:58,FOLLOW-UP,record date for split
+stock split,AIRAN,2018-07-31 12:11:00,FOLLOW-UP,record date for stock split
+stock split,LEMERITE,2026-06-01 18:24:17,FOLLOW-UP,depository credit confirmation after split
+stock split,BHAGCHEM,2024-04-11 15:22:27,UNCLEAR,headline only says stock split
+stock split,SMSPHARMA,2015-11-07 15:35:00,FOLLOW-UP,trading window notice; sub-division record date mentioned in passing
+stock split,KAJARIACER,2016-06-16 16:30:00,CORRECT,board approved subdivision Rs2 to Re1
+stock split,SHIVAMAUTO,2014-09-29 15:51:00,FOLLOW-UP,board authorises filings for earlier sub-division
+stock split,SHRENIK,2020-09-28 18:11:48,FOLLOW-UP,record date for bonus and split
+stock split,JINDALSAW,2024-08-23 13:55:00,CORRECT,board approved subdivision of face value
+demerger,VAML,2026-08-06 16:42:41,WRONG,exchange query on fund raise news after demerger
+demerger,MANDHANA,2016-03-31 19:53:00,FOLLOW-UP,update on earlier demerger scheme
+demerger,MFSL,2016-01-15 14:25:00,FOLLOW-UP,High Court approval step after board scheme
+demerger,EFCIL,2026-07-29 19:23:27,FOLLOW-UP,update on demerger scheme
+demerger,IDFC,2015-10-30 08:58:00,FOLLOW-UP,"press release on demerger impact, not the proposal"
+demerger,IIFL,2018-06-22 08:32:00,FOLLOW-UP,update on already proposed demerger under approval
+demerger,SUVEN,2020-01-21 16:03:00,WRONG,cost of acquisition note after demerger
+demerger,MANINDS,2020-01-15 20:14:00,FOLLOW-UP,record date update under sanctioned scheme
+demerger,HARRMALAYA,2012-02-10 20:51:00,CORRECT,board approved scheme providing demerger
+demerger,ANANTRAJ,2019-08-27 19:31:00,FOLLOW-UP,NCLT hearing notice on existing scheme
+demerger,BOROLTD,2023-11-22 12:57:03,FOLLOW-UP,record date for demerger
+demerger,DHAMPURSUG,2022-05-03 18:31:23,FOLLOW-UP,effective date of demerger
+demerger,STAR,2024-12-11 19:37:07,FOLLOW-UP,allotment under demerger scheme
+demerger,KHADIM,2025-06-03 19:26:10,FOLLOW-UP,capital alteration update during demerger
+demerger,GPIL,2020-04-16 12:57:00,FOLLOW-UP,stock exchange observation letters on draft scheme
+demerger,JINDALPHOT,2016-07-28 12:18:00,UNCLEAR,"scheme of arrangement, demerger not stated"
+demerger,RAYMOND,2022-01-25 19:49:25,CORRECT,board approved scheme with wholly owned subsidiary
+demerger,IIFLCAPS,2022-12-07 09:08:33,UNCLEAR,headline only says demerger
+demerger,RELIGARE,2026-07-07 18:17:16,FOLLOW-UP,exchange observation letter on existing demerger scheme
+demerger,UMANGDAIRY,2025-06-17 21:02:23,UNCLEAR,headline only says demerger
+auditor resigns,JWL,2020-08-14 16:45:32,CORRECT,statutory auditor resignation disclosed
+auditor resigns,PANACEABIO,2024-08-14 19:08:13,WRONG,"resignation concerns subsidiary's auditor, not company's"
+auditor resigns,FEDDERELEC,2024-11-14 16:20:43,CORRECT,statutory auditor resignation disclosed
+auditor resigns,VERANDA,2025-11-04 21:02:14,WRONG,resignation concerns material subsidiary auditor
+auditor resigns,LATTEYS,2024-07-01 15:30:55,CORRECT,statutory auditor resignation disclosed
+auditor resigns,KANANIIND,2023-12-02 12:45:25,CORRECT,statutory auditor resignation disclosed
+auditor resigns,AURUM,2026-08-06 20:59:18,WRONG,resignation concerns subsidiaries' auditors
+auditor resigns,SVPGLOB,2024-08-13 18:29:13,CORRECT,statutory auditor resignation disclosed
+auditor resigns,WEBELSOLAR,2018-08-25 17:52:00,FOLLOW-UP,board meeting to appoint new auditor after resignation
+auditor resigns,COFFEEDAY,2020-07-22 15:48:00,FOLLOW-UP,exchange clarification on earlier auditor change
+auditor resigns,HECPROJECT,2023-09-01 23:50:16,CORRECT,statutory auditor resignation disclosed
+auditor resigns,ARSHIYA,2023-11-10 13:16:25,CORRECT,statutory auditor resignation disclosed
+auditor resigns,PAVNAIND,2024-08-20 09:47:21,CORRECT,statutory auditor resignation disclosed
+auditor resigns,YASHO,2024-06-28 17:00:28,CORRECT,statutory auditor resignation disclosed
+auditor resigns,ICRA,2025-12-12 18:21:35,CORRECT,statutory auditor resignation disclosed
+auditor resigns,JKPAPER,2023-05-29 17:59:10,WRONG,subsidiary company auditors resigned
+auditor resigns,AFSL,2025-11-13 18:21:50,CORRECT,statutory auditor resignation disclosed
+auditor resigns,EMAMIREAL,2026-08-13 17:46:07,CORRECT,statutory auditor resignation disclosed
+auditor resigns,AXITA,2025-08-11 19:09:47,CORRECT,statutory auditor resignation disclosed
+auditor resigns,KNDENGTECH,2018-02-14 20:02:00,CORRECT,change in auditors and statutory auditor resignation
+CFO resigns,STERTOOLS,2025-12-31 17:36:44,CORRECT,CFO resignation disclosed
+CFO resigns,CANDC,2015-02-02 15:34:00,CORRECT,CFO resignation disclosed
+CFO resigns,BKMINDST,2016-04-20 13:39:00,CORRECT,CFO resignation disclosed
+CFO resigns,JWL,2015-12-07 18:53:00,CORRECT,CFO resignation with last working day
+CFO resigns,PETRONENGG,2015-01-05 14:59:00,CORRECT,CFO resigned and replacement appointed
+CFO resigns,RELAXO,2026-03-11 18:12:52,CORRECT,CFO resignation disclosed
+CFO resigns,GLENMARK,2017-11-03 08:25:00,WRONG,"appointment of new CFO, not resignation"
+CFO resigns,UDS,2026-03-16 16:36:31,CORRECT,interim group CFO resignation disclosed
+CFO resigns,A2ZINFRA,2012-10-01 14:40:00,CORRECT,CFO resignation disclosed
+CFO resigns,ARVINDREM,2014-05-20 14:40:00,CORRECT,CFO resignation disclosed
+CFO resigns,A2ZINFRA,2016-09-02 17:38:00,CORRECT,CFO resignation disclosed
+CFO resigns,ARSHIYA,2014-11-15 10:44:00,CORRECT,board notes CFO resignation approved
+CFO resigns,PARABDRUGS,2016-11-12 18:18:00,CORRECT,CFO resignation disclosed
+CFO resigns,TULSI,2018-05-12 17:40:00,CORRECT,CFO resignation disclosed
+CFO resigns,SITINET,2017-04-28 17:41:00,CORRECT,CFO resignation disclosed
+CFO resigns,DPSCLTD,2016-07-19 10:41:00,CORRECT,CFO resignation disclosed
+CFO resigns,CANDC,2016-06-09 17:03:00,CORRECT,CFO resignation disclosed
+CFO resigns,AHLUCONT,2014-10-07 12:18:00,CORRECT,CFO resignation disclosed
+CFO resigns,JETAIRWAYS,2014-05-02 19:48:00,CORRECT,CFO resignation disclosed
+CFO resigns,DREAMFOLKS,2025-02-14 17:10:24,CORRECT,board meeting on CFO resignation
+QIP,DEEPENR,2016-12-06 19:31:00,CORRECT,resolution to open QIP issue
+QIP,PIIND,2020-07-02 18:08:00,UNCLEAR,headline only says QIP
+QIP,VARROC,2021-03-25 17:39:21,UNCLEAR,headline only says QIP
+QIP,PRESTIGE,2024-09-04 23:07:50,UNCLEAR,headline only says QIP
+QIP,MANORAMA,2026-07-02 23:51:57,FOLLOW-UP,allotment outcome of QIP
+QIP,UNITEDBNK,2017-03-21 19:33:00,CORRECT,board issue committee approves QIP issue
+QIP,IDFC,2014-09-12 19:48:00,FOLLOW-UP,QIP issue closing date fixed
+QIP,PNB,2019-07-19 15:17:00,UNCLEAR,"equity raise board meeting, QIP mode not visible"
+QIP,YESBANK,2019-08-16 08:19:00,FOLLOW-UP,press release on completed QIP
+QIP,EMUDHRA,2024-01-12 17:10:01,UNCLEAR,headline only says QIP
+QIP,GAEL,2021-07-31 15:06:29,CORRECT,shareholder enabling approval for QIP
+QIP,HCC,2015-04-09 08:36:00,CORRECT,QIP committee resolution approving issue
+QIP,TCI,2014-07-24 08:28:00,CORRECT,board in-principle approval of QIP route
+QIP,LODHA,2021-11-18 08:39:50,UNCLEAR,headline only says QIP
+QIP,JWL,2024-07-12 15:29:22,FOLLOW-UP,press release on concluded QIP
+QIP,HCC,2015-04-07 08:35:00,WRONG,"committee approves financials, not the QIP itself"
+QIP,GOKEX,2021-10-04 17:26:50,UNCLEAR,headline only says QIP
+QIP,PSB,2018-12-07 17:20:00,CORRECT,board meeting to consider equity issue
+QIP,KPIL,2024-12-16 23:35:20,CORRECT,QIP committee meeting outcome
+QIP,FIEMIND,2016-05-30 18:21:00,CORRECT,board approved raising via QIP or preferential
+preferential issue,NDL,2015-04-17 19:00:00,FOLLOW-UP,withdrawal of earlier preferential issue
+preferential issue,LANDSMILL,2017-10-28 16:38:00,FOLLOW-UP,reply to exchange query on board outcome
+preferential issue,FARMAXIND,2015-01-27 08:33:00,FOLLOW-UP,EGM voting results after approval
+preferential issue,LLOYDSENGG,2021-12-25 11:48:53,UNCLEAR,headline only says preferential issue
+preferential issue,FCL,2024-02-16 20:13:51,CORRECT,board outcome approving preferential issue
+preferential issue,WINDMACHIN,2025-11-09 03:25:36,CORRECT,board approved preferential issue
+preferential issue,KGL,2013-11-13 20:32:00,CORRECT,board approved preferential issue
+preferential issue,CCCL,2025-02-25 15:38:39,CORRECT,press release on proposed preferential allotment
+preferential issue,RADIOCITY,2022-03-30 14:58:05,FOLLOW-UP,scheme update on preference share issue
+preferential issue,CELEBRITY,2026-01-19 15:31:18,CORRECT,announces preferential issue of securities
+preferential issue,TRENT,2012-08-27 12:35:00,CORRECT,AGM approved preferential issue
+preferential issue,J&KBANK,2017-02-04 15:44:00,CORRECT,board approved preferential allotment
+preferential issue,INDORAMA,2019-04-25 10:28:00,UNCLEAR,headline only says preferential issue
+preferential issue,STERTOOLS,2017-06-06 13:36:00,FOLLOW-UP,postal ballot on beneficiaries of allotment
+preferential issue,WEBELSOLAR,2019-12-09 14:14:00,FOLLOW-UP,clarification on proposed preferential issue cancellation
+preferential issue,PRECWIRE,2023-01-02 14:45:51,CORRECT,board meeting intimation to consider preferential issue
+preferential issue,RPSGVENT,2022-02-24 19:46:08,CORRECT,intimation of proposed preferential allotment
+preferential issue,PRECWIRE,2023-02-15 18:38:40,CORRECT,board meeting intimation for preferential issue
+preferential issue,SYNDIBANK,2012-03-22 16:06:00,CORRECT,EGM approved issue to government and LIC
+preferential issue,UCOBANK,2021-04-07 16:31:33,UNCLEAR,headline only says preferential issue
+exchange query: price/volume spurt,VLSFINANCE,2024-02-01 11:01:00,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,CMICABLES,2019-11-07 17:58:00,CORRECT,exchange query on price movement
+exchange query: price/volume spurt,PFOCUS,2022-11-30 18:20:09,CORRECT,exchange query on price movement
+exchange query: price/volume spurt,ASHIANA,2020-03-20 20:45:00,CORRECT,exchange query on price movement
+exchange query: price/volume spurt,EXCELINDUS,2022-03-08 09:59:32,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,CENTURYPLY,2026-02-11 18:28:38,CORRECT,exchange query on volume spurt
+exchange query: price/volume spurt,SHAREINDIA,2021-07-17 14:05:00,CORRECT,company reply to exchange volume query
+exchange query: price/volume spurt,INDIGOPNTS,2024-09-05 10:20:41,CORRECT,company reply to exchange volume query
+exchange query: price/volume spurt,THEMISMED,2019-07-18 14:00:00,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,BODALCHEM,2026-09-01 10:30:17,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,INTELLECT,2020-07-31 18:42:00,CORRECT,exchange query on price movement
+exchange query: price/volume spurt,GULFPETRO,2019-09-18 12:21:00,CORRECT,exchange query on price movement
+exchange query: price/volume spurt,TIPSMUSIC,2019-11-27 11:58:00,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,MITTAL,2020-08-27 09:42:00,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,AUSOMENT,2019-01-08 12:31:00,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,MUTHOOTMF,2025-04-21 17:43:09,CORRECT,exchange query on volume spurt
+exchange query: price/volume spurt,KOTHARIPRO,2020-01-15 17:54:00,CORRECT,company reply to exchange price/volume query
+exchange query: price/volume spurt,TATVA,2024-09-25 10:28:13,CORRECT,company reply to exchange volume query
+exchange query: price/volume spurt,STYLAMIND,2022-03-30 18:53:37,CORRECT,exchange query on volume spurt
+exchange query: price/volume spurt,RAIN,2025-12-31 17:59:45,CORRECT,exchange query on price movement
+credit rating DOWNGRADE,GVPIL,2022-06-29 12:59:24,CORRECT,downgrade of credit rating disclosed
+credit rating DOWNGRADE,UNICHEMLAB,2022-09-19 15:16:57,CORRECT,downgrade of credit rating disclosed
+credit rating DOWNGRADE,NTPC,2020-06-03 20:59:00,CORRECT,rating downgraded one notch
+credit rating DOWNGRADE,ARCHIES,2022-04-01 12:43:42,UNCLEAR,"headline says downgrade, text describes affirmation"
+credit rating DOWNGRADE,SADBHIN,2022-09-15 16:56:24,CORRECT,rating downgraded to IND C
+credit rating DOWNGRADE,INDIACEM,2022-11-09 18:07:36,CORRECT,downgrade of credit rating disclosed
+credit rating DOWNGRADE,FUSION,2025-02-21 18:20:00,CORRECT,downgrade by ICRA disclosed
+credit rating DOWNGRADE,FRETAIL,2022-04-26 16:13:47,CORRECT,downgrade of credit rating disclosed
+credit rating DOWNGRADE,RAMANEWS,2022-04-08 15:15:43,CORRECT,downgrade of credit rating disclosed
+credit rating DOWNGRADE,PNBHOUSING,2020-03-07 20:28:00,CORRECT,downgrade of NCDs rating disclosed
+credit rating DOWNGRADE,IMFA,2020-04-07 21:26:00,CORRECT,rating downgraded from ICRA A
+credit rating DOWNGRADE,RHFL,2019-09-13 19:28:00,CORRECT,rating downgraded to D
+credit rating DOWNGRADE,MARALOVER,2022-11-11 13:58:42,CORRECT,downgrade of credit rating disclosed
+credit rating DOWNGRADE,EON,2018-09-14 13:13:00,UNCLEAR,revision direction not visible in text
+credit rating DOWNGRADE,IMFA,2020-03-30 20:07:00,CORRECT,rating withdrawn and downgraded by Ind-Ra
+credit rating DOWNGRADE,DBL,2022-04-02 11:54:05,UNCLEAR,"rating direction not visible, mostly trading window text"
+credit rating DOWNGRADE,GAYAPROJ,2015-03-10 17:23:00,CORRECT,rating downgrade of NCDs disclosed
+credit rating DOWNGRADE,HEGAM,2013-03-05 18:28:00,CORRECT,rating downgraded by Ind-Ra
+credit rating DOWNGRADE,ELGIRUBCO,2026-06-12 18:22:39,CORRECT,long-term rating downgraded
+credit rating DOWNGRADE,EVERESTIND,2025-11-26 15:45:00,CORRECT,rating downgraded by CRISIL
+credit rating UPGRADE,IRIS,2022-11-04 13:27:39,CORRECT,upgrade of credit rating disclosed
+credit rating UPGRADE,TITAN,2020-01-01 09:07:00,CORRECT,rating upgraded by CRISIL
+credit rating UPGRADE,MCLEODRUSS,2013-09-05 11:44:00,CORRECT,rating upgraded by ICRA
+credit rating UPGRADE,POONAWALLA,2022-09-30 22:29:48,CORRECT,upgrade of credit rating disclosed
+credit rating UPGRADE,MINDACORP,2015-07-22 17:23:00,CORRECT,rating upgraded by multiple notches
+credit rating UPGRADE,JAMNAAUTO,2016-01-08 17:22:00,CORRECT,rating upgraded by ICRA
+credit rating UPGRADE,FLEXITUFF,2012-03-30 14:58:00,CORRECT,rating upgraded by CARE
+credit rating UPGRADE,DBL,2016-12-28 16:01:00,CORRECT,rating upgraded by Ind-Ra
+credit rating UPGRADE,TRIDENT,2022-03-08 15:32:30,CORRECT,upgrade of credit rating disclosed
+credit rating UPGRADE,ARVSMART,2022-02-25 00:53:35,UNCLEAR,"upgrade, assignment and withdrawal all listed"
+credit rating UPGRADE,KANPRPLA,2022-03-07 10:27:51,CORRECT,upgrade of credit rating disclosed
+credit rating UPGRADE,GREENPANEL,2022-08-18 18:53:57,CORRECT,upgrade of credit rating disclosed
+credit rating UPGRADE,JSWSTEEL,2018-03-06 18:32:00,CORRECT,rating upgraded by Moody's
+credit rating UPGRADE,SINTEX,2015-06-09 15:20:00,CORRECT,rating upgraded by CARE
+credit rating UPGRADE,KITEX,2014-08-07 15:32:00,CORRECT,rating upgraded by ICRA
+credit rating UPGRADE,NYKAA,2022-05-13 19:32:02,CORRECT,upgrade by CRISIL disclosed
+credit rating UPGRADE,OMAXAUTO,2022-07-22 13:24:24,CORRECT,upgrade of credit rating disclosed
+credit rating UPGRADE,BODALCHEM,2016-03-30 19:11:00,CORRECT,rating upgraded by CARE
+credit rating UPGRADE,POLYPLEX,2018-03-26 13:31:00,CORRECT,rating upgraded by CARE
+credit rating UPGRADE,EMAMIREAL,2022-04-04 18:51:52,CORRECT,upgrade of credit rating disclosed

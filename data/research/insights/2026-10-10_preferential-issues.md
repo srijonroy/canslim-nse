@@ -24,4 +24,6 @@ Medians, relative to same-size peers.
 - Promoter money is the signal: promoters subscribe when they expect higher prices. Money from outside investors only is not.
 - It is a lottery-ticket effect. The average 12-month result is +28% vs peers, but the median is about zero: a few huge winners pull the average up.
 
-**Caveats.** Only 2023–26, one market phase (boom, then the 2025 correction). Small samples once split. Not tested as a portfolio. BSE history for 2016–23 still has to be downloaded (BSE blocks fast downloads) to confirm it.
+**Update: 2016–22 now checked** (NSE announcements, 459 issues; see "What moves NSE stocks"). Across all preferential issues, the 12-month result was **−5.6% vs peers, with 44% beating them**. So the overall 2023–26 picture doesn't carry back. Older announcements rarely say who the allottees are, so the promoter-vs-outsider split, the part that looked useful, still can't be checked before 2023.
+
+**Caveats.** Only 2023–26 for the promoter split, one market phase (boom, then the 2025 correction). Small samples once split. Not tested as a portfolio. BSE history for 2016–23 still has to be downloaded (BSE blocks fast downloads) to confirm it.
