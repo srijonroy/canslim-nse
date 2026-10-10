@@ -1,5 +1,5 @@
 ---
-title: What moves NSE stocks: 15 company events tested
+title: What moves NSE stocks: 22 event types tested
 date: 2026-10-10
 status: Research only
 tags: corporate actions, insiders, promoters, earnings, red flags, timing
