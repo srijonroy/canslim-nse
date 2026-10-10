@@ -31,7 +31,7 @@ H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
      "Referer": "https://www.bseindia.com/", "Origin": "https://www.bseindia.com",
      "Accept": "application/json, text/plain, */*"}
 FIRST_Q = 88                       # Dec 2015
-KEEP = {10041, 10045, 10065, 10120, 10121, 10139, 10141}
+KEEP = {10041, 10045, 10065, 10120, 10121, 10139, 10141, 10098}   # 10098 = total public (B); promoter ~ 100 - B
 _s = requests.Session()
 _s.headers.update(H)
 
@@ -80,7 +80,9 @@ def fetch(sym: str, code: str) -> int:
     for q in range(FIRST_Q, last_q() + 1):
         k = str(q)
         if k in d and (d[k]["rows"] or q < last_q() - 2):   # keep filled quarters; retry empty recent ones
-            continue
+            if not d[k]["rows"] or "10098" in d[k]["rows"]:
+                continue                                    # filled before 10098 was kept -> fetch again
+
         r = _get(code, q)
         if r is not None:
             d[k] = r
@@ -105,7 +107,8 @@ def history(sym: str) -> pd.DataFrame:
         qe = q_end(int(k))
         known = max(pd.Timestamp(v["filed"]), qe) if v["filed"] else qe + pd.Timedelta(days=21)
         out.append({"q": qe, "known": known, "inst_n": inst[0], "inst_pct": inst[1],
-                    "mf_n": g(10041)[0], "mf_pct": g(10041)[1], "fpi_n": fpi[0], "fpi_pct": fpi[1]})
+                    "mf_n": g(10041)[0], "mf_pct": g(10041)[1], "fpi_n": fpi[0], "fpi_pct": fpi[1],
+                    "promoter_pct": round(100 - r[10098][1], 2) if 10098 in r else float("nan")})
     return pd.DataFrame(out).sort_values("q").reset_index(drop=True) if out else pd.DataFrame()
 
 
