@@ -1,6 +1,6 @@
 """CAN SLIM tracker -- local app over data/canslim.db.
 
-Pages: Today (lists + market), Holdings (traffic light, add / log / sell), Stock (history of any symbol),
+Pages: Today (lists + market), Insights (research findings, data/research/insights/*.md), Holdings (traffic light, add / log / sell), Stock (history of any symbol),
 Journal (every decision, and whether overriding the rule helped).
 Research only. Nothing here places orders.
 
@@ -44,7 +44,8 @@ def pct(x):
 
 
 dates = q("SELECT DISTINCT date FROM snapshot ORDER BY date DESC").date.tolist()
-page = st.sidebar.radio("Page", ["Today", "Holdings", "Research", "Paper portfolio", "Watching", "Stock", "Journal"])
+page = st.sidebar.radio("Page", ["Today", "Insights", "Holdings", "Research", "Paper portfolio", "Watching", "Stock",
+                                 "Journal"])
 st.sidebar.caption(f"Database: {db.DB}\n\nLatest scan: {dates[0] if dates else 'none'}")
 st.sidebar.caption("Research only. No orders are placed.")
 
@@ -184,6 +185,48 @@ elif page == "Holdings":
         st.subheader("Closed")
         st.dataframe(closed, hide_index=True, width="stretch",
                      column_config={"return": st.column_config.NumberColumn(format="percent")})
+
+# ------------------------------------------------------------------ Insights
+elif page == "Insights":
+    from pathlib import Path
+    st.title("Market insights")
+    st.caption("What the research on NSE history found. Newest first. Each finding comes from a test in the "
+               "project (script named under Source); 'Adopted' means the rule is now part of the system.")
+    folder = Path(__file__).resolve().parent / "data" / "research" / "insights"
+    items = []
+    for f in sorted(folder.glob("*.md"), reverse=True):
+        text = f.read_text(encoding="utf-8")
+        meta, body = {}, text
+        if text.startswith("---"):
+            head, _, body = text[3:].partition("\n---")
+            for line in head.strip().splitlines():
+                k, _, v = line.partition(":")
+                meta[k.strip()] = v.strip()
+        meta["body"] = body.strip()
+        meta["tags"] = [t.strip() for t in meta.get("tags", "").split(",") if t.strip()]
+        items.append(meta)
+    if not items:
+        st.info("No findings yet.")
+        st.stop()
+    badge = {"Adopted": "🟢 Adopted", "Rejected": "🔴 Rejected", "Not adopted": "🟠 Not adopted",
+             "Research only": "🔵 Research only"}
+    a, b, c_ = st.columns([2, 2, 3])
+    tags = a.multiselect("Topic", sorted({t for it in items for t in it["tags"]}))
+    stats = b.multiselect("Status", sorted({it.get("status", "") for it in items}))
+    find = c_.text_input("Search")
+    shown = [it for it in items
+             if (not tags or set(tags) & set(it["tags"])) and (not stats or it.get("status") in stats)
+             and (not find or find.lower() in (it.get("title", "") + it["body"]).lower())]
+    st.subheader("Key takeaways")
+    for it in shown:
+        st.markdown(f"- **{it.get('title', '')}** — {it.get('takeaway', '')}")
+    st.divider()
+    for it in shown:
+        with st.expander(f"{it.get('date', '')} · {it.get('title', '')}  ·  "
+                         f"{badge.get(it.get('status', ''), it.get('status', ''))}"):
+            st.markdown(f"**Takeaway:** {it.get('takeaway', '')}")
+            st.markdown(it["body"])
+            st.caption(f"Topics: {', '.join(it['tags'])}  ·  Source: {it.get('source', '')}")
 
 # ------------------------------------------------------------------ Research
 elif page == "Research":

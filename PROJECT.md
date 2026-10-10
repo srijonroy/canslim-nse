@@ -18,6 +18,7 @@ Daily NSE scan based on William O'Neil's *How to Make Money in Stocks* (4th ed.)
 
 ### Tracker app pages
 - **Today**: market state, the CAN SLIM list (new entries and drop-outs vs the previous scan), the emerging list, and the earnings monitor.
+- **Insights**: every research finding about the market, newest first, with a one-line takeaway, status (adopted / rejected / research only) and the evidence. One Markdown file per finding in `data/research/insights/` (header: title, date, status, tags, takeaway, source). **Every new test adds a file here.**
 - **Holdings**: your positions with a daily traffic light. Add a holding with *why I'm buying* and *I'm wrong if*. Log HOLD / SELL / NOTE with a reason.
 - **Stock**: chart with the 50- and 200-day lines, plus every stored day of rule checks and list appearances for any symbol.
 - **Paper portfolio**: the system trading its own lists live from 30 Sep 2026 (notional ₹10 lakh, the backtest's rules, fills at the next open). It's compared with the Nifty 500. **This is the clean out-of-sample test.**
@@ -88,6 +89,8 @@ Pass/fail bars are written down before each test runs. **All of 2016–2026 has 
 | 2026-10-02 | Book audit: untested rules from the book's rule list (pp. 424–426), each added on top (`booktest.py`) | **R6 net margin improving passed** (Sharpe 1.37 vs 1.26, both halves better, DD −17.9% vs −21%; 2023–26 check 1.60 vs 1.57). Failed: 2 strong quarters, top industry groups (pool collapses to 1), RS 85, sales acceleration, accumulation, 5 stocks (28% a year but −35% DD), all combined | **R6 adopted** |
 | 2026-10-02 | Institutional sponsorship (book rule 14) on BSE shareholding filings from Dec 2015, point-in-time by filing date (`shp.py`, `insttest.py`) | None passed. Institutions count up: Sharpe 1.34; % up: 1.22; count not falling: 1.36 (DD −13.5%). **MF schemes count up**: Sharpe 1.44, DD −8.3%, but CAGR 17.5%, pool of 2, 20–22 only +0.02 and 2023–26 worse (1.37 vs 1.60) | Not adopted |
 | 2026-10-06 | Earlier entry (`earlytest.py`): E1 rank by least stretched, E2 fresh qualifiers only, E3 price > rising 200-day + RS 70, E4 earnings-monitor rule | None passed. E1/E2 barely change entry timing (2.45x off the 1-year low either way: the pool is ~4 stocks, so the rules set the timing, not the ranking). E3 is earlier (2.15x) but Sharpe 0.99 vs 1.37, DD −22.8%. E4 has 10 trades of +100% vs 4, but DD −43% | Not adopted. Earliness costs drawdown; early lists stay as a research radar |
+| 2026-10-10 | Do large caps take longer to move? (`sizetest.py`, market-cap rank at the signal: top 100 / 101–250 / 251–500 / 501+) | **Yes for the top 100.** New list entries 2016–22: median 224 trading days to +20% (mid 78, small 65), 14% reach +20% in 3 months (others 45–49%); 2023–26: 113 days vs 45–60. System trades in top-100 names: avg −2.1% (2016–22), +4.1% (2023–26). Portfolio test "no new top-100 buys" **passed the bar on 2016–22** (Sharpe 1.58 vs 1.37, both halves +0.2, DD −14.4% vs −17.9%) but 2023–26 is flat (Sharpe 1.63 vs 1.60, CAGR 36.0% vs 37.7%). Cutoff check: top 50 changes nothing (1.39), top 150 1.53, top 250 worse. Idea came from looking at the same data | Not adopted (user to decide): the rank exit already sells slow large caps within ~2–3 weeks, so they cost little |
+| 2026-10-10 | Preferential issues, event study (`prefissue.py` downloads, `preftest.py`; NSE in-principle records Apr 2023+, 474 events in our price data, 84% micro caps; returns vs the median stock of the same size) | **Much of the move comes before the news**: median +10.8% vs peers in the 3 months before the board approval. After it, all events: median ≈ 0 vs peers, but 11.8% doubled in 12 months vs 8.1% for same-size stocks. **Promoter money in**: 6m +6.2% median vs peers (57% beat), 12m +4.6%, 12.9% doubled. **Non-promoter only**: 12m −8.6% (43% beat). Promoter in + dilution >15% (n 62): 3m +8.4%, 6m +13.7%, 67% beat. One market phase only (2023–26); BSE history for 2016–23 not yet downloaded (BSE blocked 4 parallel requests) | Research only, nothing changed. Needs 2016–23 check before any use |
 
 **Compared with pure momentum** (roughly what momentum index funds do): similar return (22–25% a year) but worst drops of −54% to −56%. CAN SLIM's quality rules are what halve the drawdown.
 
@@ -111,7 +114,8 @@ Pass/fail bars are written down before each test runs. **All of 2016–2026 has 
 | `canslim/paper.py` | Paper portfolio + watching list. Rebuilt from the database on every daily run (`python -m canslim.paper`) |
 | `tracker_app.py` | Streamlit app |
 | `canslim/portfolio.py` | Backtest simulator (ride-mode options exist but are off) |
-| `canslim/tune.py`, `holdtest.py`, `reentry.py`, `emerging.py`, `winners.py`, `runup.py` | Research tests (results under `data/tune/`, `data/research/`) |
+| `canslim/tune.py`, `holdtest.py`, `reentry.py`, `emerging.py`, `winners.py`, `runup.py`, `sizetest.py`, `preftest.py` |
+| `canslim/prefissue.py` | Preferential issue data: NSE structured records (Apr 2023+, `--nse`) and BSE fund-raising announcements per company (2016+, `--bse`; BSE blocks fast/parallel requests, use 1 worker) → `data/pref/` | Research tests (results under `data/tune/`, `data/research/`) |
 | `canslim/prices.py`, `fyers_auth.py` | Fyers price download |
 | `canslim/fundamentals.py` | Screener.in fundamentals (via the logged-in Chrome profile on port 9222) |
 
@@ -130,6 +134,7 @@ Not part of this system: `app.py`, `scanner.py`, `morestrictscanner.py` (older, 
 - [ ] "Clean winner" test: stocks that doubled before falling 30%
 
 ## Change log
+- **2026-10-10**: App page **Insights** (all research findings, `data/research/insights/*.md`, 10 back-filled from the test log). New research: `sizetest.py` (large caps slow, not adopted) and preferential issues (`prefissue.py`, `preftest.py`, research only).
 - **2026-10-08**: Paper portfolio: idle cash now earns 0% (was 6% a year). Backtests (`portfolio.Config.cash_yield`) still assume 6%.
 - **2026-10-08**: Fyers TOTP login fixed: the token step answers HTTP 308 with the auth code, which `fyers_auth` treated as an error. Scheduled task now runs on battery and catches up missed runs (3, 5 and 7 Oct had been skipped). Scan of 7 Oct: 9 picks, new CHENNPETRO (brief: suggested 2/5).
 - **2026-10-06**: Liquidity filter lowered from Rs 5 Cr to **Rs 3 Cr median daily traded value** (user choice, untested: the backtest results above were on Rs 5 Cr). Universe 942 -> 1,092 stocks; first new pick KAPSTON (Rs 3.5 Cr/day). `factors.MIN_TURNOVER`, `backtest.MIN_TURNOVER`.

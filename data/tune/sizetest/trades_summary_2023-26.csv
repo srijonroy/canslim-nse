@@ -1,0 +1,5 @@
+size,n,median days held,avg return %,median return %,reached +20% while held %,median mcap Cr,return per month held %
+Large,28,10.0,4.1,-2.0,14.3,157681.0,4.6
+Mid,30,20.0,12.6,4.5,46.7,45566.0,8.3
+Small,59,15.0,3.4,-3.0,20.3,15805.0,2.5
+Micro,78,17.5,4.6,-3.8,28.2,4008.0,3.8
