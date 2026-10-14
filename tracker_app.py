@@ -1,6 +1,6 @@
 """CAN SLIM tracker -- local app over data/canslim.db.
 
-Pages: Today (lists + market), Insights (research findings, data/research/insights/*.md), Holdings (traffic light, add / log / sell), Stock (history of any symbol),
+Pages: Today (lists + market), Other frameworks (7 other methods), Sectors (sector radar), Insights (research findings, data/research/insights/*.md), Holdings (traffic light, add / log / sell), Stock (history of any symbol),
 Journal (every decision, and whether overriding the rule helped).
 Research only. Nothing here places orders.
 
@@ -44,8 +44,8 @@ def pct(x):
 
 
 dates = q("SELECT DISTINCT date FROM snapshot ORDER BY date DESC").date.tolist()
-page = st.sidebar.radio("Page", ["Today", "Insights", "Holdings", "Research", "Paper portfolio", "Watching", "Stock",
-                                 "Journal"])
+page = st.sidebar.radio("Page", ["Today", "Other frameworks", "Sectors", "Insights", "Holdings", "Research",
+                                 "Paper portfolio", "Watching", "Stock", "Journal"])
 st.sidebar.caption(f"Database: {db.DB}\n\nLatest scan: {dates[0] if dates else 'none'}")
 st.sidebar.caption("Research only. No orders are placed.")
 
@@ -227,6 +227,84 @@ elif page == "Insights":
             st.markdown(f"**Takeaway:** {it.get('takeaway', '')}")
             st.markdown(it["body"])
             st.caption(f"Topics: {', '.join(it['tags'])}  ·  Source: {it.get('source', '')}")
+
+# ------------------------------------------------------------------ Other frameworks
+elif page == "Other frameworks":
+    import json
+    from pathlib import Path
+    from canslim import frameworks as fw
+    st.title("Other frameworks")
+    st.caption("Seven other ways of picking stocks, run every day next to CAN SLIM (canslim/frameworks.py). Each list is "
+               "separate; nothing here changes the CAN SLIM picks. Rules are taken from the original sources and were "
+               "fixed before testing. Research only.")
+    fdates = q("SELECT DISTINCT date FROM picks WHERE list LIKE 'fw_%' ORDER BY date DESC").date.tolist()
+    if not fdates:
+        st.info("No framework lists yet. They are made by the daily scan (run_daily.bat).")
+        st.stop()
+    d = st.selectbox("Scan date", fdates)
+    sj = Path(__file__).resolve().parent / "data" / "tune" / "frameworks" / "summary.json"
+    summ = json.loads(sj.read_text()) if sj.exists() else None
+    if summ:
+        bt = pd.DataFrame(summ["results"]).set_index("framework")
+        st.subheader("Backtest 2016–2026 (weekly, 0.3% cost per side)")
+        cols = [c for c in ["CAGR %", "Sharpe", "maxDD %", "avg invested %", "CAGR 2016-19", "CAGR 2020-22",
+                            "CAGR 2023-26", "corr with CAN SLIM"] if c in bt]
+        st.dataframe(bt[cols], use_container_width=True)
+        bad = summ.get("lookahead_bad", {})
+        st.caption(f"Backtest run {summ.get('run')}. Look-ahead check on {summ.get('lookahead_date')}: "
+                   + ("passed — no score changed when future data was removed."
+                      if bad and not any(bad.values()) else f"stocks whose score changed: {bad}"))
+    with st.expander("Data notes (read before trusting old numbers)"):
+        st.markdown(fw.__doc__.split("Data notes (also shown in the app):")[-1])
+    tabs = st.tabs([fw.RULES[k][0].split(" (")[0] for k in fw.RULES])
+    for tab, (key, (title, rule)) in zip(tabs, fw.RULES.items()):
+        with tab:
+            st.markdown(f"**{title}**")
+            st.markdown(rule)
+            if summ and title in bt.index:
+                r = bt.loc[title]
+                st.caption(f"Backtest: {r['CAGR %']}%/yr, Sharpe {r['Sharpe']}, worst drop {r['maxDD %']}%, "
+                           f"invested {r.get('avg invested %', '')}% of the time.")
+            lst = q("SELECT rank, symbol, close, note FROM picks WHERE date=? AND list=? ORDER BY rank", [d, f"fw_{key}"])
+            if not len(lst):
+                st.info("No stock passes these rules today.")
+                continue
+            inp = pd.DataFrame([json.loads(n) if n else {} for n in lst.note])
+            view = pd.concat([lst.drop(columns="note"), inp], axis=1)
+            view["Check on Screener"] = "https://www.screener.in/company/" + view.symbol + "/"
+            st.dataframe(view, use_container_width=True, hide_index=True,
+                         column_config={"Check on Screener": st.column_config.LinkColumn(display_text="open")})
+            st.caption("Spot-check: open two or three stocks on Screener and compare P/E, ROCE, debt and growth with the "
+                       "columns above. Small differences are normal (Screener shows the latest year; some columns here are "
+                       "minimums or averages over 10 years).")
+
+# ------------------------------------------------------------------ Sectors
+elif page == "Sectors":
+    st.title("Sector radar")
+    st.caption("Industries (Screener basic industry) with at least 5 liquid stocks, ranked weekly by the average RS of "
+               "their stocks; strength 100 = strongest. Tested 2016–26 (canslim/sectortest.py): the top 20% beat the "
+               "bottom 20% by about 4% over the next 3 months; a group usually stays in the top 20% for about 2 months "
+               "(15% last 6+ months); groups that drop out lagged the market by 1–5% over the next 3–12 months. "
+               "Holdings in a group that dropped out get an amber warning.")
+    rdates = q("SELECT DISTINCT date FROM sector_radar ORDER BY date DESC").date.tolist()
+    if not rdates:
+        st.info("No radar yet. It is made by the daily scan (run_daily.bat).")
+        st.stop()
+    d = st.selectbox("Scan date", rdates)
+    rad = q("SELECT grp AS 'Group', stocks AS 'Stocks', strength AS 'Strength', weeks_top AS 'Weeks in top 20%', "
+            "weeks_top_last_year AS 'Top-20% weeks, last year', status AS 'Status', "
+            "weeks_since_drop AS 'Weeks since dropped out' FROM sector_radar WHERE date=? ORDER BY strength DESC", [d])
+    a, b, c_ = st.columns(3)
+    a.metric("Strong now (top 20%)", int((rad.Strength >= 80).sum()))
+    b.metric("Dropped out, last 13 weeks", int((rad.Status == "Dropped out").sum()))
+    c_.metric("Groups ranked", len(rad))
+    show = st.multiselect("Status", ["Leading", "New leader", "Dropped out", "Weak", ""],
+                          default=["Leading", "New leader", "Dropped out"])
+    st.dataframe(rad[rad.Status.isin(show)], use_container_width=True, hide_index=True)
+    g = st.selectbox("Stocks in group", rad.Group.tolist())
+    mem = q("SELECT symbol, rs, sys_rank, n_fail FROM snapshot WHERE date=(SELECT MAX(date) FROM snapshot WHERE date<=?) "
+            "AND industry=? ORDER BY rs DESC", [d, g])
+    st.dataframe(mem, use_container_width=True, hide_index=True)
 
 # ------------------------------------------------------------------ Research
 elif page == "Research":

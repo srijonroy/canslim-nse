@@ -1,0 +1,10 @@
+group type,period,events,median 6m excess %,beat universe %
+rose from bottom half into top 20%,16-19,12,0.2,50
+rose from bottom half into top 20%,20-22,8,-5.9,50
+rose from bottom half into top 20%,23-26 check,52,-3.3,40
+already top 20% (was top half),16-19,95,-2.2,41
+already top 20% (was top half),20-22,142,1.7,53
+already top 20% (was top half),23-26 check,314,-0.9,48
+all groups,16-19,600,-2.5,42
+all groups,20-22,973,-1.2,47
+all groups,23-26 check,1968,-2.8,41

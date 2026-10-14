@@ -21,4 +21,8 @@ rem 2) research briefs for new / stale names on the list (Claude Code headless, 
 rem    A failure here never affects the scan above.
 python -u -m canslim.autobrief >> data\autobrief_console.log 2>&1
 
+rem 3) Saturdays: refresh the comparison of other frameworks (app page "Other frameworks"; ~15 min).
+for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW=%%d
+if "%DOW%"=="Saturday" python -u -m canslim.fwtest > data\tune\frameworks\run.log 2>&1
+
 start "" C:\Project\asd\data\reports\latest.html

@@ -24,7 +24,7 @@ DB = Path(os.environ.get("CANSLIM_DB", ROOT / "data" / "canslim.db"))  # env ove
 HISTORY = ROOT / "data" / "history"
 
 SNAP_COLS = ["close", "rs", "prox_high", "trend", "np_yoy", "sales_yoy", "streak", "ttm_cagr3", "roe",
-             "turnover", "industry", "sector", "group_rank", "n_fail", "failed", "sys_rank"]
+             "turnover", "industry", "sector", "group_rank", "n_fail", "failed", "sys_rank", "group_warn"]
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS market(date TEXT PRIMARY KEY, state TEXT);
@@ -32,6 +32,9 @@ CREATE TABLE IF NOT EXISTS snapshot(
   date TEXT, symbol TEXT, close REAL, rs REAL, prox_high REAL, trend REAL, np_yoy REAL, sales_yoy REAL,
   streak REAL, ttm_cagr3 REAL, roe REAL, turnover REAL, industry TEXT, sector TEXT, group_rank REAL,
   n_fail INTEGER, failed TEXT, sys_rank INTEGER, PRIMARY KEY(date, symbol));
+CREATE TABLE IF NOT EXISTS sector_radar(
+  date TEXT, grp TEXT, stocks INTEGER, strength REAL, weeks_top INTEGER, weeks_top_last_year INTEGER,
+  status TEXT, weeks_since_drop INTEGER, PRIMARY KEY(date, grp));
 CREATE TABLE IF NOT EXISTS picks(
   date TEXT, list TEXT, rank INTEGER, symbol TEXT, close REAL, rs REAL, market TEXT, industry TEXT, note TEXT,
   PRIMARY KEY(date, list, symbol));
@@ -57,6 +60,8 @@ def connect() -> sqlite3.Connection:
     DB.parent.mkdir(parents=True, exist_ok=True)
     c = sqlite3.connect(DB)
     c.executescript(SCHEMA)
+    if "group_warn" not in [r[1] for r in c.execute("PRAGMA table_info(snapshot)")]:
+        c.execute("ALTER TABLE snapshot ADD COLUMN group_warn TEXT")      # sector radar warning (2026-10-14)
     return c
 
 
@@ -157,3 +162,13 @@ if __name__ == "__main__":
     ap.add_argument("--backfill", action="store_true")
     if ap.parse_args().backfill:
         backfill()
+
+
+def store_radar(c, d, rad: pd.DataFrame):
+    """Sector radar rows for one date (canslim/sectors.py)."""
+    c.execute("DELETE FROM sector_radar WHERE date=?", (_ds(d),))
+    if rad is None or not len(rad):
+        return
+    r = rad.rename(columns={"group": "grp"})[["grp", "stocks", "strength", "weeks_top", "weeks_top_last_year",
+                                              "status", "weeks_since_drop"]].assign(date=_ds(d))
+    r.to_sql("sector_radar", c, if_exists="append", index=False)

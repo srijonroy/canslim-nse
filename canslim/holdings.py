@@ -5,7 +5,8 @@
          (canslim/holdtest.py). Default action: sell. Overriding is allowed, but log the reason.
   AMBER  still passes and ranks <= 30, but an early warning is on (NOT tested as a sell rule, information only):
          ranked 21-30, close below the 50-day MA, 15%+ below the peak close since purchase, or RS down 15+
-         points since purchase.
+         points since purchase, or its industry group dropped out of the top 20% in the last 13 weeks (sectors.py;
+         as a sell rule it passed 2016-22 but was worse in 2023-26).
   GREEN  passes, ranks <= 20, no warning. Sit tight.
   GREY   not in the system's universe (no fundamentals or too illiquid), so the system can't judge it.
 
@@ -74,6 +75,9 @@ def light_for(h, snap: pd.DataFrame, px: pd.Series, rs_at_buy) -> dict:
         warn.append(f"{out['from_peak']:.0%} from peak since buy")
     if rs_at_buy is not None and out["rs"] is not None and out["rs"] <= rs_at_buy - 15:
         warn.append(f"RS {out['rs']:.0f} vs {rs_at_buy:.0f} at buy")
+    gw = r.get("group_warn") if hasattr(r, "get") else None
+    if isinstance(gw, str) and gw:
+        warn.append(gw)                      # sector radar (sectors.py): tested as a sell rule, passed 2016-22, worse 2023-26
     if warn:
         return {**out, "light": "AMBER", "reasons": "; ".join(warn)}
     return {**out, "light": "GREEN", "reasons": f"passes all rules, rank {rank}"}

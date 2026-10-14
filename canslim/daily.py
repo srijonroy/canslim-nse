@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from canslim import data, earnings_monitor, factors, patterns
+from canslim import data, earnings_monitor, factors, patterns, sectors
 from canslim.research import FUND_COLS, SIGN
 from canslim.system import market_state
 
@@ -121,7 +121,9 @@ def snapshot():
     g["rank"] = g["mean"].rank(ascending=False).astype(int)
     row["group_rank"] = row.industry.map(g["rank"])
     row["groups_total"] = len(g)
-    return d, P, row[elig].copy(), fund, g, list(row.index[row.universe])
+    rad = sectors.radar(F["rs_ibd"], U, ind)
+    row["group_warn"] = row.industry.map(sectors.group_warnings(rad))
+    return d, P, row[elig].copy(), fund, g, list(row.index[row.universe]), rad
 
 
 def evaluate(row: pd.Series) -> list:
@@ -205,7 +207,7 @@ def runup_cell(c: pd.Series) -> str:
     return f"{r * 100:+.0f}%"
 
 
-def render(d, ms, top, watch, sells, groups, mon=None, mon_rest=0, emg=None) -> str:
+def render(d, ms, top, watch, sells, groups, mon=None, mon_rest=0, emg=None, rad=None) -> str:
     st = ms.iloc[-1]
     ok = st in ("CONFIRMED_UPTREND", "UPTREND_UNDER_PRESSURE")
     banner = {
@@ -231,6 +233,23 @@ def render(d, ms, top, watch, sells, groups, mon=None, mon_rest=0, emg=None) -> 
     emg_html = table(emg, ["#", "Stock", "Result", "Earnings", "Price", "Buy point", "Notes"]) if emg is not None and len(emg) else         "<p class=muted>No stock meets the emerging-list rules today.</p>"
     sell_html = table(sells, ["Stock", "Listed", "Since listing", "Flags"]) if len(sells) else \
         "<p class=muted>No sell flags on recently listed stocks.</p>"
+    radar_html = "<p class=muted>Sector radar unavailable.</p>"
+    if rad is not None and len(rad):
+        lead = rad[rad.strength >= 80].assign(
+            Group=lambda x: x.group.map(lambda v: esc(str(v))), Stocks=lambda x: x.stocks, Strength=lambda x: x.strength,
+            **{"Weeks in top 20%": lambda x: x.weeks_top.map(lambda w: f"{w}+" if w >= sectors.WEEKS else str(w)),
+               "Top-20% weeks, last year": lambda x: x.weeks_top_last_year, "Status": lambda x: x.status})
+        drop = rad[rad.status == "Dropped out"].assign(
+            Group=lambda x: x.group.map(lambda v: esc(str(v))), Stocks=lambda x: x.stocks, **{"Strength now": lambda x: x.strength,
+            "Weeks since it dropped out": lambda x: x.weeks_since_drop.astype(int)})
+        radar_html = (f"<p class=muted>{len(rad)} industries with ≥ 5 liquid stocks, ranked weekly by the average RS of their stocks "
+                      "(strength 100 = strongest). Tested 2016–26: the top 20% beat the bottom 20% by ~4% over the next 3 months; "
+                      "a group typically stays in the top 20% for ~2 months (15% last 6+ months). Groups that drop out lagged the "
+                      "market by 1–5% over the next 3–12 months.</p><h3>Strong now (top 20%)</h3>"
+                      + table(lead, ["Group", "Stocks", "Strength", "Weeks in top 20%", "Top-20% weeks, last year", "Status"])
+                      + "<h3>Dropped out of the top 20% in the last 13 weeks (warning)</h3>"
+                      + (table(drop, ["Group", "Stocks", "Strength now", "Weeks since it dropped out"]) if len(drop)
+                         else "<p class=muted>None.</p>"))
     grp = groups.sort_values("rank").head(15).reset_index()
     grp_html = "".join(f"<li>{esc(str(r['industry']))} <span class=muted>(RS {r['mean']:.0f}, {int(r['count'])} stocks)</span></li>"
                        for _, r in grp.iterrows())
@@ -265,7 +284,8 @@ Tested 2016–22 as a 10-stock portfolio: <b>21.9%/yr but a worst drop of −39%
 separate list (narrowly in 2016–19), not for replacing CAN SLIM. The same market filter applies.</div>{emg_html}
 <h2>Watchlist — miss one rule</h2>{watch_html or '<p class=muted>None.</p>'}
 <h2>Sell flags on stocks listed in the last 60 days</h2>{sell_html}
-<h2>Leading industry groups</h2><ul>{grp_html}</ul>
+<h2>Sector radar</h2>{radar_html}
+<h2>Leading industry groups (all sizes, ≥ 3 stocks)</h2><ul>{grp_html}</ul>
 <footer class=muted>Rules: {esc('; '.join(n for n, _ in RULES))}. Market filter: no new buys unless the market model
 shows a confirmed uptrend. Base patterns are annotations (book Ch.2): buy zone = pivot to +5% on volume ≥ 40% above average.
 Buy point: Not yet = below the pivot or no sound base; At pivot = within the buy zone; Extended = more than 5% past the pivot.
@@ -281,11 +301,11 @@ def run(skip_update=False, skip_fund=False):
     if not skip_update:
         log("updating prices")
         update_prices()
-    d, P, snap, fund, groups, liquid = snapshot()
+    d, P, snap, fund, groups, liquid, rad = snapshot()
     if not skip_fund:
         try:
             update_fundamentals(liquid)
-            d, P, snap, fund, groups, liquid = snapshot()
+            d, P, snap, fund, groups, liquid, rad = snapshot()
         except Exception as e:
             log(f"fundamentals refresh failed (using cached data): {e}")
     log(f"snapshot {d.date()}: {len(snap)} liquid stocks with fundamentals")
@@ -402,6 +422,18 @@ def run(skip_update=False, skip_fund=False):
         db.store_earnings_list(c, d, "earnings", m)
         db.store_earnings_list(c, d, "emerging", e_)
         c.commit()
+        db.store_radar(c, d, rad)
+        try:                                   # other frameworks (frameworks.py): separate lists, app page "Other frameworks"
+            from canslim import frameworks
+            Fx = factors.price_factors(P)
+            for name, df in frameworks.daily_lists(P, factors.universe_mask(P, Fx), Fx["rs_ibd"], fund=fund).items():
+                inp = df.drop(columns=["rank", "symbol", "close"])
+                note = [json.dumps({k: (None if pd.isna(v) else float(v)) for k, v in r.items()}) for _, r in inp.iterrows()]
+                db.store_list(c, d, f"fw_{name}", df[["rank", "symbol", "close"]].assign(note=note))
+                log(f"framework {name}: {len(df)} stocks")
+        except Exception as e:
+            log(f"frameworks failed: {e}\n{traceback.format_exc()}")
+        c.commit()
         st = holdings.store_status(c, d.strftime("%Y-%m-%d"))
         from canslim import paper
         log(f"paper portfolio: {paper.run(c)}")
@@ -410,7 +442,7 @@ def run(skip_update=False, skip_fund=False):
             f"{r.symbol} {r.light}" for r in st.itertuples()) if len(st) else ""))
     except Exception as e:
         log(f"database update failed: {e}\n{traceback.format_exc()}")
-    page = render(d, ms, top, watch, sells, groups, mon, mon_rest, emg)
+    page = render(d, ms, top, watch, sells, groups, mon, mon_rest, emg, rad)
     (REPORTS / f"{d:%Y-%m-%d}.html").write_text(page, encoding="utf-8")
     (REPORTS / "latest.html").write_text(page, encoding="utf-8")
     log(f"report written: {len(picks)} picks, {len(watch)} watchlist, {len(sells)} sell checks, market {ms.iloc[-1]}")
