@@ -1,6 +1,6 @@
 # KRISHANA — sources
 
-_Fetched 2026-10-14 20:37. Cite these by file name in the brief._
+_Fetched 2026-10-15 18:58. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
@@ -10,6 +10,8 @@ _Fetched 2026-10-14 20:37. Cite these by file name in the brief._
 | docs/2026-04_ppt.txt | Apr 2026 earnings call ppt | cached | https://nsearchives.nseindia.com/corporate/KRISHANA_09042026133820_NSEINVPRES090426TOUP.pdf |
 | docs/2026-01_transcript.txt | Jan 2026 earnings call transcript | cached | https://nsearchives.nseindia.com/corporate/KRISHANA_17012026183615_NSETRANS170126SIGNUP.pdf |
 | docs/2026-01_ppt.txt | Jan 2026 earnings call ppt | cached | https://nsearchives.nseindia.com/corporate/KRISHANA_12012026124246_RespresentatDEC25signtoUP.pdf |
+| docs/2025-10_transcript.txt | Oct 2025 earnings call transcript | ok (34,031 chars) | https://nsearchives.nseindia.com/corporate/KRISHANA_18102025141945_Transcript141025toup.pdf |
+| docs/2025-10_ppt.txt | Oct 2025 earnings call ppt | ok (22,408 chars) | https://nsearchives.nseindia.com/corporate/KRISHANA_13102025122108_ResultpresentSept25TOUP.pdf |
 | docs/annual_report_2026.txt | Annual report 2026 | cached | https://archives.nseindia.com/annual_reports/AR_29291_KRISHANA_2025_2026_A_6958335_29052026171638.pdf |
 
 ## Credit rating notes (links only)

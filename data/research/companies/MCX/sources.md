@@ -1,6 +1,6 @@
 # MCX — sources
 
-_Fetched 2026-10-14 20:37. Cite these by file name in the brief._
+_Fetched 2026-10-15 18:58. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
