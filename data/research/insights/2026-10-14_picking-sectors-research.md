@@ -37,7 +37,7 @@ source: Web literature search 2026-10-14 (papers listed below); data/research/fa
 | Business-cycle sector rotation | Worked only with perfect knowledge of the cycle; with realistic timing and costs the edge disappears (Molchanov & Stangl 2023, reversing Stangl et al. 2009). |
 | FPI sector flows (NSDL fortnightly) | No published test shows they predict sector returns; practitioners note the top sector changes every fortnight. |
 | Relative Rotation Graphs (RRG) | Only vendor commentary; no independent backtest beyond plain relative strength. |
-| Sector breadth (% above 200-day average) | Widely used by practitioners (Weinstein, O'Neil) but no rigorous published test. Worth testing ourselves. |
+| Sector breadth (% above 200-day average) | Widely used by practitioners (stage analysis, O'Neil) but no rigorous published test. Worth testing ourselves. |
 | Analyst upgrades by industry | Follow sector moves rather than lead them (Boni & Womack 2006). We have no estimate data anyway. |
 | Retail fund flows | Money chasing sectors predicts *low* long-run returns (Frazzini & Lamont). |
 

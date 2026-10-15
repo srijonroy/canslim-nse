@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from canslim import data, earnings_monitor, factors, patterns, sectors
+from canslim import data, earnings_monitor, factors, patterns, sectors, stockchart
 from canslim.research import FUND_COLS, SIGN
 from canslim.system import market_state
 
@@ -207,6 +207,85 @@ def runup_cell(c: pd.Series) -> str:
     return f"{r * 100:+.0f}%"
 
 
+CHART_CSS = """
+:root{--c0:#52514e;--c1:#eb6834;--c2:#2a78d6}
+@media (prefers-color-scheme:dark){:root{--c0:#c3c2b7;--c1:#d95926;--c2:#3987e5}}
+button.sym{font:inherit;font-weight:600;color:var(--fg);background:none;border:0;border-bottom:1px dashed var(--mut);padding:0;cursor:pointer}
+button.sym:hover,button.sym.on{color:var(--c2);border-bottom-color:var(--c2)}
+#drawer{position:fixed;top:12px;right:12px;width:min(480px,calc(100vw - 24px));max-height:calc(100vh - 24px);overflow:auto;
+ background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 32px rgba(0,0,0,.25);padding:12px 14px;z-index:10}
+#drawer[hidden]{display:none} #drawer .dh{display:flex;align-items:center;gap:6px}
+#drawer .dh b{font-size:16px} #dx{margin-left:auto;font-size:16px;background:none;border:1px solid var(--line);border-radius:6px;color:var(--fg);cursor:pointer;padding:2px 9px}
+.rng{display:flex;gap:4px;margin:10px 0 4px} .rng button{font:inherit;font-size:12px;padding:2px 10px;border:1px solid var(--line);border-radius:6px;background:none;color:var(--fg);cursor:pointer}
+.rng button.on{border-color:var(--c2);color:var(--c2)} .lg{display:flex;gap:14px;font-size:12px;color:var(--mut)}
+.lg i{display:inline-block;width:14px;height:2px;vertical-align:middle;margin-right:5px}
+#ch{width:100%;height:auto;display:block;margin-top:4px} #ch text{fill:var(--mut);font-size:10px}
+#ch .grid{stroke:var(--line)} #ch .x{stroke:var(--mut);stroke-dasharray:3 3}
+#tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:12px;white-space:nowrap}
+#tip[hidden]{display:none}
+.stats{display:flex;gap:18px;margin:8px 0 4px} .stats div{font-size:12px;color:var(--mut)} .stats b{display:block;font-size:17px;color:var(--fg)}
+"""
+
+CHART_JS = """
+const CD=JSON.parse(document.getElementById('chartdata').textContent);
+for(const c of Object.values(CD)){let d=c.d0;c.d=[d,...c.dd.map(x=>d+=x)];
+ const ema=(s,n)=>{const a=2/(n+1);let e=s;return c.c.map(v=>e+=a*(v-e))};c.e20=ema(c.s20,20);c.e200=ema(c.s200,200)}
+const dr=document.getElementById('drawer'),svg=document.getElementById('ch'),tip=document.getElementById('tip');
+let cur=null,yrs=5;const W=440,H=250,L=40,R=6,T=8,B=20;
+const day=d=>new Date(d*864e5),f2=v=>v.toLocaleString('en-IN',{maximumFractionDigits:2}),pc=v=>(v>=0?'+':'')+(v*100).toFixed(1)+'%';
+function ticks(lo,hi){let s=Math.pow(10,Math.floor(Math.log10((hi-lo)/4||1))),e=(hi-lo)/4/s;s*=e>=7.5?10:e>=3.5?5:e>=1.5?2:1;
+ const o=[];for(let v=Math.ceil(lo/s)*s;v<=hi;v+=s)o.push(v);return o}
+function draw(){const c=CD[cur];if(!c)return;const last=c.d[c.d.length-1],i0=Math.max(0,c.d.findIndex(x=>x>=last-yrs*365.25));
+ const n=c.d.length-i0,S=['c','e20','e200'].map(k=>c[k].slice(i0)),all=S.flat(),lo=Math.min(...all),hi=Math.max(...all);
+ const X=i=>L+(W-L-R)*i/Math.max(n-1,1),Y=v=>T+(H-T-B)*(1-(v-lo)/(hi-lo||1));let g='';
+ for(const v of ticks(lo,hi))g+=`<line class=grid x1=${L} x2=${W-R} y1=${Y(v)} y2=${Y(v)} /><text x=${L-4} y=${Y(v)+3} text-anchor=end>${v.toLocaleString('en-IN')}</text>`;
+ let py=null;for(let i=0;i<n;i++){const y=day(c.d[i0+i]).getUTCFullYear();if(y!==py&&py!==null)g+=`<text x=${X(i)} y=${H-4} text-anchor=middle>${y}</text>`;py=y}
+ S.forEach((s,k)=>{g+=`<path fill=none stroke="var(--c${k})" stroke-width=${k==2?2:1.5} stroke-linejoin=round d="M${s.map((v,i)=>X(i).toFixed(1)+' '+Y(v).toFixed(1)).join('L')}"/>`});
+ g+=`<line id=hx class=x y1=${T} y2=${H-B} visibility=hidden />`;svg.innerHTML=g;
+ const ce=c.c[c.c.length-1],m=(a,b)=>`<div>${a}<b>${b}</b></div>`;
+ document.getElementById('dstats').innerHTML=m('Close',f2(ce))+m(c.d[i0]>last-yrs*365.25+10?'Since '+day(c.d[i0]).getUTCFullYear():yrs+'y change',pc(ce/S[0][0]-1))+m('vs 20 EMA',pc(ce/c.e20[c.e20.length-1]-1))+m('vs 200 EMA',pc(ce/c.e200[c.e200.length-1]-1));
+ document.getElementById('dnote').textContent='Last close '+day(last).toISOString().slice(0,10)+'. Adjusted for splits and bonuses; averages use the full history from '+c.from+'.';
+ svg.onmousemove=e=>{const r=svg.getBoundingClientRect(),i=Math.round(Math.min(Math.max(((e.clientX-r.left)*W/r.width-L)/(W-L-R),0),1)*(n-1)),hx=document.getElementById('hx');
+  hx.setAttribute('x1',X(i));hx.setAttribute('x2',X(i));hx.setAttribute('visibility','visible');
+  tip.innerHTML=day(c.d[i0+i]).toISOString().slice(0,10)+'<br>Price <b>'+f2(S[0][i])+'</b><br>20 EMA '+f2(S[1][i])+'<br>200 EMA '+f2(S[2][i]);
+  tip.hidden=false;const dl=dr.getBoundingClientRect(),x=e.clientX-dl.left+dr.scrollLeft;tip.style.left=(x>dl.width/2?x-tip.offsetWidth-12:x+12)+'px';tip.style.top=(e.clientY-dl.top+dr.scrollTop+12)+'px'};
+ svg.onmouseleave=()=>{tip.hidden=true;const hx=document.getElementById('hx');hx&&hx.setAttribute('visibility','hidden')}}
+function openChart(s){cur=s;document.getElementById('dsym').textContent=s;dr.hidden=false;
+ document.querySelectorAll('button.sym').forEach(b=>b.classList.toggle('on',b.dataset.s===s));draw()}
+document.addEventListener('click',e=>{const b=e.target.closest('button.sym');if(b)openChart(b.dataset.s)});
+document.querySelectorAll('.rng button').forEach(b=>b.onclick=()=>{yrs=+b.dataset.y;document.querySelectorAll('.rng button').forEach(x=>x.classList.toggle('on',x===b));draw()});
+document.getElementById('dx').onclick=()=>{dr.hidden=true;document.querySelectorAll('button.sym.on').forEach(b=>b.classList.remove('on'))};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('dx').click()});
+"""
+
+CHART_HTML = """<aside id=drawer hidden><div class=dh><b id=dsym></b><span class=muted>· price, 20-day and 200-day EMA</span>
+<button id=dx aria-label="Close chart">✕</button></div>
+<div class=rng><button data-y=1>1y</button><button data-y=2>2y</button><button data-y=5 class=on>5y</button></div>
+<div class=lg><span><i style="background:var(--c0)"></i>Price</span><span><i style="background:var(--c1)"></i>20 EMA</span><span><i style="background:var(--c2)"></i>200 EMA</span></div>
+<svg id=ch viewBox="0 0 440 250" role=img aria-label="Price chart"></svg><div id=tip hidden></div>
+<div class=stats id=dstats></div><div class=muted id=dnote style="font-size:12px"></div></aside>"""
+
+
+def chart_data(syms, years: int = 5) -> str:
+    """JSON for the report's chart drawer, kept small: per symbol the last `years` of closes, dates as a first epoch
+    day + gaps, and each EMA's value the day before the window (the page continues the EMAs from there, so they
+    match stockchart.series exactly; a stock with less history starts from its first close, as ewm does)."""
+    out = {}
+    for s in sorted(syms):
+        full = stockchart.series(s)
+        if full.empty:
+            continue
+        i0 = max(0, int(full.index.searchsorted(full.index[-1] - pd.DateOffset(years=years))))
+        df = full.iloc[i0:]
+        days = ((df.index - pd.Timestamp("1970-01-01")) // pd.Timedelta(days=1)).to_numpy()
+        seed = full.iloc[i0 - 1] if i0 else df.iloc[0]
+        nd = 2 if df.close.iloc[-1] < 1000 else 1
+        out[s] = {"d0": int(days[0]), "dd": np.diff(days).tolist(), "c": df.close.round(nd).tolist(),
+                  "s20": round(float(seed.ema20 if i0 else seed.close), 4),
+                  "s200": round(float(seed.ema200 if i0 else seed.close), 4), "from": int(full.index[0].year)}
+    return json.dumps(out, separators=(",", ":"))
+
+
 def render(d, ms, top, watch, sells, groups, mon=None, mon_rest=0, emg=None, rad=None) -> str:
     st = ms.iloc[-1]
     ok = st in ("CONFIRMED_UPTREND", "UPTREND_UNDER_PRESSURE")
@@ -218,10 +297,18 @@ def render(d, ms, top, watch, sells, groups, mon=None, mon_rest=0, emg=None, rad
     }[st]
     since = ms[ms != st].index.max()
     esc = html.escape
+    charted = set()
+
+    def cell(c, v):                                   # the symbol in a Stock cell opens the chart drawer
+        m = re.match(r"([A-Z0-9&-]+)(.*)", str(v), flags=re.S) if c == "Stock" else None
+        if not m:
+            return v
+        charted.add(m.group(1))
+        return f'<button class=sym data-s="{esc(m.group(1))}">{esc(m.group(1))}</button>{m.group(2)}'
 
     def table(df, cols):
         head = "".join(f"<th>{esc(c)}</th>" for c in cols)
-        body = "".join("<tr>" + "".join(f"<td>{r[c]}</td>" for c in cols) + "</tr>" for _, r in df.iterrows())
+        body = "".join("<tr>" + "".join(f"<td>{cell(c, r[c])}</td>" for c in cols) + "</tr>" for _, r in df.iterrows())
         return f"<div class=tw><table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>"
 
     top_html = table(top, ["#", "Stock", "Buy point", "6-mo", "Industry", "Close", "Why it ranks", "Base / pivot"]) if len(top) else \
@@ -268,9 +355,9 @@ ul{{margin:0;padding-left:18px}}
 .pill{{display:inline-block;padding:1px 8px;border-radius:10px;font-weight:600;font-size:12px;white-space:nowrap;border:1px solid}}
 .pill.ok{{color:var(--ok)}} .pill.warn{{color:var(--warn)}} .pill.bad{{color:var(--bad)}} .pill.mut{{color:var(--mut)}}
 td div.muted{{font-size:12px}} footer{{margin-top:32px;font-size:12px}}
-</style></head><body><main>
+{CHART_CSS}</style></head><body><main>
 <h1>CAN SLIM daily scan — {d:%A %d %b %Y}</h1>
-<div class=muted><a href="winners_study.html">Big-winner study</a> · NSE close · O'Neil's rules, ranked by RS · tested 2016–2026: 21% CAGR vs Nifty 500 12% (research only)</div>
+<div class=muted><a href="winners_study.html">Big-winner study</a> · NSE close · O'Neil's rules, ranked by RS · tested 2016–2026: 21% CAGR vs Nifty 500 12% (research only) · click a stock for its chart</div>
 <div class="banner {banner[0]}"><b>{st.replace('_', ' ').title()}</b> (since {since.date() if since is not pd.NaT and since == since else '–'}) — {banner[1]}</div>
 <h2>Top {len(top)} — pass every rule</h2>{top_html}
 <h2>Earnings monitor — latest quarterly results (last {earnings_monitor.FRESH_DAYS} days), any size</h2>
@@ -292,7 +379,8 @@ Buy point: Not yet = below the pivot or no sound base; At pivot = within the buy
 6-mo above +100% is labelled "strong momentum": on NSE 2016-2025 such stocks doubled again about twice as often
 as average, but also swung harder (see data/research/winners). Information only, not a ranking rule.
 Generated {datetime.now():%Y-%m-%d %H:%M}. Research only — not investment advice. Created by Amrendra Kumar.</footer>
-</main></body></html>"""
+</main>{CHART_HTML}<script type="application/json" id=chartdata>{chart_data(charted)}</script>
+<script>{CHART_JS}</script></body></html>"""
 
 
 def run(skip_update=False, skip_fund=False):

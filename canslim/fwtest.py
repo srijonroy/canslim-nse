@@ -1,10 +1,10 @@
 """Backtest the other frameworks (canslim/frameworks.py) next to CAN SLIM, 2016-2026, weekly, 0.3% cost per side.
 
 Portfolio settings fixed before running (no tuning):
-  value / quality styles (coffee, magic, qglp, lynch, graham): 20 stocks, keep while ranked within 60,
+  value / quality styles (coffee, magic, qglp, garp, graham): 20 stocks, keep while ranked within 60,
       no stop, always invested (these styles don't time the market), max 4 per industry
-  minervini: 10 stocks, keep while ranked within 30, 8% stop, no new buys unless the market is in an uptrend
-  weinstein: 10 stocks, buy only within 4 weeks of a breakout, keep while in stage 2 and ranked within 30,
+  trend: 10 stocks, keep while ranked within 30, 8% stop, no new buys unless the market is in an uptrend
+  stage: 10 stocks, buy only within 4 weeks of a breakout, keep while in stage 2 and ranked within 30,
       no new buys unless the market is in an uptrend
 CAN SLIM = current system (data/tune/final.json). Nifty 500 = buy and hold (price index, no dividends).
 
@@ -28,9 +28,9 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "tune" / "frameworks"
 PER = {"2016-19": ("2016-01-01", "2019-12-31"), "2020-22": ("2020-01-01", "2022-12-31"),
        "2023-26": ("2023-01-01", "2026-12-31")}
 VALUE = pf.Config(n=20, keep_rank=60, stop=None, market="none", max_per_group=4)
-CFG = {"coffee": VALUE, "magic": VALUE, "qglp": VALUE, "lynch": VALUE, "graham": VALUE,
-       "minervini": pf.Config(n=10, keep_rank=30, stop=0.08, market="no_new"),
-       "weinstein": pf.Config(n=10, keep_rank=30, stop=None, market="no_new")}
+CFG = {"coffee": VALUE, "magic": VALUE, "qglp": VALUE, "garp": VALUE, "graham": VALUE,
+       "trend": pf.Config(n=10, keep_rank=30, stop=0.08, market="no_new"),
+       "stage": pf.Config(n=10, keep_rank=30, stop=None, market="no_new")}
 
 
 def log(m):

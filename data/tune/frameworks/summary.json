@@ -5,10 +5,10 @@
   "coffee": 0,
   "magic": 0,
   "qglp": 0,
-  "lynch": 0,
+  "garp": 0,
   "graham": 0,
-  "minervini": 0,
-  "weinstein": 0
+  "trend": 0,
+  "stage": 0
  },
  "results": [
   {
@@ -28,7 +28,7 @@
    "corr with CAN SLIM": 1.0
   },
   {
-   "framework": "Coffee Can (Saurabh Mukherjea, Marcellus)",
+   "framework": "Coffee Can",
    "CAGR %": 7.5,
    "Sharpe": 0.25,
    "maxDD %": -12.5,
@@ -44,7 +44,7 @@
    "corr with CAN SLIM": 0.36
   },
   {
-   "framework": "Magic Formula (Joel Greenblatt)",
+   "framework": "Magic Formula",
    "CAGR %": 10.7,
    "Sharpe": 0.24,
    "maxDD %": -56.3,
@@ -60,7 +60,7 @@
    "corr with CAN SLIM": 0.47
   },
   {
-   "framework": "QGLP-style (Raamdeo Agrawal, Motilal Oswal)",
+   "framework": "QGLP-style",
    "CAGR %": 11.9,
    "Sharpe": 0.43,
    "maxDD %": -30.4,
@@ -76,7 +76,7 @@
    "corr with CAN SLIM": 0.56
   },
   {
-   "framework": "Peter Lynch (growth at a reasonable price)",
+   "framework": "GARP (growth at a reasonable price)",
    "CAGR %": 14.7,
    "Sharpe": 0.44,
    "maxDD %": -44.8,
@@ -108,7 +108,7 @@
    "corr with CAN SLIM": 0.39
   },
   {
-   "framework": "Mark Minervini trend template",
+   "framework": "Trend template",
    "CAGR %": 21.2,
    "Sharpe": 0.64,
    "maxDD %": -45.2,
@@ -124,7 +124,7 @@
    "corr with CAN SLIM": 0.56
   },
   {
-   "framework": "Stan Weinstein stage analysis",
+   "framework": "Stage analysis",
    "CAGR %": 9.7,
    "Sharpe": 0.17,
    "maxDD %": -47.4,

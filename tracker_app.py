@@ -9,9 +9,10 @@ usage: run_app.bat   (or: python -m streamlit run tracker_app.py)
 from datetime import date
 
 import pandas as pd
+import plotly.graph_objects as go
 import streamlit as st
 
-from canslim import db, holdings
+from canslim import db, holdings, stockchart
 
 st.set_page_config(page_title="CAN SLIM tracker", layout="wide")
 LIGHT = {"GREEN": "🟢", "AMBER": "🟠", "RED": "🔴", "GREY": "⚪"}
@@ -43,6 +44,93 @@ def pct(x):
     return "" if x is None or pd.isna(x) else f"{x:+.1%}"
 
 
+# ------------------------------------------------------------------ chart panel (click any stock)
+DARK = getattr(getattr(st.context, "theme", None), "type", "light") == "dark"
+INK, EMA20, EMA200 = ("#c3c2b7", "#d95926", "#3987e5") if DARK else ("#52514e", "#eb6834", "#2a78d6")
+
+
+@st.cache_data(show_spinner=False)
+def price_ema(sym):
+    return stockchart.series(sym)
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def known_symbols():
+    return stockchart.universe()
+
+
+def _open_chart(sym):
+    st.session_state.chart = sym
+
+
+def table(df, key, sym="symbol", **kw):
+    """st.dataframe; if it has a symbol column, clicking a row opens that stock's chart panel."""
+    if sym not in df.columns or df.empty:
+        return st.dataframe(df, **kw)
+    syms = df[sym].tolist()
+
+    def picked():                                    # any cell of the row; positions refer to df, not the sorted view
+        cells = st.session_state[key].selection.cells
+        if cells:
+            _open_chart(syms[cells[0][0]])
+    return st.dataframe(df, key=key, on_select=picked, selection_mode="single-cell", **kw)
+
+
+def chips(syms, key, label="Chart"):
+    """Clickable symbols for stocks named in text."""
+    syms = list(dict.fromkeys(s for s in syms if s))
+    if not syms:
+        return
+    st.pills(label, syms, key=key, on_change=lambda: st.session_state[key] and _open_chart(st.session_state[key]))
+
+
+def chart_panel():
+    sym = st.session_state.get("chart")
+    if not sym:
+        return
+    bg, line = ("#0e1117", "rgba(250,250,250,.16)") if DARK else ("#ffffff", "rgba(49,51,63,.16)")
+    st.html(f"""<style>
+      .st-key-chartpanel {{position: fixed; top: 3.75rem; right: 1rem; width: min(470px, calc(100vw - 2rem));
+        max-height: calc(100vh - 4.75rem); overflow-y: auto; z-index: 999990; background: {bg};
+        border: 1px solid {line}; border-radius: 10px; padding: 10px 14px 6px; box-shadow: 0 8px 28px rgba(0,0,0,.22);}}
+      @media (min-width: 1200px) {{ [data-testid="stMainBlockContainer"] {{padding-right: 510px !important;}} }}
+    </style>""")
+    with st.container(key="chartpanel"):
+        h, x = st.columns([6, 1], vertical_alignment="center")
+        h.markdown(f"**{sym}** · price, 20-day and 200-day EMA")
+        x.button("✕", key="chart_close", help="Close the chart", on_click=_open_chart, args=(None,))
+        df = price_ema(sym)
+        if df.empty:
+            st.warning(f"No price file for {sym} in data/prices.")
+            return
+        r1, r2 = st.columns([3, 2], vertical_alignment="center")
+        yrs = r1.segmented_control("Range", [1, 2, 5, 0], default=5, key="chart_years", label_visibility="collapsed",
+                                   format_func=lambda y: f"{y}y" if y else "All")
+        log = r2.toggle("Log scale", key="chart_log")
+        d = df if not yrs else df.loc[df.index[-1] - pd.DateOffset(years=yrs):]
+        fig = go.Figure()
+        for col, name, color, w in [("close", "Price", INK, 1.5), ("ema20", "20 EMA", EMA20, 1.5),
+                                    ("ema200", "200 EMA", EMA200, 2)]:
+            fig.add_trace(go.Scatter(x=d.index, y=d[col].round(2), name=name, mode="lines",
+                                     line=dict(color=color, width=w), hovertemplate="%{y:,.2f}"))
+        fig.update_layout(height=330, margin=dict(l=0, r=0, t=28, b=0), hovermode="x unified",
+                          legend=dict(orientation="h", y=1.1, x=0), paper_bgcolor="rgba(0,0,0,0)",
+                          plot_bgcolor="rgba(0,0,0,0)",
+                          yaxis=dict(type="log" if log else "linear", gridcolor=line, tickformat=",.0f"),
+                          xaxis=dict(showgrid=False))
+        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False}, key="chart_fig")
+        last = df.iloc[-1]
+        start = d.close.iloc[0]
+        a, b, c_ = st.columns(3)
+        short = not yrs or d.index[0] > df.index[-1] - pd.DateOffset(years=yrs) + pd.Timedelta(days=10)
+        a.metric("Close", f"{last.close:,.2f}", f"{(last.close / start - 1):+.0%} " +
+                 (f"since {d.index[0]:%Y}" if short else f"in {yrs}y"))
+        b.metric("vs 20 EMA", f"{last.close / last.ema20 - 1:+.1%}")
+        c_.metric("vs 200 EMA", f"{last.close / last.ema200 - 1:+.1%}")
+        st.caption(f"Last close {df.index[-1]:%d %b %Y}. Adjusted for splits and bonuses; averages use the full "
+                   f"history from {df.index[0]:%Y}. [Screener](https://www.screener.in/company/{sym}/)")
+
+
 dates = q("SELECT DISTINCT date FROM snapshot ORDER BY date DESC").date.tolist()
 page = st.sidebar.radio("Page", ["Today", "Other frameworks", "Sectors", "Insights", "Holdings", "Research",
                                  "Paper portfolio", "Watching", "Stock", "Journal"])
@@ -50,6 +138,9 @@ st.sidebar.caption(f"Database: {db.DB}\n\nLatest scan: {dates[0] if dates else '
 st.sidebar.caption("Research only. No orders are placed.")
 st.sidebar.divider()
 st.sidebar.markdown("**Created by Amrendra Kumar**")
+st.sidebar.markdown("**Srijon Roy**")
+st.sidebar.caption("Click any stock (a table row or a symbol chip) to see its chart on the right.")
+chart_panel()
 
 # ------------------------------------------------------------------ Today
 if page == "Today":
@@ -75,19 +166,20 @@ if page == "Today":
     st.subheader(f"CAN SLIM — {len(cs)} pass every rule")
     st.caption("brief = suggested conviction from the research brief (Research page), checklist total, brief date. "
                "Briefs for new names are written automatically after the evening scan.")
-    st.dataframe(cs, hide_index=True, width="stretch",
+    table(cs, "t_cs", hide_index=True, width="stretch",
                  column_config={"rs": st.column_config.NumberColumn(format="%.0f")})
     if prev and dropped:
         st.caption(f"Dropped since {prev}: " + ", ".join(dropped))
+        chips(dropped, "c_dropped", "Chart a dropped stock")
     a, b = st.columns(2)
     with a:
         st.subheader("Emerging / turnaround (higher risk)")
-        st.dataframe(q("SELECT rank, symbol, close, rs, industry, note FROM picks WHERE date=? AND list='emerging' "
-                       "ORDER BY rank", [d]), hide_index=True, width="stretch")
+        table(q("SELECT rank, symbol, close, rs, industry, note FROM picks WHERE date=? AND list='emerging' "
+                "ORDER BY rank", [d]), "t_em", hide_index=True, width="stretch")
     with b:
         st.subheader("Earnings monitor (price confirming)")
-        st.dataframe(q("SELECT symbol, close, rs, industry, note FROM picks WHERE date=? AND list='earnings' "
-                       "ORDER BY rs DESC", [d]), hide_index=True, width="stretch")
+        table(q("SELECT symbol, close, rs, industry, note FROM picks WHERE date=? AND list='earnings' "
+                "ORDER BY rs DESC", [d]), "t_earn", hide_index=True, width="stretch")
     st.caption("Full report with bases and buy points: data/reports/latest.html")
 
 # ------------------------------------------------------------------ Holdings
@@ -108,8 +200,8 @@ elif page == "Holdings":
         v["P&L"] = v.qty * (v.close - v.buy_price)
         cv = q("SELECT symbol, score FROM conviction WHERE id IN (SELECT MAX(id) FROM conviction GROUP BY symbol)")
         v["conviction"] = v.symbol.map(dict(zip(cv.symbol, cv.score)))
-        st.dataframe(v[["light", "symbol", "conviction", "buy_date", "qty", "buy_price", "close", "gain", "from_peak",
-                        "sys_rank", "rs", "value", "P&L", "reasons"]],
+        table(v[["light", "symbol", "conviction", "buy_date", "qty", "buy_price", "close", "gain", "from_peak",
+                        "sys_rank", "rs", "value", "P&L", "reasons"]], "t_hold",
                      hide_index=True, width="stretch",
                      column_config={"gain": st.column_config.NumberColumn(format="percent"),
                                     "from_peak": st.column_config.NumberColumn(format="percent"),
@@ -185,7 +277,7 @@ elif page == "Holdings":
         closed["return"] = closed.sell_price / closed.buy_price - 1
         closed["P&L"] = closed.qty * (closed.sell_price - closed.buy_price)
         st.subheader("Closed")
-        st.dataframe(closed, hide_index=True, width="stretch",
+        table(closed, "t_closed", hide_index=True, width="stretch",
                      column_config={"return": st.column_config.NumberColumn(format="percent")})
 
 # ------------------------------------------------------------------ Insights
@@ -228,6 +320,7 @@ elif page == "Insights":
                          f"{badge.get(it.get('status', ''), it.get('status', ''))}"):
             st.markdown(f"**Takeaway:** {it.get('takeaway', '')}")
             st.markdown(it["body"])
+            chips(stockchart.mentioned(it["body"], known_symbols()), f"c_ins_{it.get('date', '')}_{it.get('title', '')}")
             st.caption(f"Topics: {', '.join(it['tags'])}  ·  Source: {it.get('source', '')}")
 
 # ------------------------------------------------------------------ Other frameworks
@@ -274,7 +367,7 @@ elif page == "Other frameworks":
             inp = pd.DataFrame([json.loads(n) if n else {} for n in lst.note])
             view = pd.concat([lst.drop(columns="note"), inp], axis=1)
             view["Check on Screener"] = "https://www.screener.in/company/" + view.symbol + "/"
-            st.dataframe(view, use_container_width=True, hide_index=True,
+            table(view, f"t_fw_{key}", use_container_width=True, hide_index=True,
                          column_config={"Check on Screener": st.column_config.LinkColumn(display_text="open")})
             st.caption("Spot-check: open two or three stocks on Screener and compare P/E, ROCE, debt and growth with the "
                        "columns above. Small differences are normal (Screener shows the latest year; some columns here are "
@@ -306,7 +399,7 @@ elif page == "Sectors":
     g = st.selectbox("Stocks in group", rad.Group.tolist())
     mem = q("SELECT symbol, rs, sys_rank, n_fail FROM snapshot WHERE date=(SELECT MAX(date) FROM snapshot WHERE date<=?) "
             "AND industry=? ORDER BY rs DESC", [d, g])
-    st.dataframe(mem, use_container_width=True, hide_index=True)
+    table(mem, "t_sector_mem", use_container_width=True, hide_index=True)
 
 # ------------------------------------------------------------------ Research
 elif page == "Research":
@@ -335,6 +428,7 @@ elif page == "Research":
     last = q("SELECT score, date, notes FROM conviction WHERE symbol=? ORDER BY id DESC LIMIT 1", [sym])
     c_.metric("Your conviction", f"{int(last.score.iloc[0])}/5" if len(last) else "not set",
               help=f"set {last.date.iloc[0]}" if len(last) else None)
+    chips([sym] + stockchart.mentioned(brief, known_symbols()), f"c_brief_{sym}", "Chart")
     t1, t2, t3 = st.tabs(["Brief", "Facts", "Sources"])
     with t1:
         st.markdown(brief or "_No brief yet. In Claude Code: `/brief " + sym + "`_")
@@ -385,7 +479,7 @@ elif page == "Paper portfolio":
     pend = q("SELECT * FROM paper_pending")
     if len(pend):
         st.subheader("Signals for the next open")
-        st.dataframe(pend, hide_index=True, width="stretch")
+        table(pend, "t_pend", hide_index=True, width="stretch")
     T = q("SELECT * FROM paper_trades")
     op = T[T.status == "open"].copy()
     st.subheader(f"Open positions ({len(op)})")
@@ -393,8 +487,8 @@ elif page == "Paper portfolio":
         snap = q("SELECT symbol, rs, sys_rank, n_fail, failed FROM snapshot WHERE date=?", [e1.date])
         op = op.merge(snap, on="symbol", how="left")
         op["value"] = op.shares * op.exit
-        st.dataframe(op[["symbol", "entry_date", "entry", "exit", "ret", "value", "rs", "sys_rank", "failed", "why"]]
-                     .rename(columns={"exit": "close", "ret": "return", "why": "signal"}),
+        table(op[["symbol", "entry_date", "entry", "exit", "ret", "value", "rs", "sys_rank", "failed", "why"]]
+                     .rename(columns={"exit": "close", "ret": "return", "why": "signal"}), "t_open",
                      hide_index=True, width="stretch",
                      column_config={"return": st.column_config.NumberColumn(format="percent"),
                                     "value": st.column_config.NumberColumn(format="%.0f"),
@@ -407,8 +501,8 @@ elif page == "Paper portfolio":
         a, b = st.columns(2)
         a.metric("Win rate", f"{(cl.ret > 0).mean():.0%}")
         b.metric("Average trade", pct(cl.ret.mean()))
-        st.dataframe(cl[["symbol", "entry_date", "entry", "exit_date", "exit", "ret", "why"]].sort_values(
-            "exit_date", ascending=False), hide_index=True, width="stretch",
+        table(cl[["symbol", "entry_date", "entry", "exit_date", "exit", "ret", "why"]].sort_values(
+            "exit_date", ascending=False), "t_cl", hide_index=True, width="stretch",
             column_config={"ret": st.column_config.NumberColumn(format="percent")})
 
 # ------------------------------------------------------------------ Watching
@@ -422,7 +516,7 @@ elif page == "Watching":
     if W.empty:
         st.info("Nothing yet.")
     else:
-        st.dataframe(W.drop(columns=["as_of"]), hide_index=True, width="stretch",
+        table(W.drop(columns=["as_of"]), "t_watch", hide_index=True, width="stretch",
                      column_config={"since_left": st.column_config.NumberColumn(format="percent"),
                                     "rs": st.column_config.NumberColumn(format="%.0f")})
         st.caption(f"As of {W.as_of.iloc[0]}.")
@@ -465,7 +559,7 @@ elif page == "Journal":
     if j.empty:
         st.info("No decisions yet. Every buy, hold, sell and note you log on the Holdings page lands here.")
         st.stop()
-    st.dataframe(j.drop(columns="id"), hide_index=True, width="stretch")
+    table(j.drop(columns="id"), "t_journal", hide_index=True, width="stretch")
     st.subheader("Did overriding the rule help?")
     st.caption("Every HOLD logged while the light was RED (the rule said sell). Compares the price then with the "
                "latest close, or the sell price if you've since sold. Positive = the override beat the rule.")
@@ -482,6 +576,6 @@ elif page == "Journal":
             rows.append({"date": r.date, "symbol": r.symbol, "rule said sell at": r.price, "now / sold": now,
                          "override vs rule": now / r.price - 1 if r.price else None, "reason": r.reason})
         o = pd.DataFrame(rows)
-        st.dataframe(o, hide_index=True, width="stretch",
+        table(o, "t_override", hide_index=True, width="stretch",
                      column_config={"override vs rule": st.column_config.NumberColumn(format="percent")})
         st.metric("Average override result", pct(o["override vs rule"].mean()), help=f"{len(o)} overrides")

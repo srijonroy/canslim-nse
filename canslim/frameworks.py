@@ -23,32 +23,32 @@ FIN = {"Financial Services"}                 # no ROCE / EV meaning for banks, N
 MAGIC_EXCL = FIN | {"Utilities"}
 
 RULES = {
-    "coffee": ("Coffee Can (Saurabh Mukherjea, Marcellus)",
+    "coffee": ("Coffee Can",
                "Revenue grew at least 10% in at least 9 of the last 10 years (the original rule is all 10; on NSE the COVID year FY2021 leaves only 1-2 stocks, so one miss is allowed) AND return on capital employed (ROCE) was at "
                "least 15% in every one of the last 10 years. Not banks/financials. Buy and hold; ranked by average ROCE."),
-    "magic": ("Magic Formula (Joel Greenblatt)",
+    "magic": ("Magic Formula",
               "Rank every non-financial, non-utility company on return on capital (EBIT / (net fixed assets + net working "
               "capital)) and on earnings yield (EBIT / enterprise value); buy the best combined rank, hold about a year. "
               "Here enterprise value = market cap + debt (cash not subtracted) and working capital = other assets minus "
               "other liabilities from Screener (includes cash), floored at zero."),
-    "qglp": ("QGLP-style (Raamdeo Agrawal, Motilal Oswal)",
+    "qglp": ("QGLP-style",
              "Quality: average ROE of the last 5 years at least 15% and debt below equity. Growth: 3-year profit growth at "
              "least 15% a year and 3-year sales growth at least 12%. Longevity: ROE at least 15% in 80%+ of the last 10 "
              "years. Price: PEG (P/E divided by profit growth) at most 1.5. Not financials (their debt is not reported "
              "comparably). Ranked by lowest PEG."),
-    "lynch": ("Peter Lynch (growth at a reasonable price)",
+    "garp": ("GARP (growth at a reasonable price)",
               "Profitable, 3-year profit growth between 15% and 50% a year, PEG at most 1.0, debt at most half of equity. "
               "Not financials. Ranked by lowest PEG."),
     "graham": ("Benjamin Graham (defensive investor, adapted)",
                "Not financials. P/E at most 15 and P/E x P/B at most 22.5; debt at most half of equity; a profit in each of "
                "the last 10 years; a dividend every year; profit up at least a third over 10 years (average of the last "
                "3 years vs the first 3). Ranked by lowest P/E x P/B."),
-    "minervini": ("Mark Minervini trend template",
+    "trend": ("Trend template",
                   "Price above the 150- and 200-day averages; 150-day above 200-day; 200-day rising for at least a month; "
                   "50-day above both; price above the 50-day; at least 30% above the 52-week low and within 25% of the "
-                  "52-week high; RS rating at least 70. Ranked by RS. (His full SEPA method also needs strong earnings "
+                  "52-week high; RS rating at least 70. Ranked by RS. (The full SEPA method also needs strong earnings "
                   "and a tight base; this is the published screen.)"),
-    "weinstein": ("Stan Weinstein stage analysis",
+    "stage": ("Stage analysis",
                   "Stage 2: price above a rising 30-week (150-day) average and Mansfield relative strength vs the Nifty "
                   "500 above zero. New buys only within 4 weeks of a breakout above the prior 6-month high on at least "
                   "twice the average volume, after a flat base (30-week average moved less than 10% in the 6 months "
@@ -194,9 +194,9 @@ def compute(P: dict, U: pd.DataFrame, rs_ibd: pd.DataFrame, dates: pd.DatetimeIn
     out["qglp"] = {"score": -peg.where(ok), "entry": None,
                    "inputs": {"Avg ROE 5y": F["roe_avg5"], "Profit growth 3y %": g3,
                               "Sales growth 3y %": F["sales_cagr3"] * 100, "P/E": pe, "PEG": peg}}
-    # Lynch
+    # GARP
     ok = Ud & nonfin & (F["ttm_np"] > 0) & (g3 >= 15) & (g3 <= 50) & (peg <= 1.0) & (F["de"] <= 0.5)
-    out["lynch"] = {"score": -peg.where(ok), "entry": None,
+    out["garp"] = {"score": -peg.where(ok), "entry": None,
                     "inputs": {"Profit growth 3y %": g3, "P/E": pe, "PEG": peg, "Debt/equity": F["de"]}}
     # Graham
     ok = (Ud & nonfin & (pe <= 15) & (pe * pb <= 22.5) & (F["de"] <= 0.5) & (F["np_pos10"] == 1)
@@ -204,17 +204,17 @@ def compute(P: dict, U: pd.DataFrame, rs_ibd: pd.DataFrame, dates: pd.DatetimeIn
     out["graham"] = {"score": -(pe * pb).where(ok), "entry": None,
                      "inputs": {"P/E": pe, "P/B": pb, "P/E x P/B": pe * pb, "Debt/equity": F["de"],
                                 "Profit growth 10y %": F["np_up10"] * 100}}
-    # Minervini trend template
+    # Trend template
     ma50, ma150, ma200 = (c.rolling(n, min_periods=int(n * .9)).mean() for n in (50, 150, 200))
     hi52, lo52 = h.rolling(252, min_periods=200).max(), lo.rolling(252, min_periods=200).min()
     tmpl = ((c > ma150) & (c > ma200) & (ma150 > ma200) & (ma200 > ma200.shift(21)) & (ma50 > ma150)
             & (ma50 > ma200) & (c > ma50) & (c >= 1.3 * lo52) & (c >= 0.75 * hi52)).reindex(dates).fillna(False)
     rs = rs_ibd.reindex(index=dates, columns=cols).where(Ud).rank(axis=1, pct=True) * 99
     ok = Ud & tmpl & (rs >= 70)
-    out["minervini"] = {"score": rs.where(ok), "entry": None,
+    out["trend"] = {"score": rs.where(ok), "entry": None,
                         "inputs": {"RS": rs, "% of 52w high": (c / hi52 * 100).reindex(dates),
                                    "% above 52w low": ((c / lo52 - 1) * 100).reindex(dates)}}
-    # Weinstein stage 2
+    # Stage analysis, stage 2
     idx = data.index_close("NIFTY500").reindex(c.index).ffill()
     rel = c.div(idx, axis=0)
     mansfield = (rel / rel.rolling(260, min_periods=200).mean() - 1) * 100
@@ -224,7 +224,7 @@ def compute(P: dict, U: pd.DataFrame, rs_ibd: pd.DataFrame, dates: pd.DatetimeIn
     brk = (c > h.rolling(130, min_periods=120).max().shift(1)) & (v >= 2 * avgv.shift(1)) & flat
     recent = brk.astype(float).rolling(20, min_periods=1).max() > 0
     ok = Ud & stage2.reindex(dates).fillna(False)
-    out["weinstein"] = {"score": mansfield.reindex(dates).where(ok), "entry": recent.reindex(dates).fillna(False),
+    out["stage"] = {"score": mansfield.reindex(dates).where(ok), "entry": recent.reindex(dates).fillna(False),
                         "inputs": {"Mansfield RS": mansfield.reindex(dates),
                                    "% above 30-wk avg": ((c / ma150 - 1) * 100).reindex(dates),
                                    "Breakout in last 4 wks": recent.reindex(dates).astype(float)}}
@@ -232,7 +232,7 @@ def compute(P: dict, U: pd.DataFrame, rs_ibd: pd.DataFrame, dates: pd.DatetimeIn
 
 
 def daily_lists(P: dict, U: pd.DataFrame, rs_ibd: pd.DataFrame, n: int = 15, fund: dict | None = None) -> dict:
-    """Latest-date lists: {name: DataFrame(rank, symbol, close, score, inputs...)}; Weinstein shows new breakouts first."""
+    """Latest-date lists: {name: DataFrame(rank, symbol, close, score, inputs...)}; stage analysis shows new breakouts first."""
     d = P["close"].index[-1]
     res = compute(P, U, rs_ibd, pd.DatetimeIndex([d]), loaded=load(fund))
     lists = {}
