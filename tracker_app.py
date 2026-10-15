@@ -48,6 +48,8 @@ page = st.sidebar.radio("Page", ["Today", "Other frameworks", "Sectors", "Insigh
                                  "Paper portfolio", "Watching", "Stock", "Journal"])
 st.sidebar.caption(f"Database: {db.DB}\n\nLatest scan: {dates[0] if dates else 'none'}")
 st.sidebar.caption("Research only. No orders are placed.")
+st.sidebar.divider()
+st.sidebar.markdown("**Created by Amrendra Kumar**")
 
 # ------------------------------------------------------------------ Today
 if page == "Today":

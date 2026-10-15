@@ -291,7 +291,7 @@ shows a confirmed uptrend. Base patterns are annotations (book Ch.2): buy zone =
 Buy point: Not yet = below the pivot or no sound base; At pivot = within the buy zone; Extended = more than 5% past the pivot.
 6-mo above +100% is labelled "strong momentum": on NSE 2016-2025 such stocks doubled again about twice as often
 as average, but also swung harder (see data/research/winners). Information only, not a ranking rule.
-Generated {datetime.now():%Y-%m-%d %H:%M}. Research only — not investment advice.</footer>
+Generated {datetime.now():%Y-%m-%d %H:%M}. Research only — not investment advice. Created by Amrendra Kumar.</footer>
 </main></body></html>"""
 
 
