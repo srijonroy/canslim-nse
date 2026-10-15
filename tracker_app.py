@@ -6,11 +6,12 @@ Research only. Nothing here places orders.
 
 usage: run_app.bat   (or: python -m streamlit run tracker_app.py)
 """
+import json
 from datetime import date
 
 import pandas as pd
-import plotly.graph_objects as go
 import streamlit as st
+import streamlit.components.v1 as components
 
 from canslim import db, holdings, stockchart
 
@@ -84,6 +85,56 @@ def chips(syms, key, label="Chart"):
     st.pills(label, syms, key=key, on_change=lambda: st.session_state[key] and _open_chart(st.session_state[key]))
 
 
+# TradingView's open-source chart library: wheel zooms, drag scrolls, the price axis refits to what is visible.
+TV_JS = "https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"
+TV_HTML = """<style>
+ body{margin:0;font:12px/1.4 "Source Sans Pro",system-ui,sans-serif;color:__FG__;overflow:hidden}
+ .bar{display:flex;gap:4px;align-items:center;margin:0 0 6px}
+ .bar button{font:inherit;padding:2px 10px;border:1px solid __LINE__;border-radius:6px;background:none;color:__FG__;cursor:pointer}
+ .bar button.on{border-color:__EMA200__;color:__EMA200__} .bar label{margin-left:auto;color:__MUT__;cursor:pointer}
+ .lg{display:flex;gap:12px;color:__MUT__;min-height:17px} .lg i{display:inline-block;width:12px;height:2px;vertical-align:middle;margin-right:4px}
+ .lg b{color:__FG__;font-weight:600} #c{height:300px} .hint{color:__MUT__;font-size:11px;margin-top:2px}
+</style>
+<div class=bar><button data-y=1>1y</button><button data-y=2>2y</button><button data-y=5>5y</button><button data-y=0>All</button>
+<label><input type=checkbox id=log> Log scale</label></div>
+<div class=lg id=lg></div><div id=c></div>
+<div class=hint>Scroll to zoom · drag to move through time · double-click the price axis to refit</div>
+<script src="__TVJS__"></script>
+<script>
+const D=__DATA__, last=D.t[D.t.length-1];
+const el=document.getElementById('c'),ch=LightweightCharts.createChart(el,{width:el.clientWidth,height:300,
+ layout:{background:{type:'solid',color:'rgba(0,0,0,0)'},textColor:'__MUT__',fontSize:11},
+ grid:{vertLines:{visible:false},horzLines:{color:'__GRID__'}},rightPriceScale:{borderVisible:false},
+ timeScale:{borderVisible:false,minBarSpacing:0.05},crosshair:{mode:0}});
+const S=[['c','Price','__INK__',2],['e20','20 EMA','__EMA20__',1],['e200','200 EMA','__EMA200__',2]].map(([k,n,col,w])=>{
+ const s=ch.addLineSeries({color:col,lineWidth:w,priceLineVisible:false,lastValueVisible:false,crosshairMarkerRadius:3});
+ s.setData(D.t.map((t,i)=>({time:t,value:D[k][i]})));return {s,n,col,k}});
+const f=v=>v==null?'–':v.toLocaleString('en-IN',{maximumFractionDigits:2});
+function legend(p){const at=p&&p.time;document.getElementById('lg').innerHTML=(at?'<span>'+at+'</span>':'')+S.map(x=>{
+ const v=at?(p.seriesData.get(x.s)||{}).value:D[x.k][D[x.k].length-1];return `<span><i style="background:${x.col}"></i>${x.n} <b>${f(v)}</b></span>`}).join('')}
+ch.subscribeCrosshairMove(legend);legend();
+let cur=5,moved=false;['wheel','mousedown','touchstart'].forEach(e=>el.addEventListener(e,()=>moved=true));
+function range(y){cur=y;moved=false;document.querySelectorAll('.bar button').forEach(b=>b.classList.toggle('on',+b.dataset.y===y));
+ if(!y||D.t[0]>new Date(new Date(last).setFullYear(new Date(last).getFullYear()-y)).toISOString().slice(0,10)){ch.timeScale().fitContent();return}
+ const d=new Date(last);d.setFullYear(d.getFullYear()-y);ch.timeScale().setVisibleRange({from:d.toISOString().slice(0,10),to:last})}
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>range(+b.dataset.y));
+document.getElementById('log').onchange=e=>ch.priceScale('right').applyOptions({mode:e.target.checked?1:0});
+range(5);let rw=el.clientWidth;new ResizeObserver(()=>{if(el.clientWidth!==rw){rw=el.clientWidth;ch.resize(rw,300);if(!moved)range(cur)}}).observe(el);
+</script>"""
+
+
+def tv_chart(df):
+    data = {"t": df.index.strftime("%Y-%m-%d").tolist(), "c": df.close.round(2).tolist(),
+            "e20": df.ema20.round(2).tolist(), "e200": df.ema200.round(2).tolist()}
+    fg, mut, line, grid = (("#fafafa", "#a3a8b8", "rgba(250,250,250,.2)", "rgba(250,250,250,.08)") if DARK else
+                           ("#31333f", "#6b6e7b", "rgba(49,51,63,.2)", "rgba(49,51,63,.08)"))
+    out = TV_HTML
+    for k, v in {"__DATA__": json.dumps(data, separators=(",", ":")), "__TVJS__": TV_JS, "__FG__": fg, "__MUT__": mut,
+                 "__LINE__": line, "__GRID__": grid, "__INK__": INK, "__EMA20__": EMA20, "__EMA200__": EMA200}.items():
+        out = out.replace(k, v)
+    components.html(out, height=372)
+
+
 def chart_panel():
     sym = st.session_state.get("chart")
     if not sym:
@@ -103,26 +154,12 @@ def chart_panel():
         if df.empty:
             st.warning(f"No price file for {sym} in data/prices.")
             return
-        r1, r2 = st.columns([3, 2], vertical_alignment="center")
-        yrs = r1.segmented_control("Range", [1, 2, 5, 0], default=5, key="chart_years", label_visibility="collapsed",
-                                   format_func=lambda y: f"{y}y" if y else "All")
-        log = r2.toggle("Log scale", key="chart_log")
-        d = df if not yrs else df.loc[df.index[-1] - pd.DateOffset(years=yrs):]
-        fig = go.Figure()
-        for col, name, color, w in [("close", "Price", INK, 1.5), ("ema20", "20 EMA", EMA20, 1.5),
-                                    ("ema200", "200 EMA", EMA200, 2)]:
-            fig.add_trace(go.Scatter(x=d.index, y=d[col].round(2), name=name, mode="lines",
-                                     line=dict(color=color, width=w), hovertemplate="%{y:,.2f}"))
-        fig.update_layout(height=330, margin=dict(l=0, r=0, t=28, b=0), hovermode="x unified",
-                          legend=dict(orientation="h", y=1.1, x=0), paper_bgcolor="rgba(0,0,0,0)",
-                          plot_bgcolor="rgba(0,0,0,0)",
-                          yaxis=dict(type="log" if log else "linear", gridcolor=line, tickformat=",.0f"),
-                          xaxis=dict(showgrid=False))
-        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False}, key="chart_fig")
-        last = df.iloc[-1]
-        start = d.close.iloc[0]
+        tv_chart(df)
+        yrs = 5
+        d = df.loc[df.index[-1] - pd.DateOffset(years=yrs):]
+        last, start = df.iloc[-1], d.close.iloc[0]
         a, b, c_ = st.columns(3)
-        short = not yrs or d.index[0] > df.index[-1] - pd.DateOffset(years=yrs) + pd.Timedelta(days=10)
+        short = d.index[0] > df.index[-1] - pd.DateOffset(years=yrs) + pd.Timedelta(days=10)
         a.metric("Close", f"{last.close:,.2f}", f"{(last.close / start - 1):+.0%} " +
                  (f"since {d.index[0]:%Y}" if short else f"in {yrs}y"))
         b.metric("vs 20 EMA", f"{last.close / last.ema20 - 1:+.1%}")
