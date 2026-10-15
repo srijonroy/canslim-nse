@@ -86,53 +86,96 @@ def chips(syms, key, label="Chart"):
 
 
 # TradingView's open-source chart library: wheel zooms, drag scrolls, the price axis refits to what is visible.
-TV_JS = "https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"
+TV_JS = "https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"
 TV_HTML = """<style>
  body{margin:0;font:12px/1.4 "Source Sans Pro",system-ui,sans-serif;color:__FG__;overflow:hidden}
- .bar{display:flex;gap:4px;align-items:center;margin:0 0 6px}
+ .bar{display:flex;gap:4px;align-items:center;margin:0 0 4px;flex-wrap:wrap}
  .bar button{font:inherit;padding:2px 10px;border:1px solid __LINE__;border-radius:6px;background:none;color:__FG__;cursor:pointer}
- .bar button.on{border-color:__EMA200__;color:__EMA200__} .bar label{margin-left:auto;color:__MUT__;cursor:pointer}
- .lg{display:flex;gap:12px;color:__MUT__;min-height:17px} .lg i{display:inline-block;width:12px;height:2px;vertical-align:middle;margin-right:4px}
- .lg b{color:__FG__;font-weight:600} #c{height:300px} .hint{color:__MUT__;font-size:11px;margin-top:2px}
+ .bar button.on{border-color:__EMA200__;color:__EMA200__} .bar label{color:__MUT__;cursor:pointer;margin-right:10px;white-space:nowrap}
+ .bar .sp{margin-left:auto}
+ .lg{display:flex;flex-wrap:wrap;gap:2px 12px;color:__MUT__;min-height:34px;align-content:flex-start}
+ .lg i{display:inline-block;width:12px;height:2px;vertical-align:middle;margin-right:4px} .lg b{color:__FG__;font-weight:600}
+ .lg .ev{color:__FG__} #c{height:430px} .hint{color:__MUT__;font-size:11px;margin-top:2px}
 </style>
 <div class=bar><button data-y=1>1y</button><button data-y=2>2y</button><button data-y=5>5y</button><button data-y=0>All</button>
-<label><input type=checkbox id=log> Log scale</label></div>
+<span class=sp></span><label style="margin-right:0"><input type=checkbox id=log> Log</label></div>
+<div class=bar><label><input type=checkbox id=sig checked> Signals</label><label><input type=checkbox id=res checked> Results</label>
+<label><input type=checkbox id=rsl checked> RS line</label><label><input type=checkbox id=vol checked> Volume</label>
+<label><input type=checkbox id=bas checked> Base</label></div>
 <div class=lg id=lg></div><div id=c></div>
-<div class=hint>Scroll to zoom · drag to move through time · double-click the price axis to refit</div>
+<div class=hint>Scroll to zoom · drag to move through time · hover a marker for details</div>
 <script src="__TVJS__"></script>
 <script>
-const D=__DATA__, last=D.t[D.t.length-1];
-const el=document.getElementById('c'),ch=LightweightCharts.createChart(el,{width:el.clientWidth,height:300,
- layout:{background:{type:'solid',color:'rgba(0,0,0,0)'},textColor:'__MUT__',fontSize:11},
- grid:{vertLines:{visible:false},horzLines:{color:'__GRID__'}},rightPriceScale:{borderVisible:false},
- timeScale:{borderVisible:false,minBarSpacing:0.05},crosshair:{mode:0}});
-const S=[['c','Price','__INK__',2],['e20','20 EMA','__EMA20__',1],['e200','200 EMA','__EMA200__',2]].map(([k,n,col,w])=>{
- const s=ch.addLineSeries({color:col,lineWidth:w,priceLineVisible:false,lastValueVisible:false,crosshairMarkerRadius:3});
- s.setData(D.t.map((t,i)=>({time:t,value:D[k][i]})));return {s,n,col,k}});
+const D=__DATA__, C=__COLORS__, N=D.t.length, last=D.t[N-1], H=430, L=LightweightCharts, el=document.getElementById('c'), $=id=>document.getElementById(id);
+const pos={}; D.t.forEach((t,i)=>pos[t]=i);
+const ev={}, add=(t,s)=>(ev[t]=ev[t]||[]).push(s);
+D.signals.forEach(m=>add(m.time,(m.buy?'▲ ':'▼ ')+m.text)); D.results.forEach(m=>add(m.time,'Result: profit '+m.text.replace(/^E ?/,'')));
+D.rsmarks.forEach(m=>add(m.time,'RS line leads price'));
+let ch=null, cur=5, moved=false;
+const day=t=>typeof t==='string'?t:t.year?`${t.year}-${String(t.month).padStart(2,'0')}-${String(t.day).padStart(2,'0')}`:new Date(t*1000).toISOString().slice(0,10);
 const f=v=>v==null?'–':v.toLocaleString('en-IN',{maximumFractionDigits:2});
-function legend(p){const at=p&&p.time;document.getElementById('lg').innerHTML=(at?'<span>'+at+'</span>':'')+S.map(x=>{
- const v=at?(p.seriesData.get(x.s)||{}).value:D[x.k][D[x.k].length-1];return `<span><i style="background:${x.col}"></i>${x.n} <b>${f(v)}</b></span>`}).join('')}
-ch.subscribeCrosshairMove(legend);legend();
-let cur=5,moved=false;['wheel','mousedown','touchstart'].forEach(e=>el.addEventListener(e,()=>moved=true));
+const fv=v=>v==null?'–':v>=1e7?(v/1e7).toFixed(2)+' Cr':v>=1e5?(v/1e5).toFixed(1)+' L':v.toLocaleString('en-IN');
+function legend(p){const t=p&&p.time?day(p.time):null,i=t&&pos[t]!=null?pos[t]:N-1,it=(n,col,v)=>`<span><i style="background:${col}"></i>${n} <b>${v}</b></span>`;
+ $('lg').innerHTML=(t?'<span>'+t+'</span>':'')+it('Price',C.ink,f(D.c[i]))+it('20 EMA',C.e20,f(D.e20[i]))+it('200 EMA',C.e200,f(D.e200[i]))
+  +($('rsl').checked?it('RS line',C.rs,f(D.rs[i])):'')+($('vol').checked?it('Vol',C.mut,fv(D.v[i])+(D.v50[i]?' · '+(D.v[i]/D.v50[i]).toFixed(1)+'x avg':'')):'')
+  +(t&&ev[t]?'<span class=ev>'+ev[t].join(' · ')+'</span>':'')}
+function build(){
+ const lr=ch?ch.timeScale().getVisibleLogicalRange():null; if(ch)ch.remove();
+ const rsOn=$('rsl').checked, volOn=$('vol').checked;
+ ch=L.createChart(el,{width:el.clientWidth,height:H,layout:{background:{type:'solid',color:'rgba(0,0,0,0)'},textColor:C.mut,fontSize:11,
+  panes:{separatorColor:C.grid,separatorHoverColor:C.grid}},grid:{vertLines:{visible:false},horzLines:{color:C.grid}},
+  rightPriceScale:{borderVisible:false},timeScale:{borderVisible:false,minBarSpacing:0.05},crosshair:{mode:0}});
+ const line=(k,o,pane)=>{const s=ch.addSeries(L.LineSeries,Object.assign({priceLineVisible:false,lastValueVisible:false,crosshairMarkerRadius:3},o),pane);
+  s.setData(D.t.map((t,i)=>D[k][i]==null?{time:t}:{time:t,value:D[k][i]}));return s};
+ const price=line('c',{color:C.ink,lineWidth:2},0); line('e20',{color:C.e20,lineWidth:1},0); line('e200',{color:C.e200,lineWidth:2},0);
+ if($('log').checked)price.priceScale().applyOptions({mode:1});
+ const M=[].concat($('sig').checked?D.signals.map(m=>({time:m.time,position:m.position,shape:m.shape,color:m.buy?C.buy:C.sell,
+   size:m.text.startsWith('BT')?.7:1,text:m.text.startsWith('BT')?undefined:m.text.split(' ')[0]})):[],
+  $('res').checked?D.results.map(m=>({time:m.time,position:'aboveBar',shape:'circle',size:.5,color:m.good?C.good:C.mut})):[])
+  .sort((a,b)=>a.time<b.time?-1:a.time>b.time?1:0);
+ if(M.length)L.createSeriesMarkers(price,M);
+ D.lines.forEach(x=>{if(x.kind==='you'||$('bas').checked)price.createPriceLine({price:x.price,title:x.kind==='you'?'Your buy':x.kind==='pivot'?'Pivot':'Zone +5%',
+  lineWidth:1,axisLabelVisible:true,color:x.kind==='you'?C.you:C.ink,lineStyle:x.kind==='zone'?1:x.kind==='pivot'?2:0})});
+ let pane=1;
+ if(rsOn){const r=line('rs',{color:C.rs,lineWidth:1,crosshairMarkerVisible:false},pane);r.priceScale().applyOptions({visible:false});
+  if(D.rsmarks.length)L.createSeriesMarkers(r,D.rsmarks.map(m=>({time:m.time,position:'belowBar',shape:'circle',size:.6,color:C.rs})));pane++}
+ if(volOn){const v=ch.addSeries(L.HistogramSeries,{priceFormat:{type:'volume'},priceLineVisible:false,lastValueVisible:false},pane);
+  v.setData(D.t.map((t,i)=>({time:t,value:D.v[i],color:D.heavy[i]?(D.up[i]?C.buy:C.sell):C.volbar})));
+  line('v50',{color:C.mut,lineWidth:1,crosshairMarkerVisible:false,priceFormat:{type:'volume'}},pane)}
+ const sf=rsOn&&volOn?[6,1.6,2.2]:rsOn?[7,2]:volOn?[7,2.2]:[1];
+ ch.panes().forEach((p,i)=>p.setStretchFactor(sf[i]));
+ price.priceScale().applyOptions({scaleMargins:{top:.06,bottom:.04}});
+ ch.subscribeCrosshairMove(legend);legend();
+ if(lr)ch.timeScale().setVisibleLogicalRange(lr);else range(cur)}
 function range(y){cur=y;moved=false;document.querySelectorAll('.bar button').forEach(b=>b.classList.toggle('on',+b.dataset.y===y));
- if(!y||D.t[0]>new Date(new Date(last).setFullYear(new Date(last).getFullYear()-y)).toISOString().slice(0,10)){ch.timeScale().fitContent();return}
- const d=new Date(last);d.setFullYear(d.getFullYear()-y);ch.timeScale().setVisibleRange({from:d.toISOString().slice(0,10),to:last})}
+ const d=new Date(last);d.setFullYear(d.getFullYear()-y);const from=d.toISOString().slice(0,10);
+ if(!y||D.t[0]>from){ch.timeScale().fitContent();return} ch.timeScale().setVisibleRange({from,to:last})}
+['wheel','mousedown','touchstart'].forEach(e=>el.addEventListener(e,()=>moved=true));
 document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>range(+b.dataset.y));
-document.getElementById('log').onchange=e=>ch.priceScale('right').applyOptions({mode:e.target.checked?1:0});
-range(5);let rw=el.clientWidth;new ResizeObserver(()=>{if(el.clientWidth!==rw){rw=el.clientWidth;ch.resize(rw,300);if(!moved)range(cur)}}).observe(el);
+['sig','res','rsl','vol','bas','log'].forEach(id=>$(id).onchange=build);
+build();let rw=el.clientWidth;new ResizeObserver(()=>{if(el.clientWidth!==rw){rw=el.clientWidth;ch.resize(rw,H);if(!moved)range(cur)}}).observe(el);
 </script>"""
 
 
-def tv_chart(df):
-    data = {"t": df.index.strftime("%Y-%m-%d").tolist(), "c": df.close.round(2).tolist(),
-            "e20": df.ema20.round(2).tolist(), "e200": df.ema200.round(2).tolist()}
-    fg, mut, line, grid = (("#fafafa", "#a3a8b8", "rgba(250,250,250,.2)", "rgba(250,250,250,.08)") if DARK else
-                           ("#31333f", "#6b6e7b", "rgba(49,51,63,.2)", "rgba(49,51,63,.08)"))
+def tv_chart(L):
+    fg, mut, line, grid, volbar = (
+        ("#fafafa", "#a3a8b8", "rgba(250,250,250,.2)", "rgba(250,250,250,.08)", "rgba(195,194,183,.28)") if DARK else
+        ("#31333f", "#6b6e7b", "rgba(49,51,63,.2)", "rgba(49,51,63,.08)", "rgba(82,81,78,.22)"))
+    colors = {"ink": INK, "e20": EMA20, "e200": EMA200, "mut": mut, "grid": grid, "volbar": volbar,
+              "buy": "#199e70" if DARK else "#1baf7a", "sell": "#e66767" if DARK else "#e34948",
+              "good": "#9085e9" if DARK else "#6250d6", "rs": "#d55181" if DARK else "#e87ba4",
+              "you": "#c98500" if DARK else "#eda100"}
     out = TV_HTML
-    for k, v in {"__DATA__": json.dumps(data, separators=(",", ":")), "__TVJS__": TV_JS, "__FG__": fg, "__MUT__": mut,
-                 "__LINE__": line, "__GRID__": grid, "__INK__": INK, "__EMA20__": EMA20, "__EMA200__": EMA200}.items():
+    for k, v in {"__DATA__": json.dumps(L, separators=(",", ":")), "__COLORS__": json.dumps(colors),
+                 "__TVJS__": TV_JS, "__FG__": fg, "__MUT__": mut, "__LINE__": line, "__EMA200__": EMA200}.items():
         out = out.replace(k, v)
-    components.html(out, height=372)
+    components.html(out, height=560)
+
+
+@st.cache_data(show_spinner=False)
+def chart_layers(sym, scan):           # scan = latest scan date, so a new scan refreshes the cache
+    return stockchart.layers(sym, q("SELECT date, symbol FROM picks WHERE list='canslim'"),
+                             q("SELECT * FROM paper_trades"), q("SELECT * FROM holdings"))
 
 
 def chart_panel():
@@ -141,10 +184,10 @@ def chart_panel():
         return
     bg, line = ("#0e1117", "rgba(250,250,250,.16)") if DARK else ("#ffffff", "rgba(49,51,63,.16)")
     st.html(f"""<style>
-      .st-key-chartpanel {{position: fixed; top: 3.75rem; right: 1rem; width: min(470px, calc(100vw - 2rem));
+      .st-key-chartpanel {{position: fixed; top: 3.75rem; right: 1rem; width: min(560px, calc(100vw - 2rem));
         max-height: calc(100vh - 4.75rem); overflow-y: auto; z-index: 999990; background: {bg};
         border: 1px solid {line}; border-radius: 10px; padding: 10px 14px 6px; box-shadow: 0 8px 28px rgba(0,0,0,.22);}}
-      @media (min-width: 1200px) {{ [data-testid="stMainBlockContainer"] {{padding-right: 510px !important;}} }}
+      @media (min-width: 1300px) {{ [data-testid="stMainBlockContainer"] {{padding-right: 600px !important;}} }}
     </style>""")
     with st.container(key="chartpanel"):
         h, x = st.columns([6, 1], vertical_alignment="center")
@@ -154,7 +197,8 @@ def chart_panel():
         if df.empty:
             st.warning(f"No price file for {sym} in data/prices.")
             return
-        tv_chart(df)
+        L = chart_layers(sym, dates[0] if dates else "")
+        tv_chart(L)
         yrs = 5
         d = df.loc[df.index[-1] - pd.DateOffset(years=yrs):]
         last, start = df.iloc[-1], d.close.iloc[0]
@@ -164,8 +208,16 @@ def chart_panel():
                  (f"since {d.index[0]:%Y}" if short else f"in {yrs}y"))
         b.metric("vs 20 EMA", f"{last.close / last.ema20 - 1:+.1%}")
         c_.metric("vs 200 EMA", f"{last.close / last.ema200 - 1:+.1%}")
+        if L.get("base"):
+            st.markdown(f"**Base:** {L['base']}")
         st.caption(f"Last close {df.index[-1]:%d %b %Y}. Adjusted for splits and bonuses; averages use the full "
                    f"history from {df.index[0]:%Y}. [Screener](https://www.screener.in/company/{sym}/)")
+        st.caption("**Signals** ▲ buy ▼ sell — BT: backtest of the current rules 2016–26 · List / Off list: joined or "
+                   "left the live CAN SLIM list · Paper: paper portfolio · You: your holdings (line = your buy price). "
+                   "**Results** E = result day, net profit vs a year ago (purple = +25% or better). **RS line** = price ÷ "
+                   "Nifty 500; 'RS leads' = RS line at a 52-week high while the price is still 5%+ below its own high "
+                   "(book: often comes before a breakout). **Volume** coloured on days 40%+ above the 50-day average "
+                   "(green up, red down); line = 50-day average. **Base** = pivot (dashed) and top of the buy zone (dotted).")
 
 
 dates = q("SELECT DISTINCT date FROM snapshot ORDER BY date DESC").date.tolist()
@@ -566,6 +618,7 @@ elif page == "Stock":
     if px.empty:
         st.warning("No price file for that symbol.")
         st.stop()
+    chips([sym], f"c_stock_{sym}", "Open in the chart panel (signals, base, RS line, volume, results)")
     years = st.slider("Years of chart", 1, 10, 2)
     p = px.loc[px.index[-1] - pd.DateOffset(years=years):]
     ch = pd.DataFrame({"close": p, "50-day": px.rolling(50).mean().reindex(p.index),
