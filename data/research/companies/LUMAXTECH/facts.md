@@ -1,10 +1,10 @@
 # LUMAXTECH — facts we already hold
 
-_Generated 2026-10-02 18:50 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-16 19:42 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Automobile and Auto Components > Auto Components > Auto Components & Equipments  
-**Basis:** consolidated, fetched 2026-09-30T21:22:31  
-**Snapshot:** Market Cap 14163.0, Current Price 2077.0, High / Low 2190.0, Stock P/E 42.7, Book Value 178.0, Dividend Yield 0.26, ROCE 21.2, ROE 26.4, Face Value 2.0
+**Basis:** consolidated, fetched 2026-10-10T15:22:14  
+**Snapshot:** Market Cap 12455.0, Current Price 1827.0, High / Low 2190.0, Stock P/E 37.6, Book Value 178.0, Dividend Yield 0.3, ROCE 21.2, ROE 26.4, Face Value 2.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -60,6 +60,6 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-01: close 1,978.90, RS 85, system rank 8, industry group rank 20.0. Passes every rule.
+As of 2026-10-16: close 1,968.50, RS 92, system rank 6, industry group rank 18.0. Passes every rule.
 
-- On the canslim list 2 day(s), 2026-09-30 to 2026-10-01
+- On the canslim list 3 day(s), 2026-09-30 to 2026-10-16
