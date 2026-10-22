@@ -1,6 +1,6 @@
 # SKYGOLD — facts we already hold
 
-_Generated 2026-10-16 19:41 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-22 15:17 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Consumer Durables > Gems, Jewellery And Watches  
 **Basis:** consolidated, fetched 2026-10-10T15:46:49  
@@ -60,14 +60,14 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-16: close 1,060.60, RS 99, system rank 2, industry group rank 6.0. Passes every rule.
+As of 2026-10-21: close 1,045.60, RS 99, system rank 2, industry group rank 5.0. Passes every rule.
 
-- On the canslim list 9 day(s), 2026-09-30 to 2026-10-16
+- On the canslim list 10 day(s), 2026-09-30 to 2026-10-21
 
-- On the earnings list 9 day(s), 2026-09-30 to 2026-10-16
+- On the earnings list 10 day(s), 2026-09-30 to 2026-10-21
 
-- On the emerging list 9 day(s), 2026-09-30 to 2026-10-16
+- On the emerging list 10 day(s), 2026-09-30 to 2026-10-21
 
-- On the fw_qglp list 3 day(s), 2026-10-14 to 2026-10-16
+- On the fw_qglp list 4 day(s), 2026-10-14 to 2026-10-21
 
-- On the fw_trend list 3 day(s), 2026-10-14 to 2026-10-16
+- On the fw_trend list 4 day(s), 2026-10-14 to 2026-10-21
