@@ -1,42 +1,42 @@
 # CHENNPETRO — facts we already hold
 
-_Generated 2026-10-22 15:17 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-24 20:40 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Energy > Oil, Gas & Consumable Fuels > Petroleum Products > Refineries & Marketing  
-**Basis:** consolidated, fetched 2026-10-10T14:50:27  
-**Snapshot:** Market Cap 22154.0, Current Price 1488.0, High / Low 1678.0, Stock P/E 5.31, Book Value 746.0, Dividend Yield 4.17, ROCE 34.9, ROE 31.8, Face Value 10.0
+**Basis:** consolidated, fetched 2026-10-24T19:28:05  
+**Snapshot:** Market Cap 21973.0, Current Price 1476.0, High / Low 1678.0, Stock P/E 3.85, Book Value 913.0, Dividend Yield 4.2, ROCE 34.9, ROE 31.8, Face Value 10.0
 
 ## Last 8 quarters
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
-| Sales | 12,086 | 12,925 | 17,249 | 14,812 | 16,327 | 15,683 | 16,817 | 27,369 |
-| Operating Profit | -675 | 242 | 785 | 99 | 1,144 | 1,478 | 2,036 | 1,555 |
-| OPM % | -6 | 1.9 | 4.5 | 0.7 | 7 | 9 | 12 | 6 |
-| Other Income | 19 | 15 | 32 | 26 | 23 | 43 | 43 | 32 |
-| Interest | 52 | 79 | 66 | 37 | 34 | 33 | 16 | 52 |
-| Net Profit | -634 | 21 | 470 | -40 | 719 | 1,002 | 1,422 | 1,031 |
+| Sales | 12,925 | 17,249 | 14,812 | 16,327 | 15,683 | 16,817 | 27,369 | 20,558 |
+| Operating Profit | 242 | 785 | 99 | 1,144 | 1,478 | 2,036 | 1,555 | 3,201 |
+| OPM % | 1.9 | 4.5 | 0.7 | 7 | 9 | 12 | 6 | 16 |
+| Other Income | 15 | 32 | 26 | 23 | 43 | 43 | 32 | 30 |
+| Interest | 79 | 66 | 37 | 34 | 33 | 16 | 52 | 62 |
+| Net Profit | 21 | 470 | -40 | 719 | 1,002 | 1,422 | 1,031 | 2,247 |
 
-Other income as % of profit before tax (last 4 qtrs): Sep 2025 2%, Dec 2025 3%, Mar 2026 2%, Jun 2026 2%  
+Other income as % of profit before tax (last 4 qtrs): Dec 2025 3%, Mar 2026 2%, Jun 2026 2%, Sep 2026 1%  
 _High = earnings not from operations (Q4)._
 
 ## Annual
 | | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 | TTM |
 |---|---|---|---|---|---|---|
-| Sales | 43,068 | 76,271 | 66,024 | 58,983 | 63,148 | 76,197 |
-| Operating Profit | 2,732 | 5,698 | 4,476 | 1,038 | 4,757 | 6,213 |
-| OPM % | 6 | 7 | 7 | 1.8 | 8 | 8 |
-| Net Profit | 1,352 | 3,532 | 2,745 | 214 | 3,103 | 4,174 |
+| Sales | 43,068 | 76,271 | 66,024 | 58,983 | 63,148 | 80,427 |
+| Operating Profit | 2,732 | 5,698 | 4,476 | 1,038 | 4,757 | 8,270 |
+| OPM % | 6 | 7 | 7 | 1.8 | 8 | 10 |
+| Net Profit | 1,352 | 3,532 | 2,745 | 214 | 3,103 | 5,702 |
 | Dividend Payout % | 2 | 11 | 30 | 35 | 30 |  |
 
 ## Balance sheet
-| | Mar 2021 | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 |
+| | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|
 | Equity Capital | 149 | 149 | 149 | 149 | 149 | 149 |
-| Reserves | 1,462 | 2,838 | 6,326 | 8,672 | 8,058 | 10,960 |
-| Borrowings | 9,167 | 9,238 | 4,260 | 2,786 | 3,117 | 1,964 |
-| CWIP | 1,550 | 1,210 | 331 | 210 | 208 | 346 |
-| Fixed Assets | 7,142 | 6,967 | 7,637 | 7,506 | 7,325 | 7,182 |
-| Total Assets | 14,265 | 17,523 | 16,079 | 18,375 | 17,109 | 20,085 |
+| Reserves | 2,838 | 6,326 | 8,672 | 8,058 | 10,960 | 13,444 |
+| Borrowings | 9,238 | 4,260 | 2,786 | 3,117 | 1,964 | 2,202 |
+| CWIP | 1,210 | 331 | 210 | 208 | 346 | 602 |
+| Fixed Assets | 6,967 | 7,637 | 7,506 | 7,325 | 7,182 | 6,980 |
+| Total Assets | 17,523 | 16,079 | 18,375 | 17,109 | 20,085 | 21,041 |
 _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dilution (Q6) or a bonus issue / split (harmless) -- check the annual report._
 
 ## Efficiency
@@ -60,12 +60,14 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-21: close 1,438.40, RS 90, system rank 4, industry group rank 52.0. Passes every rule.
+As of 2026-10-23: close 1,475.60, RS 93, system rank 3, industry group rank 45.0. Passes every rule.
 
-- On the canslim list 7 day(s), 2026-09-30 to 2026-10-21
+- On the canslim list 9 day(s), 2026-09-30 to 2026-10-23
 
-- On the earnings list 1 day(s), 2026-09-30 to 2026-09-30
+- On the earnings list 3 day(s), 2026-09-30 to 2026-10-23
 
-- On the fw_garp list 4 day(s), 2026-10-14 to 2026-10-21
+- On the emerging list 1 day(s), 2026-10-23 to 2026-10-23
 
-- On the fw_magic list 4 day(s), 2026-10-14 to 2026-10-21
+- On the fw_garp list 6 day(s), 2026-10-14 to 2026-10-23
+
+- On the fw_magic list 6 day(s), 2026-10-14 to 2026-10-23

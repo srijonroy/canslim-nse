@@ -1,10 +1,10 @@
 # KRISHANA — facts we already hold
 
-_Generated 2026-10-22 15:17 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-24 20:40 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Commodities > Chemicals > Fertilizers & Agrochemicals > Fertilizers  
-**Basis:** standalone, fetched 2026-10-10T15:19:46  
-**Snapshot:** Market Cap 6093.0, Current Price 197.0, High / Low 206.0, Stock P/E 31.0, Book Value 18.1, Dividend Yield 0.05, ROCE 27.2, ROE 38.2, Face Value 2.0
+**Basis:** standalone, fetched 2026-10-24T20:03:05  
+**Snapshot:** Market Cap 6172.0, Current Price 200.0, High / Low 216.0, Stock P/E 31.4, Book Value 18.1, Dividend Yield 0.05, ROCE 27.2, ROE 38.2, Face Value 2.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -49,21 +49,21 @@ _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dil
 _Debtor/inventory days rising faster than sales = growth may not be converting to cash (Q5)._
 
 ## Shareholding % (last 8 quarters)
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
-| Promoters | 71 | 71.2 | 71.9 | 71.9 | 72 | 72.3 | 72.9 | 72.9 |
-| FIIs | 0 | 0 | 0 | 1.4 | 0.6 | 0.2 | 0.3 | 0.4 |
-| DIIs | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Public | 29 | 28.8 | 28.1 | 26.8 | 27.4 | 27.5 | 26.8 | 26.7 |
-| No. of Shareholders | 8,595 | 8,835 | 9,594 | 13,128 | 13,987 | 13,804 | 12,975 | 19,162 |
+| Promoters | 71.2 | 71.9 | 71.9 | 72 | 72.3 | 72.9 | 72.9 | 72.9 |
+| FIIs | 0 | 0 | 1.4 | 0.6 | 0.2 | 0.3 | 0.4 | 0.6 |
+| DIIs | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.1 |
+| Public | 28.8 | 28.1 | 26.8 | 27.4 | 27.5 | 26.8 | 26.7 | 26.4 |
+| No. of Shareholders | 8,835 | 9,594 | 13,128 | 13,987 | 13,804 | 12,975 | 19,162 | 21,645 |
 _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional sponsorship (Q11)._
 
 ## System status
 
-As of 2026-10-21: close 209.50, RS 95, system rank 3, industry group rank 78.0. Passes every rule.
+As of 2026-10-23: close 199.66, RS 94, system rank 2, industry group rank 79.0. Passes every rule.
 
-- On the canslim list 10 day(s), 2026-09-30 to 2026-10-21
+- On the canslim list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the earnings list 10 day(s), 2026-09-30 to 2026-10-21
+- On the earnings list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the emerging list 1 day(s), 2026-10-21 to 2026-10-21
+- On the emerging list 3 day(s), 2026-10-21 to 2026-10-23

@@ -1,10 +1,10 @@
 # SKYGOLD — facts we already hold
 
-_Generated 2026-10-22 15:17 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-10-24 20:40 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Consumer Durables > Gems, Jewellery And Watches  
-**Basis:** consolidated, fetched 2026-10-10T15:46:49  
-**Snapshot:** Market Cap 14264.0, Current Price 921.0, High / Low 936.0, Stock P/E 42.6, Book Value 77.0, Dividend Yield 0.0, ROCE 26.9, ROE 28.9, Face Value 10.0
+**Basis:** consolidated, fetched 2026-10-24T20:25:23  
+**Snapshot:** Market Cap 16213.0, Current Price 1047.0, High / Low 1084.0, Stock P/E 48.4, Book Value 77.0, Dividend Yield 0.0, ROCE 26.9, ROE 28.9, Face Value 10.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -49,25 +49,25 @@ _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dil
 _Debtor/inventory days rising faster than sales = growth may not be converting to cash (Q5)._
 
 ## Shareholding % (last 8 quarters)
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
-| Promoters | 62.5 | 58.2 | 58.2 | 53.9 | 51.7 | 51.7 | 51.7 | 51.7 |
-| FIIs | 0.2 | 0.9 | 0.4 | 0.9 | 0.6 | 0.8 | 1.2 | 2.8 |
-| DIIs | 0 | 6.6 | 7.1 | 9.4 | 9 | 11.7 | 13.1 | 14.2 |
-| Public | 37.2 | 34.3 | 34.3 | 35.9 | 38.7 | 35.8 | 33.9 | 31.3 |
-| No. of Shareholders | 24,465 | 67,113 | 79,872 | 90,456 | 103,694 | 93,152 | 89,118 | 81,880 |
+| Promoters | 58.2 | 58.2 | 53.9 | 51.7 | 51.7 | 51.7 | 51.7 | 51.7 |
+| FIIs | 0.9 | 0.4 | 0.9 | 0.6 | 0.8 | 1.2 | 2.8 | 4.7 |
+| DIIs | 6.6 | 7.1 | 9.4 | 9 | 11.7 | 13.1 | 14.2 | 12.4 |
+| Public | 34.3 | 34.3 | 35.9 | 38.7 | 35.8 | 33.9 | 31.3 | 31.1 |
+| No. of Shareholders | 67,113 | 79,872 | 90,456 | 103,694 | 93,152 | 89,118 | 81,880 | 105,994 |
 _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional sponsorship (Q11)._
 
 ## System status
 
-As of 2026-10-21: close 1,045.60, RS 99, system rank 2, industry group rank 5.0. Passes every rule.
+As of 2026-10-23: close 1,046.85, RS 99, system rank 1, industry group rank 6.0. Passes every rule.
 
-- On the canslim list 10 day(s), 2026-09-30 to 2026-10-21
+- On the canslim list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the earnings list 10 day(s), 2026-09-30 to 2026-10-21
+- On the earnings list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the emerging list 10 day(s), 2026-09-30 to 2026-10-21
+- On the emerging list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the fw_qglp list 4 day(s), 2026-10-14 to 2026-10-21
+- On the fw_qglp list 6 day(s), 2026-10-14 to 2026-10-23
 
-- On the fw_trend list 4 day(s), 2026-10-14 to 2026-10-21
+- On the fw_trend list 6 day(s), 2026-10-14 to 2026-10-23

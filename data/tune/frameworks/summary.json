@@ -1,5 +1,5 @@
 {
- "run": "2026-10-14",
+ "run": "2026-10-24",
  "lookahead_date": "2021-02-01",
  "lookahead_bad": {
   "coffee": 0,
@@ -53,9 +53,9 @@
    "avg invested %": 97.0,
    "CAGR 2016-19": 3.3,
    "Sharpe 2016-19": -0.16,
-   "CAGR 2020-22": 17.7,
-   "Sharpe 2020-22": 0.5,
-   "CAGR 2023-26": 12.6,
+   "CAGR 2020-22": 18.0,
+   "Sharpe 2020-22": 0.52,
+   "CAGR 2023-26": 12.5,
    "Sharpe 2023-26": 0.33,
    "corr with CAN SLIM": 0.47
   },
@@ -69,21 +69,21 @@
    "avg invested %": 60.0,
    "CAGR 2016-19": 3.1,
    "Sharpe 2016-19": -0.4,
-   "CAGR 2020-22": 17.8,
+   "CAGR 2020-22": 17.7,
    "Sharpe 2020-22": 0.73,
-   "CAGR 2023-26": 16.7,
+   "CAGR 2023-26": 16.8,
    "Sharpe 2023-26": 0.65,
    "corr with CAN SLIM": 0.56
   },
   {
    "framework": "GARP (growth at a reasonable price)",
    "CAGR %": 14.7,
-   "Sharpe": 0.44,
-   "maxDD %": -44.8,
+   "Sharpe": 0.43,
+   "maxDD %": -44.9,
    "trades/yr": 40.0,
    "win %": 56.0,
    "avg invested %": 85.0,
-   "CAGR 2016-19": 6.4,
+   "CAGR 2016-19": 6.3,
    "Sharpe 2016-19": 0.03,
    "CAGR 2020-22": 13.6,
    "Sharpe 2020-22": 0.32,
@@ -94,18 +94,18 @@
   {
    "framework": "Benjamin Graham (defensive investor, adapted)",
    "CAGR %": 12.7,
-   "Sharpe": 0.85,
+   "Sharpe": 0.86,
    "maxDD %": -14.6,
-   "trades/yr": 24.0,
-   "win %": 73.0,
+   "trades/yr": 23.0,
+   "win %": 72.0,
    "avg invested %": 25.0,
-   "CAGR 2016-19": 4.8,
-   "Sharpe 2016-19": -0.49,
+   "CAGR 2016-19": 4.9,
+   "Sharpe 2016-19": -0.47,
    "CAGR 2020-22": 14.3,
-   "Sharpe 2020-22": 0.83,
-   "CAGR 2023-26": 20.1,
-   "Sharpe 2023-26": 1.49,
-   "corr with CAN SLIM": 0.39
+   "Sharpe 2020-22": 0.84,
+   "CAGR 2023-26": 20.0,
+   "Sharpe 2023-26": 1.51,
+   "corr with CAN SLIM": 0.38
   },
   {
    "framework": "Trend template",
@@ -141,8 +141,8 @@
   },
   {
    "framework": "Nifty 500 (buy and hold)",
-   "CAGR %": 11.8,
-   "Sharpe": 0.36,
+   "CAGR %": 11.5,
+   "Sharpe": 0.34,
    "maxDD %": -38.3,
    "trades/yr": null,
    "win %": null,
@@ -151,8 +151,8 @@
    "Sharpe 2016-19": 0.32,
    "CAGR 2020-22": 16.3,
    "Sharpe 2020-22": 0.47,
-   "CAGR 2023-26": 9.9,
-   "Sharpe 2023-26": 0.29,
+   "CAGR 2023-26": 9.0,
+   "Sharpe 2023-26": 0.22,
    "corr with CAN SLIM": null
   }
  ]
