@@ -509,12 +509,72 @@ elif page == "Research":
     import re
     from canslim.docs import COMPANIES
     st.title("Research & conviction")
-    st.caption("Briefs are written in Claude Code: type `/brief SYMBOL` there. They land in "
-               "data/research/companies/<SYM>/brief.md and show up here. You set the conviction; the brief only suggests.")
+    st.caption("Claude reads each company's earnings calls, presentations and annual report and answers a 12-question "
+               "checklist with cited evidence. You set the conviction; the brief only suggests.")
     have = sorted(p.parent.name for p in COMPANIES.glob("*/brief.md")) if COMPANIES.exists() else []
     fetched = sorted(p.parent.name for p in COMPANIES.glob("*/facts.md")) if COMPANIES.exists() else []
+
+    # ---- request a brief for any stock (canslim/briefreq.py: queued as a GitHub issue, written by the scanner PC)
+    from canslim import briefreq
+    from canslim.autobrief import brief_info, claude_exe
+
+    def _queue_token():
+        try:
+            t = st.secrets.get("GITHUB_QUEUE_TOKEN")
+        except Exception:
+            t = None
+        if t:
+            return t
+        try:
+            return datapack._token()             # on the scanner PC: the login git already uses
+        except Exception:
+            return None
+
+    @st.cache_data(show_spinner=False, ttl=60)
+    def _queue():
+        tok = _queue_token()
+        return briefreq.requests_list(tok), briefreq.requests_list(tok, state="closed", n=5)
+
+    with st.expander("Request a brief for any NSE stock", expanded=not fetched):
+        qtok = _queue_token()
+        if not qtok:
+            st.info("Requests are not set up on this copy of the app yet (the queue token is missing).")
+        else:
+            with st.form("briefreq", clear_on_submit=True):
+                rs = st.selectbox("Stock", sorted(known_symbols()), index=None, placeholder="Type a symbol, e.g. TITAN")
+                go = st.form_submit_button("Request brief")
+            if go and rs:
+                bd = brief_info(rs)[0]
+                age = (date.today() - date.fromisoformat(bd)).days if bd else None
+                if age is not None and age <= briefreq.FRESH_DAYS:
+                    st.info(f"{rs} already has a brief from {bd}. Pick it in the Company list below.")
+                else:
+                    try:
+                        st.success(briefreq.submit(rs, qtok, known_symbols()) +
+                                   " A brief takes about 10-20 minutes once the scanner PC picks it up "
+                                   "(it checks every 15 minutes while it is on).")
+                        _queue.clear()
+                        if claude_exe():                 # this is the scanner PC: start on it right away
+                            import subprocess
+                            import sys
+                            subprocess.Popen([sys.executable, "-m", "canslim.briefreq", "work"],
+                                             cwd=Path(__file__).resolve().parent,
+                                             creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+                    except ValueError as e:
+                        st.warning(str(e))
+                    except Exception as e:
+                        st.error(f"Could not queue the request: {e}")
+            try:
+                waiting, recent = _queue()
+                if waiting:
+                    st.markdown("**Waiting:** " + ", ".join(f"{r['symbol']} (asked {r['opened']})" for r in reversed(waiting)))
+                if recent:
+                    st.caption("Recent requests: " + ", ".join(f"{r['symbol']} {r['result']} {r['closed']}" for r in recent))
+            except Exception as e:
+                st.caption(f"Queue status unavailable ({e}).")
+
     if not fetched:
-        st.info("No research yet. In Claude Code, type: /brief SKYGOLD")
+        st.info("No research yet. Request a brief above.")
         st.stop()
     sym = st.selectbox("Company", sorted(set(have) | set(fetched)),
                        format_func=lambda s: s + ("" if s in have else "  (documents only, no brief yet)"))
@@ -534,7 +594,7 @@ elif page == "Research":
     chips([sym] + stockchart.mentioned(brief, known_symbols()), f"c_brief_{sym}", "Chart")
     t1, t2, t3 = st.tabs(["Brief", "Facts", "Sources"])
     with t1:
-        st.markdown(brief or "_No brief yet. In Claude Code: `/brief " + sym + "`_")
+        st.markdown(brief or "_No brief yet for " + sym + ". Request one above._")
     with t2:
         st.markdown((base / "facts.md").read_text(encoding="utf-8") if (base / "facts.md").exists() else "_none_")
     with t3:

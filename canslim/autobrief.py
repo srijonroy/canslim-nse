@@ -111,7 +111,8 @@ def run_one(exe: str, sym: str) -> tuple:
     logf = docs.COMPANIES / sym / "brief_run.log"
     try:
         p = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace",
-                           timeout=TIMEOUT_S, env={**os.environ, "PYTHONIOENCODING": "utf-8"})
+                           timeout=TIMEOUT_S, env={**os.environ, "PYTHONIOENCODING": "utf-8"},
+                           creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))   # no console pop-up from the hidden worker
         out = (p.stdout or "") + ("\n[stderr]\n" + p.stderr if p.stderr else "")
         rc = p.returncode
     except subprocess.TimeoutExpired:

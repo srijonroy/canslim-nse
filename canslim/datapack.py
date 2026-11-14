@@ -78,7 +78,7 @@ def ensure_prices(log=print) -> bool:
 
 def _token() -> str:
     out = subprocess.run(["git", "credential", "fill"], input="protocol=https\nhost=github.com\n\n",
-                         capture_output=True, text=True, cwd=ROOT, timeout=60,
+                         capture_output=True, text=True, cwd=ROOT, timeout=60, creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
                          env={**os.environ, "GIT_TERMINAL_PROMPT": "0"}).stdout
     tok = next((l.split("=", 1)[1] for l in out.splitlines() if l.startswith("password=")), "")
     if not tok:
