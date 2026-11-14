@@ -103,6 +103,7 @@ Pass/fail bars are written down before each test runs. **All of 2016–2026 has 
 
 **Book rules that couldn't be tested** (no point-in-time data before 2023): management ownership (18), buybacks / new management (22), consensus estimates and cash flow vs EPS (2), adding to winners (12, needs simulator work).
 | 2026-11-14 | Position sizing and slot count (`weighttest.py`, new `Config.weighting`): rank-weighted (ranks 1-3 get 1.5 slots, 8+ half), volatility-weighted, 5 / 15 / 20 equal slots | All FAIL the bar, 2016–22. Rank-weighted: CAGR 31.0% vs 24.7%, but Sharpe 16–19 0.82 vs 0.85 and DD −24.5 vs −17.9 (it is simply more invested, 46% vs 39%). Volatility-weighted 23.7% / 1.31 / −19.9. 5 slots 30.7% / 1.18 / −31.7. 15 slots 19.9% / 1.38 / −11.9; 20 slots 16.4% / 1.31 / −10.5 (pool is ~4 stocks, extra slots stay empty). Base unchanged after the simulator change (sanity check) | Rejected: keep 10 equal slots. Return and drawdown both follow % invested; cash drag is still the lever |
+| 2026-11-14 | Breakout volume as an entry confirmer (`voltest.py`): buy a passing stock only after a volume day (up >= 2% on 2x / 3x / 5x the 50-day average volume, within 10 / 20 / 20 days) | All FAIL, 2016–22: CAGR 20.4 / 21.0 / 15.5% vs 24.7%, Sharpe 1.21 / 1.26 / 1.04 vs 1.37, invested 30 / 29 / 18% vs 39%, win rate unchanged (44–46%). Splitting the current system's 230 trades: with a volume day the average is higher (7.0–10.0% vs 5.5–6.3%) but the median is not (−0.9 to −1.8% both ways) and the 2x and 3x results flip between halves | Rejected as a rule. The rules already require near-high + top RS; volume adds little on top |
 
 ### Caveats
 - **Survivorship bias:** only stocks still listed today are in the price data, so every backtest number is somewhat flattered.
@@ -127,7 +128,7 @@ Pass/fail bars are written down before each test runs. **All of 2016–2026 has 
 | `canslim/paper.py` | Paper portfolio + watching list. Rebuilt from the database on every daily run (`python -m canslim.paper`) |
 | `tracker_app.py` | Streamlit app |
 | `canslim/portfolio.py` | Backtest simulator (ride-mode options exist but are off) |
-| `canslim/tune.py`, `holdtest.py`, `reentry.py`, `emerging.py`, `winners.py`, `runup.py`, `sizetest.py`, `preftest.py`, `flagtest.py`, `pyramidtest.py`, `promotertest.py`, `weighttest.py` |
+| `canslim/tune.py`, `holdtest.py`, `reentry.py`, `emerging.py`, `winners.py`, `runup.py`, `sizetest.py`, `preftest.py`, `flagtest.py`, `pyramidtest.py`, `promotertest.py`, `weighttest.py`, `voltest.py` |
 | `canslim/events_dl.py` | NSE event feeds → `data/events/`: announcements (2012+, monthly), insider trades incl. pledges (2016+), corporate actions (2010+), bulk deals (2016+, per day; API caps 70 rows). One request at a time, resumable |
 | `canslim/indexchanges.py` | NSE Indices press releases (semi-annual reviews) → `data/events/index_changes.csv` |
 | `canslim/eventstudy.py`, `canslim/eventtests.py` | Shared event-study method (before/after vs same-size median) and the 15 event tests; `announcements` also writes `verify_sample.csv` for a cheap LLM check of the text rules |
