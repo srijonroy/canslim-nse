@@ -1,0 +1,11 @@
+period,variant,CAGR %,Sharpe,maxDD %,big Sharpe,Sharpe 16-19,CAGR 16-19,Sharpe 20-22,CAGR 20-22
+2016-22,base (cash at 6%),24.7,1.37,-17.9,0.1,0.85,15.4,1.93,38.0
+2016-22,N1 Nifty 500 always,28.3,1.07,-39.5,0.33,0.8,19.4,1.39,41.0
+2016-22,N2 Nifty 500 in uptrends,24.1,1.07,-27.3,0.13,0.35,11.0,1.89,43.5
+2016-22,G1 Graham list always,23.9,1.17,-26.6,0.14,0.6,12.9,1.77,39.9
+2016-22,G2 Graham list in uptrends,22.8,1.17,-21.1,-0.07,0.45,11.1,1.93,39.7
+2023+,base (cash at 6%),37.7,1.6,-13.7,1.47,,,,
+2023+,N1 Nifty 500 always,37.3,1.4,-21.1,1.27,,,,
+2023+,N2 Nifty 500 in uptrends,36.9,1.49,-18.9,1.33,,,,
+2023+,G1 Graham list always,41.0,1.66,-15.5,1.69,,,,
+2023+,G2 Graham list in uptrends,37.4,1.54,-15.8,1.5,,,,
