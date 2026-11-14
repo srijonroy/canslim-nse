@@ -38,6 +38,9 @@ class Config:
     # pyramiding (book rule 12, off by default): ((gain_from_first_buy, fraction_of_slot), ...); the first entry
     # is the initial buy (gain 0), later ones are added at the next open once the close is up that much
     pyramid: tuple = ()
+    # position sizing (weighttest.py, off by default): equal | rank (ranks 1-3 get 1.5 slots, 4-7 one, 8+ half)
+    # | invvol (slot scaled by median 60-day volatility of the passing pool / the stock's own, clipped 0.5-1.5)
+    weighting: str = "equal"
 
 
 @dataclass
@@ -56,7 +59,7 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
     o, c = O.reindex(days), C.reindex(days)
     cols = {s: i for i, s in enumerate(c.columns)}
     ov, cv = o.values, c.values
-    need_aux = cfg.exit_ma50 or cfg.vol_stop
+    need_aux = cfg.exit_ma50 or cfg.vol_stop or cfg.weighting == "invvol"
     if need_aux:
         full = C.loc[:end]
         ma50v = full.rolling(50, min_periods=40).mean().reindex(days).values
@@ -71,6 +74,7 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
     ind = industry or {}
     cash, pos = 1.0, {}             # pos: sym -> dict(shares, entry, since)
     pending_sell, pending_buy, sold_before, pending_add = set(), [], set(), []
+    wts = {}                        # sym -> slot multiplier for pending buys
     eq, expo, trades = [], [], []
     daily_rf = (1 + cfg.cash_yield) ** (1 / 252) - 1
     for k, d in enumerate(days):
@@ -105,9 +109,10 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
             for s in pending_buy:
                 p = ov[k, cols[s]]
                 frac0 = cfg.pyramid[0][1] if cfg.pyramid else 1.0
-                if np.isnan(p) or s in pos or cash < slot * frac0 * 0.5:
+                w = wts.get(s, 1.0)
+                if np.isnan(p) or s in pos or cash < slot * frac0 * w * 0.5:
                     continue
-                spend = min(slot * frac0, cash)
+                spend = min(slot * frac0 * w, cash)
                 pos[s] = {"shares": spend * (1 - cfg.cost) / p, "entry": p, "since": d, "k0": k,
                           "can_ride": cfg.ride_scope == "all" or s in sold_before,
                           "spent": spend, "slot": slot, "tr": 1}
@@ -184,6 +189,11 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
                     if cfg.max_per_group and g and groups.get(g, 0) >= cfg.max_per_group:
                         continue
                     pending_buy.append(s)
+                    if cfg.weighting == "rank":
+                        wts[s] = 1.5 if rank[s] <= 3 else 1.0 if rank[s] <= 7 else 0.5
+                    elif cfg.weighting == "invvol":
+                        sg, med = sigv[k, cols[s]], np.nanmedian(sigv[k, [cols[x] for x in row.index]])
+                        wts[s] = float(np.clip(med / sg, 0.5, 1.5)) if sg == sg and sg > 0 and med == med else 1.0
                     groups[g] = groups.get(g, 0) + 1
                     free -= 1
     equity = pd.Series(eq, index=days)
