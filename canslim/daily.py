@@ -187,8 +187,9 @@ def buy_point(b) -> str:
     """Book Ch.2 buy point as a badge: not yet / at pivot / extended."""
     if b is None:
         return "<span class='pill mut'>n/a</span>"
-    if b.kind == "none":
-        return f"<span class='pill mut'>Not yet</span><div class=muted>{html.escape(b.summary())}</div>"
+    if b.kind == "none":                      # no base found: say so, and say when the stock is already at a high
+        label = "New high, no base" if "new high" in b.summary() else "No base"
+        return f"<span class='pill mut'>{label}</span><div class=muted>{html.escape(b.summary())}</div>"
     if b.status in ("forming", "near pivot"):
         return f"<span class='pill mut'>Not yet</span><div class=muted>{b.dist:+.1f}% vs pivot {b.pivot:.2f}</div>"
     if b.status.startswith("breakout"):
@@ -384,7 +385,7 @@ separate list (narrowly in 2016–19), not for replacing CAN SLIM. The same mark
 <h2>Leading industry groups (all sizes, ≥ 3 stocks)</h2><ul>{grp_html}</ul>
 <footer class=muted>Rules: {esc('; '.join(n for n, _ in RULES))}. Market filter: no new buys unless the market model
 shows a confirmed uptrend. Base patterns are annotations (book Ch.2): buy zone = pivot to +5% on volume ≥ 40% above average.
-Buy point: Not yet = below the pivot or no sound base; At pivot = within the buy zone; Extended = more than 5% past the pivot.
+Buy point: Not yet = a base is forming, price still below its pivot; No base = no sound base found; New high, no base = already at or just off a 52-week high without a base to buy from (the book calls buying here chasing); At pivot = within the buy zone; Extended = more than 5% past the pivot.
 6-mo above +100% is labelled "strong momentum": on NSE 2016-2025 such stocks doubled again about twice as often
 as average, but also swung harder (see data/research/winners). Information only, not a ranking rule.
 Volume = the biggest up-day (close up 2% or more) in the last 20 sessions, as a multiple of normal volume, shown when
