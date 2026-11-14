@@ -197,6 +197,15 @@ def buy_point(b) -> str:
     return f"<span class='pill bad'>Extended</span><div class=muted>{b.dist:+.1f}% past pivot {b.pivot:.2f}</div>"
 
 
+def volume_cell(P, s) -> str:
+    from canslim.stockchart import volume_surge
+    r = volume_surge(P["close"][s], P["volume"][s]) if s in P["close"] else None
+    if not r:
+        return "–"
+    cls = "ok" if r[0] >= 5 else "mut"
+    return f"<span class='pill {cls}'>{r[0]:.1f}x</span><div class=muted>{r[1]:%d %b}</div>"
+
+
 def runup_cell(c: pd.Series) -> str:
     c = c.dropna()
     if len(c) <= 126:
@@ -311,9 +320,9 @@ def render(d, ms, top, watch, sells, groups, mon=None, mon_rest=0, emg=None, rad
         body = "".join("<tr>" + "".join(f"<td>{cell(c, r[c])}</td>" for c in cols) + "</tr>" for _, r in df.iterrows())
         return f"<div class=tw><table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>"
 
-    top_html = table(top, ["#", "Stock", "Buy point", "6-mo", "Industry", "Close", "Why it ranks", "Base / pivot"]) if len(top) else \
+    top_html = table(top, ["#", "Stock", "Buy point", "6-mo", "Volume", "Industry", "Close", "Why it ranks", "Base / pivot"]) if len(top) else \
         "<p class=muted>No stock passes every rule today.</p>"
-    watch_html = table(watch, ["Stock", "Buy point", "6-mo", "Industry", "RS", "Misses", "Base / pivot"]) if len(watch) else ""
+    watch_html = table(watch, ["Stock", "Buy point", "6-mo", "Volume", "Industry", "RS", "Misses", "Base / pivot"]) if len(watch) else ""
     mon_html = table(mon, ["Stock", "Result", "Earnings", "Price", "Buy point", "Notes"]) if mon is not None and len(mon) else         "<p class=muted>No fresh results with strong earnings and a confirming price.</p>"
     if mon_rest:
         mon_html += f"<p class=muted>{mon_rest} more reported strong earnings but the price is not confirming yet "                     "(below the 50-day average or more than 15% off the high); full list in data/history.</p>"
@@ -378,6 +387,8 @@ shows a confirmed uptrend. Base patterns are annotations (book Ch.2): buy zone =
 Buy point: Not yet = below the pivot or no sound base; At pivot = within the buy zone; Extended = more than 5% past the pivot.
 6-mo above +100% is labelled "strong momentum": on NSE 2016-2025 such stocks doubled again about twice as often
 as average, but also swung harder (see data/research/winners). Information only, not a ranking rule.
+Volume = the biggest up-day (close up 2% or more) in the last 20 sessions, as a multiple of normal volume, shown when
+2x or more. Information only: as a buy rule it failed its test (insight of 2026-11-14).
 Generated {datetime.now():%Y-%m-%d %H:%M}. Research only — not investment advice. Created by Amrendra Kumar.</footer>
 </main>{CHART_HTML}<script type="application/json" id=chartdata>{chart_data(charted)}</script>
 <script>{CHART_JS}</script></body></html>"""
@@ -431,12 +442,14 @@ def run(skip_update=False, skip_fund=False):
 
     top = pd.DataFrame([{"#": i + 1, "Stock": s.replace("and", "&") if s in ("MandM", "MandMFIN") else s,
                          "Buy point": buy_point(base_obj(s)), "6-mo": runup_cell(P["close"][s]),
+                         "Volume": volume_cell(P, s),
                          "Industry": html.escape(str(snap.at[s, "industry"])),
                          "Close": f"{P['close'][s].dropna().iloc[-1]:.2f}",
                          "Why it ranks": reasons(snap.loc[s]), "Base / pivot": html.escape(base_of(s))}
                         for i, s in enumerate(picks)])
     near = snap[(snap.n_fail == 1) & (snap.rs >= 70)].sort_values("rs", ascending=False).head(15)
     watch = pd.DataFrame([{"Stock": s, "Buy point": buy_point(base_obj(s)), "6-mo": runup_cell(P["close"][s]),
+                           "Volume": volume_cell(P, s),
                            "Industry": html.escape(str(r.industry)), "RS": f"{r.rs:.0f}",
                            "Misses": html.escape(r.failed[0]), "Base / pivot": html.escape(base_of(s))}
                           for s, r in near.iterrows()])

@@ -170,6 +170,25 @@ def layers(sym: str, picks: pd.DataFrame | None = None, paper: pd.DataFrame | No
     return out
 
 
+def volume_surge(close: pd.Series, volume: pd.Series, days: int = 20, k: float = 2.0):
+    """Biggest volume day in the last `days` sessions: close up >= 2% on volume >= k x the prior 50-day average.
+    Returns (multiple, date) or None. Information only: as a buy rule it failed its test (canslim/voltest.py)."""
+    c, v = close.dropna(), volume.reindex(close.dropna().index)
+    if len(c) < 60:
+        return None
+    ratio = (v / v.rolling(50, min_periods=40).mean().shift(1))[c.pct_change() >= 0.02].iloc[-days:]
+    ratio = ratio[ratio.index >= c.index[-days]]
+    if ratio.empty or not ratio.max() >= k:
+        return None
+    return float(ratio.max()), ratio.idxmax()
+
+
+def volume_surge_text(sym: str) -> str:
+    df = ohlcv(sym)
+    r = volume_surge(df.close, df.volume) if len(df) else None
+    return f"{r[0]:.1f}x on {r[1]:%d %b}" if r else "—"
+
+
 def universe() -> set:
     """Every symbol with a price file."""
     return {f.stem[4:-3].replace("and", "&") for f in PRICES.glob("NSE_*-EQ.parquet")}   # symbols are upper case

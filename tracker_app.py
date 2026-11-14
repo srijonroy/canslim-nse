@@ -70,6 +70,11 @@ def price_ema(sym):
     return stockchart.series(sym)
 
 
+@st.cache_data(show_spinner=False)
+def volume_surge_text(sym, scan):         # scan = latest scan date, so a new scan refreshes the cache
+    return stockchart.volume_surge_text(sym)
+
+
 @st.cache_data(show_spinner=False, ttl=3600)
 def known_symbols():
     return stockchart.universe()
@@ -267,7 +272,10 @@ if page == "Today":
     from canslim.autobrief import brief_info
     bi = {s: brief_info(s) for s in cs.symbol}
     cs["brief"] = [f"{bi[s][1]}/5 ({bi[s][2]}/24) {bi[s][0]}" if bi[s][1] else "—" for s in cs.symbol]
+    cs["volume surge"] = [volume_surge_text(s, d) for s in cs.symbol]
     st.subheader(f"CAN SLIM — {len(cs)} pass every rule")
+    st.caption("volume surge = the biggest up-day in the last 20 sessions as a multiple of normal volume (shown when 2x "
+               "or more). Information only: as a buy rule it failed its test (Insights, 14 Nov 2026).")
     st.caption("brief = suggested conviction from the research brief (Research page), checklist total, brief date. "
                "Briefs for new names are written automatically after the evening scan.")
     table(cs, "t_cs", hide_index=True, width="stretch",
