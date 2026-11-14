@@ -8,6 +8,7 @@ import json
 import os
 import time
 from datetime import date
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
@@ -122,8 +123,14 @@ def login_via_totp() -> str:
     s = requests.Session()
     base = "https://api-t2.fyers.in/vagator/v2"
 
+    skew = [0.0]          # server clock minus PC clock; the PC clock can drift ~15 s, enough to fail TOTP
+
     def post(url, **kw):
         r = s.post(url, timeout=30, **kw)
+        try:
+            skew[0] = parsedate_to_datetime(r.headers["Date"]).timestamp() - time.time()
+        except Exception:
+            pass
         try:
             j = r.json()
         except ValueError:
@@ -134,9 +141,10 @@ def login_via_totp() -> str:
 
     r1 = post(f"{base}/send_login_otp_v2", json={"fy_id": _b64(os.environ["FYERS_CLIENT_ID"]), "app_id": "2"})
     totp = pyotp.TOTP(os.environ["FYERS_TOTP_SECRET"])
-    if totp.interval - time.time() % totp.interval < 5:      # code about to roll over: wait for the next one
+    now = lambda: time.time() + skew[0]                     # use the server's clock, not the PC's
+    if totp.interval - now() % totp.interval < 5:           # code about to roll over: wait for the next one
         time.sleep(6)
-    r2 = post(f"{base}/verify_otp", json={"request_key": r1["request_key"], "otp": totp.now()})
+    r2 = post(f"{base}/verify_otp", json={"request_key": r1["request_key"], "otp": totp.at(now())})
     r3 = post(f"{base}/verify_pin_v2", json={"request_key": r2["request_key"], "identity_type": "pin",
                                              "identifier": _b64(os.environ["FYERS_PIN"])})
     app, app_type = APP_ID.rsplit("-", 1)

@@ -13,9 +13,23 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
-from canslim import db, holdings, stockchart
+from canslim import datapack, db, holdings, stockchart
 
 st.set_page_config(page_title="CAN SLIM tracker", layout="wide")
+
+
+@st.cache_resource(show_spinner="Fetching price data (first start after an update)...")
+def _prices_ready(version: str) -> str:
+    """Price files are not in git; on the cloud they come from the release zip (canslim/datapack.py)."""
+    try:
+        datapack.ensure_prices(log=lambda m: None)
+        return ""
+    except Exception as e:                       # app still works without charts
+        return f"Price data could not be downloaded ({e}); charts may be missing."
+
+
+if _msg := _prices_ready(datapack._read(datapack.VERSION_FILE)):
+    st.warning(_msg)
 LIGHT = {"GREEN": "🟢", "AMBER": "🟠", "RED": "🔴", "GREY": "⚪"}
 
 

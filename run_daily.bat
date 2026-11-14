@@ -17,6 +17,10 @@ if errorlevel 1 (
   exit /b 1
 )
 
+rem 1b) price files -> one zip on the GitHub release "data-latest" (kept out of git history; the cloud app
+rem     downloads it). A failure here never affects the scan above.
+python -u -m canslim.datapack publish >> data\daily_console.log 2>&1
+
 rem 2) research briefs for new / stale names on the list (Claude Code headless, max 3 a day).
 rem    A failure here never affects the scan above.
 python -u -m canslim.autobrief >> data\autobrief_console.log 2>&1

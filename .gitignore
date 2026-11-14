@@ -13,5 +13,9 @@ __pycache__/
 data/cache/
 data/prices/*.bf
 
+# price files (~150 MB, all rewritten by every scan) ship as a zip on the GitHub release "data-latest"
+# instead -- see canslim/datapack.py. data/prices_version.txt (tracked) says which zip the app expects.
+data/prices/
+
 # logs
 *.log
