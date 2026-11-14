@@ -8,6 +8,7 @@ usage: run_app.bat   (or: python -m streamlit run tracker_app.py)
 """
 import json
 from datetime import date
+from pathlib import Path
 
 import pandas as pd
 import streamlit as st
