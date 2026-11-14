@@ -80,10 +80,10 @@ class Lab:
         self.ms = market_state(self.P).reindex(self.P["close"].index).ffill()
         self.big = self.S["turnover"] >= 25e7
 
-    def run(self, score, cfg: pf.Config, period=TUNE, entry_ok=None):
+    def run(self, score, cfg: pf.Config, period=TUNE, entry_ok=None, hold_ok=None):
         a, b = period
         return pf.simulate(score.loc[a:b], self.P["open"], self.P["close"], cfg, self.ms, self.ind,
-                           start=a, end=b, entry_ok=entry_ok, V=self.P["volume"])
+                           start=a, end=b, entry_ok=entry_ok, V=self.P["volume"], hold_ok=hold_ok)
 
     def evaluate(self, name, rules, cfg=None, entry_ok=None, stage=""):
         cfg = cfg or pf.Config(market="no_new", stop=None)

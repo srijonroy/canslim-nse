@@ -33,6 +33,8 @@ class Config:
     # sold for dropping out of the ranking; it exits only on ride_exit
     ride_after: float = 0.0       # e.g. 0.20; 0 = off
     ride_exit: str = "ma200"      # ma200 | ma150 | trail  (close below the MA, or trail% below peak close)
+    #                             | growth: sell when hold_ok turns False (growthhold.py: profit growth has faded)
+    #                             | growth_ma200: growth, or a close below the 200-day MA, whichever comes first
     trail: float = 0.25
     ride_scope: str = "all"       # all | reentry: ride mode only for a stock bought again after an earlier sale
     # pyramiding (book rule 12, off by default): ((gain_from_first_buy, fraction_of_slot), ...); the first entry
@@ -53,7 +55,8 @@ class Result:
 
 def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
              mstate: pd.Series | None = None, industry: dict | None = None,
-             start=None, end=None, entry_ok: pd.DataFrame | None = None, V: pd.DataFrame | None = None) -> Result:
+             start=None, end=None, entry_ok: pd.DataFrame | None = None, V: pd.DataFrame | None = None,
+             hold_ok: pd.DataFrame | None = None) -> Result:
     days = C.loc[start:end].index
     rebal = set(score.index)
     o, c = O.reindex(days), C.reindex(days)
@@ -68,8 +71,11 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
             vfull = V.reindex(full.index)
             vv = vfull.reindex(days).values
             avgvv = vfull.rolling(50, min_periods=40).mean().reindex(days).values
-    if cfg.ride_after and cfg.ride_exit in ("ma200", "ma150"):
-        w = int(cfg.ride_exit[2:])
+    if cfg.ride_after and cfg.ride_exit.startswith("growth"):
+        # 1 = still growing, 0 = growth faded, NaN = unknown (keep); last value known at each close
+        gv = hold_ok.astype(float).reindex(columns=c.columns).reindex(days, method="ffill").values
+    if cfg.ride_after and cfg.ride_exit in ("ma200", "ma150", "growth_ma200"):
+        w = int(cfg.ride_exit[-3:])
         ridema = C.loc[:end].rolling(w, min_periods=int(w * 0.8)).mean().reindex(days).values
     ind = industry or {}
     cash, pos = 1.0, {}             # pos: sym -> dict(shares, entry, since)
@@ -144,6 +150,10 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
             if h.get("ride"):
                 if cfg.ride_exit == "trail":
                     out = h["last"] <= h["peak"] * (1 - cfg.trail)
+                elif cfg.ride_exit == "growth":
+                    out = gv[k, j] == 0
+                elif cfg.ride_exit == "growth_ma200":
+                    out = gv[k, j] == 0 or h["last"] < ridema[k, j]
                 else:
                     out = h["last"] < ridema[k, j]          # NaN MA -> False -> keep
                 if out:
