@@ -1,17 +1,17 @@
 # LUMAXTECH — sources
 
-_Fetched 2026-10-16 19:41. Cite these by file name in the brief._
+_Fetched 2026-11-14 12:01. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
+| docs/2026-11_transcript.txt | Nov 2026 earnings call transcript | ok (44,131 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83cd4a-3d78-401c-aa53-526a82e5d430.pdf |
+| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | ok (34,839 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ef8a9ff-c5ab-404e-9313-1918365547f1.pdf |
 | docs/2026-08_transcript.txt | Aug 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94022f8c-237d-4839-b78c-dde8181e44c8.pdf |
 | docs/2026-08_ppt.txt | Aug 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66ac21bb-5dc9-4b2b-a59f-e91debf39767.pdf |
 | docs/2026-06_transcript.txt | Jun 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71a395fc-f614-4af9-ab76-334a6d73be24.pdf |
 | docs/2026-06_ppt.txt | Jun 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7de844e4-0053-4ac1-aebb-73c978d54fc5.pdf |
 | docs/2026-02_transcript.txt | Feb 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62af4549-3827-4538-8dad-f0e6aadb4ef5.pdf |
 | docs/2026-02_ppt.txt | Feb 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a73232a-c744-4ae0-a72d-2eb006252734.pdf |
-| docs/2025-11_transcript.txt | Nov 2025 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f76367a-91d0-4f73-b372-41b127c60ab9.pdf |
-| docs/2025-11_ppt.txt | Nov 2025 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19f10e03-1889-41e5-adf1-0b190457ffee.pdf |
 | docs/annual_report_2026.txt | Annual report 2026 | cached | https://www.bseindia.com/xml-data/corpfiling/AttachHis/8c85b761-c333-48e7-bafe-a8c351594300.pdf |
 
 ## Credit rating notes (links only)

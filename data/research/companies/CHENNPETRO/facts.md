@@ -1,6 +1,6 @@
 # CHENNPETRO — facts we already hold
 
-_Generated 2026-10-24 20:40 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-01 11:28 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Energy > Oil, Gas & Consumable Fuels > Petroleum Products > Refineries & Marketing  
 **Basis:** consolidated, fetched 2026-10-24T19:28:05  
@@ -60,14 +60,14 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-23: close 1,475.60, RS 93, system rank 3, industry group rank 45.0. Passes every rule.
+As of 2026-10-30: close 1,511.50, RS 93, system rank 4, industry group rank 45.0. Passes every rule.
 
-- On the canslim list 9 day(s), 2026-09-30 to 2026-10-23
+- On the canslim list 10 day(s), 2026-09-30 to 2026-10-30
 
-- On the earnings list 3 day(s), 2026-09-30 to 2026-10-23
+- On the earnings list 4 day(s), 2026-09-30 to 2026-10-30
 
 - On the emerging list 1 day(s), 2026-10-23 to 2026-10-23
 
-- On the fw_garp list 6 day(s), 2026-10-14 to 2026-10-23
+- On the fw_garp list 7 day(s), 2026-10-14 to 2026-10-30
 
-- On the fw_magic list 6 day(s), 2026-10-14 to 2026-10-23
+- On the fw_magic list 7 day(s), 2026-10-14 to 2026-10-30

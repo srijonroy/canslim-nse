@@ -1,10 +1,10 @@
 # RPEL — facts we already hold
 
-_Generated 2026-10-16 19:41 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-14 12:01 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Industrials > Capital Goods > Industrial Products > Electrodes & Refractories  
-**Basis:** consolidated, fetched 2026-10-16T19:31:49  
-**Snapshot:** Market Cap 8325.0, Current Price 1812.0, High / Low 1944.0, Stock P/E 118.0, Book Value 61.3, Dividend Yield 0.06, ROCE 30.3, ROE 24.3, Face Value 10.0
+**Basis:** consolidated, fetched 2026-11-14T11:29:54  
+**Snapshot:** Market Cap 8937.0, Current Price 1946.0, High / Low 1988.0, Stock P/E 127.0, Book Value 61.3, Dividend Yield 0.05, ROCE 30.3, ROE 24.3, Face Value 10.0
 
 ## Last 8 quarters
 | | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-16: close 1,811.50, RS 97, system rank 4, industry group rank 11.0. Passes every rule.
+As of 2026-11-13: close 1,946.20, RS 97, system rank 3, industry group rank 9.0. Passes every rule.
 
-- On the canslim list 9 day(s), 2026-09-30 to 2026-10-16
+- On the canslim list 10 day(s), 2026-09-30 to 2026-11-13
 
-- On the earnings list 1 day(s), 2026-10-16 to 2026-10-16
+- On the earnings list 2 day(s), 2026-10-16 to 2026-11-13
 
-- On the emerging list 1 day(s), 2026-10-16 to 2026-10-16
+- On the emerging list 2 day(s), 2026-10-16 to 2026-11-13

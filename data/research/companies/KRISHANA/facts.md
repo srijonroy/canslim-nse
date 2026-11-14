@@ -1,10 +1,10 @@
 # KRISHANA — facts we already hold
 
-_Generated 2026-10-24 20:40 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-14 12:01 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Commodities > Chemicals > Fertilizers & Agrochemicals > Fertilizers  
-**Basis:** standalone, fetched 2026-10-24T20:03:05  
-**Snapshot:** Market Cap 6172.0, Current Price 200.0, High / Low 216.0, Stock P/E 31.4, Book Value 18.1, Dividend Yield 0.05, ROCE 27.2, ROE 38.2, Face Value 2.0
+**Basis:** standalone, fetched 2026-11-14T11:09:14  
+**Snapshot:** Market Cap 7658.0, Current Price 248.0, High / Low 254.0, Stock P/E 38.9, Book Value 18.1, Dividend Yield 0.04, ROCE 27.2, ROE 38.2, Face Value 2.0
 
 ## Last 8 quarters
 | | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-23: close 199.66, RS 94, system rank 2, industry group rank 79.0. Passes every rule.
+As of 2026-11-13: close 247.71, RS 96, system rank 4, industry group rank 68.0. Passes every rule.
 
-- On the canslim list 12 day(s), 2026-09-30 to 2026-10-23
+- On the canslim list 14 day(s), 2026-09-30 to 2026-11-13
 
 - On the earnings list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the emerging list 3 day(s), 2026-10-21 to 2026-10-23
+- On the emerging list 4 day(s), 2026-10-21 to 2026-10-30

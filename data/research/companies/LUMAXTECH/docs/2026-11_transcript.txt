@@ -1,0 +1,676 @@
+
+
+--- page 1 ---
+ 
+ 
+ 
+LATL:CS:REG30:2026-27                                                                                    Date: November 03, 2026 
+ 
+Subject: Transcript of Earnings Conference Call – Q2 FY 2026-27 
+ 
+Dear Sir/ Ma’am,  
+ 
+Pursuant to Regulation 30 of Securities and Exchange Board of India (Listing Obligations and 
+Disclosure Requirements) Regulations, 2015 and other applicable Regulations, please find enclosed 
+herewith the Transcript of Earnings Conference Call for all Investor s/General Public which was held 
+on Tuesday, October 27, 2026 at 03:00 P.M. (IST)  to discuss the Operational and Financial 
+performance of the Company for the 2nd Quarter and Half Year ended September 30, 2026. 
+ 
+The aforesaid information shall also be made  available on the website of the Company at 
+https://www.lumaxworld.in/lumaxautotech/transcript.html. 
+ 
+ 
+This is for your Information and Records. 
+ 
+ 
+Thanking you, 
+Yours faithfully, 
+ 
+For Lumax Auto Technologies Limited 
+ 
+ 
+ 
+ 
+Pankaj Mahendru  
+Company Secretary & Compliance Officer  
+ICSI Membership No. A28161 
+ 
+Enc: As stated above 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BSE Limited 
+Listing & Compliance Department 
+Phiroze Jeejeebhoy Towers, 
+Dalal Street,  
+Mumbai – 400001 
+National Stock Exchange of India Limited 
+Listing & Compliance Department Exchange 
+Plaza, C-1 Block G, 
+Bandra Kurla Complex, 
+Bandra (E), Mumbai – 400051 
+Security Code: 532796 Symbol: LUMAXTECH 
+
+--- page 2 ---
+  Page 1 of 15 
+ 
+  
+“Lumax Auto Technologies Limited  
+Q2 & H1 FY 27 Earnings Conference Call” 
+October 27, 2026 
+ 
+ 
+  
+             
+ 
+MANAGEMENT:  
+• Mr. Deepak Jain – Vice Chairman 
+• Mr. Anmol Jain – Managing Director 
+• Mr. Sanjay Mehta – Director & Group Chief Financial Officer 
+• Mr. Vikas Marwah – Chief Executive Officer 
+• Mr. Sunil Koparkar – Chief Executive Officer, Intelligent Ambient Comfort Division 
+• Mr. Ankit Thakral – Chief Financial Officer 
+• Mr. Naval Khanna – Corporate Head, Taxation 
+• Ms. Surabhi Chandna – Group Head of Investor Relations & Value Creation 
+ 
+Moderator: Ladies and gentlemen, we welcome you all to the Q2 and H1 FY 27 Earnings Conference Call 
+of Lumax Auto Technologies Limited. This conference call may contain forward -looking 
+statements about the Company, which are based on the beliefs, opinions and expectations of the 
+Company as of the date of this call. These statements do not guarantee the future performance 
+of the Company and may involve risks and uncertainties that are difficult to predict. 
+ As a reminder, all participant lines will be in the listen -only mode and there will be an 
+opportunity for you to ask questions after the presentation concludes. Should you need assistance 
+during the conference call, please signal an operator by pressing “*” then “0” on your touch-
+tone phone. Please note that this conference is being recorded. 
+
+
+--- page 3 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 2 of 15 
+ 
+ Now I hand over the conference to Mr. Anmol Jain, Managing Director. Thank you, and over to 
+you, sir. 
+Anmol Jain: Thank you. A very good afternoon, everyone, and thank you for joining us for Lumax Auto 
+Technologies Limited Q2 and H1 FY 27 Earnings Conference Call. It's always a pleasure to 
+welcome you all. 
+ I'm joined by our leadership team today, including Mr. Deepak Jain, Vice Chairman; Mr. Sanjay 
+Mehta, Director and Group CFO; Mr. Vikas Marwah, CEO of the Company; Mr. Sunil 
+Koparkar, CEO of the Intelligent Ambient Comfort Division; Mr. Ankit Thakral, CFO of the 
+Company; Mr. Naval Khanna, Corporate Head, Taxation; and Ms. Surabhi Chandna, Group 
+Head of Investor Relations and Value Creation, along with our Investor Relations Advisors, 
+SGA. 
+ We have uploaded our earnings presentation on stock exchanges and the Company's website. I 
+do hope everybody had an opportunity to go through the same. Before discussing the Company's 
+performance, let me briefly touch upon the broader economic environment. The global economic 
+environment remains challenging with the ongoing conflict in the Middle East creating 
+uncertainty across markets. 
+ The war has pushed up energy and commodity prices, disrupted shipping routes and supply 
+chains and increased transportation costs for businesses. These factors are also adding to 
+inflationary pressures and weighing on global growth. 
+ According to the IMF's October 2026 outlook, global GDP growth is projected at 3.1% for 2026, 
+while global inflation is expected to rise to 4.7%. The outlook remains uncertain, with the 
+duration of the conflict and its impact on energy supplies and global trade being key factors to 
+watch out for. 
+ India, too, is feeling the impact of this global environment, particularly through higher energy 
+prices and inflationary pressures. However, the domestic economy continues to remain resilient, 
+supported by robust consumption, Government spending on infrastructure and sustained 
+investment activity. 
+ For businesses like ours, the focus will remain on managing costs, maintaining operational 
+efficiency and continuing to invest for long -term growth while navigating the evolving 
+environment. 
+ Speaking of the automotive industry, the sector continued to witness a very healthy growth in 
+Q2 FY 27, supported by improved affordability following the GST (Goods and Services Tax) 
+2.0, a resilient rural and urban demand, healthy freight movement, infrastructure-led activity and 
+a gradual recovery in the replacement cycle. 
+ Input costs, including crude-linked polymer prices, electronic parts costs, freight and rupee 
+depreciation, however, remain a key monitorable. As per SIAM (Society of Indian Automobile 
+Manufacturers) production data for Q2 FY 27, all automotive segments recorded healthy year-
+
+--- page 4 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 3 of 15 
+ 
+on-year (y-o-y) growth, although the lower base in the previous year also contributed to the 
+strong numbers. 
+ Overall industry production grew by 19% on a y-o-y basis to 106 lakh units. Passenger Vehicle 
+(PV) production grew by 25% y-o-y to around 17 lakh units. 2-Wheeler production also 
+increased by 17% to 81 lakh units, supported by strong scooter demand. 
+ 3-Wheeler production grew by 25% to around 4.5 lakh units, driven by electric 3-Wheelers and 
+rising demand for the last-mile mobility. Commercial Vehicle (CV) production also increased 
+by 34% to 3.5 lakh units, supported by infrastructure spending and healthy freight movement. 
+ Looking ahead, we do expect growth to moderate somewhat in H2 FY 27 as the industry moves 
+past the lower base of H1 and the full benefit of GST rate cuts gets reflected in demand. The 
+festive season will be an important monitorable, particularly in assessing whether the current 
+demand momentum sustains. At the same time, the ability of manufacturers to manage rising 
+input costs and pass them on to customers will remain important for profitability. 
+ Speaking of the performance of the Company, we have delivered another strong quarter with 
+healthy growth in revenue and profitability. Q2 FY 27 revenue stood at INR 1,556 crore, up by 
+35% y-o-y and 14% quarter-on-quarter (q-o-q). EBITDA grew by 34% y-o-y to INR 228 crore, 
+with a margin of 14.7%, broadly stable on a y-o-y basis. The Profit After Tax (PAT) for the 
+quarter stood at INR 117 crore, registering strong growth of 50% y-o-y. 
+ For H1 FY 27, revenue stood at INR 2,919 crore, up 34% y-o-y. EBITDA grew by 42% to INR 
+434 crore, with margins of 14.9%, an expansion of 90 bps (basis points), while PAT grew by 
+64% to INR 215 crore. 
+ Coming to the order book, it has grown to INR 1,879 crore at the end of Q2, up from INR 1,600 
+crore at the end of Q1 FY 27, providing a healthy visibility for the business going forward. Of 
+this order book, approximately 14% is expected to be executed in FY 27 itself, 59% in FY 28 
+and the remaining 27% in FY 29. 
+ Advanced Plastics continues to contribute the largest share at 44%, followed by Mechatronics 
+at 27%, Alternate Fuels at 20% and Structures & Control Systems at 8%. Around 85% of the 
+order book is new business. By powertrain, EV (Electric Vehicle) and CNG (Compressed 
+Natural Gas) together accounts for 29% of the order book, with CNG at 20% and pure EVs at 
+about 9%, while new future technologies account for 22% of the total order book. 
+ At Lumax Greenfuel Energy Solutions, we are pleased to report that the Nashik facility has 
+commenced production in Q3 FY 27, the ongoing quarter, supplying ferrule-less tubes and 
+fittings and receptacles to Mahindra & Mahindra. 
+ At its meeting on 24th October, 2026, the Board approved the setting up of a new Mechatronics 
+manufacturing facility at Manesar in Haryana, with a capital outlay of around INR 150 crore to 
+be funded through a mix of debt and internal accruals. 
+
+--- page 5 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 4 of 15 
+ 
+ The facility will manufacture advanced electronic components such as the Body Control Module 
+(BCM) for leading OEMs (Original Equipment Manufacturers). It is expected to be 
+commissioned in 2 phases, starting Q3 FY 28, with a peak annual turnover of around INR 500 
+crore post-commissioning. 
+ In closing, while we remain watchful of the geopolitical environment and energy price volatility, 
+the overall demand environment and industry outlook continue to be favourable, giving us 
+confidence for the near term. 
+ In the long term, our compass remains our 20.20.20.20 North Star, aiming for a 20% revenue 
+CAGR between FY 25 through FY 31 and inching closer to a 20% EBITDA margin over the 
+next 5 to 7 years. By FY 31, we aspire to more than double our current revenue base to around 
+INR 11,000 crore, fuelled by a blend of organic excellence and strategic inorganic opportunities. 
+ With this, I would now like to hand over the call to Mr. Ankit Thakral, the CFO of the Company. 
+Ankit Thakral: Thank you, sir. Good afternoon, everyone, and thank you for joining us today. The first half of 
+FY 27 has been defined by sustained operational and financial excellence. Q2 continued the 
+robust trajectory established in Q1, successfully translating our strategic alignment into strong 
+revenue gains and EBITDA expansion, further solidifying the strength of our diverse and well-
+balanced portfolio. 
+ Let me now take you through the key operational and financial highlights for the quarter and six 
+months. The consolidated revenue stood at INR 1,556 crore for Q2 FY 27, first time crossing 
+the INR 1,500 crore mark in a single quarter, thereby registering growth of 35% y-o-y. And with 
+respect to six months, up by 34% to INR 2,919 crore, led by consistent scale-up across all 
+product lines and premiumization-led value enhancement. 
+ On the profitability front, EBITDA for Q2 FY 27, including other income, stood at INR 228 
+crore, up by 34% y-o-y. This translated into margin of 14.7%, broadly stable y-o-y. However, 
+on q-o-q basis, there is a marginal decline in margins, which was only due to rising input costs 
+and its recoveries from OEMs. This means that the sales and costs has increased by a similar 
+amounts, leading to slight dilution in margin. 
+ For H1 FY 27, EBITDA stood at INR 434 crore, up by 42% y-o-y, and margin expansion of 90 
+bps from H1 FY 26. Profit Before Tax (PBT) for six months stood at INR 286 crore, up 60% y-
+o-y, with a margin of 9.8%. PAT before minority interest for six months stood at INR 215 crore, 
+registering an impressive y-o-y growth of 64%. 
+ The effective tax rate continues to remain around 25%, which is also expected to hold at similar 
+levels going forward. The share of minority interest for six months stood at 11% and is expected 
+to be in a similar range going forward, considering the existing structure. 
+ With respect to division-wise breakup, beginning with Advanced Plastics, this segment recorded 
+a strong y-o-y growth of 45% in H1 FY 27, with revenues increasing from INR 1,138 crore to 
+INR 1,655 crore, led by strong growth in the IAC (Intelligent Ambient Comfort) business, which 
+
+--- page 6 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 5 of 15 
+ 
+commands approximately 60% share in this division. The order book remains strong at INR 834 
+crore, providing solid future visibility.  
+The Mechatronics segment sustained its upward momentum, delivering a y-o-y growth of 45% 
+in H1 FY 27, from INR 122 crore to INR 177 crore, with a healthy order book of INR 512 crore. 
+ Turning to the Structures & Control Systems vertical, it reported a y-o-y growth of 24% in six 
+months, increasing from INR 380 crore to INR 476 crore, with an order book of approximately 
+INR 150 crore. 
+ The Aftermarket segment showed a growth of 9% y-o-y, from INR 216 crore to INR 234 crore, 
+mainly due to a dip in the non-lighting product category as a result of rising input costs. We will 
+continue to monitor these input cost trends and focus on profitable growth for the remaining part 
+of the year. 
+ The Alternate Fuels business showed a growth of 30% y-o-y, from INR 170 crore to INR 220 
+crore, with an order book of INR 379 crore.  
+Capex on account of capitalization during the first quarter was INR 60 crore. [Note: The capex 
+of INR 60 crore pertains to H1 FY 27.] The guidance for the year continues to remain around 
+INR 300 crore, including the new greenfield expansion in the Mechatronics, Advanced Plastics 
+and Alternate Fuels divisions, which is expected to begin the SOP (Start of Production) in the 
+H2 of financial year. These investments are aimed at unlocking medium-term revenue growth 
+and supporting our localization efforts across key platforms. 
+ As of September 2026, we continue to maintain a strong balance sheet and a healthy liquidity 
+position. Free cash reserves stood at INR 400 crore, providing us with the financial flexibility to 
+support ongoing investments and navigate market cycles confidently. Long-term debt stood at 
+INR 442 crore, resulting in a conservative debt-to-equity ratio of 0.26, which is within our 
+internal comfort threshold. 
+ With this, we conclude the operational and financial overview. We now open the floor for 
+questions. 
+Moderator: Thank you very much. We will now begin the question-and-answer session. First question is 
+from the line of Amit Hiranandani from PhillipCapital. 
+Amit Hiranandani: Congratulations on one more outperformance in Q2. Sir, my first question is basically, after this 
+34% of y-o-y growth achievement in the first half, so are we revising our guidance upward for 
+this fiscal year? 
+Ankit Thakral: Amit, this is Ankit here. So at the beginning of the year, we basically provided the guidance, in 
+line with our North Star that if we combine growth for 2 years, which is FY 26 and FY 27, we 
+will be comfortably in line with the overall guidance of 20%-odd. And considering the 35-36% 
+growth which was done in FY 26, if you do the mathematics, the growth for this year at the 
+beginning of the year was somewhere closer to 12-14%. 
+
+--- page 7 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 6 of 15 
+ 
+ However, whatever the industry has performed during the first half of the financial year and 
+considering our H1 performance, we can expect the full-year growth to be somewhere in the 
+region of 20%-odd, if we compare from FY 26. 
+Anmol Jain: Amit, this is Anmol here. Just to add to that, H1 you've seen a 34% growth on a y-o-y basis. 
+Getting into H2, as I mentioned, because of a higher base in FY 26, we do expect the growth for 
+H2 to be perhaps somewhere between the 15-20% mark on a y-o-y basis. 
+ And hence, for the full year, we should be anywhere between a 20-25% growth on a full-year 
+basis on the revenue. So, looking at perhaps close to a INR 6,000-odd crore, given that growth 
+number. 
+Amit Hiranandani: Yes, I think incrementally this is pretty much positive because organically we have targeted 
+around 15% growth, but now we are upward to 20-25% growth. 
+Anmol Jain: That's correct. 
+Amit Hiranandani: Yes. Sir, secondly, are we witnessing any incremental immediate pressures on margins for Q3? 
+And are we on track to achieve this FY 28 absolute EBITDA target? 
+Anmol Jain: So, yes, margin pressures on supply chain inflationary costs continues. However, the same was 
+also witnessed in H1, and most of these inflationary costs, we have been able to pass through to 
+our OEMs. However, there is a lag of about 1 quarter or so, as Ankit mentioned, because the 
+whole revenue goes up because of these price escalations and inflationary costs and so does the 
+denominator. Hence, margins get diluted by few bps. 
+ Having said that, I think we remain quite confident for the remaining part of FY 27, and we are 
+quite confident of delivering the absolute guidance of EBITDA for FY 28, which was always at 
+about INR 1,000 crore EBITDA. We remain quite confident to achieve that in FY 28. 
+Moderator: The next question is from the line of Radha from Motilal Oswal. 
+Radha: Congratulations on stellar results. Sir, could you help us understand the content per vehicle that 
+Lumax addresses today across each Mechatronics JV (Joint Venture), that is Alps Alpine, Ituran, 
+Yokowo and FAE? And with multiple product launches planned, where do you see Lumax's 
+Mechatronics content per vehicle to reach in the next 2 to 3 years? 
+Anmol Jain: So just to give you a sense, let us say the total content per vehicle, which is the playbook for 
+Lumax Auto Technologies, is anywhere around INR 70,000 to INR 75,000 per Passenger 
+Vehicle and about INR 20,000 to INR 22,000 per 2-Wheeler. This is based on the basket of 
+products Lumax Auto Technologies is in currently. 
+ I would not be able to give you an exact content per vehicle because there are multiple parts 
+across different, different joint ventures and subsidiaries. However, let us say, almost close to 
+50% of this content per vehicle on the Passenger Vehicle side rests within the IAC vertical and 
+Greenfuel would be close to about INR 5,000, INR 7,000 or INR 8,000 per vehicle, and the 
+remaining is all divided between the Control Systems, Transmission and Mechatronics. 
+
+--- page 8 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 7 of 15 
+ 
+ The Mechatronics will have one of the highest content-per-vehicle of that, just given the sheer 
+range of products. And as we move forward into high-electronic components like as the Body 
+Control Module, this would only go up. 
+ So, we do believe that, at INR 70,000 to INR 75,000 on a Passenger Vehicle, the fastest content 
+per vehicle driver would be the Mechatronics vertical. And perhaps in the next 2 to 3 years, the 
+whole INR 70,000-75,000 per vehicle would also maybe go up by about 10% or so. 
+Radha: That's helpful, sir. But, sir, just for rough calculations, can we assume 15% of the INR 70,000-
+75,000 comes from Mechatronics as of now? 
+Vikas Marwah: So Ms. Radha, I think closer to a 20% contribution would come from Mechatronics right now. 
+And as Mr. Anmol Jain said, this is still a very, very high-growth vertical, with new product 
+categories in the connected-vehicle space, and the vehicle ECU (Electronic Control Unit) 
+interface management space, the new products are on the radar. It will continue to grow further. 
+As of today, it stands at 20%, yes. 
+Radha: Sir, second is in Mechatronics, could you help us understand, how do we plan to progress from 
+supplying individual components like antennas, telematics etc., to customers to a more Tier 0.5 
+solution more value-add, etc., to the OEMs and how can this be viewed as a trigger to strengthen 
+our competitive position and segmental margin? 
+Vikas Marwah: So, Mechatronics vertical today is resting on 5 global partnerships with 5 major global players 
+who are the market leaders in their segments. You are right, one of them is Alps Alpine, then we 
+have Yokowo in connectivity systems. We have Ituran on the telematics side, and we have got 
+Nidec there on the Body Control Modules. And we also have FAE in the oxygen sensor segment, 
+and we continue to explore new partnerships. 
+ Most of these component categories are not connected to each other, except through a vehicle 
+interface or the ECU management system that comes from the OEMs. Having said that, there is 
+an opportunity basket that lies along with the aggregation with the IAC cockpit solution, which 
+would require vehicle-level endorsement and the journey toward 0.5 would be eminently 
+possible there. 
+ However, let us remain cognizant of the fact that each of these individual categories, when 
+marketed to the OEMs right now, get us a higher value addition. So OEMs also, when they are 
+looking at the aggregated parts, would naturally expect more cost benefits and there the volume-
+scale-cost game will then kick in, and your Company will take the right decisions accordingly. 
+Moderator: The next question is from the line of Raksha Srivastava from Narnolia Financial Services. 
+Raksha Srivastava: Congratulations on the great set of numbers. Sir, wanted to ask, in the previous conference call, 
+management has mentioned that 3 to 6 months of lag is there and in the cost pass-through for 
+certain OEMs and the recovery will be made to protect the full-year EBITDA margin. So, can 
+we believe that the COGS (Cost of Goods Sold), which is higher for Q2 FY 27, is due to the 
+delayed pass-through? Or is the Company still absorbing the impact of rising input costs? 
+
+--- page 9 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 8 of 15 
+ 
+Ankit Thakral: Yes. Thank you, Ms. Raksha. So the answer to your question is that, as I mentioned during my 
+opening remarks that whatever raw material costs we have passed on to our vendors, most of 
+them are being 100% backed up by the OEMs. Only thing is, there may be maximum a single 
+quarter lag. 
+ However, with respect to whatever the price lag has been given to vendors in both the quarters, 
+most of it, recoveries have happened from the OEM. Say for example, if we have given INR 100 
+as a raw material price increase, we have been able to recover that INR 100. But that delta has 
+hit into the revenue, with similar increase in costs and zero addition to profitability. 
+ That is why, as a percentage of revenue, you are seeing a couple of bps increase in our raw 
+material consumption for the single quarter and maybe slight dilution in margin, maybe by 30-
+40 bps in our EBITDA margins.  
+Anmol Jain: We remain confident that almost all of the inflationary costs we should be able to pass through 
+to OEMs and recover them in the subsequent quarters as well. 
+Raksha Srivastava: My second question would be, how is the capacity utilization ramping up at the new Chakan 
+plant supplying M&M? Also, what are cost savings or efficiencies we have achieved in Q2 FY 
+27? 
+Anmol Jain: So, maybe I will request Sunil to answer that. I'm assuming you were specifically talking about 
+the new IAC division facility in Chakan, I'll hand it over to Sunil because I believe the facility 
+is still under commissioning. So Sunil, if you can just throw some colour on that? 
+Sunil Koparkar: Just to discuss the point Mr. Anmol Jain said, the Chakan IV facility is in the SOP phase, but 
+the product launch will actually happen more towards December, January. Talking about 
+efficiencies, over the last few years, we have been trying to do is, align our production facilities 
+to more like a centre of competence (COC) concept to gain the efficiencies. 
+ And I think once Plant IV launches, we will be able to actually give you some details as a result 
+of COC, how much efficiency we have gained through this concept. But at this point, it is under 
+production, and we will not be able to say much more. 
+Moderator: The next question is from the line of Deep Shah from New Vernon Capital. 
+Deep Shah: Sir, my question is on the North Star guidance that you give, which is mostly on revenue growth, 
+where you said 20% revenue growth from FY 25 to FY 31. But that seems like slightly backdated 
+because like FY 26 also, we had, as you said, 34-35% revenue growth. 
+ So, if I look at it from an FY 27 to FY 31 based on your historical guidance, it ends up at about 
+16-17% revenue growth. So, is that like a fair understanding or would you change it to like a 
+higher guidance or something like that? 
+Anmol Jain: So Deep, again, I think when we gave that guidance, we said 2-3 things. Number one, we will 
+continue to outperform the industry growth. That's number one. And I don't think the industry is 
+
+--- page 10 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 9 of 15 
+ 
+likely to continue to grow at 12 -15% over FY 25 through FY 31 because the base also 
+consistently keeps going up. 
+ However, having said that, I think at this point in time, we would like to continue to have a 20% 
+top-line CAGR growth estimated until FY 31. However, I also mentioned that we are likely to 
+double our revenue base to probably more like INR 11,000 crore in FY 31. 
+ So again, at the right time, we might have a revision to these CAGR numbers, but we do feel a 
+lot more confident on today, achieving this kind of growth of 20% CAGR through organic 
+growth by itself. 
+ I think in the earlier calls, I would have said that probably a 15% CAGR is more achievable 
+through organic routes and inorganic further acquisitions would entail maybe another 5-7% of 
+the CAGR. 
+ Today, I think the only change point I would like to say is that we are a lot more confident that 
+if the industry continues to grow with the same momentum, a 20% organic CAGR could be 
+achievable. And if we were to take positions inorganically, it should then cross the 20% CAGR 
+to higher and deliver top line growth. 
+Deep Shah: Just one clarification. When you say 20% CAGR, you are assuming a FY 25 base, right? 
+Anmol Jain: That's correct. Base was FY 25. 
+Deep Shah: Okay. Got it. My second question is more qualitative on Mechatronics, like you said, a new plant 
+for Body Control Modules, etc. So I mean, just want to understand the product development. Is 
+it done in-house or is it again with the 4 JVs that we have? 
+ And is that also included in the historical guidance of about INR  1,000 crore revenue for 
+Mechatronics by FY 31. So BCM is a part of that or is it something new? And just like more 
+qualitative information on these new products on the Mechatronics side? 
+Anmol Jain: Sure. So I'll take this partially, and then maybe I'll request Vikas to jump in. So number one, 
+BCM was always a part of this 20% CAGR growth story. We've probably gone and announced 
+the BCM as a product category more recently. But again, the development and the nominations 
+happened way back. 
+ Number two, most of the Mechatronic products, and there is a two-pronged approach. Number 
+one, there are certain product lines which the technology lead is driven by the joint venture 
+partner and the IP (Intellectual Property) sits in the respective joint venture. 
+ However, at the same time, our internal innovation and technology centre, which is SHIFT 
+(Smart Hub for Innovation and Future Trends), is also working on a lot of technologies, more 
+on electronic components, which would then get productionized in one of the standalone entities 
+or the standalone facilities. And hence, they will also be able to home-grow certain technologies. 
+ So again, it will be a mixed bag, but both, whether the technology is home-grown at SHIFT or 
+it is led by the joint venture partner, the growth from these products will kick into the 
+
+--- page 11 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 10 of 15 
+ 
+Mechatronics vertical. And hence, we keep saying repeatedly that although on a small base, but 
+we do expect Mechatronics to be the fastest-growing vertical and perhaps inching towards the 
+INR 800 - 1,000 crore revenue of INR 11,000 crore or so in FY 31. 
+Vikas Marwah: So, I will just add to what Mr. Anmol Jain just mentioned. In terms of 3-year to 4-year outlook, 
+the total consolidated Mechatronics vertical is expected to contribute 25%, which is our internal 
+target from the Lumax internal technology-driven initiative. And about 75% would rest with the 
+design and the IP support coming in from our joint venture partners. 
+ That's an internal target. And Lumax Auto Technologies' Electronics division is focused 
+accordingly to scale it up across various product categories, probably going up to almost like 10 
+product categories by 2030-31. We are currently on 6 product categories. We will add another 3 
+or 4. 
+Deep Shah: Just one last question on Mechatronics margins. How high are the margins compared to our 
+current EBITDA margins of 14.5-15%? 
+Vikas Marwah: So they are in line very much. Mechatronics is still scaling up. We are reaching critical mass. 
+We are sitting on a INR 500 crore order book. They are inching closer to the overall Lumax 
+Auto Technologies' profitability as we speak. 
+Moderator: The next question is from the line of Apurva Mehta from AM Investments. 
+Apurva Mehta: Congratulations, sir, on great set of numbers and great margins, great cash flow, nothing to 
+complain. Just wanted to know what are we doing on the electronics side of the business where 
+the EV is scaling up. We are seeing a lot of 2-Wheelers, 4-Wheelers, EVs are going up, which 
+are the product lines that we are looking for next future growth? 
+Vikas Marwah: Apurva-ji, this is Vikas Marwah, and thank you for your remarks. Coming back to EV, which is 
+a familiar question. We have clarified it over the previous quarter's earnings calls also that while 
+continuing to scale on a North Star vision of 20.20.20.20 and registering these kind of growth 
+numbers and coming closer to now 15% EBITDA and probably beyond, we have been very 
+prudent in terms of balancing our priorities towards what we see as the future critical and what 
+is presently critical to us. 
+ Accordingly, electronification and powertrain agnostic products have continued to remain on 
+our radar. While there is a definite scaling up on the 2 -Wheeler side in terms of the EV 
+components and slight increase in the numbers or even on the 4-Wheeler, a lot of them continue 
+to be commodity-based purchases where OEMs would like to maintain a stranglehold and the 
+automotive components really don't have much to supply there being out of the battery-related 
+solutions and everything. 
+ We have now zeroed down on our EV component strategy to a list of product basket of 3 to 5 
+products where we are now sourcing technology and looking at certain inorganic measures also, 
+which continues to be an exploratory area to get into active SOPs during the 2028 to 2030 period. 
+We have our hands completely full on electronification of the vehicles right now with the 
+products that we have, and I think that's the right strategy. 
+
+--- page 12 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 11 of 15 
+ 
+Apurva Mehta: Great. And can you throw some light on each of our JVs like Greenfuel, Mannoh? Where you 
+look all these companies for next 2 years kind of thing, like Greenfuel, Mannoh, Alps Alpine, 
+Cornaglia, FAE, Ituran? 
+Anmol Jain: So I'll just give you a broader sense. I think rather than going into each and every company, I 
+think, of course, each company has its own playbook over the next 5-6 years. Some of them are 
+matured and already high wallet share companies like Lumax Mannoh, where the growth would 
+be very different than some of the Mechatronics vertical companies like Lumax Alps or Lumax 
+Yokowo. 
+ But as I said, under the whole theme of BRIDGE, which is a whole roadmap for diverse growth 
+engines, I think all of them are trying to unlock the maximum potential of growth and I think 
+Greenfuel and Mechatronics, along with IAC would be some of the key growth drivers, where I 
+have already said, the Mechatronics, the growth would be outperforming the other divisions, 
+although on a small base, but again, we are expecting perhaps close to INR 1,000 crore revenue 
+from Mechatronics as a business vertical by 2031. 
+ Similarly, Greenfuel also has now a very strong order book based on the localization of the 
+ferrule-less tubes & fitting, and we should be able to significantly ramp up that business vertical 
+as well. So I think there is a great opportunity for us to, first and foremost, accelerate the growth 
+in certain business verticals. 
+ And as I mentioned earlier, thereafter, with the new product basket, which we are getting into 
+under the whole electronics and Mechatronics business verticals, we should then also be able to 
+enhance our content per vehicle by about 10-15% from the current level of INR 70,000-odd on 
+a Passenger Vehicle. 
+Apurva Mehta: And on the margin front, as we scale up this Mechatronics, are the margins also will come in 
+line with what we are there currently, around 15-16% kind of margins can we foresee? 
+Anmol Jain: Yes, absolutely. I think we are quite confident that the current margins, which we've clocked 
+and delivered should be able to sustain for the remaining part of the year. And for the full year 
+also, I think the guidance remains unchanged. We should be able to continue that margin. 
+Despite the volatility, I'm quite confident that we should be able to maintain the margins. 
+ And going forward, I think the whole ambition and aspiration is to try and move the margin 
+further by at least 100-200 bps over the next few years and inch them closer to like a 17-18%, 
+something like that framework. 
+Apurva Mehta: And on the Aftermarket side of the business, where our aspiration is always to grow 20%. This 
+quarter, this first half, we are being low on that. What are the steps taken to make sure that 
+Aftermarket grows at more than 20% and like adding new products or widening of the market 
+or how can we do that? 
+Anmol Jain: So I think Aftermarket is a very different animal. I think it needs a very different treatment. 
+You're right, for H1 of the current year, we've seen Aftermarket grow at about 9% with respect 
+
+--- page 13 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 12 of 15 
+ 
+to last year. But I think Q2 per se was a better quarter where we grew at 11%. And again, for the 
+full year, we still remain hopeful, and there were 2 primary reasons. 
+ Number one, as I said, a lot of the inflationary costs were passed on and that kind of dampened 
+the demand, specifically in the non-lighting product segment where we are not the market 
+leaders. However, with the focus on secondary demand generation and also to penetrate into 
+newer product lines, on a 3 to 5-year horizon, I still remain quite optimistic to deliver a 15-20% 
+growth on the Aftermarket. 
+Moderator: The next question is from the line of Shrenik Mehta from IndoAlps. As we lost the connection 
+for Mr. Shrenik Mehta, so we'll move to the next question from Mr. Amit Hiranandani from 
+PhillipCapital. 
+Amit Hiranandani: Sir, on the BCM product, so the competition is also intense here. So I just want to confirm 
+whether do we have the confirmed orders in hand and in which subsidiary this product will get 
+reported? 
+Vikas Marwah: So Amit, this is Vikas Marwah. Thank you for your question. BCM is a very, very new and the 
+prestigious entry for Lumax. We went into the SOP sometime in July this year. We are still 
+scaling up. You are right, we are up against global competition here, but the comfort is that the 
+technology is coming again from a global leader. 
+ This is not a joint venture right now. It is standalone revenue for Lumax Auto Technologies, and 
+we are extremely proud of it. In the scale-up phase, it is currently build-to-print. We are imbibing 
+the technology. We are learning with it. We are scaling it up, and you are right, there is an order 
+book that is backing up to support it. 
+ In terms of the won and the acquired program, we are already on a INR 250 crore order book 
+with which confidence we are kicking off the new Mechatronics plant, which has been 
+announced in the results. And we continue to remain hopeful of probably doubling up this 
+revenue by 2031. But this is the first 6 months of the launch. 
+Amit Hiranandani: Sir, can I just clarify? You said there is a tech with a global leader. So can you please clarify 
+here, which OEM we have tie up? 
+Anmol Jain: It's not an OEM. It's actually another electronics component manufacturer. We would not be 
+able to give you the name yet. However, it's a large Japanese auto component maker. So again, 
+it's more of a technology tie-up, not a joint venture. However, we will  be localizing the 
+manufacturing on their behalf. And again, the technology will be kind of coming from the 
+technology partner. And also our SHIFT will, over time, have a lot of integration on the 
+technology piece. 
+Amit Hiranandani: And this will be reported in the standalone, you said? 
+Anmol Jain: That is correct. All the revenues and profitability of business from Body Control Module 
+business would be under the standalone. 
+
+--- page 14 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 13 of 15 
+ 
+Ankit Thakral: And with respect to the division-wise breakup, it will be under the Mechatronics division. So it 
+will have both the subsidiaries and the standalone revenue, the Mechatronics business. 
+Amit Hiranandani: Right. Sir, my second question is, can you just reconfirm the growth with LIL for Q1 and Q2? 
+Anmol Jain: LIL? 
+Amit Hiranandani: Yes. 
+Ankit Thakral: So Lumax with respect to the Lumax Industries Limited, so... 
+Anmol Jain: I think in the H1, the growth is flat. We have really not grown our revenue. It is a flat revenue 
+on a y-o-y basis for first half. 
+Amit Hiranandani: Yes. So this was basically my follow-up question. What is exactly happening here? I mean the 
+growth is flat here. 
+Ankit Thakral: For the current six months, this is basically the wiring business division, which we are catering 
+to Lumax Industries Limited. And if we go back to the six months last year, there was another 
+sort of one more product line, which we were supplying to Lumax Industries. 
+ But at the start of the financial year, Lumax Industries is procuring from themselves. So that is 
+why if you compare from last financial year, it is a flat growth. And if you see the apple-to-
+apple, it will be the similar growth of around 25-30%, which is in line with the growth of Lumax 
+Industries as well. 
+Moderator: The next question is from the line of Radha from Motilal Oswal. 
+Radha: Sir, could you give us some colour on the adoption of ferrule-less tubes across new customers 
+besides Maruti and also penetration in some of the new customers like Hyundai, etc., from the 
+Greenfuel division? 
+Anmol Jain: Radha, on the ferrule-less tubes and fittings, industry at large was importing this ferrule-less 
+tubes from outside of India. We were and are the first company to have localized the 
+manufacturing of ferrule-less tubes and fittings. And at an industry level, I mean, if you look at 
+the penetration of CNG, every vehicle has the ferrule-less tubes and fittings. It multiplies either 
+in 3 or 4 or 6 per vehicle depending on the layout. 
+ However, we have already started, as I mentioned in my opening, the supply of the ferrule-less 
+tubes and fittings to Mahindra & Mahindra, along with the receptacles as a whole CNG system. 
+With Maruti Suzuki also, there have been some firm order wins to supply the ferrule-less tubes 
+and fittings. The scalability of this is sizable as a growth driver under the CNG business vertical 
+because, again, it's a win-win for the OEM as well as for us. 
+ So OEM also gets a lot of localized price advantage and localized supplies, whereas for us, this 
+is a growth driver on the whole theme of localization. So I think we will right now have a 
+significant capacity utilization between Mahindra and Maruti Suzuki over the next, let's say, 
+give or take, 2 years. 
+
+--- page 15 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 14 of 15 
+ 
+ And then we will see if we are able to expand this to others. We do remain engaged with other 
+OEMs like Hyundai as well, but not just for ferrule-less tubes and fittings, but also for certain 
+other CNG parts. 
+Radha: Sir, secondly, globally, Alps Alpine has a lot of products in smartphones and Greenfuel's partner 
+also has applications in industrial air conditioning industry, etc. So given some of the products 
+can be used across industries, do we plan to tap these opportunities in India or solely focus on 
+automotive? 
+Anmol Jain: As of now, our singular focus is to try and capitalize the opportunities that exist in the automotive 
+space. And again, we would like to be laser sharp focused on automotive and deliver the growth 
+numbers which we are promising. I think there is a lot more opportunity to grow even higher 
+within the automotive landscape. So that would be our focus area for now. 
+Radha: And sir, lastly, the partnerships that Lumax has across various partnerships that you mentioned, 
+are these partnerships exclusive to Lumax in India? And secondly, do you see any risk from the 
+deterioration of the financial condition of any of the partner globally to impact our Company or 
+any risk from that angle in the near term or in the medium term to impact Lumax? 
+Vikas Marwah: So Ms. Radha, I think we are very proud of the fact that Lumax has always been extremely 
+prudent in terms of choosing its international partners. In the flagship company, Lumax 
+Industries, the partnership is actually so many decades old that we can't even tell you. I mean, it 
+will be probably closing 50 years at some point of time. With a world leader. 
+ After that, all the Lumax Auto Technologies joint venture partners who have come on board, 
+most of them are global market leaders in their space with no financial distress, long -term 
+enduring sustaining partnerships for India. With mutual consent, one JV was dissolved in the 
+last quarter. 
+ That was with JOPP of Germany due to their technology portfolio at that point of time and the 
+scalability ambitions of both the partners not aligning. So it was an amicable separation that has 
+happened. Having said that, all the partnerships that we have are of very, very high standing. 
+Moderator: Ladies and gentlemen, as that was the last question for today, I now hand the conference over to 
+management for closing comments. 
+Anmol Jain: Thank you once again for joining us for the Q2 and H1 FY  27 earnings call and for your 
+continued interest in Lumax Auto Technologies. We truly appreciate your time and engagement 
+today. Should you have any further questions or require any additional information, please feel 
+free to reach out to the Lumax Group Investor Relations team or SGA, our Investor Relations 
+Advisors. 
+ We are committed to keeping the investor community regularly updated on our progress. Thank 
+you, and I also take this opportunity to wish you a very happy festive season. Thank you very 
+much. 
+
+--- page 16 ---
+      Lumax Auto Technologies Limited 
+ October 27, 2026 
+Page 15 of 15 
+ 
+Moderator: Thank you. Ladies and gentlemen, on behalf of Lumax Auto Technologies Limited, that 
+concludes this conference. Thank you for joining us, and you may now disconnect your lines. 
+Thank you. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer: This transcript is the output of transcribing from an audio recording and has been edited for clarity, consistency with published information. Any text 
+in square brackets [ ] is added by the Company for clarification and does not form part of the spoken proceedings. Although efforts have been made to ensure a 
+high level of accuracy, in some cases it may be incomplete or inaccurate due to inaudible passages or transcription errors. The Company takes no responsibility 
+for such inaccuracies or errors. It is compiled as an aid to understanding the proceedings of the event but should not be treated as an authoritative record. In case 
+of discrepancy, the audio recordings uploaded on the stock exchanges will prevail. 

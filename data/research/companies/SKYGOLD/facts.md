@@ -1,42 +1,42 @@
 # SKYGOLD — facts we already hold
 
-_Generated 2026-10-24 20:40 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-14 12:03 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Consumer Durables > Gems, Jewellery And Watches  
-**Basis:** consolidated, fetched 2026-10-24T20:25:23  
-**Snapshot:** Market Cap 16213.0, Current Price 1047.0, High / Low 1084.0, Stock P/E 48.4, Book Value 77.0, Dividend Yield 0.0, ROCE 26.9, ROE 28.9, Face Value 10.0
+**Basis:** consolidated, fetched 2026-11-14T11:35:51  
+**Snapshot:** Market Cap 15830.0, Current Price 1022.0, High / Low 1084.0, Stock P/E 39.4, Book Value 90.8, Dividend Yield 0.0, ROCE 26.9, ROE 28.9, Face Value 10.0
 
 ## Last 8 quarters
-| | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+| | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
 |---|---|---|---|---|---|---|---|---|
-| Sales | 769 | 998 | 1,058 | 1,131 | 1,484 | 1,768 | 1,912 | 2,013 |
-| Operating Profit | 39 | 57 | 63 | 71 | 100 | 122 | 141 | 157 |
-| OPM % | 5 | 6 | 6 | 6 | 7 | 7 | 7 | 8 |
-| Other Income | 20 | 7 | 5 | 4 | 8 | 7 | 17 | 8 |
-| Interest | 10 | 12 | 14 | 13 | 18 | 21 | 27 | 25 |
-| Net Profit | 37 | 37 | 38 | 44 | 67 | 81 | 91 | 105 |
+| Sales | 998 | 1,058 | 1,131 | 1,484 | 1,768 | 1,912 | 2,013 | 2,391 |
+| Operating Profit | 57 | 63 | 71 | 100 | 122 | 141 | 157 | 190 |
+| OPM % | 6 | 6 | 6 | 7 | 7 | 7 | 8 | 8 |
+| Other Income | 7 | 5 | 4 | 8 | 7 | 17 | 8 | 7 |
+| Interest | 12 | 14 | 13 | 18 | 21 | 27 | 25 | 26 |
+| Net Profit | 37 | 38 | 44 | 67 | 81 | 91 | 105 | 129 |
 
-Other income as % of profit before tax (last 4 qtrs): Sep 2025 9%, Dec 2025 7%, Mar 2026 13%, Jun 2026 6%  
+Other income as % of profit before tax (last 4 qtrs): Dec 2025 7%, Mar 2026 13%, Jun 2026 6%, Sep 2026 4%  
 _High = earnings not from operations (Q4)._
 
 ## Annual
 | | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 | TTM |
 |---|---|---|---|---|---|---|
-| Sales | 786 | 1,154 | 1,745 | 3,548 | 6,292 | 7,176 |
-| Operating Profit | 20 | 37 | 78 | 197 | 436 | 520 |
-| OPM % | 2.6 | 3.2 | 4.5 | 6 | 7 | 7 |
-| Net Profit | 17 | 19 | 40 | 133 | 282 | 343 |
+| Sales | 786 | 1,154 | 1,745 | 3,548 | 6,292 | 8,083 |
+| Operating Profit | 20 | 37 | 78 | 197 | 436 | 610 |
+| OPM % | 2.6 | 3.2 | 4.5 | 6 | 7 | 8 |
+| Net Profit | 17 | 19 | 40 | 133 | 282 | 406 |
 | Dividend Payout % | 0 | 12 | 3 | 0 | 0 |  |
 
 ## Balance sheet
-| | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 |
-|---|---|---|---|---|---|
-| Equity Capital | 5 | 11 | 13 | 147 | 155 |
-| Reserves | 71 | 87 | 231 | 537 | 1,037 |
-| Borrowings | 92 | 146 | 330 | 630 | 869 |
-| CWIP | 0 | 0 | 1 | 1 | 0 |
-| Fixed Assets | 8 | 9 | 35 | 106 | 376 |
-| Total Assets | 175 | 252 | 586 | 1,357 | 2,195 |
+| | Mar 2022 | Mar 2023 | Mar 2024 | Mar 2025 | Mar 2026 | Sep 2026 |
+|---|---|---|---|---|---|---|
+| Equity Capital | 5 | 11 | 13 | 147 | 155 | 155 |
+| Reserves | 71 | 87 | 231 | 537 | 1,037 | 1,251 |
+| Borrowings | 92 | 146 | 330 | 630 | 869 | 964 |
+| CWIP | 0 | 0 | 1 | 1 | 0 | 0 |
+| Fixed Assets | 8 | 9 | 35 | 106 | 376 | 389 |
+| Total Assets | 175 | 252 | 586 | 1,357 | 2,195 | 2,894 |
 _Rising CWIP = capacity being built (Q1). A jump in equity capital is either dilution (Q6) or a bonus issue / split (harmless) -- check the annual report._
 
 ## Efficiency
@@ -60,14 +60,14 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-10-23: close 1,046.85, RS 99, system rank 1, industry group rank 6.0. Passes every rule.
+As of 2026-11-13: close 1,022.10, RS 98, system rank 2, industry group rank 20.0. Passes every rule.
 
-- On the canslim list 12 day(s), 2026-09-30 to 2026-10-23
+- On the canslim list 13 day(s), 2026-09-30 to 2026-11-13
 
-- On the earnings list 12 day(s), 2026-09-30 to 2026-10-23
+- On the earnings list 13 day(s), 2026-09-30 to 2026-11-13
 
-- On the emerging list 12 day(s), 2026-09-30 to 2026-10-23
+- On the emerging list 13 day(s), 2026-09-30 to 2026-11-13
 
-- On the fw_qglp list 6 day(s), 2026-10-14 to 2026-10-23
+- On the fw_qglp list 8 day(s), 2026-10-14 to 2026-11-13
 
-- On the fw_trend list 6 day(s), 2026-10-14 to 2026-10-23
+- On the fw_trend list 8 day(s), 2026-10-14 to 2026-11-13
