@@ -17,9 +17,11 @@ Bar (fixed before running): the model "reads charts usefully" only if
 A simple rule (uptrend, within 15% of the high, relative strength in the top 20%) is scored on the same random
 charts for comparison.
 
-usage: python -m canslim.blindtest make [year]      # charts + key
-       python -m canslim.blindtest ask [model]      # headless Claude Code reads the charts (default: fable)
-       python -m canslim.blindtest score [model]
+Each year has its own folder: data/tune/blindtest/<year>/ (key.csv, answers_<model>.jsonl, scored_<model>.csv).
+
+usage: python -m canslim.blindtest make [year]             # charts + key (default 2024)
+       python -m canslim.blindtest ask [year] [model]      # headless Claude Code reads the charts (default: fable)
+       python -m canslim.blindtest score [year] [model]
 """
 import json
 import re
@@ -34,7 +36,8 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "tune" / "blindtest"
+BASE = ROOT / "data" / "tune" / "blindtest"
+OUT = BASE / "2024"                        # set per year in __main__
 BARS, FWD, PATH_DAYS, PER_MONTH, BATCH, SEED = 250, 63, 126, 17, 8, 20241114
 PROMPT = (
     "The PNG files {files} in the current folder are anonymised daily price charts, one stock each. Each shows about "
@@ -56,14 +59,14 @@ def make(year: int):
     from canslim import portfolio as pf
     from canslim import tune
     lab = tune.Lab()
-    final = json.loads((OUT.parent / "final.json").read_text())
+    final = json.loads((BASE.parent / "final.json").read_text())
     sc = tune.book_score(lab.S, lab.U, lab.has_f, final["rules"])
     O, H, L, C, V = (lab.P[k] for k in ("open", "high", "low", "close", "volume"))
     days = C.index
     n500 = pd.read_parquet(ROOT / "data" / "prices" / "NSE_NIFTY500-INDEX.parquet")["close"]
     n500.index = pd.to_datetime(n500.index)
     n500 = n500.reindex(days).ffill()
-    rng = np.random.default_rng(SEED)
+    rng = np.random.default_rng(SEED + year)
     items = []
     U = lab.U.loc[str(year)]
     rsr = lab.S["rs_ibd"].where(lab.U).rank(axis=1, pct=True)
@@ -177,7 +180,7 @@ def ask(model: str):
         return b, got, txt[-200:]
 
     n = len(done)
-    with ThreadPoolExecutor(3) as ex, open(out_f, "a", encoding="utf-8") as f:
+    with ThreadPoolExecutor(2) as ex, open(out_f, "a", encoding="utf-8") as f:
         for b, got, tail in ex.map(one, batches):
             for g in got:
                 f.write(json.dumps(g) + "\n")
@@ -220,11 +223,15 @@ def score(model: str):
 
 if __name__ == "__main__":
     a = sys.argv[1:]
+    year = int(a[1]) if len(a) > 1 else 2024
+    model = a[2] if len(a) > 2 else "fable"
+    OUT = BASE / str(year)
+    OUT.mkdir(parents=True, exist_ok=True)
     if a[:1] == ["make"]:
-        make(int(a[1]) if len(a) > 1 else 2024)
+        make(year)
     elif a[:1] == ["ask"]:
-        ask(a[1] if len(a) > 1 else "fable")
+        ask(model)
     elif a[:1] == ["score"]:
-        score(a[1] if len(a) > 1 else "fable")
+        score(model)
     else:
         sys.exit(__doc__)
