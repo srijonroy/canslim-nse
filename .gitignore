@@ -19,3 +19,6 @@ data/prices/
 
 # logs
 *.log
+
+# blind-test chart images are rebuilt by `python -m canslim.blindtest make`
+data/tune/blindtest/charts/
