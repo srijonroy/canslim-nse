@@ -1,0 +1,798 @@
+
+
+--- page 1 ---
+ 
+ 
+ 
+August 17, 2026 
+ 
+To, 
+Listing/ Compliance Department  
+BSE LTD.  
+Phiroze Jeejeebhoy Towers,  
+Dalal Street,  
+Mumbai - 400 001  
+ 
+SCRIP CODE: 543748 
+ 
+Dear Sir/Madam,  
+ 
+To, 
+Listing/ Compliance Department 
+National Stock Exchange of India Limited  
+“Exchange Plaza”, Plot No. C/1, 
+G Block, Bandra Kurla Complex,  
+Bandra (E), Mumbai – 400 051  
+ 
+SYMBOL: AARTIPHARM 
+ 
+ 
+ 
+Sub: Transcript for the Q1 FY27 Earnings 
+Conference Call 
+Ref:  Regulation 30 of the SEBI (LODR) 
+Regulations 2015 
+ 
+Please find enclosed the transcript of the Earnings Conference Call held on August 10, 2026, 
+regarding the Company's Unaudited Financial Results (Standalone and Consolidated) of the 
+Company for the first quarter ended June 30, 2026. 
+ 
+Kindly take the same on your records. 
+ 
+Thanking you,  
+ 
+Yours faithfully, 
+For AARTI PHARMALABS LIMITED 
+ 
+ 
+ 
+JEEVAN MONDKAR 
+COMPANY SECRETARY AND LEGAL HEAD 
+ICSI M. NO. A22565 
+ 
+Encl.: a/a. 
+
+--- page 2 ---
+Page 1 of 19 
+ 
+ 
+“Aarti Pharmalabs Limited 
+Q1 FY27 Earnings Conference Call” 
+August 10, 2026 
+       
+ 
+MANAGEMENT: MR. RASHESH GOGRI – CHAIRMAN – AARTI PHARMALABS 
+LIMITED 
+MR. PIYUSH LAKHANI – CHIEF FINANCIAL OFFICER – 
+AARTI  PHARMALABS LMITED 
+ 
+MODERATOR: MS. JULIE MEHTA – 360 ONE CAPITAL MARKETS PRIVATE 
+LIMITED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 3 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 2 of 19 
+ 
+Moderator: Ladies and gentlemen, good day, and welcome to the Aarti Pharmalabs Limited Q1 FY '27 
+Earnings Conference Call hosted by 360 ONE Capital Markets Private Limited. As a 
+reminder, all participant lines will be in the listen only mode and there will be an opportunity 
+for you to ask questions after the presentation concludes. Should you need assistance during 
+this conference call, please signal an operator by pressing star then zero on your touch -tone 
+phone. Please note that this conference is being recorded. 
+ I now hand the conference over to Ms. Julie Mehta from 360 ONE Capital Markets Private 
+Limited. Thank you, and over to you. 
+Julie Mehta: Good afternoon, everyone. On behalf of 360 One Capital, we welcome you all to Q1 FY '27 
+Earnings Conference Call of Aarti Pharmalabs Limited. From the management side, we have 
+with us Mr. Rashesh Gogri, Chairman; and Mr. Piyush Lakhani, Chief Financial Officer. I 
+would now hand over the conference call to Rashesh sir for his opening remarks, post which 
+we will open the session for Q&A. Thank you, and over to you, sir. 
+Rashesh Gogri: Yes. Good evening, everyone, and welcome to Aarti Pharmalabs earnings call for the first 
+quarter of the financial year 2027. I appreciate you taking the time to join us today as I walk 
+you through our performance for Q1 FY '27 and share key business developments.  
+ Let me start with the overview of our stand -alone financial Q1 FY '27. The top line was 
+INR535 crores as compared to INR375 crores a year back, showing an increase of 42% Y -o-
+Y. The EBITDA was INR133 crores as compared to INR95 crores in the corresponding period 
+of the previous year. This is an increase of 40% Y-o-Y. The profit after tax for the Q1 FY '27 
+was INR71 crores as compared to INR48 crores a year back, which was 49% increase Y-o-Y. 
+ Now let me present a few business highlights. Aarti Pharmalabs operates across 3 key 
+verticals: Xanthine derivatives, API and Intermediates and CDMO/CMO services. Xanthine 
+Derivatives segment contributed to 57% of our turnover in this current quarter and it recorded 
+the highest ever quarterly sales of Xanthine derivatives. The volume split was 74% beverages 
+customers and 26% other customers. In terms of geographical split, the sales was skewed 
+towards exports, which contributed to 79% and the local sales was 21%.  
+ The API and Intermediate business stood at 30% of the turnover. The sub -segment-wise 
+breakup was 58% regulated market, 14% rest of the world market and 28% non -regulated 
+market. While we are working on the development of new molecules with the medium -term 
+patent expiry, the pricing pressures in existing molecules remain. And to mitigate these 
+headwinds, we are starting a special project towards process intensification and cost reduction 
+of existing products. 
+ The third segment, CDMO/CMO, has contributed to 7% of the revenue in this quarter. We are 
+presently working with 22 customers and the number of active projects is now 57, of which 
+37 projects are in the commercial stages, while 20 are under different developmental stages, 
+
+--- page 4 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 3 of 19 
+ 
+both at customer end. Similar t o previous years, the CDMO/CMO revenue is likely to be 
+skewed towards the second half of this financial year. The remaining turnover of 6% is 
+categorized as others that includes trading sales, export incentives and other sales.  
+ Now I will share the update  on the capex. I'm happy to share that Q1 FY '27 marks the 
+completion of a couple of expansion projects. In Q1 FY '27, we completed debottlenecking of 
+the steroid block at Unit 4, Tarapur, which is our USFDA approved API production site. As a 
+result, now w e have an additional  33% of our existing steroidal capacity enhanced for this 
+block. 
+ The additional capacity for Xanthine derivatives, started by the end of the Q1, has also been 
+commercialized and the trial production is ongoing for the final product. Th e incremental 
+capacity will be ramped up through the next few quarters and we can reach 80% plus capacity 
+utilization by FY '28.  
+ Both phases of Atali Block 1 with 440 kL reactor capacity will become fully operational in 
+Q2 FY '27. Atali is majorly engage d in manufacturing of CDMO/CMO intermediate steps. 
+Additionally, we have announced a capex of IN R 149 crores towards Block 2 at Atali with 
+400+ kL reactor capacity. Groundbreaking is expected in Q3 FY '27 and the completion time 
+line is around 12 to 15 months. This block, being dedicated towards specific CDMO projects, 
+is more cost -effective vis -a-vis multipurpose production block. This block marks another 
+milestone towards our goal of INR 1,000 crores CDMO/CMO revenue.  
+ Conclusively, the business looks promising and offers substantial long-term value creation for 
+all our stakeholders. Our strategic focus and operational excellence position us well to 
+capitalize on emerging opportunities in the pharmaceutical sector and deliver sustained 
+growth in the coming quarters. 
+ Now I request moderator to open the forum for Q&A session. Thank you.  
+Moderator: Thank you. The first question is from the line of Dhruv from Vyomara Capital. Please go 
+ahead.  
+Dhruv: Am I audible? 
+Rashesh Gogri: Yes. 
+Dhruv: Congratulations on the good set of numbers. So my first question is on the Xanthine business. 
+Could you please share the current domestic versus the export revenue split in the business? 
+And how is the trend going on like as we have increased the capacity? And where do we stand 
+in terms of the global market share, if you can share? 
+Rashesh Gogri: No. Our current split in the current quarter is 80%, 79% export and 21% local revenue share. 
+And I think going forward also as we ramp up our capacity utilization, the local market 
+
+--- page 5 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 4 of 19 
+ 
+remains relatively smaller. Our share in exports will continue to be higher. Yes. And in terms 
+of utilization, I think we -- as I mentioned, towards the end of next year, we will have more 
+than 80% capacity utilization. 
+Dhruv: Okay, sir. I also ask regarding the global market share, if you can share? 
+Rashesh Gogri: So we are aiming towards 20% to 25% global market share with the enhanced capacity in the 
+next 2 years' time. 
+Dhruv: Okay. So my second question is that within Xanthine, is the primary competition  largely 
+China-based or it's like fragmented globally? And roughly, what share of the global capacity 
+would you attribute to Chinese producers? 
+Rashesh Gogri: China is a major competitor for Xanthine. I think the overall capacity of Xanthine chemistry 
+in China is quite significant. And they -- barring few producers in India and Europe, I think 
+largely almost overall competition, 80%, 90% still is in China only. 
+Dhruv: Okay. Last question. What would you consider a normalized through the cycle EBITDA 
+margin range for the Xanthine business at full utilization? And how much of that is like 
+structural versus dependent on gasoline pricing? 
+Rashesh Gogri: So we are just not normally guiding on the EBITDA percentage because we have a raw 
+material pass-through generally that happens. And you have seen in the current volatility with 
+this crisis of Middle East increased the raw material prices and which we have passed on to 
+our customers. That skews the EBITDA percentage number. I wouldn't like to guide there. 
+But in general, we are at a company level in the range of 20% to 25% EBITDA.  
+Moderator: The next question is from the line of Raj Agarwal from Niveshaay Asset Management.  
+Raj Agarwal: Sir my question was on Xanthine side. So Xanthine was roughly 57% of the Q1. I wanted to 
+understand if you can share split between what was the volume growth and realization growth? 
+Rashesh Gogri: Over last year? 
+Raj Agarwal: Yes, compared to last year, yes, sir. 
+Rashesh Gogri: Yes. I have to look at the numbers. Probably, I think 25% -- I'll have to look at the numbers, 
+and we'll get back to you. 
+Raj Agarwal: But directionally, I wanted to understand, assuming that Q1 number. 
+Rashesh Gogri: Yes. 25% is the volume growth over last year's volume. The value number, exactly we will 
+have to see the last year's percentage. Yes. 
+
+--- page 6 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 5 of 19 
+ 
+Raj Agarwal: Okay. Got it, sir. And sir, with the supply chains now normalizing, do we expect that the 
+realization might decline in this current quarter, Q2? 
+Rashesh Gogri: Realization per kg will decline. But overall, with the additional capacity, our sales will grow.  
+Raj Agarwal: Got it, sir. And sir, on last quarter, you had flagged that basically we have this large upcoming 
+capex that is coming online, right? Xanthine just came online and now we have this Atali 
+plant, which is going to come online. So those preop expenses might hit in basically Q1 or 
+Q2. Those expenses, we have not booked yet, right? We will be booking the m in the next 
+quarter? 
+Rashesh Gogri: Yes. No, no, we will start booking the expenses. For Atali, we have already started booking 
+the expenses for Phase 1 of the Atali Block 1. Atali Block 1 phase 2, which is a smaller reactor 
+block will get completed -- this part block will get completed in the current quarter. So, Atali 
+Block 1, all the expenses will start hitting the books in the second half of this year.  
+ Similarly, in Xanthine also, the new site that we started, for the brownfield additional site, 
+L99, that we started - mechanical closure happened in end of June . Now we have started the 
+trial production. With that, the expense will start hitting in the current quarter. 
+Raj Agarwal: Got it, sir. And sir, my last question on CDMO side, like you mentioned that we are putting 
+up a dedicated block for a particular project. Do we have like 2, 3 projects in our pipeline on 
+which in future, long term, we can put up dedicated blocks. And since we just completed one 
+large capex, can we expect that this Atali plant can contribute meaningfully from Q3 onwards? 
+Rashesh Gogri: Yes, at  Atali, our first block was a multipurpose block. And now we are trying to put a 
+dedicated asset, which is tuned towards a few projects, which are repetitive in nature for every 
+year. And on the basis of the same, we would always like to keep our multipurpose block free 
+for newer projects in the initial phase. And as the projects mature and we have visibility of 
+these projects, we will move these projects to dedicated blocks. That is the theory that we are 
+using. 
+ We are happy to say that we have identified the products and the projects which have those 
+potential and they are moving to the dedicated block once we have this dedicated block 
+commissioned next year. 
+Raj Agarwal: Got it. And Q3 onwards, we can expect this Atali plant to basically contribute to top line? 
+Rashesh Gogri: Atali will initially contribute partly to top line and partly it will contribute towards the early 
+stages manufacturing also, for which the final stages - customers would like to buy from the 
+existing approved sites. But Atali is already contributing from the current quarter 
+meaningfully towards overall manufacturing capacity utilization. 
+Moderator: The next question is from the line of Yash from Unifi Capital Private Limited. 
+
+--- page 7 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 6 of 19 
+ 
+Yash: Congratulations for a good set of numbers. Just tracing back to the Xanthine facility. So what 
+would be the cost impact from Q2 onwards? Can you please quantify it?  
+Rashesh Gogri: Cost impact for the new production site? 
+Yash: Yes, Xanthine. 
+Rashesh Gogri: Cost impact, basically, we will be ramping up that facility quickly to the newly installed 50% 
+capacity. And I think that would be easily be able to take care of the increased cost, which 
+will happen there. So I don't see a significant P&L hit on account of that brownfield expansion 
+that we have done. 
+Yash: And regarding the Xanthine realization, as you said, basically, it's right now, the prices have 
+dropped, right, for Xanthine from the peaks which we observed during the conflict May, June? 
+Rashesh Gogri: Yes. The prices keep on changing basis the raw material movement. And currently, the prices 
+have come to lower levels from the peak. 
+Yash: Okay. Another question regarding -- it's related to your gross margin. So going forward, what 
+will be the sustainable gross margin level because I think we had flagged that there would be 
+an impact of input and logistics costs on your API and Intermediate business and which will 
+not be able to easily pass over. So going forward, what would be the sustainable gross 
+margins? 
+Rashesh Gogri: Gross margin -- EBITDA margin, we have mentioned 20% to 25%. Gross margin should be 
+around 50%, plus or minus a few percentage here or there. 
+Yash: 50%, right? 
+Rashesh Gogri: Right, company level 
+Yash: Yes. Understood. And just last question on the steroid block, I think we had done a 
+debottlenecking. So I think the capacity, I think it has increased by 1/3. So when do we expect 
+the capacity to be completely utilized? And is there any update on any speci fic orders which 
+we have got for sterile injectables. 
+Rashesh Gogri: This is not sterile injectable. This is steroidal side. For which we have already enhanced the 
+capacity and for -- because we had a 1.5 month break in the current quarter. I think going 
+forward, we are fully utilizing the additional capacity of 33%. 
+Moderator: The next question is from the line of Ankit Gupta from Bamboo Capital. 
+Ankit Gupta: Sir, in this quarter, one thing on the margins is very clear that the impact of Xanthine was 
+there significantly. The price increase that we have seen the realization increase that we have 
+seen in this quarter that has resulted in gross margins touching almost 56% and our EBITDA 
+
+--- page 8 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 7 of 19 
+ 
+touching 25.4%. So this is something which is not sustainable in the comin g quarters given 
+the realizations have already started dropping for Xanthine. Is that the right understanding?  
+Rashesh Gogri: That will be mitigated by the increased quantities that we'll start producing. As earlier I have 
+mentioned that we were operating at around 6,000 metric tons level of Xanthine production. 
+And now with the increased capacity of 9,500 metric tons coming into operations, I think 
+overall, we will see higher sales and absolute gross margin will get sustained.  
+Ankit Gupta: So the gross margin should sustain is what you're seeing? 
+Rashesh Gogri: Absolute, absolute gross margin. 
+Ankit Gupta: Absolute. Okay. Got it. Got it. Got it. And sir, on Xanthine, have we seen some pricing 
+pressure coming down from China with the government there reducing the rebates on exports. 
+And we see that the chemical prices across the board have seen some increase from China 
+prior to the war also. So has that been the case in Xanthine? And how should that have a long-
+term impact on this business for us? 
+Rashesh Gogri: See, currently, the Xanthine prices are at elevated level, and they have not come to the normal 
+level of pre-war. They are still at an elevated level. Though they are not at the peak, but they 
+are still higher than what they were pre-war because a lot of raw materials are still much higher 
+than what they were in the pre-war situation. 
+Ankit Gupta: Sure. And sir, on this China anti -involution policy, has there been some impact there on 
+Xanthine also? 
+Rashesh Gogri: Yes, yes. In Xanthine also, they have r emoved the rebate and due to which structurally the 
+prices of Xanthine have anyway increased overall because they are not able to get the rebate. 
+That was one factor which has helped us improve the overall margin in the spot market.  
+Ankit Gupta: Okay. Okay. Okay. And sir, on the API segment, we have been in this INR160 crores, INR165 
+crores revenue range. And in your opening commentary also, you have mentioned that the 
+pricing pressure continues. We had some good launches that we had planned for this financial 
+year. 
+ So how should we look at this segment going ahead? Do you think we'll be able to go back to 
+at least the INR200 crores kind of quarterly run rate that we had seen last year -- in last to last 
+year -- in Q4 FY '25. Should we be going back to thos e levels? And when do you expect to 
+come back to those levels? And how are the margins in the segment? Of course, you don't 
+give the overall -- the specific segment level, but any views on the margins in the segment 
+since we have seen a sharp -- like we have seen our revenues also coming down here? 
+Rashesh Gogri: Yes. Basically, the overall API generic business that we have, generic API and Intermediate 
+business, that has 2 parts, API and Intermediate. And whereas I mentioned that we had a 
+
+--- page 9 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 8 of 19 
+ 
+shutdown in a blo ck to do the debottlenecking and that resulted in some reduction in the 
+current quarter. That will get normalized going forward. 
+ We are also looking at debottlenecking of our anticancer block, and we expect newer launches 
+happening in the next year from t hat block. Overall, another key segment in this is 
+intermediate. That segment will also -- a few products have been successfully commercialized 
+and we have undertaken that process intensification exercise in this process. Those also will 
+meaningfully add to the top line and the gross margin. Overall, we expect going forward, this 
+business to do well, reasonably well from the current level. 
+Ankit Gupta: Okay. Okay. Sir, just last question, if I can squeeze in. So on the CDMO side, sir, 2 parts to 
+the question. So one is our CDMO revenues have always been H2 heavy and primarily in Q4, 
+but sometimes last year, we saw Q2. So should we continue to expect the same trajectory 
+going ahead also that this year also H2 will be significantly -- will do the heavy lifting for the 
+growth of 40%, 50% that we are seeing -- that we're expecting in the segment? And second... 
+Rashesh Gogri: Yes, yes. Continue. 
+Ankit Gupta: And sir, secondly, since FY '25, we haven't seen significant increase in the number of 
+molecules. Of course, there has been some improvement in the number of commercial 
+molecules. But overall, in terms of molecules and number of customers, there hasn't been any 
+material increase that we have seen. So if you can also talk about why that is there? And what 
+is our pipeline going ahead, RFP conversions and overall view on increasing the pipeline for 
+the CDMO segment? 
+Rashesh Gogri: Yes. CDMO/CMO segment continu es to be a very important segment for us. That's why we 
+have guided for a 40% to 50% growth, and we are quite confident that we will achieve that 
+growth in this current financial year. Overall, if you see, this is a current number that we 
+published that how many active customers are there and how many active projects are there. 
+And there, we deduct the projects that have been dropped by our customers also, which have 
+failed or which they do not continue to pursue. 
+ This quarter, we have seen overall number to grow by 3 projects totally and 1 additional 
+customer have been added. But if you see in last 3 years, the number of commercial projects 
+have increased from 21 to 37 projects. And that is the key that -- we have been able to get into 
+the projects which h ave become commercial and the company is quite convinced about the 
+growth potential, and that's why we are investing almost INR149 crores additionally over and 
+above INR450 crores expansion that we did in Atali to ensure availability of capacity for these 
+projects, 37 projects that are with the company. We are quite confident of the INR1,000 crores 
+target that we have set for us. 
+Ankit Gupta: And sir, you did not answer on that. This CDMO revenues will continue to remain H2 heavy 
+and... 
+
+--- page 10 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 9 of 19 
+ 
+Rashesh Gogri: I mentioned in my speech that for the current year, this will be H2 heavy.  
+Ankit Gupta: Yes. Sure sir. 
+Moderator: The next question is from the line of Shubh Mehta from ICICI Securities. 
+Shubh Mehta: First is, sir, just a clarification on the revenue breakup wh ich we have provided. I wanted to 
+understand the breakup is on the stand-alone or consol numbers because 6%... 
+Rashesh Gogri: Standalone, standalone. 
+Shubh Mehta: Then sir, can you give us the 6% of the contribution of other segment breakup, trading 
+business regarding what is it exactly? 
+Rashesh Gogri: No, no. That is all the scrap sales and some other sales, some trading because we do group 
+buying in this company like solvents and stuff like that. Not much revenue or gross margin 
+accretive. 
+Shubh Mehta: All right, sir. Second, on the, sir, Ganesh Polychem side, how are margins over there right 
+now, PAT margin side? 
+Rashesh Gogri: Ganesh Polychem overall margins for the consolidation, we have added at INR7 crores PAT 
+number after rationalizing INR2.5 crores of the dividend income that we got from the 
+company. 
+Shubh Mehta: Just a follow-up over there, sir, like how is business performing over there at that side?  
+Rashesh Gogri: Yes, yes. Strong quarter there, and we had good growth. And we are quite happy that the 
+business in this current fiscal looks strong. 
+Moderator: The next question is from the line of Umang Gada from Avener Investment Management.  
+Umang Gada: Congrats on great set of numbers. I had one question on the margin side of things given that 
+you mentioned that Xanthine prices on the spot market have come down, we also have some 
+pre-op expenses on the Atali side of things. So on the EBITDA level, where do we see the 
+margins headed for the full financial year '27? Is it more towards 25% and maybe above or 
+it's more towards 22% kind of range? 
+Piyush Lakhani: Yes. It will depend upon how fast and how easily we are able to operationalize the expanded 
+capacities that we are planning to add during the year. But we are still guiding for EBITDA 
+margin of anywhere between 22% and 25% for the full year on our stand-alone financials. 
+Umang Gada: Okay. I mean the reason to ask is that, I mean, you don't foresee any impact because of this 
+war-related crisis and higher raw material prices impact on the business, right?  
+
+--- page 11 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 10 of 19 
+ 
+Rashesh Gogri: Largely, if you see this year, we have given a guidance of almost 40% to 50% on the CDMO. 
+That revenue will also be significant and almost becom e 20% of overall revenue of the 
+company and which is where we have higher gross margin. So they will try to average out the 
+overall EBITDA. 
+Umang Gada: Understood. And last question on the API side of things. In this business, we had a very great 
+year in financial year '25 and '26 was a very relatively less good year. So do we expect to cross 
+the levels of FY '25 revenue levels of INR780 crores kind of thing? Or we are just going to 
+maintain some 30-odd percent growth on FY '26 level revenue? 
+Rashesh Gogri: Yes. I think the revenue -- internal target is to meet that number. But I think looking at the 
+overall environment and the launches, I think we'll be not able to cross it, but nearly there.  
+Moderator: The next question is from the line of Rahul Jain from Credence Wealth. 
+Rahul Jain: Congratulations on a great set of numbers. Sir, just to understand on Xanthine. So typically, 
+this quarter, we have reported INR305 crores of revenue. And given our capacity ramp -up 
+will further ramp it up, the new expanded capacity, which will further ramp up in terms of the 
+utilization. So this year -- and of course, you mentioned that there is a slight decline in the 
+prices, but at the same time, the prices are above the pre-war levels. 
+ So how should we look at the sales for Xanthine this year? Can we look at this INR300 crores 
+and say maybe some decline in the prices being mitigated by your increasing production? So 
+can we expect this year to be somewhere around INR1,100 crores plus or minus INR50 crores 
+of sales from Xanthine? 
+Rashesh Gogri: We have to wait and see how the prices normalizes. That will have a bearing on overall 
+pricing. But it will be a range between INR900 crores to INR1,100 crores. In that range, I 
+think anywhere it can land INR900 crores to INR1,000 crores, right? 
+Rahul Jain: So can you specify what kind of price increase are already happening in the industry as such? 
+Maybe you may refrain from saying for us, but overall, what is the price increase which the 
+industry has? 
+Rashesh Gogri: The price increase is coupled with the raw material cost increase also. Overall margins per se 
+will have an impact -- marginal impact. But ov erall, if you see, we have also done the mix 
+change. We are selling more towards the Cola customers than the regular customers because 
+as our new facility is up-ending, we have a higher commitment to give more volumes to these 
+customers. And as the new capacity comes, it will be more on the spot pricing. That's how the 
+mix has evolved in the current quarter. 
+Rahul Jain: And sir, with regards to the block, which you're talking about CDMO we are planning to do a 
+capex. So with that capex and the capex which i s getting -- which has got completed in the 
+
+--- page 12 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 11 of 19 
+ 
+Phase 1 as well as getting completed in this current year, those capacities are built to reach 
+our stated goal of around INR1,000 crores of revenues by FY '29? 
+Rashesh Gogri: We have to see when we reach it, but '29 or '30. But in terms of the current new block that we 
+propose to put and the existing current block and of course, the manufacturing that we will 
+have at Vapi, these things will be sufficient to -- sufficient capacity will be there to meet that 
+aspiration with the current block. In the current block also, currently, we have only approved 
+400 kL, but we have capacity to increase that by another 200 kL and that will depend on the 
+new projects getting matured. 
+ We are going to keep that readiness on the ci vil construction part of the project and that also 
+has been sanctioned by the Board. However, the equipment, 405 kL only we are putting up, 
+but the additional 200 kL equipment can be put up at a very short notice. 
+Rahul Jain: Okay. And my understanding was the one dedicated block which you already announced now. 
+There was one more dedicated block which you were planning, probably waiting for some 
+approval. 
+Rashesh Gogri: That is what we have announced. Last quarter, I did mention about -- we are thinking ab out 
+this and that got approved by the Board now. We have a few good CDMO projects, which 
+have very promising future potential. 
+Rahul Jain: So I'm talking about 2 dedicated blocks separately. So we are putting up one, right?  
+Rashesh Gogri: Yes, yes. But we already have another 400 kL multipurpose capacity available. The block 2 
+that we are putting up, we have currently approved for 405 kL, but we can still go up additional 
+200 kL. So existing 450 kL plus this 600 kL additional, which we can go up to, will be a very 
+large capacity. 
+Rahul Jain: Okay. Okay. 
+Rashesh Gogri: It's a jumbo block rather than dividing into a smaller block - we are putting up a bigger block. 
+Moderator: The next question is from the line of Sajal Kapoor from Antifragile Thinking.  
+Sajal Kapoor: I've got two questions. One is - beyond the revenue growth, how has the complexity and value 
+of CDMO segment changed over the years? And how is that progression reflected in the gross 
+margins of CDMO segment? 
+Rashesh Gogri: Yes. Good question . I think since we started CDMO journey meaningfully 5.5 years ago . I 
+think we have grown almost 10x in that period. Initially, we started with ISO product supply, 
+regulated starting material supply, KSM supply and then we have moved to GMP supply. And 
+we have always been restricting ourselves to smaller molecules. And now we have also backed 
+
+--- page 13 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 12 of 19 
+ 
+certain projects where we are supplying API for initial tox batches and also for the initial 
+clinical batches. 
+ In terms of chemistry skill sets, as I mentioned last t ime also, we have approved an R&D lab 
+and equipment where we can look at peptides and oligonucleotides. That is adding additional 
+capabilities in the near future to what company can do. 
+ Apart from that, we are also doing more and more green chemistry, flow chemistry. Overall, 
+where we were 5.5 years ago and where we are today is completely different. We are a much 
+more mature company and we are operating all the manufacturing sites, which are all approved 
+by the large innovators. 2 sites are U.S. FDA approved for Intermediate manufacturing as 
+well. 
+ We are able to build a good name in the CDMO market where people have started recognizing 
+what Aarti is capable of doing. And with the recent hiring of CSO and then the team, new 
+R&D team also has helped us in overall pushing that agenda. 
+Sajal Kapoor: No, that's very interesting. And secondly, some of the larger Indian CDMOs reports about 
+85% gross margins in the Development segment. And when t he molecule goes commercial, 
+they report 70%, 75% gross margins in commercial manufacturing, depending upon how 
+many steps, what complexity, et cetera. So question is, as Aarti CDMO business scales from 
+7% of revenue today towards more like INR1,000 crores  whenever we get there and beyond, 
+how should we think about the structural opportunity for consolidated gross margins? Because 
+we have got 3 segments, right? Xanthine is probably the lowest gross margins, and we have 
+got APIs and then finally, the CDMO segment, which to my mind is the highest gross margin. 
+Rashesh Gogri: 85% and 75% margins  - those who are doing very early -stage work. The gross margins are 
+high, but it's more research work. Where we have to put up a lot of R&D efforts, whereas we 
+specialize on the manufacturing side. If you see the way in which we have been able to 
+increase our commercial portfolio is quite rapid. You don't see many companies doing 37 
+commercial projects within such a short span. Since we get into the projects during Phase II, 
+Phase III changeover and then the commercialization of the products, if they happen, we 
+straight away have the commercial sales -- and this our manufacturing specialization helps the 
+innovator to bring down the cost from the early stage suppliers that they have for the clinical 
+batches. That is what our specialization is. 
+ We don't expect to do 70 -75% gross margin currently, unless we move up in the Peptide 
+segment and Oligonucleotide segment where it is very complex and more research-driven. In 
+small molecules, I think we are reasonably at 60%, 65% gross margin on the commercial side, 
+60%. Whereas on the early side, we also have a little bit higher margins in some projects, but 
+we do limited stuff there. 
+
+--- page 14 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 13 of 19 
+ 
+Sajal Kapoor: No, that's very helpful. I think even with 60%, 65% gross margins on optimal utilization, the 
+EBITDA margins can be easily north of 30%. Again, it depends on the utilization level and 
+how fixed costs are covered. But I think 60%, 65% on a sustainable basis is a very healthy 
+gross margin. 
+Rashesh Gogri: Yes. But one thing, overall, we have 3 business segments. And in combined, we are pushing 
+all the businesses to grow significantly. And as I have mentioned in earlier that we want all 
+the businesses to grow beyond INR1,000 crores. Looking at t hat, I think Xanthine, as I 
+mentioned, will reach that number sooner. CDMO/CMO has a few years. API also will take 
+a couple of years to reach there. 
+ With all the 3 segments breaching that, I think we expect CDMO/CMO segment to go beyond 
+25-30% overall percentage of the company's sales going forward. 
+Moderator: The next question is from the line of Kenil Mehta from Boring AMC. 
+Kenil Mehta: Sir, on the CDMO side, given our aggressive growth ambitions and capex, could you elaborate 
+on the talent acquisition s trategy driving this expansion, specifically on what additions have 
+you made across your R&D scientific leadership team and global sales and business 
+development team over the last few years? And what is the pedigree or domain expertise these 
+hires bring in for Aarti Pharma? 
+Rashesh Gogri: Yes. As I mentioned earlier during this current year, we have built a CXO model on the tech 
+side. Now we have a Chief Scientific Officer, we have a CTO, we have a COO who operates 
+our manufacturing assets for API and the intermediates as well as the CDMO/CMO segment 
+and the R&D segment. We have right people hired. And of course, below which also we have 
+built a team. We have a dedicated R&D team, which has expertise in small molecules. Now 
+we have also had a few people on the oligonucleotides and peptides and also we have a very 
+good team on the scale-up side and process intensification. These 3 are very important in terms 
+of R&D. 
+ We run 3 R&D centers. We have an innovation center in Nerul, which is largely for the 
+innovators where we have more than 100 scientists sitting there. We have an API R&D center 
+in Dombivali, which we operate. And we have a scale-up and the process intensification R&D 
+center in Vapi. All these 3 R&D centers combined, we have more than 250 scientists working 
+in our organization. We have a quite healthy pool of scientists and a very good team. 
+ In terms of BD, we are trying to enhance our BD team. We have geographically distributed 
+BD for CDMO/CMO. And we have people assigned towards different regions . We have a 
+European lead, and we have a U.S. and Japan lead. They work cohesively, and we also have 
+a project management team, which supports them so that they only engage mostly in the BD 
+work. We have a good structure that is working well for us. 
+
+--- page 15 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 14 of 19 
+ 
+Kenil Mehta: And what will be the contest in 2 years back and now as the CDMO has scaled up?  
+Rashesh Gogri: Yes. The entire lab of CDMO, we started 3 years back, and we have set up this entire 100 
+chemists only for the innovative work that we continue to do at our Nerul lab. 
+Moderator: The next question is from the line of Shubham Aggarwal from Burman Capital.  
+Shubham Aggarwal: Sir, my first question is on the prices trend of Xanthine. So sir, there have been 3 different 
+effects that are playing out. One is  that Chinese rebates have been eliminated going forward 
+from April 2026. Second is what we also understand is that is basis the input provided by one 
+of your Chinese players through their RHP that there have been production quota cuts in China 
+in the domestic market. 
+ And the last is that there have been rise in the cost of the raw materials that you are consuming. 
+So sir, let's say, pre -involution duty, your prices were  X. Can you just help us understand 
+where they are as of now? And how many of these fac tors in your assessment will be 
+temporary in nature versus structural in nature? 
+Rashesh Gogri: Yes. I think the involution duty currently looks like permanent structural change, at least for 
+the near term. For the next few years, I don't see that to change significantly. And in terms of 
+raw material increase - that is temporary and that is basically tied up with the West Asia crisis, 
+whereas the quota tightening up of Chinese manufacturers that has been done by the 
+government is to ensure curb on the competition, which was all the companies were bleeding 
+in China. 
+ They wanted to prevent it. That is structurally improving the overall Xanthine business 
+margins overall for us. With the capacity that we have now, we will have the second largest 
+capacity in the  world of the Xanthine. For each and every consumer, we expect to have a 
+wallet share in their overall requirement, being very large Indian source that we are. And with 
+that, we have projected the growth that currently we are operating close to 6,000 tons, and we 
+are anticipated to go to 9,500 tonnes in the next couple of years. 
+Shubham Aggarwal: So sir, let's say, if the prices have increased by any amount here, would you characterize 50% 
+of it like in structural nature and 50% temporary? Or would it be ev en higher temporary 
+increase just in your fiscal? 
+Rashesh Gogri: I think it is very difficult to put that number, but I think we can go by 50-50. 
+Shubham Aggarwal: Understood. Understood. And sir, I just heard that you were saying that we are expecting 
+INR900 crores to INR1,000 crores of revenue in Xanthine. And what I understand we have 
+already done INR305 crores this quarter. So remaining INR700 crores in next few quarters. 
+So all in all, would you like expect a step decline in Xanthine revenues in the next couple of 
+quarters just because pricing temporary will reverse? Or would you expect to maintain this 
+quarterly run rate going ahead? 
+
+--- page 16 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 15 of 19 
+ 
+Rashesh Gogri: I think this quarter was exceptional in terms of the top line. In response to the West Asia crisis, 
+the prices of raw material had almost practically increased by 50-100%. They have - in end of 
+June and July - come to a little bit of a reasonable level from 100% to 25-50% level. There is 
+already a change which will reflect on overall pricing because largely, we have price pass -
+through deals for the large customers. For the spot market also, it reflects overall pricing to 
+come down. With that coming in, I think the top line is anyone's guess where we will land. So 
+we are just giving a broad range. 
+Shubham Aggarwal: Understood, sir. Sir, just one last question on CDMO. So sir, we have like put up a INR150 
+crores dedicated capex for some of our molecules. Sir, I just wanted  to understand this 
+dedicated CDMO block. Is it like referenced by a customer booking your capacity in advance 
+for one of the molecules they might be in commercializing stages? Or is it more to do with 
+your own visibility basis a few of your molecules? So like is it for one customer, one molecule 
+basis for near term? Or is it fungible between at least 1 to 2 projects basis different durations 
+of time? 
+Rashesh Gogri: Yes. I think this block is going to be used as a dedicated block for manufacturing of a few 
+projects. I think 3-4 projects will be done in this block for multiple customers. And a little bit 
+of flexibility we will have in between because of skewed nature - when they would like to 
+take certain quantities and when they may not like to take. 
+ But I think we have quite a good visibility of where what kind of requirement combined can 
+go with those projects that we have, and current capacity that we have - would be multipurpose 
+and insufficient to meet that number, basically over -- because for each and every reactor, we 
+have multiple sets of flexibility that we create, which need not be there for this dedicated 
+block. 
+ So rather than creating additional multipurpose, we decided to create a block which 
+encompasses the changes due to dedicated nature that we are only going to do a few stages in 
+that -- those dedicated reactors. So which makes the capex a little bit more efficient. And the 
+process also optimizes a bit because we take care of the need of the process and  tweak the 
+machinery accordingly. So that's the advantage that we have. 
+Shubham Aggarwal: But sir, like we would have visibility on projects, which in itself can become INR200 crores, 
+INR250 crores per molecule, like we do have some sort of those projects in pipeline. 
+Rashesh Gogri: I would not like to comment on numbers, but we have visibility. 
+Moderator: The next question is from the line of Abhishek from Padmaja Investments. 
+Abhishek: And regarding this new capex, new capacity that got commissioned, do w e get that facility 
+audited by U.S. FDA or EU GMP? Like is it necessary or not? 
+
+--- page 17 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 16 of 19 
+ 
+Rashesh Gogri: The Atali facility that we have started, there is no mandatory requirement of USFDA to get it 
+audited. It has been already audited by our innovator customer, and  they have approved the 
+site for manufacturing ; whereas in the case  of Xanthine facility - it is largely for the food 
+requirement that we have enhanced the current capacity that we had at the brownfield site. 
+That also doesn't require USFDA approval. So, both the sites that have become operational in 
+the last 6-8 months don't require USFDA approval as such. 
+Abhishek: Okay. Okay. Okay. And another question is on this Xanthine site, will you be allocating more 
+capital going forward also to that division since it is a commodity and you are trying to focus 
+more on the CDMO part, trying to understand the capital allocation as a broad strategy level.  
+Rashesh Gogri: Yes. I think with the current expansion that we have done, we will be the second highest 
+manufacturer of Xanthine in the world. I think that this will be good enough for us to have 
+this capacity for the next few years before we put additional capital in that. However, we will 
+not rule out cost-saving projects, which have lower payback period. 
+Abhishek: And last question, sir, this is the last question. I remember your last presentation that you 
+mentioned that 7% of the R&D expense as a share of API intermediates and CDMO revenue 
+is the expectation. Like in that majority of it, is it allocated towards CDMO  or towards the 
+API and Intermediate one? 
+Rashesh Gogri: I think it is split between both 
+Abhishek: The number looks high. So I'm trying to understand if it is towards playing a old API 
+generics... 
+Rashesh Gogri: I think more towards CDMO. 
+Abhishek: Okay. Okay. And going forward also, we can expect the same range its towards less than 5%. 
+Rashesh Gogri: Yes, yes. More than 50% of that will be for CDMO. 
+Moderator: The next question is from the line of Pritesh Chheda from Lucky. 
+Pritesh Chheda: Sir, my question is with respect to CDMO. So this INR149 crores of dedicated project, which 
+200 kiloliter and another 200 kiloliter possible expansion. Can you tell us the ramp-up plan at 
+least for this dedicated project? Because my guess is here, you will have some vis ibility on 
+the commercials of that molecule. And overall, my guess is you guys have invested now about 
+INR600 crores of capex. So right, INR450 crores and this INR150 crores. So this INR600 
+crores of capex translates into what kind of asset turnover? 
+Rashesh Gogri: Yes. Asset turnover will be in excess of -- around 1x. And in terms of overall capacity 
+utilization, meaningful capacity utilization because this plant that we have dedicated facility 
+that we are putting up will start in  end of next financial yea r. It will get reasonably occupied 
+
+--- page 18 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 17 of 19 
+ 
+in 1 -1.5 years' time post that. We expect this to meaningfully help us reach our target of 
+INR1,000 crores in terms of top line. 
+Pritesh Chheda: So that onetime asset turn is on the whole INR650 crores you're saying? And correspondingly, 
+you have INR1,000 crores ambition. So then we need to put in some more capex?  
+Rashesh Gogri: We already have our Vapi site also, which has a 600 kL capacity out of which partly is 
+dedicated towards the CDMO. And currently, 450 kL is there, another 400. And I think the 
+current block, we have kept another 200 kL flexibility, so which will also require additional 
+money. But rather than building 2 blocks, we have decided to go ahead with 1 block where 
+we can eventually ramp it up to 600 kL. But currently, we have visibility of 400 kL. But civil, 
+we are going to keep ready so that within 6 to 9 months, we can ramp up additional 200 kL 
+also. 
+Moderator: The next question is from the line of Julie Mehta from 360 ONE Capital Market Private 
+Limited. 
+Julie Mehta: So sir, I had one question relating to Xanthine and CDMO. So basically, given that Xanthine 
+contributed to around 57% of revenue, while CDMO has fallen to around 7%. So we observed 
+that margins have remained stable year -on-year. Should we expect that margin expansion to 
+improve as CDMO revenue recovers? Or does that mean that profitability profile of Xanthine 
+has improved enough to offset the lower CDMO contribution? 
+Rashesh Gogri: I think overall, if you see all the manufacturing companies, their profitability in the current 
+quarter looks a little bit higher because of the impact of raw materials which have been 
+procured at a lower number and sales rate we have been able to push up.  That has resulted in 
+a little bit of higher margin for the current quarter, but that will get normalized for the Xanthine 
+range of products going forward. 
+ In terms of CDMO also, as it moves towards the second half, I think there, we will see a ramp-
+up of margins in CDMO because we expect almost significant sales happening there. Overall, 
+this year, we will see more stable quarters rather than more up and down opening. 
+Julie Mehta: Okay. And sir, regarding the CDMO decline, so was it basically because of project timing or 
+lumpy commercial shipments or maybe there were changes in customer demand? How do we 
+look at it? If you could throw some light on it? 
+Rashesh Gogri: CDMO, we have guided and we are continuing to hold on our guidance of 40 -50% growth 
+over last year. And last quarter also, we had quite significant sales of CDMO. And the current 
+year also due to the accounting standard, we had some postponement of sales also because of 
+the non-deliveries, which could have resulted in sales in this year. 
+ Overall, we are not concerned about lower sales in this quarter. Over the next 3 quarters, we 
+will build it up and we'll get that growth number. 
+
+--- page 19 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 18 of 19 
+ 
+Julie Mehta: Okay, sir. And sir, just one last question where in terms of API, where are we seeing the 
+strongest traction kicking in, in which areas, like oncology, steroids, respiratory or hypo 
+products, how do we look at that? 
+Rashesh Gogri: See, the company is uniquely positioned and it has the capability of doing anticancer projects. 
+It has the capability of doing steroids and also we do more lifestyle drug projects, whereas we 
+anticipate newer launches in anticancer happening in the coming years where the growth can 
+come. That's why we have taken an expansion of our Block 3, which is our anticancer block 
+and the capacity will be ramped up significantly there. 
+ Whereas in the case of the lifestyle products also, we are adding a few more products there, 
+which are antidiabetic in nature and which have commercialized and going forward, they will 
+ramp up. But due to the launch, there is strong pressure on the pricing. And as I mentioned in 
+my speech that we are targeting a cost intensification and operational intensification an d cost 
+optimization exercise going forward. That will result in a positive  margin and our ability to 
+sell those products more. All this will result positively, I think, in the next 6 months' time. We 
+will be able to grow this business also going forward. 
+Julie Mehta: Okay. So what kind of margins do we look for API business on a blended basis, like just 
+approx range would also work? 
+Rashesh Gogri: So I think gross margin level, we are at around 45%, 50% gross margin. 
+Moderator: The next question is from the line of Ashish from Leo Capital. 
+Ashish: Sir, on the API business, what is the share of our top 5 or top 10 molecules to overall sales? 
+Would we be supplying it to domestic international market? And what sort of global market 
+share do we have in these molecules? 
+Rashesh Gogri: I think the top 10 products would be close to 60%, 70% of our share.  
+Ashish: API and this is in domestic or international, sir? 
+Rashesh Gogri: International and domestic both. 
+Ashish: Okay. And what sort of market share would we have in these top 10 molecules?  
+Rashesh Gogri: Top 10 products will be between 10-50%. 
+Ashish: 15%, sir? 
+Rashesh Gogri: 50%. 
+Moderator: The next question is from the line of Manan Desai from Turtle Capital.  
+
+--- page 20 ---
+  Aarti Pharmalabs Limited
+  August 10, 2026 
+ 
+Page 19 of 19 
+ 
+Vanan Desai: Sir, my question is on the API side. I think you mentioned about some kind of a closure 
+because of the debottlenecking for 6 weeks, I think. So now currently, we are at INR160 -odd 
+crores this quarter for API revenue. So do you think that we should  be able to do INR180 
+crores plus with the debottlenecking behind us? And is the capacity now with debottlenecking 
+on the steroid side? And I think we were also thinking about debottlenecking on the anticancer 
+side. So with that in place, do we have enough  capacity to go to INR1,000 crores on API or 
+we need more capex for that? 
+Rashesh Gogri: No. We won't need any more capex for that. I think we will be good for INR1,000 crores plus 
+with the current debottlenecking exercise that we have done for steroids and ongoing exercise 
+for anticancer products. And then we have the Block 5, where we have also an additional line 
+that has come up. With all these 3 initiatives, I think we are good for now for achieving 
+INR1,000 crores plus going forward. 
+Vanan Desai: And sir, that question on debottlenecking that if it was not there, would have crossed INR175 
+crores. 
+Rashesh Gogri: Yes, yes, we should be in that range of INR170 crores to INR190 crores, anything in that 
+range going forward. 
+Moderator: Due to time constraints , we take that as the last question. I now hand the conference over to 
+the management for closing comments. 
+Rashesh Gogri: Yes. I would like to thank all the participants for taking the time. Good evening. Thank you.  
+Moderator: On behalf of 360 ONE Capital Markets Private Limited, that concludes this conference. Thank 
+you for joining us, and you may now disconnect your lines. 
