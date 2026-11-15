@@ -4,3 +4,4 @@ date,slug,variants tested,decision
 2026-11-15,circuit-locks,2,Circuit locks barely matter for this system - the backtest numbers stand
 2026-11-15,survivorship,0,Missing dead stocks flatter the return by about 0.4 points a year at most - the edge survives
 2026-11-15,error-ranges,0,Lead over the Nifty 500 could be luck (behind in up to 5.8% of resamples)
+2026-11-15,strict-book,12,no variant passes the bar
