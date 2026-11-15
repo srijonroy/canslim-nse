@@ -3,7 +3,7 @@ title: How much of the result could be luck?
 date: 2026-11-15
 status: Checked
 tags: statistics, luck, bootstrap, random picks, evidence
-takeaway: 2016-22: 26.8% a year, but the plausible range is 13.5 .. 46.7% (Sharpe 0.54 .. 2.61). 2023-26: 33.7%, range 14.7 .. 61.7%. The system was behind the Nifty 500 in 4.5% / 2.9% of resamples and behind the Momentum 30 index in 13.7% / 7.4%. Picking at random from the same pool: 26.3 .. 28.7% and 29.6 .. 38.2%; the RS ranking sits at the 12th and 64th percentile.
+takeaway: 2016-22: 25.6% a year, but the plausible range is 12.6 .. 45.1% (Sharpe 0.47 .. 2.51). 2023-26: 33.5%, range 14.0 .. 62.1%. The system was behind the Nifty 500 in 5.7% / 3.2% of resamples and behind the Momentum 30 index in 17.4% / 7.8%. Picking at random from the same pool: 25.3 .. 27.6% and 28.7 .. 36.6%; the RS ranking sits at the 8th and 74th percentile.
 source: canslim/experiments/error_ranges.py, data/tune/error-ranges/results.csv
 ---
 **Question.** With a pool of about four stocks on a typical day, the results rest on few trades. What range of results is plausible, and does the RS ranking beat random picks from the same pool?
@@ -13,16 +13,16 @@ source: canslim/experiments/error_ranges.py, data/tune/error-ranges/results.csv
 | measure | 2016-22 | 2023+ |
 |---|---|---|
 | period | 2016-22 | 2023+ |
-| return/yr actual | 26.8 | 33.7 |
-| return/yr 5%..95% | 13.5 .. 46.7 | 14.7 .. 61.7 |
-| Sharpe actual | 1.42 | 1.37 |
-| Sharpe 5%..95% | 0.54 .. 2.61 | 0.43 .. 2.72 |
-| worst drop 5%..95% | -30.6 .. -13.0 | -22.8 .. -12.2 |
-| lead over Nifty 500 5%..95% | +0.7 .. +29.2 | +2.6 .. +45.9 |
-| % of resamples behind Nifty 500 | 4.5 | 2.9 |
-| lead over Momentum 30 5%..95% | -4.5 .. +23.9 | -3.1 .. +44.3 |
-| % of resamples behind Momentum 30 | 13.7 | 7.4 |
-| random picks return/yr 5%..95% | 26.3 .. 28.7 | 29.6 .. 38.2 |
-| system's percentile among random picks | 12.0 | 64.0 |
+| return/yr actual | 25.6 | 33.5 |
+| return/yr 5%..95% | 12.6 .. 45.1 | 14.0 .. 62.1 |
+| Sharpe actual | 1.35 | 1.36 |
+| Sharpe 5%..95% | 0.47 .. 2.51 | 0.41 .. 2.70 |
+| worst drop 5%..95% | -31.2 .. -13.2 | -23.3 .. -12.5 |
+| lead over Nifty 500 5%..95% | -0.7 .. +27.7 | +2.3 .. +46.1 |
+| % of resamples behind Nifty 500 | 5.7 | 3.2 |
+| lead over Momentum 30 5%..95% | -5.7 .. +22.4 | -3.4 .. +44.8 |
+| % of resamples behind Momentum 30 | 17.4 | 7.8 |
+| random picks return/yr 5%..95% | 25.3 .. 27.6 | 28.7 .. 36.6 |
+| system's percentile among random picks | 8.0 | 74.0 |
 
-**Decision.** Lead over the Nifty 500 is unlikely to be luck (behind in at most 4.5% of resamples)
+**Decision.** Lead over the Nifty 500 could be luck (behind in up to 5.7% of resamples)

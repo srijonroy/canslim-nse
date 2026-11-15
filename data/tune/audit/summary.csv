@@ -1,0 +1,6 @@
+check,result,effect
+1 result dates,5826 of 59004 quarters (9.9%) dated earlier than NSE; 0 of 483 trades bought before the result was filed,"CAGR 2016-22 25.6 -> 25.6, 2023+ 34.4 -> 34.4 with NSE dates"
+2 rewritten backtester,2016-22 25.6% vs 25.6%; 2023+ 34.4% vs 34.4%,"maxDD -21.1 vs -21.1, -14.2 vs -14.2"
+3 trades re-priced,14/14 checkable trades match NSE bhavcopy prices,1 on days missing from data/bhavcopy
+4 split/bonus adjustments,"306 gap adjustments, 56 matched to NSE; of 250 unmatched only 7 in the universe (rest penny stocks); 6 splits/bonuses never adjusted","0 trades held across an unmatched gap, 0 across an unadjusted bonus"
+5 momentum index sources,Nifty200 Momentum 30: 0 of 1074 days differ; Nifty500 Momentum 50: 0 of 145 days differ; Nifty Midcap150 Momentum 50: 0 of 583 days differ,

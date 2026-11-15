@@ -76,6 +76,7 @@ class Lab:
     def __init__(self):
         B = cached_build()
         self.S, self.U, self.has_f, self.P = B["S"], B["U"], B["has_f"], B["P"]
+        self.fund = B["fund"]
         self.ind = {k: f["industry"] for k, f in B["fund"].items()}
         self.ms = market_state(self.P).reindex(self.P["close"].index).ffill()
         self.big = self.S["turnover"] >= 25e7

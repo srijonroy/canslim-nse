@@ -1,0 +1,4 @@
+index,days in both,first,last,days differing > 0.1%,largest gap %
+Nifty200 Momentum 30,1074,2016-07-07,2024-12-31,0,0.0
+Nifty500 Momentum 50,145,2016-07-07,2024-12-31,0,0.0
+Nifty Midcap150 Momentum 50,583,2016-07-07,2024-12-31,0,0.0

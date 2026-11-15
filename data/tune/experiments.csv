@@ -1,5 +1,6 @@
 date,slug,variants tested,decision
+2026-11-15,audit,0,backtest arithmetic and prices verified; result dates should switch to NSE-checked dates (-0.0 pt a year 2016-22)
 2026-11-15,benchmark-funds,0,"The system beats every momentum index on both return and worst drop, in both periods - keep it"
 2026-11-15,circuit-locks,2,Circuit locks barely matter for this system - the backtest numbers stand
-2026-11-15,survivorship,0,Missing dead stocks flatter the return by about 0.4 points a year at most - the edge survives
-2026-11-15,error-ranges,0,Lead over the Nifty 500 is unlikely to be luck (behind in at most 4.5% of resamples)
+2026-11-15,survivorship,0,Missing dead stocks flatter the return by about 0.3 points a year at most - the edge survives
+2026-11-15,error-ranges,0,Lead over the Nifty 500 could be luck (behind in up to 5.7% of resamples)
