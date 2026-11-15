@@ -20,7 +20,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from canslim import bhav, factors, tune
+from canslim import bhav, factors, resultdates, tune
 from canslim import data as D
 from canslim.exp import Experiment, Outcome, md_table
 from canslim.research import FUND_COLS
@@ -60,27 +60,22 @@ def nse_result_filings() -> pd.DataFrame:
     return a.sort_values("ts")
 
 
-def match_quarters(fund: dict, filings: pd.DataFrame) -> pd.DataFrame:
-    """One row per (stock, quarter end since 2015): our known date vs NSE's first result filing for that quarter.
-    A filing belongs to the latest quarter that ended before it, within 150 days."""
-    by = {s: g for s, g in filings.groupby("sym")}
+def match_quarters(fund: dict, filings=None) -> pd.DataFrame:
+    """One row per (stock, quarter end since mid-2015): Screener's date vs the exchange's first result filing for
+    that quarter (canslim.resultdates: NSE result filing, BSE result filing, or a confirmed NSE board outcome)."""
     rows = []
     for sym, f in fund.items():
         q = f["q"][f["q"].index >= "2015-06-30"]
-        g = by.get(sym)
-        raw = q["known_screener"] if "known_screener" in q else q["known"]     # Screener stamp, before the NSE fix
-        for qe, kn, live in zip(q.index, raw, q["known"]):
-            r = {"sym": sym, "qe": qe, "known": pd.Timestamp(kn), "known_live": pd.Timestamp(live),
-                 "nse": pd.NaT, "nse_ts": pd.NaT}
-            if g is not None:
-                nq = q.index[q.index > qe]
-                hi = min(qe + pd.Timedelta(days=150), nq[0] + pd.Timedelta(days=1)) if len(nq) else qe + pd.Timedelta(days=150)
-                h = g[(g.ts > qe + pd.Timedelta(days=1)) & (g.ts < hi)]
-                if len(h):
-                    r["nse"], r["nse_ts"] = h.eff.iloc[0], h.ts.iloc[0]
-            rows.append(r)
-    t = pd.DataFrame(rows)
-    t["lead_days"] = (t.nse - t.known).dt.days        # > 0: our date is EARLIER than NSE's -> look-ahead
+        if not len(q):
+            continue
+        x = resultdates.for_quarters(sym, q.index).reindex(q.index)
+        raw = q["known_screener"] if "known_screener" in q else q["known"]     # Screener stamp, before the fix
+        rows.append(pd.DataFrame({"sym": sym, "qe": q.index, "known": pd.DatetimeIndex(raw).values,
+                                  "known_live": pd.DatetimeIndex(q["known"]).values, "nse": x["eff"].values,
+                                  "nse_ts": x["ts"].values, "src": x["src"].values,
+                                  "live_src": q["known_src"].values if "known_src" in q else ""}))
+    t = pd.concat(rows, ignore_index=True)
+    t["lead_days"] = (t.nse - t.known).dt.days        # > 0: Screener's date is EARLIER than the exchange's -> look-ahead
     return t
 
 
@@ -107,8 +102,7 @@ def corrected_score(ctx, qt: pd.DataFrame) -> pd.DataFrame:
 
 def check_dates(ctx, trades):
     say("[1/5] result dates vs NSE filings ...")
-    filings = nse_result_filings()
-    qt = match_quarters(ctx.lab.fund, filings)
+    qt = match_quarters(ctx.lab.fund)
     qt.to_csv(OUT / "result_dates.csv", index=False)
     m = qt.dropna(subset=["nse"])
     m = m[m.qe >= "2015-09-30"]

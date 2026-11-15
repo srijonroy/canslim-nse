@@ -96,8 +96,8 @@ def fundamentals() -> dict:
             ann.append(later[0] if len(later) else qe + pd.Timedelta(days=60 if qe.month == 3 else 45))
         q["known_screener"] = pd.DatetimeIndex(ann)
         # NSE-checked (2026-11-15 audit): never earlier than NSE's own result filing for that quarter
-        nse = resultdates.for_quarters(f.stem, q.index).reindex(q.index)
-        q["known"] = [max(k, n) if pd.notna(n) else k for k, n in zip(q["known_screener"], nse)]
+        ck = resultdates.checked(f.stem, q.index, q["known_screener"])
+        q["known"], q["known_src"] = ck["known"].values, ck["src"].values
         a, b = d["annual"], d["balance"]
 
         def row(tbl, key):

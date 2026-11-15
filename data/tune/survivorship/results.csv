@@ -1,16 +1,16 @@
 rules,period,universe,CAGR %,Sharpe,maxDD %,trades,trades in added stocks,avg return of those %,CAGR range of draws
-CAN SLIM rules,2016-22,listed stocks only (as backtested),25.6,1.35,-21.1,267.0,0.0,,
-CAN SLIM rules,2016-22,"+ delisted / merged, fair estimate",25.8,1.32,-22.55,290.0,32.0,0.4,24.1 .. 29.0
+CAN SLIM rules,2016-22,listed stocks only (as backtested),25.6,1.34,-21.1,267.0,0.0,,
+CAN SLIM rules,2016-22,"+ delisted / merged, fair estimate",25.7,1.32,-22.55,290.0,32.0,0.4,24.0 .. 29.0
 CAN SLIM rules,2016-22,"+ delisted / merged, worst case",26.2,1.04,-30.9,427.0,205.0,1.9,
 CAN SLIM rules,2016-22,"+ delisted, worst case, failures written to zero",26.2,1.04,-30.9,427.0,205.0,1.9,
 CAN SLIM rules,2016-22,"+ no price file (still trading), fair estimate",25.75,1.33,-20.8,273.0,6.0,0.45,24.5 .. 27.1
-CAN SLIM rules,2016-22,"+ both, fair estimate",25.05,1.26,-23.7,299.0,36.0,-0.05,22.8 .. 28.6
+CAN SLIM rules,2016-22,"+ both, fair estimate",25.05,1.26,-23.7,299.0,36.0,-0.05,22.7 .. 28.6
 CAN SLIM rules,2023+,listed stocks only (as backtested),34.4,1.41,-14.2,214.0,0.0,,
-CAN SLIM rules,2023+,"+ delisted / merged, fair estimate",34.1,1.4,-14.2,216.0,3.0,-3.3,31.8 .. 36.9
+CAN SLIM rules,2023+,"+ delisted / merged, fair estimate",34.05,1.4,-14.2,216.0,3.0,-3.3,31.8 .. 36.9
 CAN SLIM rules,2023+,"+ delisted / merged, worst case",31.9,1.27,-16.9,212.0,18.0,1.7,
 CAN SLIM rules,2023+,"+ delisted, worst case, failures written to zero",31.9,1.27,-16.9,212.0,18.0,1.7,
-CAN SLIM rules,2023+,"+ no price file (still trading), fair estimate",34.35,1.4,-14.2,215.0,2.5,14.0,33.4 .. 41.9
-CAN SLIM rules,2023+,"+ both, fair estimate",34.6,1.42,-14.4,215.5,4.0,5.85,31.4 .. 37.7
+CAN SLIM rules,2023+,"+ no price file (still trading), fair estimate",34.25,1.4,-14.2,215.0,3.0,14.2,33.3 .. 41.9
+CAN SLIM rules,2023+,"+ both, fair estimate",34.5,1.41,-14.4,215.5,4.0,5.85,31.3 .. 37.6
 price rules only,2016-22,listed stocks only (as backtested),18.8,0.52,-45.7,540.0,0.0,,
 price rules only,2016-22,"+ delisted / merged, worst case",17.7,0.48,-47.7,549.0,51.0,0.1,
 price rules only,2016-22,"+ delisted, worst case, failures written to zero",17.7,0.48,-47.7,549.0,51.0,0.1,

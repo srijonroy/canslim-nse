@@ -12,7 +12,7 @@ source: canslim/experiments/benchmark_funds.py, data/tune/benchmark-funds/result
 
 | period | holding | CAGR % | Sharpe | maxDD % | corr with system |
 |---|---|---|---|---|---|
-| 2016-22 | CAN SLIM system | 25.6 | 1.35 | -21.1 | 1.0 |
+| 2016-22 | CAN SLIM system | 25.6 | 1.34 | -21.1 | 1.0 |
 | 2016-22 | Nifty 500 | 12.8 | 0.39 | -38.3 | 0.37 |
 | 2016-22 | Nifty200 Momentum 30 | 17.4 | 0.58 | -34.2 | 0.38 |
 | 2016-22 | Nifty500 Momentum 50 | 17.5 | 0.56 | -39.4 | 0.45 |
@@ -36,7 +36,7 @@ source: canslim/experiments/benchmark_funds.py, data/tune/benchmark-funds/result
 | 2017 | 79.5 | 35.9 | 54.5 | 67.2 | 72.9 |
 | 2018 | -9.1 | -3.4 | -2.4 | -11.5 | -17.5 |
 | 2019 | 8.5 | 7.7 | 9.7 | 7.8 | 4.9 |
-| 2020 | 45.0 | 16.7 | 18.8 | 19.9 | 25.8 |
+| 2020 | 44.8 | 16.7 | 18.8 | 19.9 | 25.8 |
 | 2021 | 81.7 | 30.2 | 52.1 | 77.8 | 77.1 |
 | 2022 | -5.6 | 3.0 | -6.4 | -8.3 | -0.4 |
 | 2023 | 60.2 | 25.8 | 40.7 | 46.7 | 51.5 |
