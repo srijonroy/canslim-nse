@@ -1,0 +1,3 @@
+period,return/yr actual,return/yr 5%..95%,Sharpe actual,Sharpe 5%..95%,worst drop 5%..95%,lead over Nifty 500 5%..95%,% of resamples behind Nifty 500,lead over Momentum 30 5%..95%,% of resamples behind Momentum 30,random picks return/yr 5%..95%,system's percentile among random picks
+2016-22,26.8,13.5 .. 46.7,1.42,0.54 .. 2.61,-30.6 .. -13.0,+0.7 .. +29.2,4.5,-4.5 .. +23.9,13.7,26.3 .. 28.7,12.0
+2023+,33.7,14.7 .. 61.7,1.37,0.43 .. 2.72,-22.8 .. -12.2,+2.6 .. +45.9,2.9,-3.1 .. +44.3,7.4,29.6 .. 38.2,64.0

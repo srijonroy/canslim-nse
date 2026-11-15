@@ -56,12 +56,19 @@ class Result:
 def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
              mstate: pd.Series | None = None, industry: dict | None = None,
              start=None, end=None, entry_ok: pd.DataFrame | None = None, V: pd.DataFrame | None = None,
-             hold_ok: pd.DataFrame | None = None) -> Result:
+             hold_ok: pd.DataFrame | None = None, no_buy: pd.DataFrame | None = None,
+             no_sell: pd.DataFrame | None = None) -> Result:
+    """no_buy / no_sell (date x symbol, True = blocked): execution limits on a day, e.g. a stock frozen at its
+    upper / lower circuit. A blocked buy is dropped (the next rebalance may try again); a blocked sell is retried
+    at the next open."""
     days = C.loc[start:end].index
     rebal = set(score.index)
     o, c = O.reindex(days), C.reindex(days)
     cols = {s: i for i, s in enumerate(c.columns)}
     ov, cv = o.values, c.values
+    blk = lambda m: (None if m is None else
+                     m.reindex(index=days, columns=c.columns).fillna(False).astype(bool).values)
+    nbv, nsv = blk(no_buy), blk(no_sell)
     need_aux = cfg.exit_ma50 or cfg.vol_stop or cfg.weighting == "invvol"
     if need_aux:
         full = C.loc[:end]
@@ -87,8 +94,8 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
         # 1) execute yesterday's decisions at today's open
         for s in list(pending_sell):
             p = ov[k, cols[s]]
-            if np.isnan(p):
-                continue             # no print today; try again tomorrow
+            if np.isnan(p) or (nsv is not None and nsv[k, cols[s]]):
+                continue             # no print / no sellers' side today; try again tomorrow
             h = pos.pop(s)
             sold_before.add(s)
             cash += h["shares"] * p * (1 - cfg.cost)
@@ -116,7 +123,7 @@ def simulate(score: pd.DataFrame, O: pd.DataFrame, C: pd.DataFrame, cfg: Config,
                 p = ov[k, cols[s]]
                 frac0 = cfg.pyramid[0][1] if cfg.pyramid else 1.0
                 w = wts.get(s, 1.0)
-                if np.isnan(p) or s in pos or cash < slot * frac0 * w * 0.5:
+                if np.isnan(p) or s in pos or cash < slot * frac0 * w * 0.5 or (nbv is not None and nbv[k, cols[s]]):
                     continue
                 spend = min(slot * frac0 * w, cash)
                 pos[s] = {"shares": spend * (1 - cfg.cost) / p, "entry": p, "since": d, "k0": k,

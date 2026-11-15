@@ -79,11 +79,16 @@ class Lab:
         self.ind = {k: f["industry"] for k, f in B["fund"].items()}
         self.ms = market_state(self.P).reindex(self.P["close"].index).ffill()
         self.big = self.S["turnover"] >= 25e7
+        from canslim.factors import MIN_TURNOVER
+        floor = float(self.S["turnover"].where(self.U).min().min())
+        if not MIN_TURNOVER <= floor < MIN_TURNOVER * 1.05:
+            print(f"  !! backtest cache (data/cache/build.pkl) was built with a Rs {floor / 1e7:.1f} Cr liquidity floor; "
+                  f"the live rules use Rs {MIN_TURNOVER / 1e7:.0f} Cr. Delete build.pkl to rebuild.", flush=True)
 
-    def run(self, score, cfg: pf.Config, period=TUNE, entry_ok=None, hold_ok=None):
+    def run(self, score, cfg: pf.Config, period=TUNE, entry_ok=None, hold_ok=None, **sim):
         a, b = period
         return pf.simulate(score.loc[a:b], self.P["open"], self.P["close"], cfg, self.ms, self.ind,
-                           start=a, end=b, entry_ok=entry_ok, V=self.P["volume"], hold_ok=hold_ok)
+                           start=a, end=b, entry_ok=entry_ok, V=self.P["volume"], hold_ok=hold_ok, **sim)
 
     def evaluate(self, name, rules, cfg=None, entry_ok=None, stage=""):
         cfg = cfg or pf.Config(market="no_new", stop=None)

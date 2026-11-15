@@ -1,0 +1,19 @@
+rules,period,universe,CAGR %,Sharpe,maxDD %,trades,trades in added stocks,avg return of those %,CAGR range of draws
+CAN SLIM rules,2016-22,listed stocks only (as backtested),26.8,1.42,-20.7,264.0,0.0,,
+CAN SLIM rules,2016-22,"+ delisted / merged, fair estimate",27.55,1.42,-21.65,285.5,32.0,0.45,25.4 .. 30.2
+CAN SLIM rules,2016-22,"+ delisted / merged, worst case",27.2,1.09,-31.1,424.0,205.0,1.9,
+CAN SLIM rules,2016-22,"+ delisted, worst case, failures written to zero",27.2,1.09,-31.1,424.0,205.0,1.9,
+CAN SLIM rules,2016-22,"+ no price file (still trading), fair estimate",26.95,1.4,-20.45,270.0,6.0,0.45,25.6 .. 28.3
+CAN SLIM rules,2016-22,"+ both, fair estimate",26.35,1.35,-23.2,295.0,35.0,0.05,23.8 .. 29.9
+CAN SLIM rules,2023+,listed stocks only (as backtested),34.6,1.42,-14.3,217.0,0.0,,
+CAN SLIM rules,2023+,"+ delisted / merged, fair estimate",34.25,1.41,-14.3,219.0,3.0,-3.3,32.1 .. 37.3
+CAN SLIM rules,2023+,"+ delisted / merged, worst case",32.3,1.29,-17.7,213.0,19.0,0.9,
+CAN SLIM rules,2023+,"+ delisted, worst case, failures written to zero",32.3,1.29,-17.7,213.0,19.0,0.9,
+CAN SLIM rules,2023+,"+ no price file (still trading), fair estimate",34.5,1.42,-14.3,218.0,2.0,16.3,33.5 .. 41.6
+CAN SLIM rules,2023+,"+ both, fair estimate",34.65,1.42,-14.55,218.5,4.5,6.1,31.2 .. 37.7
+price rules only,2016-22,listed stocks only (as backtested),18.8,0.52,-45.7,540.0,0.0,,
+price rules only,2016-22,"+ delisted / merged, worst case",17.7,0.48,-47.7,549.0,51.0,0.1,
+price rules only,2016-22,"+ delisted, worst case, failures written to zero",17.7,0.48,-47.7,549.0,51.0,0.1,
+price rules only,2023+,listed stocks only (as backtested),13.3,0.29,-39.8,256.0,0.0,,
+price rules only,2023+,"+ delisted / merged, worst case",11.2,0.21,-42.7,261.0,6.0,-0.2,
+price rules only,2023+,"+ delisted, worst case, failures written to zero",11.2,0.21,-42.7,261.0,6.0,-0.2,
