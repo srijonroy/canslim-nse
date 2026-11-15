@@ -1,0 +1,860 @@
+
+
+--- page 1 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+November 01, 2026 
+ 
+To 
+Listing Department 
+National Stock Exchange of India Limited 
+Exchange Plaza, C-1, Block G, 
+Bandra Kurla Complex, 
+Bandra (E), Mumbai – 400 051 
+ 
+Symbol: ZENTEC 
+To 
+Dept. of Corp. Services 
+BSE Limited 
+Phiroze Jeejeebhoy Towers 
+Dalal Street 
+Mumbai- 400001 
+ 
+Scrip Code: 533339 
+ 
+Dear Sir/Madam, 
+ 
+Sub: Investor Presentation 
+ 
+Please find attached Investor Presentation on the Un-audited Financial Results of the Company for the 
+quarter and half year ended September 30, 2026. 
+ 
+The above information is also available on the website of the Company: 
+https://www.zentechnologies.com/calls-and-conferences 
+ 
+This is for your kind information and records. 
+ 
+Thanking you 
+ 
+Yours faithfully, 
+ 
+For Zen Technologies Limited 
+ 
+ 
+Sourav Dhar  
+Company Secretary & Compliance Officer  
+ 
+Encl: As above 
+ 
+
+--- page 2 ---
+Investor Presentation
+Q2 & H1 FY27
+
+--- page 3 ---
+Commentary
+©Zen Technologies Limited – All Rights Reserved. 2
+Order
+ 
+ inflow
+ 
+ during
+ 
+ the
+ 
+ quarter
+ 
+ was
+ 
+₹
+481
+.
+81
+ 
+ crore,
+ 
+ taking
+ 
+ the
+ 
+ consolidated
+ 
+ order
+ 
+book
+ 
+to
+ 
+₹
+1
+,
+375
+.
+70
+ 
+crore
+ 
+as
+ 
+at
+ 
+30
+ 
+September
+ 
+2026
+.
+ 
+The
+ 
+order
+ 
+book
+ 
+continued
+ 
+to
+ 
+grow
+ 
+as
+ 
+ execution
+ 
+ accelerated
+ 
+ during
+ 
+ the
+ 
+ quarter,
+ 
+ reflecting
+ 
+ sustained
+ 
+ demand
+ 
+ across
+ 
+Zen’s
+ 
+product
+ 
+categories
+.
+ 
+This
+ 
+ demand
+ 
+ is
+ 
+ underpinned
+ 
+ by
+ 
+ a
+ 
+ supportive
+ 
+ policy
+ 
+ environment
+.
+ 
+ The
+ 
+ Defence
+ 
+Acquisition
+ 
+Council
+ 
+recently
+ 
+accorded
+ 
+Acceptance
+ 
+of
+ 
+Necessity
+ 
+to
+ 
+capital
+ 
+acquisition
+ 
+proposals,
+ 
+ of
+ 
+ which
+ 
+ around
+ 
+ 82
+%
+ 
+ is
+ 
+ earmarked
+ 
+ for
+ 
+ sourcing
+ 
+ from
+ 
+ the
+ 
+ domestic
+ 
+defence
+ 
+ industry,
+ 
+ including
+ 
+ categories
+ 
+ in
+ 
+ which
+ 
+ Zen
+ 
+ has
+ 
+ fielded
+ 
+ products
+.
+ 
+ As
+ 
+indigenisation
+ 
+becomes
+ 
+central
+ 
+to
+ 
+defence
+ 
+procurement
+ 
+in
+ 
+India,
+ 
+Zen’s
+ 
+ownership
+ 
+of
+ 
+its
+ 
+core
+ 
+technology
+ 
+positions
+ 
+it
+ 
+as
+ 
+a
+ 
+natural
+ 
+beneficiary
+ 
+of
+ 
+this
+ 
+shift
+.
+Commenting
+ 
+on
+ 
+the
+ 
+results
+,
+ 
+Mr
+.
+ 
+Ashok
+ 
+Atluri,
+ 
+Chairman
+ 
+and
+ 
+Managing
+ 
+Director,
+ 
+said
+:
+ 
+“This
+ 
+ quarter
+ 
+marks
+ 
+ a
+ 
+ defining
+ 
+milestone
+ 
+ in
+ 
+Zen’s
+ 
+ growth
+ 
+ trajectory
+.
+ 
+ Zen
+ 
+reported
+ 
+ its
+ 
+highest
+-
+ever
+ 
+consolidated
+ 
+quarterly
+ 
+revenue
+ 
+of
+ 
+₹
+345
+.
+13
+ 
+crore,
+ 
+a
+ 
+growth
+ 
+of
+ 
+98
+.
+8
+%
+ 
+year
+-
+on
+-
+year,
+ 
+ at
+ 
+ a
+ 
+ healthy
+ 
+ Operational
+ 
+ EBITDA
+ 
+ margin
+ 
+ of
+ 
+ 38
+.
+2
+%
+.
+ 
+ These
+ 
+ results
+ 
+ reflect
+ 
+ the
+ 
+scale
+ 
+of
+ 
+the
+ 
+execution
+ 
+capability
+ 
+we
+ 
+have
+ 
+built
+ 
+over
+ 
+the
+ 
+years
+.
+Zen
+ 
+has
+ 
+begun
+ 
+delivering
+ 
+the
+ 
+Fast
+ 
+Track
+ 
+Procurement
+ 
+orders
+ 
+received
+ 
+last
+ 
+year,
+ 
+ahead
+ 
+of
+ 
+the
+ 
+contractual
+ 
+timelines
+.
+ 
+That
+ 
+is
+ 
+possible
+ 
+because
+ 
+the
+ 
+technology
+ 
+is
+ 
+ours
+ 
+-
+ 
+there
+ 
+is
+ 
+no
+ 
+foreign
+ 
+licensor
+ 
+to
+ 
+go
+ 
+back
+ 
+to
+ 
+when
+ 
+the
+ 
+Army
+ 
+changes
+ 
+a
+ 
+requirement,
+ 
+so
+ 
+the
+ 
+product
+ 
+changes
+ 
+ in
+ 
+ weeks,
+ 
+not
+ 
+ procurement
+ 
+ cycles
+.
+ 
+ This
+ 
+translates
+ 
+ directly
+ 
+ into
+ 
+ a
+ 
+ significantly
+ 
+faster
+ 
+turnaround,
+ 
+enabling
+ 
+us
+ 
+to
+ 
+respond
+ 
+to
+ 
+evolving
+ 
+operational
+ 
+needs
+ 
+at
+ 
+the
+ 
+speed
+ 
+the
+ 
+Armed
+ 
+Forces
+ 
+require
+.
+ 
+With
+ 
+the
+ 
+sector
+ 
+moving
+ 
+decisively
+ 
+towards
+ 
+indigenisation
+,
+ 
+this
+ 
+ownership
+ 
+of
+ 
+our
+ 
+core
+ 
+technology
+ 
+places
+ 
+Zen
+ 
+in
+ 
+a
+ 
+strong
+ 
+position
+ 
+to
+ 
+capitalise
+ 
+on
+ 
+the
+ 
+opportunities
+ 
+ahead
+.
+”
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 2
+
+--- page 4 ---
+Q2FY27 Consolidated Highlights
+Revenue from Operations
+(All Values ₹ in Crore)
+Operational EBITDA
+(All Values ₹ in Crore)
+Profit After Tax (Adj for NCI)
+(All Values ₹ in Crore)
+173.5
+7
+345.13
+Q2FY26 Q2FY27
+64.7
+4
+131.99
+Q2FY26 Q2FY27
+59.4
+0
+89.54
+Q2FY26 Q2FY27
+98.8%
+YoY
+103.9%
+YoY
+50.7%
+YoY
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 3
+
+
+--- page 5 ---
+H1FY27 Consolidated Highlights
+Revenue from Operations
+(All Values ₹ in Crore)
+Operational EBITDA
+(All Values ₹ in Crore)
+Profit After Tax (Adj for NCI)
+(All Values ₹ in Crore)
+331.7
+9
+486.77
+H1FY26 H1FY27
+129.4
+5
+170.71
+H1FY26 H1FY27
+107.1
+5
+124.00
+H1FY26 H1FY27
+46.71%
+YoY
+31.09%
+ 15.73%
+YoY
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 4
+YoY
+
+--- page 6 ---
+Financial Statement Summary
+Summary of Consolidated Profit & Loss Statement
+Particulars
+(₹ in Crore)
+Q2FY27 Q1FY27 Q2FY26 H1FY27 H1FY26
+(Unaudited) (Unaudited) (Unaudited) (Unaudited) (Unaudited)
+Key Performance Indicators
+Sales 345.13 141.64 173.57 486.77 331.79 
+Other Operating Revenue 16.71 19.16 25.31 35.87 47.10 
+Total Revenue 361.84 160.79 198.88 522.64 378.89 
+Total Operating Expenses 213.14 102.91 108.83 316.05 202.34 
+EBITDA 148.70 57.88 90.05 206.59 176.55 
+EBITDA Margins 41.1% 36.0% 45.2% 39.5% 46.6%
+Operational EBITDA 131.99 38.72 64.74 170.71 129.45
+Operational EBITDA Margins 38.2% 27.3% 37.3% 35.1% 39.0%
+Interest Cost 1.13 1.09 2.04 2.22 5.50
+Depreciation 8.73 7.86 5.71 16.58 12.05
+Profit before exceptional items and tax 137.69 48.62 82.19 186.32 158.40
+Profit After Tax (Adjusted for Non-Controlling Interest) 89.54 34.46 59.40 124.00 107.15 
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 5
+
+
+--- page 7 ---
+Consolidated Order Book Status as of 
+30th September 2026
+Order Book New Orders Orders Executed
+Order Book as at
+30th June 2026
+1,239.02 Cr
+New Orders bagged 
+in Q2FY27
+481.81 Cr
+Orders executed in 
+Q2FY27
+345.13 Cr
+Total Order Book
+TOTAL
+1,375.70 Cr
+Order Book as at 
+30th September 2026
+Equipment995.00 Cr
+AMC380.70 Cr
++ =
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 6
+(₹ in Crore)
+
+--- page 8 ---
+Consolidated Order Book 
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 7
+1,375.70
+Total
+1,283.84
+Domestic
+91.86
+Export
++ =
+(₹ in Crore)
+
+--- page 9 ---
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 8
+Electronic
+Warfare
+Drones Propulsion 
+T echnology
+Naval Sim Automated 
+Weapons & 
+Surveillance 
+Systems (AWSS)
+Robotics & 
+Automated 
+Weapons 
+Station (AWS)
+Naval Sim
+51%
+SHARE
+100%
+SHARE
+76%
+SHARE
+76%
+SHARE
+51%
+SHARE
+49%
+SHARE
+45.33%
+SHARE
+
+
+--- page 10 ---
+©Zen Technologies Limited – All Rights Reserved. 9
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 9
+Advanced Product Suite
+Counter-Drone 
+Solutions
+Force Multipliers & 
+Surveillance SystemsTraining Solutions Naval & Air 
+Simulation
+Anti Drone System
+Loitering Munition
+Live Ranges
+Live Simulation
+Virtual Simulation
+Combat T raining Centre
+Marine Solutions
+Naval Solutions
+Force Multipliers
+ISR systems
+Hyper-Strike Interceptor
+ Autonomous Vehicles
+Robotics
+Air Simulators
+
+--- page 11 ---
+Our Products
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 10
+Combat Training Centre
+ Simulators for Virtual Training
+ Integrated Air Defence Combat Simulator
+ ACTS: Armour Combat Training System
+Air Simulators
+ Containerised Small Arms Firing Range
+ Multi Functional Target System
+ Naval Simulation: DSRV
+
+--- page 12 ---
+Our Products
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 11
+Anti-Drone System (Containerised)
+ Hyper-Strike
+Anti-Drone System (Man Portable)
+ RF Based Drone Detector (RFDD)
+ Drone RF Jammer (DRFJ)
+
+--- page 13 ---
+Our Products
+ZEN TECHNOLOGIES LIMITED  | Q2 & H1FY27 12
+Vrishabh: Unmanned Ground Vehicle (UGV)
+Vector Technics: Drone Propulsion Motors
+ ADS Hawkeye: Multi-Sensor Camera
+Naval RCWS: Sharur (7.62 to 12.7 mm)
+ ShootEdge: Corner-Shot Adapter
+
+--- page 14 ---
+Thank You 
+Disclaimer
+Certain Statements in this presentation concerning our 
+future growth prospects are forward-looking statements, 
+which involve a number of risks and uncertainties that 
+could cause actual results to differ materially from those 
+in such forward-looking statements. The risks and 
+uncertainties relating to these statements include, but 
+are not limited to, risks and uncertainties regarding 
+fluctuations in earnings, intense competition, political 
+instability and general economic conditions affecting our 
+industry. The company does not undertake to update 
+any forward-looking statement that may be made from 
+time to time by or on behalf of the Company.
+Hari Haran Chalat
+Chief Financial Officer
+Zen Technologies Limited
+investors@zentechnologies.com
+Let’s connect
+©2026 ZEN TECHNOLOGIES LIMITED., ALL RIGHTS RESERVED. 
+ZEN TECHNOLOGIES LOGO IS A TRADEMARK OF ZEN TECHNOLOGIES LIMITED. IN ADDITION TO COMPANY DATA, DATA FROM MARKET RESEARCH AGENCIES, STOCK EXCHANGES AND INDUSTRY 
+PUBLICATIONS HAS BEEN USED FOR THIS PRESENTATION. THIS MATERIAL WAS USED DURING AN ORAL PRESENTATION; IT IS NOT A COMPLETE RECORD OF THE DISCUSSION. THIS WORK MAY NOT BE 
+USED, SOLD, TRANSFERRED, ADAPTED, ABRIDGED, COPIED OR REPRODUCED IN WHOLE ON OR IN PART IN ANY MANNER OR FORM OR IN ANY MEDIA WITHOUT THE PRIOR WRITTEN CONSENT. ALL 
+PRODUCT NAMES AND COMPANY NAMES AND LOGOS MENTIONED HEREIN ARE THE TRADEMARKS OR REGISTERED TRADEMARKS OF THEIR RESPECTIVE OWNERS. 

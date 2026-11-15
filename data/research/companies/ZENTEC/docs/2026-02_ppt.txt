@@ -1,0 +1,440 @@
+
+
+--- page 1 ---
+January 31, 2026 
+To 
+Listing Department 
+National Stock Exchange of India Limited 
+Exchange Plaza, C-1, Block G, 
+Bandra Kurla Complex, 
+Bandra (E), Mumbai – 400 051 
+Symbol: ZENTEC 
+To 
+Dept. of Corp. Services 
+BSE Limited 
+Phiroze Jeejeebhoy Towers 
+Dalal Street 
+Mumbai- 400001 
+Scrip Code: 533339 
+Dear Sir/Madam, 
+Sub: Investor Presentation 
+Please find attached Investor Presentation on the Un-audited Financial Results of the Company for the 
+quarter and nine months ended December 31, 2025. 
+The above information is also available on the website of the Company: 
+https://www.zentechnologies.com/calls-and-conferences 
+This is for your kind information and records. 
+Thanking you 
+Yours faithfully, 
+For Zen Technologies Limited 
+Sourav Dhar  
+Company Secretary & Compliance Officer 
+Encl: As above 
+
+--- page 2 ---
+Investor 
+Presentation
+NSE : ZENTEC
+BSE : ZENTEC  - 533339
+BLOOMBERG : ZEN  IN
+REUTERS : ZETE .BO
+Q 3  &  9 M F Y 2 6
+
+--- page 3 ---
+The revenue for the quarter and nine months ended 31 
+December 2025 was impacted due to delays in the finalisation 
+of regular procurement orders, following the security threats 
+the country faced in May 2025. Consequently, we expect some 
+of our revenue earlier expected to be recognized in FY26 to 
+materialise in the subsequent financial years.
+Despite the impact on revenue, we delivered healthy 
+profitability during the quarter, supported by a favourable 
+product mix and continued focus on cost discipline. 
+Encouragingly, we witnessed a sharp acceleration in order 
+inflows during and after the quarter. During Q3 FY26, we 
+secured new orders aggregating ₹586 crore. Subsequent to 31 
+December 2025, we received additional orders aggregating 
+₹345 crore, taking cumulative order inflows over the last four 
+months to ₹931 crore. We also expect further order wins 
+before the end of the financial year.
+The majority of these orders are scheduled for execution in 
+FY27, providing strong revenue visibility ahead. Based on our 
+current order book, we expect a stronger financial 
+performance in FY27, supported by higher execution across 
+both the standalone business and subsidiaries.
+Operationally, Q3 FY26 was a significant quarter for Zen, 
+marked by strong order wins, disciplined execution and 
+continued product innovation. We secured a ₹245 crore order 
+for the upgradation of Anti-Drone Systems which reinforces 
+the strategic importance of indigenous defence technologies, 
+enabling faster adaptation to evolving threats at significantly 
+lower lifecycle costs. Zen also secured a ₹102 crore order for 
+the Combat Training Node (CTN), a first-of-its-kind training 
+solution developed entirely by our in-house R&D team, 
+underscoring our innovation focused approach. During the 
+quarter, Zen received order, of ₹37 crore, for Anti-Drone 
+Systems with hard-kill capabilities, a segment with strong 
+growth potential in the evolving modern warfare. In addition, 
+Zen successfully completed the Integrated Air Defence Combat 
+Simulator (IADCS) project approximately 9 months ahead of 
+contractual timelines, demonstrating its ability to deliver at 
+scale and with speed.
+Towards the end of the quarter, we completed the acquisition 
+of a 76% stake in Anawave Systems and Solutions Private 
+Limited, further strengthening our presence in naval 
+simulation.
+With a robust order pipeline, expanding capabilities and 
+improving execution outlook, we remain highly confident 
+about delivering sustained growth in the coming years.
+Performance 
+Review
+
+--- page 4 ---
+©Zen Technologies Limited – All Rights Reserved.
+100%
+51%
+Electronic
+Warfare
+Naval Sim Naval Sim Drones Drone 
+Components
+Automated 
+Weapons & 
+Surveillance 
+Systems (AWSS)
+Robotics & 
+Automated 
+Weapons Station 
+(AWS)
+76% 76% 51% 49% 45%
+
+--- page 5 ---
+Advanced Product Suite
+©Zen Technologies Limited – All Rights Reserved.
+Naval Simulation
+Anti Drone System
+Loitering Munition
+Live Ranges
+Live Simulation
+Virtual Simulation
+Combat Training Centre
+Force Multipliers
+ISR systems
+Marine Solutions
+Naval Solutions
+Drone & Counter-Drone Solutions Training Solutions Operational Equipment
+
+
+--- page 6 ---
+©Zen Technologies Limited – All Rights Reserved.
+Quarterly 
+Consolidated 
+Highlights
+Revenue from Operations (YoY) 
+(All Values ₹ in Crore)
+EBITDA (YoY) 
+(All Values ₹ in Crore)
+Profit After Tax (YoY) 
+39.72
+54.77
+0.00
+10.00
+20.00
+30.00
+40.00
+50.00
+60.00
+Q3FY25 Q3FY26
+(All Values ₹ in Crore)
+66.24
+82.42
+0.00
+10.00
+20.00
+30.00
+40.00
+50.00
+60.00
+70.00
+80.00
+90.00
+Q3FY25 Q3FY26
+152.21
+177.82
+0.00
+20.00
+40.00
+60.00
+80.00
+100.00
+120.00
+140.00
+160.00
+180.00
+200.00
+Q3FY25 Q3FY26
+PAT Adjusted for Non -Controlling Interests
+
+--- page 7 ---
+©Zen Technologies Limited – All Rights Reserved.
+9M 
+Consolidated 
+Highlights
+Revenue from Operations (YoY) 
+(All Values ₹ in Crore)
+EBITDA (YoY) 
+(All Values ₹ in Crore)
+Profit After Tax (YoY) 
+179.20
+161.92
+0.00
+20.00
+40.00
+60.00
+80.00
+100.00
+120.00
+140.00
+160.00
+180.00
+200.00
+9MFY25 9MFY26
+(All Values ₹ in Crore)
+269.17
+258.97
+9MFY25 9MFY26
+648.67
+509.61
+9MFY25 9MFY26
+189%
+PAT Adjusted for Non-Controlling Interests
+
+--- page 8 ---
+Financial Statement Summary
+©Zen Technologies Limited – All Rights Reserved.
+Summary of Consolidated Profit & Loss Statement
+Particulars
+(₹ in Crore)
+Q3FY26 Q2FY26 Q3FY25 9MFY26 9MFY25
+(Unaudited) (Unaudited) (Unaudited) (Unaudited) (Unaudited)
+KEY PERFORMANCE INDICATORS
+Sales 177.82 173.57 152.21 509.61 648.67
+Other Operating Revenue 15.62 25.31 22.04 62.72 33.62
+T otal Revenue 193.44 198.88 174.25 572.33 682.29
+T otal Operating Expenses 111.02 108.83 108.01 313.36 413.12
+EBITDA 82.42 90.05 66.24 258.97 269.17
+EBITDA Margins 46.35% 51.88% 43.52% 50.82% 41.50%
+Operational EBITDA 66.80 64.75 44.20 196.25 235.55
+Operational EBITDA Margins 37.57% 37.30% 29.04% 38.51% 36.31%
+Interest Cost 2.75 2.04 2.96 8.25 6.42
+Depreciation 6.49 5.71 3.81 18.55 10.66
+Profit Before T ax 73.18 82.30 59.47 232.17 252.08
+Profit After T ax (Adjusted for Non-Controlling Interest) 54.77 59.40 39.72 161.92 179.20
+
+--- page 9 ---
+©Zen Technologies Limited – All Rights Reserved.
+Quarterly 
+Standalone 
+Highlights
+Revenue from Operations (YoY) 
+(All Values ₹ in Crore)
+EBITDA (YoY) 
+(All Values ₹ in Crore)
+Profit After Tax (YoY) 
+(All Values ₹ in Crore)
+Revenue Segmentation
+(Sale of Equipment vs AMC)
+(All Values ₹ in Crore)
+Revenue Segmentation 
+(Domestic vs Exports)
+(All Values ₹ in Crore)
+141.52
+116.15
+0.00
+20.00
+40.00
+60.00
+80.00
+100.00
+120.00
+140.00
+160.00
+Q3FY25 Q3FY26
+58.69
+66.93
+54.00
+56.00
+58.00
+60.00
+62.00
+64.00
+66.00
+68.00
+Q3FY25 Q3FY26
+38.62
+47.82
+0.00
+5.00
+10.00
+15.00
+20.00
+25.00
+30.00
+35.00
+40.00
+45.00
+50.00
+Q3FY25 Q3FY26
+130.82 106.11
+10.70
+10.05
+Q3FY25 Q3FY26
+Sales of Equipment AMC
+68.82 115.82
+62.00
+0.59
+Q3FY25 Q3FY26
+Domestic Exports
+
+--- page 10 ---
+©Zen Technologies Limited – All Rights Reserved.
+9M 
+Standalone 
+Highlights
+Revenue from Operations (YoY) 
+(All Values ₹ in Crore)
+EBITDA (YoY) 
+(All Values ₹ in Crore)
+Profit After Tax (YoY) 
+178.03
+131.10
+0.00
+20.00
+40.00
+60.00
+80.00
+100.00
+120.00
+140.00
+160.00
+180.00
+200.00
+9MFY25 9MFY26
+(All Values ₹ in Crore)
+252.77
+189.66
+0.00
+30.00
+60.00
+90.00
+120.00
+150.00
+180.00
+210.00
+240.00
+270.00
+9MFY25 9MFY26
+637.17
+351.87
+0.00
+100.00
+200.00
+300.00
+400.00
+500.00
+600.00
+700.00
+9MFY25 9MFY26
+189%
+
+--- page 11 ---
+Financial Statement Summary
+©Zen Technologies Limited – All Rights Reserved.
+Particulars
+(₹ in Crore)
+Q3FY26 Q2FY26 Q3FY25 9MFY26 9MFY25
+(Unaudited) (Unaudited) (Unaudited) (Unaudited) (Unaudited)
+KEY PERFORMANCE INDICATORS
+Sales 116.15 124.65 141.52 351.87 637.17
+Other Operating Revenue 14.34 22.99 21.96 57.22 33.43
+T otal Revenue 130.49 147.65 163.48 409.09 670.60
+T otal Operating Expenses 63.56 82.86 104.79 219.43 417.83
+EBITDA 66.93 64.79 58.69 189.66 252.77
+EBITDA Margins 57.62% 51.97% 41.47% 53.90% 39.67%
+Operational EBITDA 52.60 41.80 36.73 132.44 219.34
+Operational EBITDA Margins 45.28% 33.53% 25.95% 37.64% 34.42%
+Interest Cost 1.00 0.43 2.73 2.81 5.81
+Depreciation 3.58 3.32 2.60 9.98 7.16
+Profit Before T ax 62.35 61.04 53.36 176.87 239.80
+Profit After T ax 47.82 46.16 38.62 131.10 178.03
+Summary of Standalone Profit & Loss Statement
+
+--- page 12 ---
+©Zen Technologies Limited – All Rights Reserved.
+Consolidated 
+Order Book 
+Status as of 
+31 December 
+2025
+Order Book as at
+1 October 2025
+Total:
+675.04 Cr
+New Order bagged 
+in Q3FY26
+Total:
+585.55 Cr
+Orders executed 
+in Q3FY26
+Total:
+177.83 Cr
+Order Book as at 
+31 December 2025
+Total:
+1,082.76 Cr
+Order 
+Book
+New 
+Orders
+Orders 
+Executed
+Total Order 
+Book=-+
+*Note :-
+1. Order book as at 31 December 2025 includes ₹ 201.71 Cr  relating to subsidiaries companies.
+2. Closing order book includes domestic orders amounting to ₹ 987.38 Cr and export orders amounting  to  ₹ 95.38 Cr.
+
+--- page 13 ---
+Thank 
+Y ou
+©2018 ZEN TECHNOLOGIES LIMITED., ALL RIGHTS RESERVED. 
+ZEN TECHNOLOGIES LOGO IS A TRADEMARK OF ZEN TECHNOLOGIES 
+LIMITED. IN ADDITION TO COMPANY DATA, DATA FROM MARKET RESEARCH 
+AGENCIES, STOCK EXCHANGES AND INDUSTRY PUBLICATIONS HAS BEEN 
+USED FOR THIS PRESENTATION. THIS MATERIAL WAS USED DURING AN ORAL 
+PRESENTATION; IT IS NOT A COMPLETE RECORD OF THE DISCUSSION. THIS 
+WORK MAY NOT BE USED, SOLD, TRANSFERRED, ADAPTED, ABRIDGED, 
+COPIED OR REPRODUCED IN WHOLE ON OR IN PART IN ANY MANNER OR 
+FORM OR IN ANY MEDIA WITHOUT THE PRIOR WRITTEN CONSENT. ALL 
+PRODUCT NAMES AND COMPANY NAMES AND LOGOS MENTIONED HEREIN 
+ARE THE TRADEMARKS OR REGISTERED TRADEMARKS OF THEIR RESPECTIVE 
+OWNERS. 
+Disclaimer:
+Certain Statements in this presentation 
+concerning our future growth prospects are 
+forward-looking statements, which involve a 
+number of risks and uncertainties that could 
+cause actual results to differ materially from 
+those in such forward-looking statements. The 
+risks and uncertainties relating to these 
+statements include, but are not limited to, 
+risks and uncertainties regarding fluctuations 
+in earnings, intense competition, political 
+instability and general economic conditions 
+affecting our industry. The company does not 
+undertake to update any forward-looking 
+statement that may be made from time to 
+time by or on behalf of the Company.
+Hari Haran Chalat
+investors@zentechnologies.com
+Chief Financial Officer
+Zen Technologies Limited
+Let’s connect

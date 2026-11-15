@@ -1,0 +1,787 @@
+
+
+--- page 1 ---
+November 05, 2026 
+To 
+Listing Department 
+National Stock Exchange of India Limited 
+Exchange Plaza, C-1, Block G, 
+Bandra Kurla Complex, 
+Bandra (E), Mumbai – 400 051 
+Symbol: ZENTEC 
+To 
+Dept. of Corp. Services 
+BSE Limited 
+Phiroze Jeejeebhoy Towers 
+Dalal Street 
+Mumbai- 400001 
+Scrip Code: 533339 
+Dear Sir/Madam, 
+Sub: Transcript of the earnings Conference Call held on November 02, 2026 
+Pursuant to Regulation 30 of the SEBI ( Listing Obligations and Disclosure Requirements) 
+Regulations, 2015, please find enclosed the transcript of the earnings conference call held on Monday, 
+November 02, 2026. 
+This is for your kind information and records. 
+Thanking you 
+Yours faithfully, 
+For Zen Technologies Limited 
+Sourav Dhar 
+Company Secretary & Compliance Officer 
+Encl: as above 
+
+--- page 2 ---
+Page 1 of 20 
+ 
+ 
+“Zen Technologies Limited 
+Q2 & H1 FY2027 Earnings Conference Call” 
+ 
+November 02, 2026 
+ 
+        
+ 
+Management: Mr. Ashok Atluri - Chairman & Managing Director 
+Mr. Hari Haran Chalat - Chief Financial Officer 
+Ms. Abhilasha Atluri - Head of Investor Relations 
+Mr. Ravi Udeshi  – Senior Manager Investor 
+Relations 
+
+
+--- page 3 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 2 of 20 
+Moderator: Ladies and gentlemen, good day and a warm welcome to Zen Technologies Limited’s Q2 
+FY 2027 Earnings Conference Call. Please note all participants’ lines will be in the listen -
+only mode and there will be an opportunity for you to ask questions after the management’s 
+opening remarks. Please note that this conference is being recorded. I now hand the 
+conference over to Mr. Ravi Udes hi from Zen Technologies. Thank you and over to you, 
+Sir! 
+Ravi Udeshi: Thank you, Swapnil.  Welcome and thank you all for joining this Q2 and H1  FY2027 
+earnings conference call of Zen Technologies L imited. The results and the investor updates 
+have been e -mailed to you and are also available on the Stock Exchanges. In case anyone 
+does not have a copy of the same, please do write to us and we  will be happy to send it over 
+to you. To take us to the results for this quarter and to answer your questions, we have with 
+us today , Mr. Ashok Atluri, Chairman and Managing Director ; Mr. Hari  Haran Chalat, 
+Chief Financial Officer and Ms. Abhilasha Atluri, Head of Investor Relations. We will be 
+starting the call with a brief overview of the performance, which will be followed by the 
+question-and-answer session. Before we start the call, I would like to remind you that the 
+Safe Harbor Clause applies. With that said, I now hand over the call to Mr. Hari  Haran 
+Chalat. Over to you, Sir! 
+Hari Haran Chalat: Thank you, Ravi. Good evening and warm welcome to all. Thank you for joining us on the 
+Q2 and H1 FY2027 earnings call. I will take you through our financial performance for the 
+quarter and half year ended September 30, 2026. Consolidated revenue from operations for 
+Q2 FY 2027 stood at Rs.345.1 crores, a highest ever quarterly revenue, representing a 
+growth of 98.8% over Rs. 173.6 crores in Q2 FY  2026 and more than double the Rs.141.6 
+Crores reported in Q1 FY 2027. As we ha ve consistently indicated in our earlier 
+interactions, our revenue is expected to be weighted towards Q2 and Q3 and this quarter 
+reflects the execution of the order book we have been building since last year. Operational 
+EBITDA for the quarter stood at Rs.132 Crores at an operational EBITDA margin of 38.2% 
+compared with 37.3% in Q2 FY 2026 and 27.3% in Q1 FY 2027. Profit after tax attributable 
+to shareholders stood at Rs .89.5 Crores, a growth of 50.7% over Rs .59.4 Crores in Q2 
+FY2026. 
+ We ha ve committed in our previous earnings call that as the revenue increases and 
+operating leverage kicks in, we would see the margins normalized towards the 35% 
+EBITDA that we had guided, and this quarter confirms that. Taking the two quarters 
+together, our H1 FY 2027 operational EBITDA margin stands at 35.1%. This is in line with 
+the mid-30s full year guidance we have shared. We continue to guide a full-year operational 
+EBITDA margin in the mid -30s. I would like to spend some time on the increase expenses 
+that you would have seen for the quarter. You will note that our employee benefit expense 
+
+--- page 4 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 3 of 20 
+and other expenses have increased in absolute terms this quarter. On the employee benefit 
+side, it reflects performance incentives accrued towards during the quarter and the ramp up 
+of our R&D team headcount, particularly in AI and emerging product areas. This is in line 
+with our communication that we expect to see increasing R&D investments over the year. 
+ On other expenses, the increase is primarily due to warranty provisioning, which varies 
+depending on the product mix between ADS and simulators. This quarter, we had a higher 
+mix of ADS resulting in Rs.9.3 Crores higher provision in Q2 FY 2027, w as in the same 
+period last year. In addition to the warranty expenses, we have also seen an increase in 
+consultancy and professional fees towards design and development of certain R&D 
+products in the pipeline. Even after these increases, the employee and other expenses 
+together with 24.4% of revenue this quarter compared with 26.3% a year ago , so our cost 
+base has been efficient as we have scaled, even though the absolute numbers may seem to 
+have increased. Coming to the half year, consolidated revenue from the operations for H1  
+FY2027 was Rs. 486.8 Crores, a growth of 46.7% over Rs.331.8 Crores in H1  FY2026. 
+Operational EBITDA for the half year was Rs.170.7 Crores and profit after tax attributable 
+to shareholders was Rs.124 Crores compared with Rs.107.2 Crores in H1 FY2026. 
+ Now coming to the order book, the consolidated order book stood at Rs .1375.7 Crores as of 
+September 30, 2026, comprising an equipment order book of Rs .995 Crores and an AMC 
+order book of Rs .380.7 Crores. During the quarter we executed Rs .345.1 Crores of orders 
+and secured new order inflows of Rs .481.8 Crores. I would draw your attention to the fact 
+that our order inf low during the quarter exceeded the revenue we executed, so the order 
+book continued to grow even as execution accelerated, from Rs .1239 Crores at the start of 
+the quarter to Rs .1375.7 Crores. This reflects the stable demand across our product 
+categories and gives us visibility into the coming quarters. 
+ Let me now turn into working capital and the balance sheet. Our consolidated working 
+capital cycle stood at 379 days as of September 30, 2026, compared with 255 days at the 
+end of Q1. The increase is driven primarily by two factors , first debtor days increase, which 
+is a direct consequence of our revenue being weighted towards Q2 FY 2027. These are 
+recent receivables from the execution ramp. Second, advances to suppliers increase d as we 
+procure to execute the order book scheduled for delivery through the remainder of the year. 
+Inventory days reduced over the quarter. This also explains the operating cash flows for the 
+half year. The net operating cash flows for the half year was negative, but this is a function 
+of the working capital build I described earlier. The increase in receivables from our back -
+ended revenue and the inventory and advance is deployed to execute the order book.  The 
+receivables are recent and largely by government and defense contracts, where collection 
+risk is low and this build has been funded entirely from our own resources. We remain debt 
+free with approximately Rs .968 Crores of cash and bank balances. The business is 
+
+--- page 5 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 4 of 20 
+profitable and cash generat ing at the operating level. The cash is currently deployed in 
+working capital that supports our execution. This is the brief on our financial performance 
+for the quarter and the half year. We can now take questions. Thank you. 
+Moderator: Thank you so much. Ladies and gentlemen, we will now begin with the question-and-
+answer session. Anyone who wishes to ask a question may click on the raise hand icon from 
+the participants tab on your screen. We request participants to keep their questions as brief 
+and precise as possible. We  will wait for a few minutes until the question queue assembles, 
+requesting participants to please remain connected. We will take our first question. We have 
+Mr. Amit Dixit of GS Commercials. Amit, please unmute your microphone and go ahead. 
+Amit Dixit: Good evening everyone and thanks for the opportunity. Congratulations for a good set of 
+numbers. A couple of questions from my side. The first one is on the R&D part as covered 
+by Hari in his opening remarks , s o just wanted to understand where  is typically we are 
+going to deploy the R&D efforts incrementally , whether it is the new product development 
+or certain subsidiaries that we have acquired over the recent times, we want to scale up 
+operations over there , s o just wanted to get a broad sense and the kind of your R&D 
+expense as a percentage of revenue is already industry leading, so just wanted to understand 
+what is the ultimate objective with this , where some certain benchmark if you have set for 
+the management? That is my first question. 
+Hari Haran Chalat: Thanks Amit. So to answer your question, the R&D effort s basically the expenses that we  
+are incurring right now are towards the future products and also upgradation of our existing 
+offerings to the customers, so there is a lot of R&D which is going on, as we communicated 
+earlier, into the next -gen defense technologies, especially robotics, AI, and also anti -drone 
+systems and new solutions in the products that we are in right now and that is where the 
+R&D efforts are going into. Some of these R&D expenses, as you already know, some of 
+the subsidiaries do the R&D for us and do the execution as well , but the IP is owned by 
+Zen, so the R&D expenses indirectly also are funded through the subsidiaries. To answer 
+your question on the percentage or the amount of R&D expenses we expect to incur, frankly 
+we do not put an internal target on the R&D. We are very opportunistic when it comes to 
+R&D expenses , i f we see there is any kind of development, which we think is a huge 
+opportunity and which the country needs we go all in and we do  not mind investing our 
+own money and that  has been the USP of Zen till now and to answer your question, last 
+year FY2026 the R&D expenses were 12% of the top line, even though internally, we, like I 
+said, we do  not keep any benchmark like that and this year also, we should be in a similar 
+range. 
+Amit Dixit: That is helpful. The second one is… 
+
+--- page 6 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 5 of 20 
+Ashok Atluri: Amit, I would like to add another point , the thing is, when we invest in companies, like 
+acquire a new Company, it is typically more than the Company, there is a lot of IP in that 
+Company, so it is actually an R&D expenditure in that sense, that this Company has already 
+done 10, 12, 15 years of R&D, and they have huge IP, whether they file patent or not, etc ., 
+the right through, we call it IP  or whether they are filed patents or not, it  is secondary, but 
+overall, our investment typically go into companies that already have a lot of  hidden IP or 
+on which they can build a lot of products. So, the actual figure that you see in terms of just 
+the percentage is one  and the second is every acquisition that we do is also actually an IP 
+purchase. Sorry, Amit, go ahead. 
+Amit Dixit: Thank you, that is quite helpful. The second question is essentially on the C -UAS system or 
+the counter drone system, now we have our own product, our own IP. We have seen a lot of 
+AoNs pointing to the same, but there have been a lot of A oNs but no orders unfortunately , 
+so I just wanted to get your perspective on how you see the ordering cycle currently, 
+ordering environment currently, because it  is not only about Zen it  is about the entire 
+ecosystem that we are seeing that orders have suddenly dried up, particularly on the counter 
+drone system for which there has been a lot of hue and cry raised by the government, but we 
+have seen very little action, so just wanted to get your perspective on that. 
+Ashok Atluri: Two things, Amit one is that the orders are coming two routes, mostly two routes one is the 
+FTP, the Fast Track Procurement, and the second is the capital acquisition. As you have 
+seen that FTP approvals have happened now and we expect maybe a month, two months the 
+tenders, the RFPs will be floated and responses will be given. Typically, the deadline is to 
+finish by March, the procurement again or whatever the delays have happened , but I think 
+there is a lot of changes that are happening and the government really wants to be very wise 
+in framing the specs and it  is a very evolving thing. Even if they were to buy something 
+today, tomorrow they would want it to change and that is where, is the Company buying 
+from an Indian Company with the Indian IP or are they buying from some collaborator, who 
+is reselling the foreign goods, so that will be the biggest challenge there. The evolving thing 
+has delayed , of course, the FTP itself has delayed , so those tenders will come in. I think 
+there will be a bunch of orders that will be coming to the Indian players at that point in 
+time. Second is the capital acquisition that I think is going to take at least a couple of years 
+or two to three years to play out and the orders being placed , so that is the second thing. As 
+you have correctly guessed, there is a huge requirement for this counter  drone systems and 
+Zen has proven systems, including well proven in Operation Sindoor , so we think that we 
+should also get a fair share in the tenders that come, but again, what tenders come, what will 
+be the specifications, which tenders will be won by Zen, what is the amount. We are not 
+able to put any names till the tenders are floated then we may get some sense of which are 
+the tenders we will bid for and what is the likelihood of our getting those orders , but yes, 
+you are right the C-UAS tenders have not come so there are no orders been placed. 
+
+--- page 7 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 6 of 20 
+Amit Dixit: Okay Sir. 
+Ashok Atluri: Thank you Amit. Please go ahead. 
+Moderator: Vikash Singh from ICICI securities. Vikash, would you like to please go ahead. 
+Vikash Singh: Thank you. Good afternoon Sir and thank you for the opportunity. First of all , very 
+congratulations on a very good set of numbers. Sir just wanted to understand that our two 
+years guidance of roughly about Rs.4000 Crores of topline we need to exit this year with a 
+pretty FD order book because our execution timelines are usually 15 -16 months kind of a 
+thing, so next five to six months, what kind of order winning pipeline you are envisaging at 
+this point of time and does the counter drone system also includes in that thought process? 
+Ashok Atluri: The thing is, we have started doing is we are saying that it  is very difficult to predict how 
+much turnover we will be doing in the next one year or next two years or something. What 
+we are very sure about is the ability to execute the order that we  have already got. So, that 
+Rs.4000 Crore that we made for two financial years was based on the government 
+processing the orders and we  getting the orders in hand. So, we expect those things to 
+happen, but we do  not know when they will happen. So, there may be some delay in the 
+placement of orders. Once the orders are placed, we will feel very, very sure about 
+execution and it included both simulators and counter drone systems , but as we are seeing, 
+there are some delays which are happening , b ut again, once our order book builds up, 
+typically the FTP needs to be concluded by March 31 , 2027 a nd if we have a good order 
+book by then we should be able to achieve what we are set out to do , but again, look at the 
+order book more than anything else. 
+Vikash Singh: Noted, Sir. My second question pertains to our long -term strategy. As we have seen in the 
+last two years, we have acquired a lot of companies collaborating them into a certain kind of 
+the capability infrastructure; however, our recent acquisition does  not seem to fit the match 
+of the drones or your simulation kind of the thing , w e just wanted to understand going 
+forward are we going to explore in a non -related segment as well, just to build up our 
+capabilities for diversification purpose and this new acquisition which we have taken, if I 
+am not wrong, it  is largely related to tank guidance, etc. , if you could give us some more 
+insight on your strategy through acquisition led  build up. 
+Ashok Atluri: The strategy that then has is this, that you  are absolutely right that the first thing is the 
+simulation segment that we want to do. We acquired a Company, ARI, which was into 
+adjacent for the naval simulation and we acquired that. Then we, of course, EW, we had 
+UTS, a counter drone system we started. Then we acquired AI Turing, then we acquired 
+Vector, s o, all connected companies. So, your question was this acquisition of Cog knit, 
+
+--- page 8 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 7 of 20 
+where does it actually come in that? So, the strategy of Zen is this. That we are assuming 
+that there are some Pareto technologies that we really need to get grip on for if India has to 
+become unbeatable in war and we have identified certain technologies and out of them, 
+command and control is one such area that we really think is going to go. In addition to 
+space is another area that we think is going to play a very, very big role. Another product 
+that is seemingly, even though connected with robotics and automation, which is which 
+through Bhairav  Robotics we are doing , s o these are all connected in the sense that the 
+question that we need to, that we ask is, is this a Pareto technology that will really, really 
+impact future? Again, when I say Pareto, I mean, 20% of the technology that will have 80% 
+of the outcome in the war. For example, we say that the Israeli -Iran war was won by the 
+Shahed drones. So this is, almost 0.1% of the equipment won 99% of the war , so what are 
+those technologies that we need to focus on as we go into the future? So this, again, Cogknit 
+is, I do  not know, if you just do some Google search on Cog knit, they are one of the most 
+advanced guys in AI. They  have done a lot of work in AI , they have done this command 
+and control stuff, this is absolutely cutting edge and I think the work that they  are doing is 
+not only applicable to India but worldwide. How do you become aware of where your tank 
+is in a war? Actually, almost all the older tanks do  not have that facility to be aware  where 
+they are in a war. So, these guys have developed the technology and this can be scaled 
+across the infantry and AD, etc. So, I think what they have is, we really, really feel that it  is 
+one of the best acquisitions that we have done and we think that as we go ahead at least five 
+years from now this would be a significant contributor of revenues to our portfolio. Again, 
+they are all connected in the sense, these people use sensors to sense and get a common 
+picture-by-picture, which can be used across Board for our other simulators also, including 
+simulators. 
+Vikash Singh: Noted Sir. Thank you and all the best for future. 
+Ashok Atluri: Thank you Vikash. 
+Moderator: Thank you. Moving to our next participant. We have Mr. Dipen Vakil of Phil lip Capital. 
+Dipen, please go ahead. 
+Dipen Vakil: Thank you for the opportunity and congratulations on a great set of execution. S ir, my first 
+question is, I wanted to understand, you have been looking at your export market as well as 
+increasing your international presence , s o can you throw some light as to how that is 
+moving and when it will start contributing significantly to the revenue and where is the 
+expansion into US that we were looking at? 
+Ashok Atluri: Again, the exports market, there were some discussions going on, but this war is actually 
+kind of putting a dampener on that and so there is almost on the verge of signing or very, 
+
+--- page 9 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 8 of 20 
+very advanced stage of negotiation, but the Iran-Israel war has caused some gaps there, but I 
+think overall we do expect some orders to come through in the next few months in exports 
+area and not only from Middle East but also CIS countries and probably Southeast Asia. 
+These are the areas that we are focusing on , but again, I am not able to put a number there. 
+Second is the USA, again, the compliance, we are working very hard because it is one of 
+the most difficult markets to penetrate the US market. There are a lot of compliances to do , 
+so we are undergoing the process of meeting those compliances and of course, we are also 
+looking at collaborating with primes where we can co-operate with the prime and within the 
+legal framework of the US defense, how much of value add can we do from India and of 
+course we would like to meet the requirements to do it in US also , but as we speak we are 
+talking to a couple of big primes and we expect something to happen probably next year in 
+this regard. 
+Dipen Vakil: Got it, Sir. Sir, any traction coming in from Europe especially for anti -drone system side of 
+it considering the entire rearmament process that is going on over there? 
+Ashok Atluri: Again, Europe is also, they have been insisting that it should be a Europe -made product and 
+they have a regulation, there is a procurement called SAFE that is happening and the 
+requirement is 65% of the procurement should be local that means it should remain in the 
+economy, so we are talking to some of the large players in that field, how do we meet the 
+requirement that is there and we do expect it  is in both the fields not only C -UAS but even 
+in simulators because they have not been really trained for the kind of equipment they will 
+be dealing with. Fortunately, we make simulators for the Russian equipment , so, they are 
+very much interested in that part of that deal. So, both C -UAS and simulators are something 
+that Europe is looking to and we are talking to some people there and expect some positive 
+developments to happen by next year at least in the beginning of the next year. 
+Dipen Vakil: Got it, Sir. Second question is mainly on the so right now, whichever tenders that would be 
+live or RFPs that will be going on so when do you expect some translation to happen , do 
+you think that it will happen in third quarter or more towards the fourth quarter when we  
+will see some major contract signings or award winnings happening? 
+Ashok Atluri: The earliest is fourth quarter. What I see, some simulator order may come much, I think I 
+have been saying that some about Rs.400 Crores worth of simulator orders are expected, but 
+they are taking time to materialize, but they will happen much earlier, but C-UAS, the FTP, 
+that is the earliest they will happen in the fourth quarter , but for some reason, if they do  not 
+conclude the FTP process, which is typically the scheduled deadline is March 31 , 2027 that 
+may spill over into the first or maybe worst case, second quarter also , but it has never really 
+gone beyond the second quarter, but typically, if they were to stick to their deadlines, we 
+should have the orders by Q4. 
+
+--- page 10 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 9 of 20 
+Dipen Vakil: Got it, Sir. That is helpful, Sir. Thank you so much and all the best for the second half. 
+Ashok Atluri: Thanks, Sir. 
+Moderator: Thank you, Dipen. Moving to our next participant. We have Abhij eet Singh of Systemati x. 
+Abhijeet, please go ahead.  Sorry, please unmute your microphone and go ahead with your 
+question we are unable to hear you now. 
+Abhijeet Singh: Thank you for the opportunity and congratulations on a very strong set of results. Just 
+wanted to understand what led to such strong execution in Q2. I think we have reported our 
+highest ever quarterly revenue that is a very positive sign , but what is the execution if you 
+can talk about the product, some color on that, what led to this kind of strong execution in 
+Q2? 
+Ashok Atluri: I think one thing we have done is extreme streamlining of the operations themselves. 
+Today, I think even if you were to double the size of the orders to be executed, we should 
+be able to execute also easily , so I think the systems have been streamlined. We have now 
+extreme visibility. Where are we stuck? We know, identify the bottlenecks, so the execution 
+has really, really increased the thing and second was, there was some gap in the Q1 that also 
+was spilled over into the Q2. I think that also kind of help in getting these good numbers , 
+but we expect, H2 also to be reasonably good , but again, I think the credit should go to the 
+operations team, they have really installed new process and procedures in the whole system 
+by which we are able to, I would say almost effortlessly executing and getting this and 
+when we expect the Q2 to be also very heavy, but we do  not think any challenge in 
+execution. I think that is actually a good thumbs up to the operations team. 
+Abhijeet Singh: Okay Sir and what would be the quantum of that revenue that got deferred in Q2? 
+Ashok Atluri: No. Q1 to Q2 there was some deferment , but no deferment in Q2. I think we executed 
+whatever was promised in Q2. 
+Abhijeet Singh: In terms of our capability in countered UAS category, let  us say if there are tenders of 
+Rs.100 so how many tenders do we generally participate in it from whatever product 
+capability that we have right now? 
+Ashok Atluri: I will reframe the question, are there any categories of C -UAS that we do not bid for? Yes, 
+there are very low -end, some very low -end counter  drone system we do  not bid, for 
+example, there is a gun for individual shops or something or farmhouses we do not make 
+that kind of a thing, so we make for the armed forces and I think I would say almost 70% to 
+80% of the market would be addressable by us , b ut again, within that, what kind of 
+capabilities do they ask for? We really, really build very, very high -end, made for war kind 
+
+--- page 11 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 10 of 20 
+of counter drone systems and typically we have instruction that we want  to make counter  
+drone system for war not for winning a particular tender. So, again, the Zen was the first 
+Company probably one of the very, very one or two companies in the world to make a 
+similar counter drone system that could jam wideband incoming drones. Everybody who 
+made for a counter drone system for commercial drones and we said, listen, if a terrorist or 
+enemy were to attack they will not follow your commercial frequency guidelines and 
+exactly that is what turned out in Operation Sind oor and we were able to effectively do it. 
+So, we are doing many other things, obviously cannot disclose everything, but we are doing 
+many other things  which are actually meant to defend India in a war and be successfully 
+avoiding any kind of damage. So , if the tenders come with those real war specs will be 
+substantial part of that , but if for some reason the specs are not very stringent, maybe there 
+will be other people who will win some of the contracts , but the whole game is that we are 
+really making our systems for India to be really, really impenetrable. 
+Abhijeet Singh: I think last time I met Hari Sir, I think he mentioned about 150 billion of TAM over the 
+next two to three years for C-UAS. So that that number still stands for us? 
+Ashok Atluri: 150 billion, that  is a very huge number , b ut I would say, ye s, definitely the market is 
+growing, extremely growing at this point in time and the world market is very, very huge 
+and we are actually, as we speak, we have started talking to some foreign countries also , but 
+again, as you know, a couple of years back we won an order in this regard and we expect 
+some more orders to come through , but the exports have been a little slow in the regard of 
+C-UAS, but again, from what the feedback we  are getting from the Indian Armed Forces is 
+that these systems are working in very, very high altitude and very, very successfully. In 
+fact, this was the recent feedback and we are very happy that the armed forces are really, 
+really satisfied with what we have supplied. So, I think we should get based on what the 
+feedback that we  are getting from customer they are very happy and we should get really 
+good orders from them, even when the FTP process happens. 
+Abhijeet Singh: Sir lastly on the command and control side of a C -UAS how much of it is are we 
+outsourcing and how much of it can we do in -house for the command and control of C -
+UAS? 
+Ashok Atluri: The whole system, whether it is the detector, whether it is the radar, whether it is the 
+jammer, whether it is the camera, whether it is the remote control led weapon station, 
+everything, and of course, everything that switches together the command and control is 
+completely homegrown, completely 100% owned by Zen and their subsidiaries there is 
+nothing that is outsourced in this. The command and control center is ours and it  is working 
+very effectively. As we speak, there are a lot of improvements going on , there is a big team 
+sitting to make all these things AI native. As we speak, we are trying to make them AI 
+
+--- page 12 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 11 of 20 
+native, so, I think the product that the armed forces see from three months from now, six 
+months from now, will be completely different from what they are seeing today. 
+Abhijeet Singh: Thank you so much, Sir, and I will get back in queue. 
+Ashok Atluri: Thank you, Abhijeet. 
+Moderator: Thank you. We will take our next question. We have Jatin Jadhav of Sahasrar Capital. Jatin, 
+you can unmute your microphone now. 
+Jatin Jadhav: First of all, congratulations on a good set of numbers and thank you for the opportunity. 
+Most of my questions have been answered, but out of curiosity I just wanted to know since 
+the entire counter unmanned or counter unmanned aerial system, radar is a very important 
+component of it , s o, in the entire radar system, do we manufacture and own the entire 
+design architecture of master clocks, RF synchronizer, butler matrix and the 
+subcomponents? That is my first question. 
+Ashok Atluri: Yes, so this is 100% the radars and we are making including A ESA radars, all are being 
+made in-house and, one of the subscribers, UTS, is actually iDEX project winner for that 
+and they are building it and it is actually working with the way ahead of the time , but the 
+original radars are also built by us. Everything, all the algorithms have been developed by 
+us and as we speak, we are trying to improve those algorithms to give us better results. Ye s, 
+so to your question, is the radar completely in-house developed and designed and developed 
+and manufactured? The answer is yes. 
+Jatin Jadhav: Got it, Sir. Sir, on my second question, the acquisition on Cog knit, I have actually met the 
+promoters and they are very passionate people and I actually like the Company, so, I believe 
+it is a very good add-on for the Zen Bouquet. When can we see a smaller counter unmanned 
+system for the tanks because that will be the natural progression, I assume and many 
+companies are definitely working on it? 
+Ashok Atluri: Yes, so tanks, I think the counter drone system for the tank is very, very important and even 
+at the infantry level they will be required. So, yes, I think the team is busy with  meeting the 
+requirements of the armored cor e and developing counter drone system for tanks also. Ye s, 
+we are in the race for that. 
+Jatin Jadhav: Are we seeing some good traction from the army side also for this or good interest? 
+Ashok Atluri: Absolutely. All the tanks are sitting ducks if they do  not have counter  drone systems, a 
+small drone can come and destroy a tank , so they are very, very seized of the matter and, 
+
+--- page 13 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 12 of 20 
+listen, our armed forces are one of the most futuristic and smartest people that we know of , 
+so they are absolutely on track with that now, so we do not have to worry about that, yes. 
+Jatin Jadhav: Got it, Sir. Thank you so much and all the best. 
+Ashok Atluri: Thank you, Jadhav. 
+Moderator: Thank you. Moving to our next participant. We have Nipun Sharma of VLS Finance. 
+Nipun, please go ahead. 
+Nipun Sharma: Good evening. Sir, first of all, a hearty congratulations on good set of results. S ir, my 
+question being that in this quarter you earn a very good amount of revenue , so will this be 
+continued for the upcoming quarters , as you know, you have been earning good amount of 
+orders in the last second half of FY 2026 as well as your trade receivables and inventories 
+have also risen up by almost 2 to 2.5 times and considering this do you think that the next 
+upcoming quarters will be generating the same amount of revenue? 
+Ashok Atluri: Based on what we have, again, I was saying that, we have an order book that we need to 
+execute. I think the next couple of quarters should be healthy is what my expectation is 
+based on the order book that we have and with respect to the orders, again, we are 
+reasonably sure about some simulator orders about Rs.400 plus crores , but with respect to 
+counter drone systems we are not so sure because that  is a process that is taking time and if 
+the government acts fast I think we should be getting those orders also , b ut ye s, I think 
+revenues look reasonably assured of and orders will have to wait and see for non -simulator 
+products. 
+Nipun Sharma: Okay understood. S ir talking about this, do the Fast  Track Procurement orders are still in 
+place for you or is the government placing the normal order, the regular procurement right 
+now? 
+Ashok Atluri: Both are going on at this point in time. FTP is to, they have to start publishing the RFPs and 
+actually go for the process , b ut the old acquisitions that were happening, those are the 
+orders that we have got till now. So, those are happening in parallel and again FTP as I said 
+we expect the RFPs to come in the next few weeks actually if not months. 
+Nipun Sharma: Considering you still have FTPs as your orders as of now , so, I understand that you would 
+not be able to comment upon the yearly revenue guidance, but still Sir, as I have heard from 
+your Q3 FY2026 concalls as well as for Q4 as well you are targeting Rs.4000 Crores for the 
+upcoming financial years as a revenue and as one participant asked you and assured you, 
+you said that it is expected that you might earn Rs.1500 Crores in FY 2027 and Rs.2500 in 
+FY2028. If the order book position by the end of FY 2027 is around Rs.2500 Crores to 
+
+--- page 14 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 13 of 20 
+Rs.3,000 Crores , s o, is the guidance in place or is there, some slight changes in the 
+guidance? 
+Ashok Atluri: I think we should be able to guide better, as we get the order book improves, the closer to 
+Q4 we will probably be able to say that of the orders that we have how much we  will be 
+able to execute. At this point in time, we are not able to say what will be the  turnover next 
+year, b ut, I think if the order book, as you said, if it  is Rs.3000 Crores or something 
+probably it should be a good ground for us to give very good numbers. 
+Nipun Sharma: I guess last quarter you guided for 2500 at the end of FY 2027, so is that guidance still in 
+place? 
+Ashok Atluri: What happened is that I have predictions because after my predictions astrologers are 
+looking good, so, I start predicting now completely. Again, ability to execute is there, we 
+get the order book and we will execute it , but to be fair, the government also has a lot of 
+process and procedure to be followed and that  is why it is getting delayed. We expect that 
+government will accelerate the procurement and our order book position should be very 
+well padded so that we can achieve not only the numbers we have promised maybe more 
+than that. 
+Nipun Sharma: Okay understood. My last question is that do you see any signs of temporary deferment in 
+the upcoming quarters? 
+Ashok Atluri: Sorry, I did not understand your question. What do you mean by temporary deferment? 
+Nipun Sharma: Deferment as in that was witnessed in Q1 of FY2027, so, do you see any sort of deferment 
+in the upcoming quarters? 
+Ashok Atluri: Of the order book execution? 
+Nipun Sharma: Yes, Sir. 
+Ashok Atluri: I think we are reasonably confident that the orders that are there will be executed and at 
+least I do not foresee any deferment or delays in execution of the orders at this point in time. 
+Nipun Sharma: Okay, Sir. Thank you very much and all the best for your future endeavors. 
+Ashok Atluri: Thank you Nipun. Thank you so much. 
+Moderator: Thank you. Taking our next question now we have Vidyadhar Ginde of Soh um Asset 
+Managers Private Limited. Please go ahead with your question Vidyadhar. 
+
+--- page 15 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 14 of 20 
+Vidyadhar Ginde: Thank you. My first question is that so you have much better color or clarity on the current 
+year so do you expect revenue to be in the range of Rs.1200 Crores  to Rs.1300 Crores 
+which I think you had guided earlier this year for 2027? 
+Ashok Atluri: Sorry, how many crores did you say? 
+Vidyadhar Ginde: Rs.1200 Crores to Rs.1300 Crores. 
+Ashok Atluri: I think we should be able to achieve a little more than that number , b ut ye s, we are 
+comfortable with that number very easily to achieve that number. 
+Vidyadhar Ginde: My second question is that you seem to be optimistic to receive up to your order book to be 
+about Rs.2500 Crores to Rs. 3000 crores in March 2027 so what would be the new orders 
+which you are likely to get by March 2027 if you could give us some color on that? 
+Ashok Atluri: No, first of all, I  am not very sure at all that the order book will be at Rs.2500 Crores to 
+Rs.3000 Crores what I did say was that if the FTPs are concluded there is a possibility that 
+we will get some orders I  am not putting a number to that and if those numbers do come in 
+we should be able to execute it in the next 12 to 18 months. Whenever the orders come 
+through, our execution time has typically been 12 to 18 months. What you look at the order 
+book position and you should be able to guess, typically you should be able to guess that 
+what will be the turnover based on the equipment orders we have at any point in time. 
+Vidyadhar Ginde: So, let us not say March 2027, but even if orders are delayed over the next say 6 to 9 
+months or a little longer, which are the orders you hope you are likely to get? 
+Ashok Atluri: I think it is majorly going to be counter drone systems. 
+Vidyadhar Ginde: Okay, that will be the bulk of the new orders is it and plus I think the simulator you  have 
+been talking of Rs.400 Crores? 
+Ashok Atluri: That is right yes. 
+Vidyadhar Ginde: My last question is on this hyper strike if you could give us some update on what  is 
+happening there, do you expect to get some orders either this year or next year than that and 
+your plans regarding that? 
+Ashok Atluri: The product is undergoing internal trials at this point in time. We expect definitely some 
+significant contribution to happen by the next year from hyper strike. 
+Vidyadhar Ginde: Thank you. 
+
+--- page 16 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 15 of 20 
+Ashok Atluri: Thank you, Vidyadhar. Thank you. 
+Moderator: Thank you so much. We  will take our next question now. We have Sohan Joshi of ASC 
+Consultants. Sohan, please go ahead. 
+Sohan Joshi: Congratulations for great execution. S ir my first question is how are we seeing the traction 
+from the Middle East because in the recent West Asia war a lot of the critical assets like oil 
+refineries or airports have been targeted , so do we see any fast-track procurement from the 
+Middle East side to protect those vital assets for the counter drone systems? 
+Ashok Atluri: We are in talks with some of the Middle East governments and especially those friendly to 
+us, but it  is strange that there is not a sense of that urgency with them that , they are 
+spending abnormally high amount of money to protect the assets as we call, but a very bad 
+arithmetic of, they send a $20,000 Shah ed and these people are spending $4 million to 
+block it, but yes, the arithmetic also, but again, we have been talking to them , but strangely 
+no orders have come through to us and there is nothing in advanced stage with the Middle 
+East governments at this point in time. 
+Sohan Joshi: Okay Sir. Sir my second question is with regards to the FT P let us say the FT P gets 
+spillover to the next year let us say Q1 since we have improved our execution cycle so even 
+if it gets spillover to the next year will we be able to execute the entire FT P in the next year 
+itself so that we can get Rs.4000 Crores cumulative? 
+Ashok Atluri: Again, definitely what we would have executed two years back to now is significantly 
+improved. I am saying 12 months to 18 months. If we get it in September will we be able to 
+execute something by the next six months , m aybe some part of it can be executed and  I 
+think execution definitely speed has increased, and some part of it if it is in Q1 definitely 
+some part will be executed, maybe a major part of it will be executed, but if it is Q2 we start 
+getting the orders, maybe lesser part will be executed , but all those orders will be executed 
+within the next 12 to maybe most probably within the 12 months, but  maybe spillover little 
+couple of months beyond that , but you are right in the sense that even if you get the orders 
+late we now have the capability to execute faster. 
+Sohan Joshi: One last question, out of the financial numbers, the modern warfare, I  have seen a lot of 
+attacks through drones  how are we seeing the seriousness from the government to protect, 
+apart from the border areas, let  us say, Golden Temple, which was a threat during the 
+operations to protect all those assets , so are the government seeing to deploy the counter 
+drone system in the other parts of the country as well apart from the border areas? 
+Ashok Atluri: Yes, they are trying to protect key installations and ye s, there is effort and we are aware of 
+those efforts and the government is really, really serious of the matter. So ye s, to your 
+
+--- page 17 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 16 of 20 
+question, the government is not only thinking about the border but even about the key 
+infrastructure projects, key installations, yes, they are, in fact, we are interacting with a few 
+of the customers in this regard. 
+Sohan Joshi: Thank you, Sir. That is it from my side. All the best for the upcoming quarters. 
+Ashok Atluri: Thank you so much. 
+Moderator: Thank you. We  will take the next question. We have Dhaval Yadav of IVIK Securities. 
+Please unmute your microphone.  Yes, Dhaval, please go ahead with your question. Sorry, 
+Dhaval, we are unable to hear you. We do  not have a response from Dhaval. Moving to our 
+next participant we have Smita Mohta of Samriddhi. Smita, please go ahead. 
+Smita Mohta: Few questions I wanted to ask Ashok Atluri Sir that he was saying that the naval acquisition 
+that he had made which was a Hyderabad or a B engaluru-based Company, which he had 
+done earlier and for that we were very gung -ho about the same that it was a technology 
+which nobody other than Zen had acquired and they would have a very good opportunity to 
+have good order book from them , so, I wanted an update on the same what is the update 
+there on that acquisition  and what about the patent and the licensing , have we got any new 
+patents and licensing done and third of all what about the capex for the next year that we are 
+expecting to do? So these are all my questions Ashok Atluri, Sir. 
+Ashok Atluri: Thanks, Smita. Thanks for asking. The naval acquisition, we had two acquisitions in Navy 
+one was ARI, which was a major acquisition, and the other was Ana wave, s o these two 
+acquisitions together we got a complete suite , of course they were merchant navy 
+simulators, but marine simulators, but we are able to now complete transform them as naval 
+simulator, s o, this is a new market that has completely opened up for them and for us 
+together and Anawave has some very, very rare simulators like submarine simulators, fast 
+attack c raft simulators, etc. So, together we are actually offering something called as a 
+combat training node for Navy. So naval CTCs we call them. So this is a big, big ticket item 
+that we have started talking to various navies in the world. Again, order is yet to come, but 
+there is a lot of interest, especially with  sudden shift to the choke points, the training that is 
+required, how to overcome, how do you handle sea mines, all these things have become 
+really, really important. How do you actually handle threat of a drone, the counter drone 
+simulator on attack on the naval ships have become very important. So, this I think is 
+growing really, really big as we speak in terms of the pipeline at a very, very top level. So, I 
+think that we are very positive about that in the next three to four years, it  is going to grow 
+really big. With respect to the patents and licensing, we keep applying, we have applied for 
+more than 235 patents and every month, actually we used to do a press announcement, now 
+we have stopped doing press announcements for patent grants because it  is almost like 
+
+--- page 18 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 17 of 20 
+every 10 days we  are getting one patent and I think we are worried that there will be 
+investor fatigue with these announcements. So, we come down a little late, but we probably 
+will make a consolidated announcement with respect to that. With respect to the capex, 
+again, capex, one is capex towards the actual infrastructure that we need to have , second is 
+the R&D that we do , but I will ask CFO to talk about the capex for the next year so that he 
+has the figures on his fingertips. 
+Hari Haran Chalat: So Smita, for this financial year, which is FY 2027, we budgeted to do around Rs.150 
+Crores of capex. For next financial year, which is FY 2028, also we budgeted a similar 
+amount of capex to be done. 
+Smita Mohta: Okay. Next, I wanted to ask that out of this Rs.995 Crores of order book that we have, 
+which is, Sir said that they will be able to do it in the next six months , so out of this Rs.995 
+Crores is there a potential for the order book to be consumed and the orders to be executed? 
+Hari Haran Chalat: You mean this financial year or? 
+Smita Mohta: Yes, this financial year till March. 
+Hari Haran Chalat: Like we answered one of the earlier participants Rs.1200 Crores to Rs.1300 Crores is what 
+we are comfortable as a topline for this financial year. We  have already done 485, so the 
+remaining should be done in the next two quarters. 
+Smita Mohta: You were talking about margins, Sir, that your margins will be approx imately near around 
+30% or so. Ye s, 35% , s o what I  am seeing is that from 48% you are continuously 
+downgrading the margins part , was that 48% was one of a kind order book post your 
+Sindoor or like you are comfortable constantly going in at the near around 30 % to 35% 
+margin band? 
+Hari Haran Chalat: No, we have always guided long term it will be around 35% that is the long -term margin 
+guidance that we have given to our investors and usually the margin keeps varying based on 
+the mix between ADS and simulators, so simulators usually have a higher margin profile, so 
+as the product mix changes, so last year, I think you  are referring to the last year 48% that 
+we achieved that is primarily because last year we had a more favorable mix towards the 
+simulator products and as the mix keeps changing that  is why we have guided a long -term 
+margin of 35%. 
+Smita Mohta: Got it. Looking at constantly that we saw this kind of a backfire on the water especially near 
+around the Indian Ocean and all of that where we had a missile attack from Iran and all , so 
+how serious is our government on manning the seaport side, which is the Arabian Sea and 
+all of that, which falls into a lucrative position whereby we can help them because of that, 
+
+--- page 19 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 18 of 20 
+the navy simulator and all , so, are we not seeing any traction by the government in this to 
+restrict attacks there? 
+Ashok Atluri: I think I am not aware of Iran attacking India at all and this is a strange news to me, but 
+overall the Government of… 
+Smita Mohta: Not India, it was that base of US which they attacked Iran. 
+Ashok Atluri: Yes, that I think they have again stated even recently yesterday or today they have again 
+said that everything is a fair target. Yes, so definitely the Government of India has shifted 
+earlier it used to be just the eastern border, but now we are thinking about the east -west. 
+Much beyond that, now we are looking at the whole peninsula, that is the Indian Ocean now 
+in a very, very serious way. The assets are being created for that. Of course, we are also 
+focusing on all the naval simulators in that and again, we are trying to get into most deeper 
+technology into naval products also, not only simulators. So, as we go into the future, we  
+will be announcing that again, the thing is, we are focusing on is this a Pareto technology 
+that will determine the future of the war or not? So, if it is a Pareto technology, we think, 
+can we build world’s best product in that regard in this particular space? If the answer is 
+yes, we would make the bet on that , but yes, the Government of India is very, very serious 
+about these threats that are being faced and they want to get trained on that and also build 
+enough protection to ensure that we do not get damage if and when the war happens. 
+Smita Mohta: Thank you, Sir and all the best for H2 FY2027. 
+Ashok Atluri: Thank you, Smita. 
+Moderator: Thank you. We  will take our next question. We have Bhavya Gandhi of Bajaj Alternate 
+Investments. Bhavya, please go ahead. 
+Bhavya Gandhi: Thanks for the opportunity. S ir, I just wanted to understand on the hyper  strike interceptor, 
+is there any orders at this point in time in the order book or will it be more like FY 2028-29 
+phenomena and how big this opportunity could be if you can just quantify this as well? 
+Hari Haran Chalat: On hyper strike, currently there  is nothing in order book we discussed in the question for 
+one of the earlier participants we expect the revenue from hyper strike to come from starting 
+FY2028. The capacity that we are building currently for hyper strike is close to 15,000 units 
+per month and obviously we  will do a phased execution, there  will be a slow ramp up in 
+production, but once the entire production is ramped up, the capacity of building is 180,000 
+units per annum. At an average price that we assume is around $10,000, it seems that the 
+capacity of building is close to a billion, billion -and-a-half dollars worth of capacity , but 
+
+--- page 20 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 19 of 20 
+again, the ramp will be slowed during FY 2028 we should see majority of the orders coming 
+through in FY2029. 
+Bhavya Gandhi: Sorry, I did  not get it. You said $10,000 per piece and you are building a capacity of 
+1,80,000 is that the right understanding? 
+Hari Haran Chalat: That is correct. 
+Bhavya Gandhi: 1,80,000 per annum. Fair enough and this will flow through in FY2028, post 2028. 
+Hari Haran Chalat: Not the whole thing. Like I said, Bhavya, there will be a slow ramp up. The initial plan is to 
+start off with around 600 units per month and then ramp up to the full capacity. The 15,000 
+units per month that we told you is on three shifts. So again, the capacity depends on the 
+order inflows and all, but like I said on FY2028-29, in FY2028 you should do the first order 
+and the ramp up should happen in FY2029. 
+Bhavya Gandhi: Got it and second question I think slightly you have answered it earlier but just wanted 
+some clarity on this , I think around March 31 , 2026 our order book was closer to Rs.36 
+Crores and of that we were supposed to deliver Rs.1000 Crores of equipment in Q2 and Q3 
+whereas in Q2 you  have already done closer to 345 right , so can we assume that closer to 
+Rs.600 Crores to Rs.700 Crores will be the execution in Q3? 
+Hari Haran Chalat: Like I answered for one of the earlier participants, we said the full year will be between 
+Rs.1200 Crores to 1300 Crores  we have done Rs.485 Crores in the first half , s o the 
+remaining should be executed spread over Q3 and Q4. 
+Bhavya Gandhi: Fair enough and on the order visibility, I know Ashok  ji alluded that, you have built on the 
+execution orders will come through, but slightly, if at all, you can provide some sort of 
+delayed, what could be the maximum delayed when you can see this order inflows coming 
+in, to reach Rs.4000 Crore topline guidance that you had given earlier  worst case you 
+believe in your experience? 
+Ashok Atluri: For the FTP orders, we have seen that they have spilled over to Q2 that is the best I can do 
+in this regard and we  will try to execute whatever we get the orders as you know, the 
+execution capability has significantly got improved , so, we will try to execute whatever we 
+can in the next seven to eight months once we get the orders and the rest will spill into 
+FY2028. 
+Bhavya Gandhi: Thank you so much. That is it from me. Thank you. 
+
+--- page 21 ---
+  Zen Technologies Limited 
+November 2, 2026 
+ 
+Page 20 of 20 
+Moderator: Thank you. Ladies and gentlemen, due to paucity of time, we will take this as the last 
+question. I will now hand it over back to Mr. Ashok At luri for his closing remarks. Over to 
+you, Sir. 
+Ashok Atluri: Yes. Thank you everyone for your questions.  Again, very broadly, we think that we will be 
+doing very well in this year, the execution capabilities have gone up, whatever the orders 
+that we have are not very difficult orders to execute , b ut we are also looking at the 
+upcoming FTP, the Fast Track Procurement, and we are pretty excited that we have a large 
+scope to get large amount of orders there. Second is that, as somebody asked a question 
+about Europe and America, I think in the long term, these are going to be really, really good 
+and interesting markets for us and if we get a crack there that would be a very, very pleasant 
+positive black swan for us , so we are looking forward to those and the R&D team is really, 
+really busy developing some cutting edge technologies whatever products that we are 
+working on are not the best of just made for the best Indian product, but they are aimed to 
+be the best world products because, as they say, there are no runners up in war, so we do not 
+want to create a product that is second best in the world, so it has to be the best in the world. 
+So with that, I would like to thank you for supporting us and wish you a happy Diwali. 
+Moderator: Thank you. On behalf of Zen Technologies Limited, that concludes today’s conference call. 
+Thank you all for joining us and you may now click on the leave icon to exit the meeting. 
+Thank you for your participation. 
