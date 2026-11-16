@@ -241,7 +241,7 @@ def chart_panel():
 
 
 dates = q("SELECT DISTINCT date FROM snapshot ORDER BY date DESC").date.tolist()
-page = st.sidebar.radio("Page", ["Today", "Other frameworks", "Sectors", "Insights", "Holdings", "Research",
+page = st.sidebar.radio("Page", ["Today", "200-day touch", "Other frameworks", "Sectors", "Insights", "Holdings", "Research",
                                  "Paper portfolio", "Watching", "Stock", "Journal"])
 st.sidebar.caption(f"Database: {db.DB}\n\nLatest scan: {dates[0] if dates else 'none'}")
 st.sidebar.caption("Research only. No orders are placed.")
@@ -436,6 +436,39 @@ elif page == "Insights":
             st.caption(f"Topics: {', '.join(it['tags'])}  ·  Source: {it.get('source', '')}")
 
 # ------------------------------------------------------------------ Other frameworks
+elif page == "200-day touch":
+    from canslim import ma200
+    st.title("200-day touch")
+    st.caption("Liquid stocks whose price came to the 200-day moving average (SMA or EMA) in the last "
+               f"{ma200.TOUCH_DAYS} sessions — the day's range reached within {ma200.BAND:.0%} of the line. "
+               "Separate filter; it does not change the CAN SLIM picks and has NOT been backtested. Research only.")
+    tdates = q("SELECT DISTINCT date FROM picks WHERE list=? ORDER BY date DESC", [ma200.LIST_NAME]).date.tolist()
+    if not tdates:
+        st.info("No 200-day touch list yet. It is made by the daily scan (run_daily.bat).")
+        st.stop()
+    d = st.selectbox("Scan date", tdates)
+    lst = q("SELECT symbol, close, note FROM picks WHERE date=? AND list=? ORDER BY rank", [d, ma200.LIST_NAME])
+    view = pd.concat([lst.drop(columns="note"),
+                      pd.DataFrame([json.loads(n) if n else {} for n in lst.note])], axis=1)
+    c1, c2, c3 = st.columns(3)
+    appr = c1.multiselect("How price got there", list(ma200.APPROACH_ORDER),
+                          default=["Pullback from above", "Rising from below"],
+                          help="Judged on the close vs the 200-day SMA 5-30 sessions ago: stayed >3% above = "
+                               "pullback, stayed >3% below = rising from below, otherwise around the line.")
+    line = c2.multiselect("Line touched", ["SMA", "EMA", "SMA + EMA"], default=["SMA", "EMA", "SMA + EMA"])
+    rising = c3.checkbox("Only if the 200-day is rising", value=False)
+    min_rs = c3.slider("Minimum RS", 0, 99, 0)
+    v = view[view.approach.isin(appr) & view.line.isin(line) & (view.RS.fillna(0) >= min_rs)]
+    if rising:
+        v = v[v["200 rising"] == True]  # noqa: E712
+    st.subheader(f"{len(v)} of {len(view)} stocks")
+    v = v.assign(**{"Check on Screener": "https://www.screener.in/company/" + v.symbol + "/"})
+    table(v, "t_ma200", use_container_width=True, hide_index=True,
+          column_config={"Check on Screener": st.column_config.LinkColumn(display_text="open")})
+    st.caption("days ago = sessions since the most recent touch (0 = today). vs SMA % = today's close against the "
+               "200-day SMA (a long lower wick means it dipped to the line and bounced). RS = relative strength "
+               "percentile in the liquid universe.")
+
 elif page == "Other frameworks":
     import json
     from pathlib import Path

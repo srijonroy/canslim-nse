@@ -22,3 +22,10 @@ data/prices/
 
 # blind-test chart images are rebuilt by `python -m canslim.blindtest make`
 data/tune/blindtest/*/charts/
+
+# strict-book test working files (rebuilt by `python -m canslim.exp run strict-book`)
+data/tune/strict-book/*.pkl
+data/tune/strict-book/breakout_mask*.parquet
+
+# third-party investor deck - local copy only
+PPT (2).pdf

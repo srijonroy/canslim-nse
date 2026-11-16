@@ -1,11 +1,11 @@
 # MCX — sources
 
-_Fetched 2026-11-14 12:01. Cite these by file name in the brief._
+_Fetched 2026-11-16 18:36. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
-| docs/2026-11_transcript.txt | Nov 2026 earnings call transcript | ok (50,438 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d184c97-b9f4-40ee-98ad-1da2e7ea836d.pdf |
-| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | ok (25,652 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d88342bd-475d-4a77-a786-4f937ef760d9.pdf |
+| docs/2026-11_transcript.txt | Nov 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d184c97-b9f4-40ee-98ad-1da2e7ea836d.pdf |
+| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d88342bd-475d-4a77-a786-4f937ef760d9.pdf |
 | docs/2026-08_transcript.txt | Aug 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5811825-62ee-496e-8783-f248900a283f.pdf |
 | docs/2026-08_ppt.txt | Aug 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b3113f2-04dd-4505-a328-48aa659b87c0.pdf |
 | docs/2026-05_transcript.txt | May 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7528e39e-5430-4675-9d76-5611b6c1d928.pdf |

@@ -1,6 +1,6 @@
 # RPEL — facts we already hold
 
-_Generated 2026-11-14 12:01 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-16 18:35 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Industrials > Capital Goods > Industrial Products > Electrodes & Refractories  
 **Basis:** consolidated, fetched 2026-11-14T11:29:54  
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-11-13: close 1,946.20, RS 97, system rank 3, industry group rank 9.0. Passes every rule.
+As of 2026-11-16: close 1,977.20, RS 97, system rank 3, industry group rank 7.0. Passes every rule.
 
-- On the canslim list 10 day(s), 2026-09-30 to 2026-11-13
+- On the canslim list 21 day(s), 2026-09-30 to 2026-11-16
 
-- On the earnings list 2 day(s), 2026-10-16 to 2026-11-13
+- On the earnings list 3 day(s), 2026-10-16 to 2026-11-16
 
-- On the emerging list 2 day(s), 2026-10-16 to 2026-11-13
+- On the emerging list 3 day(s), 2026-10-16 to 2026-11-16

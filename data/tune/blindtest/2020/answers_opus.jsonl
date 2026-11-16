@@ -1,0 +1,247 @@
+{"id": "c0001", "call": "BUY", "conf": 4, "why": "Strong uptrend; after a gap on heavy volume it held tight near its highs and is now pushing up on rising volume; RS line at new highs"}
+{"id": "c0002", "call": "WAIT", "conf": 3, "why": "Uptrend intact, but a heavy-volume selloff from the highs; price is only just retaking the 50-day, so wait for it to clear the recent highs"}
+{"id": "c0003", "call": "WAIT", "conf": 3, "why": "Has gone sideways for about 2 months after a big volume gap; sitting on a rising 50-day with a recent heavy red bar; wait for a breakout above about 285"}
+{"id": "c0004", "call": "BUY", "conf": 3, "why": "Rebounded in a V and gapped up on huge volume; small pullback, now rallying to near the highs on more volume; RS near highs, but the stock swings a lot"}
+{"id": "c0005", "call": "BUY", "conf": 4, "why": "Clean uptrend after the bottom, with higher highs and higher lows; 50-day above the rising 200-day; price and RS line both at new highs"}
+{"id": "c0006", "call": "WAIT", "conf": 3, "why": "Heavy-volume gap followed by a flag that drifts slightly lower; trend and RS strong, but buy on a move above the flag high near 220"}
+{"id": "c0007", "call": "AVOID", "conf": 3, "why": "Choppy and sideways for months; 50-day below the 200-day; RS falling from its peak; no clear setup"}
+{"id": "c0008", "call": "BUY", "conf": 4, "why": "Fully recovered from a sharp drop and broke out to new highs; both averages rising and stacked bullishly; RS near highs"}
+{"id": "c0009", "call": "WAIT", "conf": 3, "why": "After a crash it made a higher low and is back above a 50-day that is turning up, with a volume pop today, but it is still far below a falling 200-day and relative strength is weak"}
+{"id": "c0010", "call": "AVOID", "conf": 4, "why": "Making new lows below both falling averages, and relative strength is at its low for the year: a clear downtrend with no base"}
+{"id": "c0011", "call": "BUY", "conf": 3, "why": "Leading stock that gapped out of a long base on heavy volume, rising averages, relative strength near highs; it is pulling back on lighter volume but is stretched about 18% above the 50-day"}
+{"id": "c0012", "call": "WAIT", "conf": 3, "why": "Strong recovery from the lows, breaking out of a tight flag on high volume above a rising 50-day, but the falling 200-day near 69 sits overhead and the long-term trend is still down"}
+{"id": "c0013", "call": "WAIT", "conf": 2, "why": "Recovering with higher lows and a rising 50-day, but stalled at the falling 200-day, and relative strength is flat and weak"}
+{"id": "c0014", "call": "AVOID", "conf": 2, "why": "Choppy range with no trend, flat averages, weak relative strength and thin volume, so there is no clear edge"}
+{"id": "c0015", "call": "BUY", "conf": 4, "why": "Strong uptrend with relative strength at highs; it gapped up on heavy volume and is holding a tight high flag well above rising 50-day and 200-day averages"}
+{"id": "c0016", "call": "WAIT", "conf": 3, "why": "Basing after a long decline and pushing just over a flattening 200-day on volume, but the 50-day is still below the 200-day and relative strength is weak, so it needs to prove the breakout"}
+{"id": "c0017", "call": "BUY", "conf": 3, "why": "Parabolic leader breaking out of a tight 5-week flag to new highs; RS at a new high. Very extended above the 50-day, so a pullback is a real risk"}
+{"id": "c0018", "call": "WAIT", "conf": 3, "why": "Capitulation low then a high-volume reversal back above the 200-day, with strong RS. The 50-day is still below the 200-day and price action is choppy, so it needs a base first"}
+{"id": "c0019", "call": "WAIT", "conf": 3, "why": "V-shaped recovery and gap above the 200-day, with the 50-day crossing up. It is now pulling back on heavy red volume, so wait for support to hold"}
+{"id": "c0020", "call": "AVOID", "conf": 3, "why": "Choppy and failing after the spike-and-crash. Price sits at the 200-day, the 50-day has rolled under it and RS is fading"}
+{"id": "c0021", "call": "BUY", "conf": 3, "why": "Strong stage-2 uptrend with rising MAs and rising RS, pushing toward the prior ~1000 high on good volume. Some risk of resistance at that level"}
+{"id": "c0022", "call": "AVOID", "conf": 4, "why": "Downtrend breaking to new lows below a falling 50-day and 200-day, with weak RS"}
+{"id": "c0023", "call": "BUY", "conf": 4, "why": "Steady uptrend at new highs with rising 50-day and 200-day and RS at a new high. The recent shakeout recovered on volume"}
+{"id": "c0024", "call": "BUY", "conf": 4, "why": "Breakout to a 52-week high on very large volume today, with RS at a new high, above a rising 50-day and 200-day"}
+{"id": "c0025", "call": "WAIT", "conf": 3, "why": "Today jumped above the 200-day on heavy volume and relative strength is rising, but the 50-day is still falling, the move is a one-day spike, and there is resistance near 80-85"}
+{"id": "c0026", "call": "AVOID", "conf": 3, "why": "Sharp crash on heavy volume; the rebound is still under a falling 50-day and below the 200-day"}
+{"id": "c0027", "call": "WAIT", "conf": 3, "why": "Strong uptrend with leading relative strength, but a big high-volume down day near the highs and a pullback now; wait for a base or a test of the 50-day"}
+{"id": "c0028", "call": "AVOID", "conf": 4, "why": "Long-term downtrend well below a falling 200-day, weak relative strength, and price is slipping back to the 50-day"}
+{"id": "c0029", "call": "AVOID", "conf": 4, "why": "Failed at the falling 200-day and broke down on the year's heaviest volume; relative strength is at new lows"}
+{"id": "c0030", "call": "BUY", "conf": 3, "why": "50-day has crossed above the 200-day, price is bouncing off the rising 50-day and nearing prior highs; relative strength is only average"}
+{"id": "c0031", "call": "BUY", "conf": 4, "why": "Strong uptrend with tight consolidation near highs above a rising 50-day, relative strength near highs, and volume drying up then rising today"}
+{"id": "c0032", "call": "BUY", "conf": 4, "why": "Steady uptrend at new highs with rising moving averages, relative strength at highs, and tight, quiet action near the top"}
+{"id": "c0033", "call": "WAIT", "conf": 3, "why": "Recovered from a deep crash and sits just above the 50- and 200-day averages, but it is moving sideways, the averages are flat or barely turning up, and relative strength is falling"}
+{"id": "c0034", "call": "BUY", "conf": 3, "why": "Recovered from a crash on heavy buying volume, above a rising 50-day and the 200-day, with relative strength near its highs; prior highs around 90-100 are overhead resistance and the 200-day is still "}
+{"id": "c0035", "call": "BUY", "conf": 4, "why": "Clear uptrend making new highs, with the averages stacked and rising and relative strength at new highs; it is stretched well above the 50-day"}
+{"id": "c0036", "call": "WAIT", "conf": 3, "why": "Pulling back from a recent high with relative strength fading and heavy volume on the last bar; better to wait for the pullback to hold near the 50-day"}
+{"id": "c0037", "call": "AVOID", "conf": 5, "why": "Downtrend below falling 50- and 200-day averages, with lower highs and relative strength at new lows"}
+{"id": "c0038", "call": "WAIT", "conf": 3, "why": "Above both averages and testing the prior high near 120, but the 200-day is flat and relative strength is middling; wait for a clean breakout"}
+{"id": "c0039", "call": "BUY", "conf": 3, "why": "Strong uptrend at new highs, with relative strength doubling and volume rising; it is very stretched above the 50-day and could pull back"}
+{"id": "c0040", "call": "BUY", "conf": 3, "why": "Turned around into new highs for the year on strong volume, with the 50-day above a rising 200-day and relative strength jumping; the move is near-vertical and stretched"}
+{"id": "c0041", "call": "AVOID", "conf": 3, "why": "Price is under a falling 200-day, the 50-day is turning down and relative strength is near its lows; the recent bounce is only testing resistance"}
+{"id": "c0042", "call": "WAIT", "conf": 3, "why": "After a big run and a high-volume reversal, price is moving sideways between a flat 50-day and 200-day; it needs to break above the 200-day and recent range highs"}
+{"id": "c0043", "call": "AVOID", "conf": 3, "why": "Price has dropped below both averages, the 50-day is rolling over, relative strength is sliding and a lower high has formed"}
+{"id": "c0044", "call": "AVOID", "conf": 4, "why": "A sharp drop has taken price below both averages to multi-month lows, and relative strength is making new lows"}
+{"id": "c0045", "call": "AVOID", "conf": 5, "why": "Price has broken down to a new 52-week low, the 50-day is crossing under the 200-day and relative strength is falling"}
+{"id": "c0046", "call": "AVOID", "conf": 4, "why": "In a long downtrend far below a falling 200-day, relative strength is near its lows and a small bounce does not mark a base"}
+{"id": "c0047", "call": "BUY", "conf": 4, "why": "Steady uptrend with rising 50-day and 200-day averages, price at new highs and relative strength at new highs; only slightly extended"}
+{"id": "c0048", "call": "WAIT", "conf": 3, "why": "Strong recovery with the 50-day crossing above the 200-day and relative strength rising, but price is far above the averages and the latest breakout try reversed; wait for a pullback or a clean breako"}
+{"id": "c0049", "call": "AVOID", "conf": 3, "why": "Broke down hard from the highs on heavy volume; price is under a falling 50-day and the 200-day, and a death cross is close"}
+{"id": "c0050", "call": "AVOID", "conf": 4, "why": "Long downtrend ended in a collapse; the bounce is far below both falling averages and relative strength is near its lows"}
+{"id": "c0051", "call": "WAIT", "conf": 3, "why": "Strong recovery from the crash low and relative strength is improving, but price is still under the falling 200-day; wait for it to clear that line"}
+{"id": "c0052", "call": "BUY", "conf": 4, "why": "Strong uptrend above both rising averages; it is holding a tight range near its highs and relative strength is at new highs"}
+{"id": "c0053", "call": "WAIT", "conf": 3, "why": "V-shaped recovery to just under the 200-day, but the 50-day is below the 200-day; wait for a clean move above about 105"}
+{"id": "c0054", "call": "BUY", "conf": 3, "why": "Uptrend intact above both rising averages; price is pulling back toward the 50-day after new highs, though the action is choppy"}
+{"id": "c0055", "call": "AVOID", "conf": 3, "why": "Choppy with no trend; price is under the 50-day and 200-day after a failed breakout, and relative strength is weak"}
+{"id": "c0056", "call": "BUY", "conf": 3, "why": "Strong momentum with new highs and relative strength at a peak, both averages rising; it is stretched above the 50-day, so some pullback risk"}
+{"id": "c0057", "call": "AVOID", "conf": 4, "why": "Sharp breakdown below the 50-day and 200-day on the heaviest volume of the year; the 50-day is rolling over and relative strength is falling"}
+{"id": "c0058", "call": "WAIT", "conf": 3, "why": "Recovered above both averages and the 50-day just crossed the 200-day, but volume is thin and price is still below the ~175 high; wait for a breakout"}
+{"id": "c0059", "call": "BUY", "conf": 3, "why": "Downtrend reversed: price is above both averages, the 50-day is about to cross the 200-day, lows are rising and relative strength is improving; price is pressing on recent highs"}
+{"id": "c0060", "call": "WAIT", "conf": 3, "why": "Strong V-shaped rebound on high volume with relative strength rising, but price is still below a falling 200-day and the 50-day is declining; let it build a base"}
+{"id": "c0061", "call": "BUY", "conf": 3, "why": "Stage-2 uptrend with rising 50-day and 200-day and relative strength near highs; price is holding the 50-day in an orderly pullback with quiet volume"}
+{"id": "c0062", "call": "AVOID", "conf": 4, "why": "Below a declining 200-day, lower highs, and relative strength near its lows; one high-volume up day doesn't make a reversal"}
+{"id": "c0063", "call": "WAIT", "conf": 3, "why": "Reclaimed the 200-day and the 50-day is rising, but the 200-day is barely flat and price is stalling under 100 resistance; wait for a break above"}
+{"id": "c0064", "call": "BUY", "conf": 4, "why": "Market leader at new highs with relative strength at new highs, rising averages and heavy buying volume; holding tight near the highs despite being stretched above the 50-day"}
+{"id": "c0065", "call": "WAIT", "conf": 3, "why": "Recovered the whole gap-down and now sits above both averages, with the 50-day rising toward the 200-day. But sellers from the 103-108 zone are likely overhead and relative strength is slipping."}
+{"id": "c0066", "call": "AVOID", "conf": 3, "why": "Choppy, with no trend. Price is below the falling 200-day, relative strength is near its lows, and the recent bounce is just more of the same range."}
+{"id": "c0067", "call": "WAIT", "conf": 3, "why": "Strong uptrend over the year, but price is now stalling below a 50-day that is rolling over, and relative strength is fading. Wait for the consolidation to resolve."}
+{"id": "c0068", "call": "BUY", "conf": 3, "why": "V-shaped recovery, a heavy-volume breakout above the 200-day, and a golden cross. The pullback from the spike to 115 is holding near 105 on lighter volume, like an orderly flag."}
+{"id": "c0069", "call": "BUY", "conf": 4, "why": "Clear uptrend with both averages rising. Price is breaking to new highs out of a multi-month base, and relative strength is turning up."}
+{"id": "c0070", "call": "AVOID", "conf": 4, "why": "Sharp breakdown and wild swings. The 50-day is about to cross below the 200-day, price is below both, and there is no base yet."}
+{"id": "c0071", "call": "AVOID", "conf": 5, "why": "Steady downtrend with lower highs. Price is below falling 50-day and 200-day averages, relative strength is at new lows, and there was recent heavy selling."}
+{"id": "c0072", "call": "WAIT", "conf": 3, "why": "Sharp bounce from 80 back above both averages, and relative strength is improving. But the 200-day is still falling and the 95-97 highs sit just overhead."}
+{"id": "c0073", "call": "WAIT", "conf": 3, "why": "Uptrend above rising 50/200 MAs, but heavy red volume near the recent high suggests selling; wait for a base or a breakout above ~128"}
+{"id": "c0074", "call": "WAIT", "conf": 3, "why": "Strong long-term uptrend, but price slipped under a flattening 50-day and RS is fading; let the pullback finish basing"}
+{"id": "c0075", "call": "BUY", "conf": 4, "why": "Steady uptrend near highs above rising 50/200 MAs, RS at new highs, and volume quiet in a tight consolidation"}
+{"id": "c0076", "call": "AVOID", "conf": 3, "why": "Recovering from a crash but still well below a falling 200-day, and RS is weak and flat"}
+{"id": "c0077", "call": "AVOID", "conf": 4, "why": "Recent collapse under the 200-day, 50-day falling steeply, RS near lows, only a weak bounce"}
+{"id": "c0078", "call": "AVOID", "conf": 4, "why": "Long downtrend under a falling 200-day, RS badly lagging; the last high-volume bounce is still inside the range"}
+{"id": "c0079", "call": "WAIT", "conf": 2, "why": "Choppy sideways stock, failed after a spike to ~108, heavy red volume; RS improving but the trend is unclear"}
+{"id": "c0080", "call": "WAIT", "conf": 3, "why": "V-shaped recovery with a 50/200 golden cross forming and a higher low, but overhead supply at 105-120 and RS just back to neutral"}
+{"id": "c0081", "call": "BUY", "conf": 3, "why": "Strong uptrend at new highs, RS line at new highs, averages stacked and rising; but stretched about 25% above the 50-day"}
+{"id": "c0082", "call": "BUY", "conf": 3, "why": "Leader came back from a shakeout at the 200-day and is above a flattening 50-day; RS line at new highs ahead of price"}
+{"id": "c0083", "call": "WAIT", "conf": 3, "why": "Healthy uptrend, but price is pulling back from a climax high with RS rolling over; wait for a base or a test of the 50-day"}
+{"id": "c0084", "call": "AVOID", "conf": 4, "why": "Below a falling 200-day with lower highs; RS line at its lows and keeps falling"}
+{"id": "c0085", "call": "AVOID", "conf": 3, "why": "Rolling over after the rally: lower highs, below a falling 50-day, RS fading"}
+{"id": "c0086", "call": "WAIT", "conf": 3, "why": "Turnaround with a fresh golden cross and price above the 200-day, but RS still weak; wait for a breakout above the ~80 range top"}
+{"id": "c0087", "call": "WAIT", "conf": 3, "why": "Uptrend intact, but the breakout to new highs is failing on heavy volume and RS is dropping sharply; wait for a pullback to the 50-day to hold"}
+{"id": "c0088", "call": "WAIT", "conf": 2, "why": "Recovering from a crash and the 50-day is rising, but price is below a declining 200-day, RS is weak and price is pulling back"}
+{"id": "c0089", "call": "BUY", "conf": 4, "why": "Recovered fully from a V-shaped shakeout to new highs; above a rising 50-day and 200-day; RS line at new highs; a bit extended"}
+{"id": "c0090", "call": "AVOID", "conf": 4, "why": "Downtrend of lower highs; below a falling 50-day and 200-day; RS line falling; no base"}
+{"id": "c0091", "call": "WAIT", "conf": 3, "why": "Uptrend intact above a rising 200-day, but pulling back from highs and slipping under the 50-day as the RS line fades; wait for support or a new base"}
+{"id": "c0092", "call": "AVOID", "conf": 3, "why": "Sharp breakdown from highs to below both averages; 50-day rolling over; the bounce is volatile and unproven"}
+{"id": "c0093", "call": "AVOID", "conf": 5, "why": "Steep collapse on heavy volume; RS line at new lows; far below falling averages; no base yet"}
+{"id": "c0094", "call": "AVOID", "conf": 4, "why": "Crash below both averages, which are falling; RS line weak; only a tentative sideways base after the drop"}
+{"id": "c0095", "call": "WAIT", "conf": 3, "why": "Strong recovery from lows with an improving RS line, but price is right at a falling 200-day; needs to break through and hold"}
+{"id": "c0096", "call": "AVOID", "conf": 4, "why": "Steep breakdown far below both averages; 50-day falling hard; RS line weak; the bounce is only a reflex"}
+{"id": "c0097", "call": "BUY", "conf": 4, "why": "Steady uptrend above rising 50- and 200-day lines; breaking to new highs with the relative strength line also at new highs"}
+{"id": "c0098", "call": "WAIT", "conf": 3, "why": "Strong gap-up on very heavy volume and relative strength at highs, but the price is far above the 50-day and the stock has a volatile history; wait for the flag to set up or a pullback"}
+{"id": "c0099", "call": "WAIT", "conf": 3, "why": "V-shaped recovery into a base near the 200-day with a volume surge, but the price is not clearly above the range top, relative strength is weak and sellers sit above at 110-120"}
+{"id": "c0100", "call": "AVOID", "conf": 4, "why": "Long downtrend well below a falling 200-day line; the sharp volume bounce is likely a relief rally into resistance"}
+{"id": "c0101", "call": "BUY", "conf": 4, "why": "Rebounded from a pullback to the 200-day back near prior highs on rising volume; relative strength is at new highs and both averages are rising"}
+{"id": "c0102", "call": "BUY", "conf": 3, "why": "Strong uptrend with a tight sideways pause near highs on drying volume and relative strength near highs, though somewhat extended above the 50-day"}
+{"id": "c0103", "call": "WAIT", "conf": 3, "why": "Above a rising 200-day but drifting off highs with relative strength fading; choppy, so wait for a fresh breakout or support at the 50-day"}
+{"id": "c0104", "call": "AVOID", "conf": 3, "why": "Rebound from a crash is now hitting a falling 200-day line, the 50-day is still below the 200-day and relative strength is turning down"}
+{"id": "c0105", "call": "WAIT", "conf": 3, "why": "Recovering from a crash with higher lows, but the price is only testing a falling 200-day, faces overhead supply near 85-90, and RS is still weak"}
+{"id": "c0106", "call": "AVOID", "conf": 3, "why": "Long downtrend below a falling 200-day, just rejected at the 200-day with a big red bar, and RS near its lows"}
+{"id": "c0107", "call": "BUY", "conf": 3, "why": "Stage-2 uptrend after a gap-up on huge volume, holding a high base above a rising 50-day with strong RS; the shallow pullback is an entry"}
+{"id": "c0108", "call": "WAIT", "conf": 2, "why": "Choppy after a V-shaped crash and recovery, the price is stuck around flat 50/200-day averages, and RS is rolling over"}
+{"id": "c0109", "call": "BUY", "conf": 4, "why": "Steady uptrend with rising 50/200-day averages, RS near highs, and a tight consolidation near highs on drying volume"}
+{"id": "c0110", "call": "BUY", "conf": 4, "why": "Strong uptrend near highs, a tight sideways range above a rising 50-day, RS at new highs, and quiet volume"}
+{"id": "c0111", "call": "WAIT", "conf": 2, "why": "Recovered above the 200-day but has been flat for months while RS falls steadily, so there is no trigger"}
+{"id": "c0112", "call": "BUY", "conf": 3, "why": "Rising out of a tightening base above both averages, with up-volume growing and RS turning higher"}
+{"id": "c0113", "call": "WAIT", "conf": 3, "why": "Strong uptrend with relative strength at new highs, but price is far above the 50-day after a near-vertical run; wait for a pullback or base"}
+{"id": "c0114", "call": "AVOID", "conf": 4, "why": "Long downtrend with the 200-day falling; recent breakdown below both averages on heavy selling volume, and relative strength is weak"}
+{"id": "c0115", "call": "BUY", "conf": 4, "why": "Breakaway gap on huge volume, then a tight sideways flag near the highs; averages rising and relative strength near its peak"}
+{"id": "c0116", "call": "BUY", "conf": 4, "why": "Volume-backed gap up started a trend; making new highs with the 50-day rising above the 200-day and relative strength at new highs"}
+{"id": "c0117", "call": "WAIT", "conf": 3, "why": "Sharp V-shaped recovery back above the 200-day, but the 50-day is still below it and the earlier gap-down zone around 110-125 may cap the rise"}
+{"id": "c0118", "call": "BUY", "conf": 3, "why": "Trend has turned up: 50-day crossed above a flattening 200-day, and price and relative strength are near new highs; some heavy-volume selling at the top"}
+{"id": "c0119", "call": "BUY", "conf": 4, "why": "Clean uptrend with both averages rising and well spaced, relative strength at new highs, and buying volume on up days"}
+{"id": "c0120", "call": "WAIT", "conf": 3, "why": "Explosive gaps on heavy volume, but price is about 50% above the 50-day and the latest bar is a high-volume red one that looks like a climax; let it settle"}
+{"id": "c0121", "call": "WAIT", "conf": 2, "why": "Price is building a base above the rising 50-day, but it is still under a falling 200-day and relative strength is near its lows"}
+{"id": "c0122", "call": "BUY", "conf": 3, "why": "Uptrend with price above both rising averages, holding a tight range near its highs; relative strength has eased a little"}
+{"id": "c0123", "call": "WAIT", "conf": 3, "why": "Recovering after a crash and the 50-day just crossed above the 200-day, but the 200-day is still falling; wait for a break above the 66-70 resistance"}
+{"id": "c0124", "call": "WAIT", "conf": 2, "why": "Wide, choppy swings around the averages after a long decline; relative strength is improving but there is no clean setup yet"}
+{"id": "c0125", "call": "BUY", "conf": 4, "why": "Strong uptrend at new highs with averages stacked and rising and relative strength near its highs; price is somewhat stretched above the 50-day"}
+{"id": "c0126", "call": "AVOID", "conf": 5, "why": "Price collapsed below both averages, which have crossed bearishly, and relative strength is at its lows"}
+{"id": "c0127", "call": "BUY", "conf": 3, "why": "Breakout to new highs on heavy volume with relative strength at new highs, though price is extended and the last bar is red on high volume"}
+{"id": "c0128", "call": "WAIT", "conf": 3, "why": "Recovered to the 200-day with a crossover close, but sellers pushed it back from about 100 on heavy volume and relative strength is flat"}
+{"id": "c0129", "call": "BUY", "conf": 4, "why": "Stage-2 uptrend; breaking to new highs on rising volume with RS at new highs; extended but strong"}
+{"id": "c0130", "call": "BUY", "conf": 4, "why": "Steady uptrend near highs, rising 50/200-day, RS near highs, orderly pullbacks on light volume"}
+{"id": "c0131", "call": "WAIT", "conf": 3, "why": "Rebounding after a sharp breakdown, but below a falling 50-day and a flat 200-day; overhead supply, needs a base"}
+{"id": "c0132", "call": "AVOID", "conf": 4, "why": "Long downtrend below a declining 200-day, rejected at the 200-day, RS making new lows"}
+{"id": "c0133", "call": "AVOID", "conf": 4, "why": "Downtrend with a falling 200-day well above price; flat base but RS near lows"}
+{"id": "c0134", "call": "BUY", "conf": 4, "why": "Turnaround into a stage-2 uptrend; new highs, rising 50 above a rising 200, RS at new highs with accumulation volume"}
+{"id": "c0135", "call": "WAIT", "conf": 3, "why": "Recovering from a crash but just reaching a declining 200-day, with the 50-day still below the 200; needs a clean break above it"}
+{"id": "c0136", "call": "WAIT", "conf": 3, "why": "Very strong trend and RS, but far extended above the 50-day after a vertical run; wait for a base or pullback"}
+{"id": "c0137", "call": "BUY", "conf": 3, "why": "Strong uptrend with rising 50- and 200-day averages; relative strength near its highs; a shallow pullback from the peak on light volume"}
+{"id": "c0138", "call": "AVOID", "conf": 3, "why": "Sharp drop off recent highs to below the 50-day and just under the 200-day; flat 200-day; choppy range; relative strength still below where it started"}
+{"id": "c0139", "call": "BUY", "conf": 3, "why": "Uptrend pulling back in an orderly way to a rising 50-day; 50-day well above the 200-day; strong relative strength; last bar bounced on higher volume"}
+{"id": "c0140", "call": "BUY", "conf": 3, "why": "Breakout from a year-long range on very high volume, holding near the highs; 50-day turning up above a rising 200-day"}
+{"id": "c0141", "call": "AVOID", "conf": 4, "why": "Below a falling 200-day; turned back again at the averages; relative strength making new lows"}
+{"id": "c0142", "call": "AVOID", "conf": 5, "why": "Steady downtrend, recent breakdown, both averages falling, relative strength at its lows"}
+{"id": "c0143", "call": "WAIT", "conf": 3, "why": "V-shaped recovery back above the 200-day with strong relative strength, but turned back at resistance near 100 and the 50-day is still below the 200-day; wait for a base or a breakout"}
+{"id": "c0144", "call": "WAIT", "conf": 3, "why": "Relative strength at new highs and a sharp reversal on volume, but very volatile; the last bar has a long upper wick and is extended above the averages; wait for it to settle"}
+{"id": "c0145", "call": "BUY", "conf": 3, "why": "Uptrend with both moving averages rising; price is holding just above the 50-day in a tight range below its highs, though relative strength has cooled"}
+{"id": "c0146", "call": "BUY", "conf": 3, "why": "Recovered from a deep V-shaped drop, 50-day crossed above 200-day, and today it broke out on heavy volume with relative strength surging; it is 20% above the 50-day with selling pressure likely near t"}
+{"id": "c0147", "call": "AVOID", "conf": 4, "why": "Sharp bounce from a heavy-volume crash, but price is still well below both falling averages and relative strength is weak"}
+{"id": "c0148", "call": "AVOID", "conf": 5, "why": "Steady downtrend making new lows below both falling averages, with relative strength at its low for the year"}
+{"id": "c0149", "call": "AVOID", "conf": 4, "why": "Broke down below the 200-day to new lows for the year; 50-day is falling and relative strength is weakening"}
+{"id": "c0150", "call": "BUY", "conf": 3, "why": "Higher highs above rising 50-day and 200-day averages; it is pulling back on light volume near its highs, though relative strength is fading"}
+{"id": "c0151", "call": "AVOID", "conf": 4, "why": "Lower highs and lower lows below both falling averages, with relative strength at its lowest"}
+{"id": "c0152", "call": "AVOID", "conf": 4, "why": "Well below a falling 200-day, slipping under the 50-day on high volume, with relative strength steadily declining"}
+{"id": "c0153", "call": "BUY", "conf": 3, "why": "Gap breakout on heavy volume held; tight base then pushing higher on rising volume; above rising 50 MA, which has crossed the 200 MA; RS still lagging"}
+{"id": "c0154", "call": "AVOID", "conf": 5, "why": "Accelerating breakdown to new lows well below falling 50 and 200 MAs; RS making new lows"}
+{"id": "c0155", "call": "BUY", "conf": 3, "why": "Strong uptrend leader with RS near highs; tight sideways pause near highs above rising MAs after recovering from a shakeout"}
+{"id": "c0156", "call": "WAIT", "conf": 3, "why": "Strong uptrend, but today's sharp red drop on higher volume is testing the 50 MA; wait for support to hold"}
+{"id": "c0157", "call": "WAIT", "conf": 3, "why": "Leader with strong RS recovering from a volatile shakeout; back at a flat 50 MA but still below prior highs and choppy"}
+{"id": "c0158", "call": "AVOID", "conf": 4, "why": "Below a falling 200 MA after a crash; weak RS and stalling just above the 50 MA"}
+{"id": "c0159", "call": "AVOID", "conf": 3, "why": "Broke trend with a high-volume crash below the 200 MA; bounce is still under falling MAs and the 50 MA is crossing down"}
+{"id": "c0160", "call": "AVOID", "conf": 4, "why": "Long downtrend with a capitulation low; sharp bounce is still far below falling 50 and 200 MAs"}
+{"id": "c0161", "call": "AVOID", "conf": 4, "why": "Price is below the 200-day, the 50-day is under the 200-day, the trend has been sideways to down since the early peak, and relative strength is near its lows for the year"}
+{"id": "c0162", "call": "BUY", "conf": 3, "why": "Higher highs and higher lows since day 205, price is above both averages and the 50-day just crossed above the 200-day, but it is still well below the earlier peak and relative strength is only middli"}
+{"id": "c0163", "call": "BUY", "conf": 3, "why": "Strong leader: both averages are rising, relative strength is near record highs and the advance came on heavy volume; the dip from the high is shallow, but price is still well above the 50-day"}
+{"id": "c0164", "call": "WAIT", "conf": 2, "why": "Price is above both rising averages near the year's high, but relative strength is falling and a recent huge red-volume bar looks like selling pressure"}
+{"id": "c0165", "call": "WAIT", "conf": 3, "why": "A strong gap-up was followed by a sideways range; price is now slipping just below the flattening 50-day and relative strength is fading, so wait for a breakout from the range"}
+{"id": "c0166", "call": "AVOID", "conf": 4, "why": "Downtrend with a recent crash; the rebound stalled below a falling 200-day, the 50-day is under the 200-day and relative strength is weak"}
+{"id": "c0167", "call": "WAIT", "conf": 3, "why": "Early turnaround: price is back above both averages and the 50-day is nearing the 200-day, but the 200-day only just stopped falling and relative strength is still very low"}
+{"id": "c0168", "call": "BUY", "conf": 4, "why": "Established uptrend with both averages rising and strong relative strength; price pulled back to the rising 50-day and is bouncing off it"}
+{"id": "c0169", "call": "WAIT", "conf": 3, "why": "Strong recovery from lows and a rising 50-day, but the last bar fell back below a flat 200-day on a sharp red candle and RS is rolling over. Wait for it to reclaim the 200-day."}
+{"id": "c0170", "call": "AVOID", "conf": 2, "why": "Choppy sideways range with flat, tangled 50/200-day lines, weakening RS and falling volume. There is no clear trend or setup."}
+{"id": "c0171", "call": "AVOID", "conf": 4, "why": "Price is below a falling 50-day and well below the 200-day, making lower highs and drifting lower. RS is in a steady downtrend."}
+{"id": "c0172", "call": "BUY", "conf": 4, "why": "Long uptrend with both averages rising. It recovered quickly from a sharp shakeout on strong volume and the RS line is at new highs, leading price."}
+{"id": "c0173", "call": "BUY", "conf": 3, "why": "Market leader with RS at new highs and a gap-up on big volume, now holding tight near highs. It is stretched well above the 50-day, which adds pullback risk."}
+{"id": "c0174", "call": "AVOID", "conf": 5, "why": "Severe downtrend, down about 85%, under steeply falling 50/200-day lines, with RS near its lows. The small bounce is not a base."}
+{"id": "c0175", "call": "WAIT", "conf": 3, "why": "Higher low after the crash and a pop above the 50-day on rising volume, but still under a declining 200-day with flat RS. Wait for it to clear the 200-day around 88."}
+{"id": "c0176", "call": "AVOID", "conf": 3, "why": "Broke down hard through the 200-day. The 50-day is falling fast and price is stuck in a volatile range below both averages despite decent RS."}
+{"id": "c0177", "call": "AVOID", "conf": 4, "why": "Below a falling 200-day, slipping under a flat 50-day, RS line at new lows, rally attempts keep failing"}
+{"id": "c0178", "call": "AVOID", "conf": 5, "why": "Long downtrend with lower highs, far below a falling 200-day, RS near yearly lows, no base yet"}
+{"id": "c0179", "call": "WAIT", "conf": 2, "why": "Recovered off lows and testing the rising 50-day, but still well below a falling 200-day and RS is weak"}
+{"id": "c0180", "call": "BUY", "conf": 3, "why": "V-shaped recovery to new highs on rising volume, RS line at new highs, MAs turning up; extended, and the last bar has an upper wick"}
+{"id": "c0181", "call": "WAIT", "conf": 3, "why": "Holding above the 200-day and pushing the top of a 72-86 range with RS improving; wait for a clear break above ~88"}
+{"id": "c0182", "call": "WAIT", "conf": 2, "why": "RS strong and price above both MAs, but very choppy, the 50-day is flat to down and volume is light; needs to clear ~115"}
+{"id": "c0183", "call": "BUY", "conf": 4, "why": "Leading stage-2 uptrend, MAs rising and stacked, RS at new highs, tight pullback near highs after accumulation volume"}
+{"id": "c0184", "call": "WAIT", "conf": 3, "why": "Sharp V-recovery with RS near highs, but price is still under a declining 200-day (~106) and the last bar was rejected"}
+{"id": "c0185", "call": "BUY", "conf": 3, "why": "Strong uptrend with RS at new highs; a high-volume gap up is holding as a tight flag, though price is about 20% above the 50-day"}
+{"id": "c0186", "call": "AVOID", "conf": 3, "why": "Choppy range with no trend; price is around a flat 200-day, the 50-day is below the 200-day and RS is weak"}
+{"id": "c0187", "call": "AVOID", "conf": 4, "why": "Crashed about 60% with the 50-day falling below the 200-day; the bounce is a dead-cat move in a broken trend"}
+{"id": "c0188", "call": "WAIT", "conf": 3, "why": "Uptrend is intact above a rising 200-day and RS is firm, but price has slipped below a flattening 50-day; wait for it to retake the 50-day"}
+{"id": "c0189", "call": "BUY", "conf": 3, "why": "Powerful breakout on heavy volume with RS at highs; it is consolidating tightly near the highs on lighter volume, though it is extended from the 50-day"}
+{"id": "c0190", "call": "WAIT", "conf": 3, "why": "Base breakout above both averages on rising volume, but the 200-day is still falling and RS is weak; wait for the trend to confirm"}
+{"id": "c0191", "call": "AVOID", "conf": 4, "why": "Long downtrend under a falling 200-day, RS at new lows and the latest rally failed with selling volume"}
+{"id": "c0192", "call": "WAIT", "conf": 3, "why": "Spike faded back to a flat 200-day; the latest bar bounced on volume but trend and RS are mixed, so it needs to clear 100"}
+{"id": "c0193", "call": "BUY", "conf": 4, "why": "V-recovery from crash; price above both MAs, 50-day about to cross 200-day, tight base near highs, RS rising"}
+{"id": "c0194", "call": "AVOID", "conf": 5, "why": "Collapse to new lows, MAs falling with 50 well below 200, RS at lows"}
+{"id": "c0195", "call": "WAIT", "conf": 3, "why": "Leader with RS at new highs, but sharp correction; price is only retesting the 200-day and the 50-day is falling, so wait for a new base"}
+{"id": "c0196", "call": "WAIT", "conf": 2, "why": "Just reclaimed the declining 200-day, but the 50 is below the 200 and RS is near its lows"}
+{"id": "c0197", "call": "AVOID", "conf": 3, "why": "Higher lows since the crash, but price is well below a falling 200-day and RS is weak"}
+{"id": "c0198", "call": "WAIT", "conf": 3, "why": "Recovery stalled at the 200-day after a volume spike, RS lagging; needs a clean break above the 200-day"}
+{"id": "c0199", "call": "AVOID", "conf": 4, "why": "Breakdown below both MAs in a falling-knife decline, RS collapsing"}
+{"id": "c0200", "call": "AVOID", "conf": 3, "why": "Downtrend; turned back below a falling 200-day, lower highs, RS weakening"}
+{"id": "c0201", "call": "AVOID", "conf": 4, "why": "Steep downtrend below falling 50- and 200-day averages; relative strength near lows; bounce off the bottom is weak"}
+{"id": "c0202", "call": "AVOID", "conf": 3, "why": "Sideways after a crash, well below the falling 200-day; relative strength stuck at lows; no breakout"}
+{"id": "c0203", "call": "WAIT", "conf": 3, "why": "Rising from the lows and just above a flattening 200-day, but the 50-day is still below it and relative strength is weak"}
+{"id": "c0204", "call": "WAIT", "conf": 3, "why": "Sharp V-shaped rebound now stalling at the falling 200-day; extended far above the 50-day; needs to break through or pull back first"}
+{"id": "c0205", "call": "AVOID", "conf": 4, "why": "Breaking below the 50-day in a choppy range under the falling 200-day; relative strength at new lows"}
+{"id": "c0206", "call": "AVOID", "conf": 4, "why": "Bouncing after a capitulation crash but far below steeply falling averages; downtrend intact"}
+{"id": "c0207", "call": "AVOID", "conf": 3, "why": "Former leader broke down hard; current sharp bounce runs into the falling 50-day, well below the 200-day"}
+{"id": "c0208", "call": "WAIT", "conf": 3, "why": "Strong uptrend with relative strength at highs, but today's big red bar on heavy volume breaks the tight range; wait for a pullback to hold or a rebuilt base"}
+{"id": "c0209", "call": "WAIT", "conf": 3, "why": "Sharp V-shaped recovery from a crash back to the flat 50/200-day averages; RS is strong but price is very volatile and has no base yet"}
+{"id": "c0210", "call": "BUY", "conf": 3, "why": "Established uptrend above a rising 200-day; a one-day shakeout is being bought back toward the 50-day, and RS is near its highs"}
+{"id": "c0211", "call": "BUY", "conf": 4, "why": "Strong uptrend with a tight consolidation near highs; price has reclaimed the 50-day and RS is near its peak"}
+{"id": "c0212", "call": "BUY", "conf": 3, "why": "Breakaway gap above the prior-year highs on very high volume is holding; RS is at new highs and a golden cross is forming, though price is extended from the 50-day"}
+{"id": "c0213", "call": "AVOID", "conf": 5, "why": "Breakdown below falling 50/200-day averages on heavy volume; RS is at lows and the bounce is weak"}
+{"id": "c0214", "call": "AVOID", "conf": 4, "why": "Persistent downtrend below a declining 200-day; a rally is being rejected at the 50-day and RS is near its lows"}
+{"id": "c0215", "call": "BUY", "conf": 4, "why": "Steady uptrend topped by a gap to new highs on huge volume; RS has broken out to new highs and all averages are rising"}
+{"id": "c0216", "call": "AVOID", "conf": 4, "why": "Crash below the 200-day, and the relief rally is now failing below a falling 50-day; a death cross is imminent"}
+{"id": "c0217", "call": "WAIT", "conf": 3, "why": "Earlier uptrend has stalled into a choppy range with price sitting on a flattening 50/200-day; relative strength is turning up but there is no breakout yet"}
+{"id": "c0218", "call": "WAIT", "conf": 3, "why": "Gapped above a declining 200-day on heavy volume after a long downtrend, but it is extended into prior ~90 resistance; 50-day still below 200-day"}
+{"id": "c0219", "call": "AVOID", "conf": 3, "why": "Sharp breakdown below both averages, 50-day rolling over toward a death cross; the bounce is a reflex rally inside a broken trend despite relative strength holding up"}
+{"id": "c0220", "call": "BUY", "conf": 4, "why": "Clean uptrend above rising 50/200-day, relative strength line at new highs, price pushing back toward the top of its range after a shallow pullback"}
+{"id": "c0221", "call": "BUY", "conf": 4, "why": "Persistent stair-step uptrend, price near highs above rising averages, relative strength at new highs; orderly pullbacks hold the 50-day"}
+{"id": "c0222", "call": "AVOID", "conf": 5, "why": "Collapsed far below a falling 200-day, slipping under the 50-day again, relative strength at lows, heavy distribution volume"}
+{"id": "c0223", "call": "WAIT", "conf": 3, "why": "Pulled back to the rising 200-day and bounced, but the 50-day is turning down and relative strength has weakened; needs to reclaim ~122-125"}
+{"id": "c0224", "call": "WAIT", "conf": 3, "why": "Reclaimed both averages in a steady recovery, but the 200-day is still declining, relative strength is weak, and price is running into ~90-95 resistance"}
+{"id": "c0225", "call": "WAIT", "conf": 3, "why": "Base after a crash with price stuck near flattening MAs; 200-day still falling and RS weak"}
+{"id": "c0226", "call": "BUY", "conf": 4, "why": "Strong stage-2 uptrend, tight consolidation near highs on drying volume, RS at new highs"}
+{"id": "c0227", "call": "BUY", "conf": 4, "why": "Uptrend resuming: breakout from consolidation toward highs on rising volume, MAs rising, RS turning up"}
+{"id": "c0228", "call": "WAIT", "conf": 3, "why": "Sharp rebound after a crash with strong RS, but still below falling 50 and 200-day; needs to reclaim 200-day"}
+{"id": "c0229", "call": "AVOID", "conf": 5, "why": "Breakdown to new lows below both MAs, 50-day rolling over, RS at lows, selling volume rising"}
+{"id": "c0230", "call": "BUY", "conf": 4, "why": "Strong uptrend making new highs, rising MAs, RS line at new highs, accumulation volume"}
+{"id": "c0231", "call": "AVOID", "conf": 4, "why": "Failed push above falling 200-day on a volume spike, now reversing lower; RS weak"}
+{"id": "c0232", "call": "WAIT", "conf": 3, "why": "V-shaped recovery with golden cross forming and price just above 200-day, but action is choppy and RS flat"}
+{"id": "c0233", "call": "WAIT", "conf": 3, "why": "Bounced back above the 200-day after a crash and RS is near its highs, but the 50-day is falling and below the 200-day; wait for the trend to repair"}
+{"id": "c0234", "call": "BUY", "conf": 3, "why": "V-shaped recovery from the crash, now holding above the 200-day with a golden cross forming; RS near its highs and higher lows are in place"}
+{"id": "c0235", "call": "BUY", "conf": 3, "why": "Base breakout to new highs for the period on rising volume, 50-day turning above the 200-day, RS rising sharply; somewhat extended"}
+{"id": "c0236", "call": "BUY", "conf": 4, "why": "Strong uptrend with leading RS; orderly pullback to the rising 50-day is now bouncing"}
+{"id": "c0237", "call": "BUY", "conf": 3, "why": "Sharp recovery after the crash, back above both averages, RS at new highs; volatile and short of the prior peak"}
+{"id": "c0238", "call": "BUY", "conf": 4, "why": "Strong uptrend with stacked rising averages, tight consolidation near highs, RS near highs"}
+{"id": "c0239", "call": "WAIT", "conf": 3, "why": "Uptrend recovered, but a recent heavy-volume down day and RS rolling over suggest distribution; wait for a pullback to hold or a fresh breakout"}
+{"id": "c0240", "call": "WAIT", "conf": 3, "why": "Uptrend with strong RS, but a sharp drop from the highs is testing the 50-day; wait for support to hold"}
+{"id": "c0241", "call": "AVOID", "conf": 5, "why": "Prices have collapsed from the peak and sit below a sharply falling 50-day and a turning 200-day. Relative strength is at its lows, so the trend is clearly down."}
+{"id": "c0242", "call": "WAIT", "conf": 3, "why": "This is a strong leader with relative strength at new highs. But it is about 18% above its 50-day and is testing the prior high near 205 with a heavy-volume reversal bar. Wait for a clean breakout or "}
+{"id": "c0243", "call": "WAIT", "conf": 3, "why": "The uptrend is intact above a rising 200-day. However, the price slipped under the 50-day on a very heavy-volume selloff and relative strength is falling. Wait for it to firm up and reclaim the 50-day"}
+{"id": "c0244", "call": "WAIT", "conf": 3, "why": "The breakout on strong volume and relative strength is powerful but very extended above the 50-day. Swings are now wide and the last bar fell sharply, so wait for it to settle into a base."}
+{"id": "c0245", "call": "BUY", "conf": 4, "why": "A V-shaped recovery has carried the price above the 200-day, and the 50-day is rising well above it. The price is breaking to new highs, and relative strength is at a new high too."}
+{"id": "c0246", "call": "BUY", "conf": 3, "why": "The 50-day is above the 200-day, which has turned up. The price is breaking out of its range near 97 on volume, with relative strength near its highs. Swings are wide and the old spike high near 107 i"}
+{"id": "c0247", "call": "AVOID", "conf": 3, "why": "The price is stuck under a flat 200-day and the 50-day is falling. Relative strength is fading and there is no base or breakout yet."}

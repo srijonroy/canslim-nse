@@ -1,6 +1,6 @@
 # KRISHANA — facts we already hold
 
-_Generated 2026-11-14 12:01 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-16 18:36 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Commodities > Chemicals > Fertilizers & Agrochemicals > Fertilizers  
 **Basis:** standalone, fetched 2026-11-14T11:09:14  
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-11-13: close 247.71, RS 96, system rank 4, industry group rank 68.0. Passes every rule.
+As of 2026-11-16: close 243.03, RS 96, system rank 4, industry group rank 67.0. Passes every rule.
 
-- On the canslim list 14 day(s), 2026-09-30 to 2026-11-13
+- On the canslim list 28 day(s), 2026-09-30 to 2026-11-16
 
 - On the earnings list 12 day(s), 2026-09-30 to 2026-10-23
 
-- On the emerging list 4 day(s), 2026-10-21 to 2026-10-30
+- On the emerging list 5 day(s), 2026-10-21 to 2026-11-16

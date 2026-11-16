@@ -1,6 +1,6 @@
 # CUPID — facts we already hold
 
-_Generated 2026-11-14 12:02 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-16 18:35 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Fast Moving Consumer Goods > Personal Products > Personal Care  
 **Basis:** consolidated, fetched 2026-11-14T10:44:28  
@@ -60,12 +60,12 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-11-13: close 377.80, RS 99, system rank 1, industry group rank 61.0. Passes every rule.
+As of 2026-11-16: close 361.90, RS 99, system rank 1, industry group rank 60.0. Passes every rule.
 
-- On the canslim list 13 day(s), 2026-09-30 to 2026-11-13
+- On the canslim list 27 day(s), 2026-09-30 to 2026-11-16
 
-- On the earnings list 11 day(s), 2026-09-30 to 2026-11-13
+- On the earnings list 12 day(s), 2026-09-30 to 2026-11-16
 
-- On the emerging list 13 day(s), 2026-09-30 to 2026-11-13
+- On the emerging list 14 day(s), 2026-09-30 to 2026-11-16
 
-- On the fw_trend list 8 day(s), 2026-10-14 to 2026-11-13
+- On the fw_trend list 9 day(s), 2026-10-14 to 2026-11-16

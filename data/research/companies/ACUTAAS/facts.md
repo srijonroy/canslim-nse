@@ -1,6 +1,6 @@
 # ACUTAAS — facts we already hold
 
-_Generated 2026-11-14 12:05 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-16 18:36 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Healthcare > Pharmaceuticals & Biotechnology > Pharmaceuticals  
 **Basis:** consolidated, fetched 2026-11-14T10:27:48  
@@ -60,10 +60,10 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-11-13: close 4,039.10, RS 95, system rank 5, industry group rank 22.0. Passes every rule.
+As of 2026-11-16: close 3,947.30, RS 95, system rank 5, industry group rank 24.0. Passes every rule.
 
-- On the canslim list 3 day(s), 2026-09-30 to 2026-11-13
+- On the canslim list 17 day(s), 2026-09-30 to 2026-11-16
 
-- On the earnings list 2 day(s), 2026-09-30 to 2026-11-13
+- On the earnings list 3 day(s), 2026-09-30 to 2026-11-16
 
 - On the emerging list 1 day(s), 2026-10-30 to 2026-10-30

@@ -535,6 +535,16 @@ def run(skip_update=False, skip_fund=False):
                 log(f"framework {name}: {len(df)} stocks")
         except Exception as e:
             log(f"frameworks failed: {e}\n{traceback.format_exc()}")
+        try:                                   # 200-day touch list (ma200.py): information only, app page "200-day touch"
+            from canslim import ma200
+            Fx = factors.price_factors(P)
+            t2 = ma200.touch_list(P, factors.universe_mask(P, Fx), Fx["rs_ibd"],
+                                  {k: f["industry"] for k, f in fund.items()}, snap["failed"])
+            ma200.store(c, d, t2)
+            log(f"200-day touch: {len(t2)} stocks" + (f" ({(t2.approach == 'Pullback from above').sum()} pullbacks)"
+                                                      if len(t2) else ""))
+        except Exception as e:
+            log(f"200-day touch failed: {e}\n{traceback.format_exc()}")
         c.commit()
         st = holdings.store_status(c, d.strftime("%Y-%m-%d"))
         from canslim import paper

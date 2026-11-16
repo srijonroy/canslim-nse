@@ -1,11 +1,11 @@
 # ACUTAAS — sources
 
-_Fetched 2026-11-14 12:05. Cite these by file name in the brief._
+_Fetched 2026-11-16 18:36. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
-| docs/2026-11_transcript.txt | Nov 2026 earnings call transcript | ok (49,135 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ec819ec-0f78-49c7-941a-0dbf3e72979e.pdf |
-| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | ok (12,117 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85aa424f-711e-4dba-90c3-52c337db279c.pdf |
+| docs/2026-11_transcript.txt | Nov 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ec819ec-0f78-49c7-941a-0dbf3e72979e.pdf |
+| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85aa424f-711e-4dba-90c3-52c337db279c.pdf |
 | docs/2026-07_transcript.txt | Jul 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe97c4c1-571f-4e47-bc3c-0980da36d7bb.pdf |
 | docs/2026-07_ppt.txt | Jul 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4abd0291-38c8-472f-916c-bb450ca8ca24.pdf |
 | docs/2026-05_transcript.txt | May 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ece102cb-b471-400c-949b-4a85748eb1a1.pdf |

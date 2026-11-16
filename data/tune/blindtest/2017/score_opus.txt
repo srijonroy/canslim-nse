@@ -1,0 +1,42 @@
+model opus: 233 charts scored (204 random, 29 canslim)
+
+RANDOM sample, by the model's call:
+        charts  avg_excess  median_excess  avg_return  beat_index  plus20_before_minus8
+call                                                                                  
+AVOID      60         2.0           -1.1         9.4          45                    35
+BUY        67         1.8           -0.3         8.3          48                    43
+WAIT       77         0.5           -1.3         6.5          45                    39 
+
+RANDOM sample, by half-year and call:
+             charts  avg_excess  median_excess  avg_return  beat_index  plus20_before_minus8
+half call                                                                                  
+H1   AVOID      32        -1.8           -4.0         7.8          38                    34
+     BUY        36        -3.5           -3.9         4.9          36                    47
+     WAIT       34         0.1           -3.2         7.9          41                    44
+H2   AVOID      28         6.3            1.5        11.1          54                    36
+     BUY        31         7.8            5.0        12.3          61                    39
+     WAIT       43         0.8           -0.0         5.4          49                    35 
+
+RANDOM sample, BUY calls by confidence:
+       charts  avg_excess  median_excess  avg_return  beat_index  plus20_before_minus8
+conf                                                                                 
+3         35         1.9            0.3         8.4          51                    43
+4         32         1.6           -1.6         8.2          44                    44 
+
+RANDOM sample, simple rule (uptrend + near high + top-20% RS):
+        charts  avg_excess  median_excess  avg_return  beat_index  plus20_before_minus8
+rule                                                                                  
+False     169         0.4           -1.8         7.0          45                    37
+True       35         5.6            2.0        12.1          51                    49 
+
+CANSLIM buys, by the model's call:
+       charts  avg_excess  median_excess  avg_return  beat_index  plus20_before_minus8
+call                                                                                 
+BUY       22        14.7            8.5        19.1          68                    59
+WAIT       7        12.4           17.5        17.8          71                    57
+
+CANSLIM buys, the system's actual trade result by call (avg %):
+       count  mean  median
+call                     
+BUY      22  19.1    -0.3
+WAIT      7  18.0    -1.1

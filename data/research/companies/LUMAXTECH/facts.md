@@ -1,6 +1,6 @@
 # LUMAXTECH — facts we already hold
 
-_Generated 2026-11-14 12:02 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
+_Generated 2026-11-16 18:36 by canslim.docs. Numbers in Rs crore unless stated. Source: Screener.in data in data/fundamentals._
 
 **Industry:** Consumer Discretionary > Automobile and Auto Components > Auto Components > Auto Components & Equipments  
 **Basis:** consolidated, fetched 2026-11-14T11:11:44  
@@ -60,8 +60,8 @@ _Promoters falling = red-flag check (Q8). FIIs+DIIs rising = institutional spons
 
 ## System status
 
-As of 2026-11-13: close 2,279.20, RS 90, system rank 8, industry group rank 23.0. Passes every rule.
+As of 2026-11-16: close 2,309.30, RS 87, system rank 9, industry group rank 25.0. Passes every rule.
 
-- On the canslim list 5 day(s), 2026-09-30 to 2026-11-13
+- On the canslim list 17 day(s), 2026-09-30 to 2026-11-16
 
-- On the earnings list 2 day(s), 2026-10-30 to 2026-11-13
+- On the earnings list 3 day(s), 2026-10-30 to 2026-11-16

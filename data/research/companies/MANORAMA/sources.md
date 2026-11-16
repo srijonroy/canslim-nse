@@ -1,10 +1,10 @@
 # MANORAMA — sources
 
-_Fetched 2026-11-14 12:02. Cite these by file name in the brief._
+_Fetched 2026-11-14 19:32. Cite these by file name in the brief._
 
 | File | Document | Status | URL |
 |---|---|---|---|
-| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | ok (26,557 chars) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a11171-0ec0-42c2-82ca-1e8d4a10d2ef.pdf |
+| docs/2026-11_ppt.txt | Nov 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a11171-0ec0-42c2-82ca-1e8d4a10d2ef.pdf |
 | docs/2026-08_transcript.txt | Aug 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1e55fa1-6e8d-4d99-bf0a-f2da9ef83771.pdf |
 | docs/2026-08_ppt.txt | Aug 2026 earnings call ppt | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d95385ba-0352-409d-b3b9-79aeb633a210.pdf |
 | docs/2026-05_transcript.txt | May 2026 earnings call transcript | cached | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44ed65ad-71ad-4172-89aa-1683f5423a5d.pdf |
